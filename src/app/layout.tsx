@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
@@ -31,6 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} h-full antialiased`}>
+      <head>
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="f0268c92-9074-4ea3-9c6b-e2197c409bd8"
+        />
+      </head>
       <body className="min-h-full flex flex-col font-sans">
         <Header />
         <main className="flex-1">{children}</main>
