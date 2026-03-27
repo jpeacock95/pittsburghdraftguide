@@ -47,8 +47,12 @@ export default function HomePage() {
       <EventSchema />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 text-center">
+      <section
+        className="relative text-white py-24 md:py-36 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/hero-pittsburgh.png')" }}
+      >
+        <div className="absolute inset-0 bg-primary-dark/75" />
+        <div className="relative max-w-4xl mx-auto px-4 text-center">
           <p className="text-accent font-semibold text-sm uppercase tracking-wide mb-3">
             April 23-25, 2026 &bull; Pittsburgh, PA
           </p>
