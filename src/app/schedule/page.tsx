@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { EventSchema } from "@/components/schema/EventSchema";
@@ -222,6 +223,13 @@ export default function Schedule() {
         </section>
 
         {/* Draft Experience */}
+        <Image
+          src="/point-state-park.png"
+          alt="Point State Park where the NFL Draft Experience fan zone is located"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
             Draft Experience at Point State Park

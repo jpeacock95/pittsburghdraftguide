@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 
@@ -284,6 +285,14 @@ export default function NeighborhoodsPage() {
           </p>
         </section>
 
+        <Image
+          src="/north-shore.png"
+          alt="North Shore riverwalk with Acrisure Stadium at dusk in Pittsburgh"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
+
         {/* Neighborhood cards */}
         {neighborhoods.map((neighborhood) => (
           <section
@@ -335,6 +344,14 @@ export default function NeighborhoodsPage() {
             </div>
           </section>
         ))}
+
+        <Image
+          src="/incline-view.png"
+          alt="Duquesne Incline view of Pittsburgh skyline at sunset"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
 
         {/* Pro tips */}
         <section className="mb-10">

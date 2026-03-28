@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 
@@ -77,6 +78,14 @@ export default function BarsRestaurants() {
           you know where to go, you'll eat well. Here's the breakdown by
           neighborhood.
         </p>
+
+        <Image
+          src="/sports-bar.png"
+          alt="Pittsburgh sports bar during draft weekend"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
 
         {/* North Shore */}
         <section className="mb-10">
@@ -275,6 +284,13 @@ export default function BarsRestaurants() {
         </section>
 
         {/* South Side */}
+        <Image
+          src="/south-side.png"
+          alt="South Side Carson Street nightlife in Pittsburgh"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-2">
             South Side / Carson Street (80+ Bars, Best Nightlife)

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
@@ -92,6 +93,13 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Draft Experience */}
+        <Image
+          src="/point-state-park.png"
+          alt="Aerial view of Point State Park with fountain where Pittsburgh's three rivers meet"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
             NFL Draft Experience (Free Fan Zone at Point State Park)
