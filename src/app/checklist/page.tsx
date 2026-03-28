@@ -58,19 +58,30 @@ export default function ChecklistPage() {
 
           <h3 className="text-lg font-bold mt-6 mb-3">Must-Haves</h3>
           <div className="space-y-3">
-            <CheckItem text="Clear bag (12x6x12 max for Acrisure Stadium, 16x16x6 for Point State Park) — buy one on Amazon for $8, don't pay $25 at the event" />
-            <CheckItem text="Portable phone charger — OnePass drains your battery fast, and 500K other people will be competing for cell signal" />
+            {/* TODO: Replace Amazon links with affiliate links once Associate tag is received */}
+            <CheckItem>
+              <a href="https://www.amazon.com/s?k=clear+stadium+bag+12x6x12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Clear bag</a> (12x6x12 max for Acrisure Stadium, 16x16x6 for Point State Park) — buy one on Amazon for $8, don't pay $25 at the event
+            </CheckItem>
+            <CheckItem>
+              <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Portable phone charger</a> — OnePass drains your battery fast, and 500K other people will be competing for cell signal
+            </CheckItem>
             <CheckItem text="Comfortable walking shoes — you'll walk 5-10 miles per day between venues" />
             <CheckItem text="Layers — April in Pittsburgh can be 45 or 75 degrees. Seriously. Pack for both." />
-            <CheckItem text="Rain jacket or poncho — it's an outdoor event and April showers are real" />
-            <CheckItem text="Your phone with OnePass installed and your account set up" />
+            <CheckItem>
+              <a href="https://www.amazon.com/s?k=packable+rain+jacket" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Rain jacket or poncho</a> — it's an outdoor event and April showers are real
+            </CheckItem>
+            <CheckItem>Your phone with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> installed and your account set up</CheckItem>
           </div>
 
           <h3 className="text-lg font-bold mt-6 mb-3">Smart Additions</h3>
           <div className="space-y-3">
-            <CheckItem text="Sunscreen — if it's a clear day, you're outside for hours" />
+            <CheckItem>
+              <a href="https://www.amazon.com/s?k=sport+sunscreen+spf+50" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Sunscreen</a> — if it's a clear day, you're outside for hours
+            </CheckItem>
             <CheckItem text="Sunglasses and a hat" />
-            <CheckItem text="Water bottle (refill stations will be available)" />
+            <CheckItem>
+              <a href="https://www.amazon.com/s?k=collapsible+water+bottle" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Water bottle</a> (refill stations will be available)
+            </CheckItem>
             <CheckItem text="Snacks — food lines will be long and $15 beers add up" />
             <CheckItem text="Cash — some vendors and parking lots are cash-only" />
             <CheckItem text="Your team's jersey or gear (this is a football event, rep your team)" />

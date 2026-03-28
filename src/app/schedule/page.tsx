@@ -362,22 +362,23 @@ export default function Schedule() {
                 The two draft venues are separated by a river, and you'll be on
                 your feet for hours. Leave the new shoes at home.
               </li>
+              {/* TODO: Replace Amazon links with affiliate links once Associate tag is received */}
               <li>
-                <strong>Portable charger.</strong> Non-negotiable. The OnePass
+                <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Portable charger.</strong></a> Non-negotiable. The OnePass
                 app, photos, social media, and maps will drain your phone. Cell
                 service will be spotty with 500,000 people on the same towers.
                 Bring a fully charged power bank.
               </li>
               <li>
-                <strong>Rain gear.</strong> A light rain jacket or poncho. Don't
+                <a href="https://www.amazon.com/s?k=packable+rain+jacket" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Rain gear.</strong></a> A light rain jacket or poncho. Don't
                 rely on the forecast. Pittsburgh weather changes fast.
               </li>
               <li>
-                <strong>Clear bag.</strong> You need one. Get a 12x6x12 clear
-                bag from Amazon or Target before you go.
+                <a href="https://www.amazon.com/s?k=clear+stadium+bag+12x6x12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Clear bag.</strong></a> You need one. Get a 12x6x12 clear
+                bag from Amazon before you go.
               </li>
               <li>
-                <strong>Sunscreen.</strong> If it's sunny, you're outside for
+                <a href="https://www.amazon.com/s?k=sport+sunscreen+spf+50" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline"><strong>Sunscreen.</strong></a> If it's sunny, you're outside for
                 hours with no shade at Point State Park.
               </li>
               <li>
