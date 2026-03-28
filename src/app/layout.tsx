@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { EmailBanner } from "@/components/ui/EmailBanner";
+import { FeedbackWidget } from "@/components/ui/FeedbackWidget";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -57,7 +58,12 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-sans">
         <Header />
-        <main className="flex-1 pb-16">{children}</main>
+        <main className="flex-1 pb-16">
+          {children}
+          <div className="max-w-3xl mx-auto px-4">
+            <FeedbackWidget />
+          </div>
+        </main>
         <Footer />
         <EmailBanner />
       </body>
