@@ -304,7 +304,7 @@ export default function CranberryTownship() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
-                  Hampton Inn &amp; Suites Cranberry
+                  <a href="https://www.hilton.com/en/hotels/pitcmhx-hampton-suites-cranberry-pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hampton Inn &amp; Suites Cranberry</a>
                 </p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $120-160
@@ -323,7 +323,7 @@ export default function CranberryTownship() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
-                  Courtyard by Marriott Cranberry Woods
+                  <a href="https://www.marriott.com/en-us/hotels/pitct-courtyard-pittsburgh-north-cranberry-woods/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Courtyard by Marriott Cranberry Woods</a>
                 </p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   From $92
@@ -332,7 +332,7 @@ export default function CranberryTownship() {
               <p className="text-sm text-muted mb-1">Cranberry Township</p>
               <p className="text-sm text-muted">
                 One of the cheapest name-brand options. Fitness center, clean
-                rooms, Marriott loyalty points. Booking.com lists it at 20
+                rooms, Marriott loyalty points. <a href="https://www.booking.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Booking.com</a> lists it at 20
                 miles from the Andy Warhol Museum. Good value for Marriott
                 members.
               </p>
@@ -341,7 +341,7 @@ export default function CranberryTownship() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
-                  Hilton Garden Inn Pittsburgh/Cranberry
+                  <a href="https://www.hilton.com/en/hotels/pitcrgi-hilton-garden-inn-pittsburgh-cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hilton Garden Inn Pittsburgh/Cranberry</a>
                 </p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $140-180
@@ -358,7 +358,7 @@ export default function CranberryTownship() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
-                  Home2 Suites by Hilton Cranberry
+                  <a href="https://www.hilton.com/en/hotels/pitltht-home2-suites-pittsburgh-cranberry-pa/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Home2 Suites by Hilton Cranberry</a>
                 </p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $130-170
@@ -375,7 +375,7 @@ export default function CranberryTownship() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Pittsburgh Marriott North</p>
+                <p className="font-semibold"><a href="https://www.marriott.com/en-us/hotels/pitno-pittsburgh-marriott-north/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Pittsburgh Marriott North</a></p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $140-180
                 </span>
@@ -390,7 +390,7 @@ export default function CranberryTownship() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">TownePlace Suites Cranberry</p>
+                <p className="font-semibold"><a href="https://www.marriott.com/en-us/hotels/pitrr-towneplace-suites-pittsburgh-cranberry-township/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">TownePlace Suites Cranberry</a></p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $120-160
                 </span>
@@ -406,7 +406,7 @@ export default function CranberryTownship() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
-                  Best Western Plus Cranberry-Pittsburgh North
+                  <a href="https://www.bestwestern.com/en_US/book/hotels-in-cranberry-township/best-western-plus-cranberry-pittsburgh-north/propertyCode.39142.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Best Western Plus Cranberry-Pittsburgh North</a>
                 </p>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
                   $100-140
@@ -454,7 +454,7 @@ export default function CranberryTownship() {
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Juniper Grill</p>
+                <p className="font-semibold"><a href="https://junipergrill.com/locations/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Juniper Grill</a></p>
                 <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded font-semibold">
                   #1 on TripAdvisor
                 </span>
@@ -467,7 +467,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">The Turn Club</p>
+              <p className="font-semibold mb-1"><a href="https://theturnclubs.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Turn Club</a></p>
               <p className="text-sm text-muted">
                 #2 on TripAdvisor. Newer spot that's earned a solid reputation
                 fast. American menu. Worth checking out if Juniper is packed.
@@ -476,7 +476,7 @@ export default function CranberryTownship() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <p className="font-semibold mb-1">
-                Firebirds Wood Fired Grill
+                <a href="https://firebirdsrestaurants.com/cranberry" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Firebirds Wood Fired Grill</a>
               </p>
               <p className="text-sm text-muted">
                 #3 on TripAdvisor with 229 reviews. Wood-fired steaks and
@@ -486,7 +486,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">Napa Prime Chophouse</p>
+              <p className="font-semibold mb-1"><a href="https://www.napaprimechophouse.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Napa Prime Chophouse</a></p>
               <p className="text-sm text-muted">
                 Upscale steakhouse. OpenTable top pick. If you're celebrating
                 your team's first-round pick, this is where you do it.
@@ -494,7 +494,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">The Sports Grille at Cranberry</p>
+              <p className="font-semibold mb-1"><a href="https://www.thesportsgrillecranberry.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Sports Grille at Cranberry</a></p>
               <p className="text-sm text-muted">
                 The spot to watch draft coverage if you don't feel like heading
                 downtown. Sports on every TV, happy hour specials, and you can
@@ -504,7 +504,7 @@ export default function CranberryTownship() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <p className="font-semibold mb-1">
-                Off The Hook / Mr. Mister Supper Club
+                <a href="https://www.offthehookfish.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Off The Hook</a> / <a href="https://www.mrmisterpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Mr. Mister Supper Club</a>
               </p>
               <p className="text-sm text-muted">
                 Both OpenTable top picks. Off The Hook for seafood, Mr. Mister
@@ -513,7 +513,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">Tamarind</p>
+              <p className="font-semibold mb-1"><a href="https://tamarindpa.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Tamarind</a></p>
               <p className="text-sm text-muted">
                 Reddit's pick for the best Indian food in the Pittsburgh area.
                 Tons of vegetarian options. Not what you'd expect to find in
@@ -525,7 +525,7 @@ export default function CranberryTownship() {
           <h3 className="text-lg font-bold mb-3">Local Breweries</h3>
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">Smiling Moose</p>
+              <p className="font-semibold mb-1"><a href="https://smiling-moose.com/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Smiling Moose</a></p>
               <p className="text-sm text-muted">
                 #1 bar on Yelp for Cranberry (77 reviews). Good spot for a beer
                 after the draft.
@@ -534,7 +534,7 @@ export default function CranberryTownship() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <p className="font-semibold mb-1">
-                Recon Brewing / Dented Keg / Stick City Brewing
+                <a href="https://www.reconbrewing.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Recon Brewing</a> / <a href="https://www.dentedkeg.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Dented Keg</a> / <a href="https://www.stickcitybeer.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Stick City Brewing</a>
               </p>
               <p className="text-sm text-muted">
                 Three local craft breweries in the Cranberry area. If you're a
@@ -596,7 +596,7 @@ export default function CranberryTownship() {
               </li>
               <li>
                 <strong>Drive home</strong>. Or stop for dinner in Cranberry
-                first. Juniper Grill or Firebirds are right off the highway.
+                first. <a href="https://junipergrill.com/locations/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Juniper Grill</a> or <a href="https://firebirdsrestaurants.com/cranberry" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Firebirds</a> are right off the highway.
               </li>
             </ol>
           </div>
@@ -631,7 +631,7 @@ export default function CranberryTownship() {
 
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">Fun Fore All Family Fun Park</p>
+              <p className="font-semibold mb-1"><a href="https://funforeall.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Fun Fore All Family Fun Park</a></p>
               <p className="text-sm text-muted">
                 Go-karts, mini-golf, arcade, bumper boats. TripAdvisor's top
                 family activity in Cranberry. Great if you've got kids who
@@ -640,7 +640,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">Streets of Cranberry</p>
+              <p className="font-semibold mb-1"><a href="https://www.facebook.com/StreetsofCranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Streets of Cranberry</a></p>
               <p className="text-sm text-muted">
                 Outdoor shopping center with restaurants and stores. Good for
                 killing time or picking up anything you forgot to pack.
@@ -648,7 +648,7 @@ export default function CranberryTownship() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold mb-1">LumberjAxes Axe Throwing</p>
+              <p className="font-semibold mb-1"><a href="https://axethrowingpgh.com/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">LumberjAxes Axe Throwing</a></p>
               <p className="text-sm text-muted">
                 Axe throwing in Cranberry. Fun group activity, especially if
                 you're here with a crew and need something to do before the

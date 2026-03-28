@@ -77,7 +77,7 @@ export default function BudgetGuide() {
           </p>
           <p className="text-muted mb-3">
             All you need is a{" "}
-            <strong>OnePass</strong> (the NFL's free digital pass) to get
+            <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> (the NFL's free digital pass) to get
             through the gates. Download it before you come. That's it. No
             tickets to buy. No wristbands. No entry fees.
           </p>
@@ -395,7 +395,7 @@ export default function BudgetGuide() {
                   <td className="p-3 font-semibold">Mt. Washington Views</td>
                   <td className="p-3">$6 (Incline)</td>
                   <td className="p-3 text-muted">
-                    Take the Duquesne Incline for the best skyline views in
+                    Take the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> for the best skyline views in
                     America. The overlook at the top is free once you're up
                     there.
                   </td>

@@ -167,7 +167,7 @@ export default function ItineraryPage() {
               <p>
                 Pittsburgh's foodie neighborhood is a 10-minute walk from Point
                 State Park. Hit Pennsylvania Macaroni Co. for imported cheese
-                and Italian goods, Wigle Whiskey for a tasting, or DeLuca's
+                and Italian goods, <a href="https://wiglewhiskey.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Wigle Whiskey</a> for a tasting, or DeLuca's
                 Diner for a late lunch. It's way less crowded today than it
                 will be Saturday.
               </p>
@@ -202,7 +202,7 @@ export default function ItineraryPage() {
 
             <TimeSlot time="10:00 PM" title="Set up your phone for tomorrow">
               <p>
-                Download the NFL OnePass app. Set up your profile, link your
+                Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass</a> app. Set up your profile, link your
                 tickets if you have them, and get familiar with the Draft
                 Experience map. Charge your portable battery. You'll thank
                 yourself at 11 PM tomorrow when your phone's at 8%.
@@ -360,8 +360,8 @@ export default function ItineraryPage() {
           <div className="space-y-3">
             <TimeSlot time="8:30 AM" title="Coffee and the Duquesne Incline">
               <p>
-                Start the morning slow. Grab coffee, then ride the Duquesne
-                Incline up Mount Washington for the most famous skyline view in
+                Start the morning slow. Grab coffee, then ride the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne
+                Incline</a> up Mount Washington for the most famous skyline view in
                 America. It's $6 round trip and takes about 5 minutes each
                 way. The view of the three rivers and downtown from the top is
                 the single best photo you'll take all weekend.
@@ -370,10 +370,10 @@ export default function ItineraryPage() {
 
             <TimeSlot time="10:30 AM" title="Explore something non-football">
               <p>
-                If you've got kids, the Carnegie Science Center is right on the
-                North Shore near the draft venues. No kids? The Andy Warhol
-                Museum is the world's largest collection of Warhol's work, and
-                it's walking distance from Acrisure Stadium. Randyland is
+                If you've got kids, the <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a> is right on the
+                North Shore near the draft venues. No kids? The <a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Andy Warhol
+                Museum</a> is the world's largest collection of Warhol's work, and
+                it's walking distance from Acrisure Stadium. <a href="https://randyland.club/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Randyland</a> is
                 free, colorful, and wildly Instagram-friendly.
               </p>
             </TimeSlot>

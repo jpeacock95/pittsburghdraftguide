@@ -94,7 +94,7 @@ export default function HomePage() {
             </div>
             <div>
               <p className="text-2xl font-bold text-primary">FREE</p>
-              <p className="text-sm text-muted">Entry with OnePass app</p>
+              <p className="text-sm text-muted">Entry with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> app</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-primary">2 Venues</p>

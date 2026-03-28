@@ -198,7 +198,7 @@ export default function FAQ() {
                 <strong>Ross Park &amp; Ride</strong> (I-279 Exit 5) from the
                 north, <strong>South Hills Village T Station</strong> from the
                 south, <strong>Wilkinsburg Park &amp; Ride</strong> from the
-                east. Pre-book a spot on SpotHero if you must drive.
+                east. Pre-book a spot on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you must drive.
               </p>
               <p className="mt-3">
                 <Link
@@ -309,7 +309,7 @@ export default function FAQ() {
               <p className="text-muted text-sm leading-relaxed">
                 Yes. The NFL Draft Experience and main stage viewing are{" "}
                 <strong>100% free</strong>. But you do need to register for an{" "}
-                <strong>NFL OnePass</strong> (it's a free app). Download it
+                <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass</a> (it's a free app). Download it
                 before you go because you'll need it to get through the gates.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
@@ -325,7 +325,7 @@ export default function FAQ() {
                 Do I need to register for the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
-                Yes. Download the <strong>NFL OnePass app</strong> and register
+                Yes. Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register
                 before you arrive. It's free, but it's required for entry. Don't
                 wait until you're standing in line with no cell service to figure
                 this out. Download it at home, create your account, and have it
@@ -477,7 +477,7 @@ export default function FAQ() {
                 There's a drone show after Day 2, a 5K race on Saturday morning,
                 and the <strong>Taste of the NFL</strong> charity food event on
                 April 22 with 20+ local restaurants. Plus Pittsburgh itself: the
-                Warhol Museum, Strip District food shopping, Mt. Washington
+                <a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Warhol Museum</a>, Strip District food shopping, Mt. Washington
                 inclines, and some of the best bar neighborhoods in the country.
               </p>
               <p className="mt-3">

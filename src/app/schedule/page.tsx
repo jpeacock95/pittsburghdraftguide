@@ -186,7 +186,7 @@ export default function Schedule() {
 
         {/* OnePass */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">NFL OnePass App</h2>
+          <h2 className="text-2xl font-bold mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
           <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
             <p className="text-amber-900 font-bold mb-2">
               Download this BEFORE you get to Pittsburgh

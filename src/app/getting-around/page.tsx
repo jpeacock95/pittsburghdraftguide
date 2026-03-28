@@ -382,10 +382,10 @@ export default function GettingAroundPage() {
         {/* Gateway Clipper */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
-            Gateway Clipper (River Ferry)
+            <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (River Ferry)
           </h2>
           <p className="text-muted mb-3">
-            This is the fun option. The Gateway Clipper Fleet is running
+            This is the fun option. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
             riverboat service between North Shore and downtown/Station Square
             all draft weekend. It's confirmed for events and games, and the NFL
             Draft qualifies.

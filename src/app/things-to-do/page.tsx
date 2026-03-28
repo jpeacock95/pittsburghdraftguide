@@ -234,9 +234,9 @@ export default function ThingsToDoPage() {
 
         {/* PicksBURGH 5K */}
         <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">PicksBURGH 5K</h2>
+          <h2 className="text-2xl font-bold mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
           <p className="text-muted mb-3">
-            P3R (the organization behind the Pittsburgh Marathon) is running a
+            <a href="https://p3r.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">P3R</a> (the organization behind the Pittsburgh Marathon) is running a
             5K race on Saturday morning of draft weekend. It's called the
             PicksBURGH 5K and the route goes through some of Pittsburgh's most
             scenic areas near the draft venues.
@@ -329,7 +329,7 @@ export default function ThingsToDoPage() {
           <div className="space-y-3">
             <div className="bg-surface border border-border rounded-lg p-4">
               <p className="font-bold">
-                Duquesne Incline &amp; Monongahela Incline
+                <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> &amp; <a href="https://monongahelaincline.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Monongahela Incline</a>
               </p>
               <p className="text-sm text-muted">
                 Two historic cable cars that take you up Mt. Washington for the
@@ -341,7 +341,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Carnegie Science Center</p>
+              <p className="font-bold"><a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a></p>
               <p className="text-sm text-muted">
                 Right on the North Shore, walking distance from the draft
                 venues. Great for families. Planetarium, interactive exhibits,
@@ -351,7 +351,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Andy Warhol Museum</p>
+              <p className="font-bold"><a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Andy Warhol Museum</a></p>
               <p className="text-sm text-muted">
                 The world's largest collection of Warhol's art, right on the
                 North Shore. Seven floors of pop art from Pittsburgh's most
@@ -360,7 +360,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Phipps Conservatory</p>
+              <p className="font-bold"><a href="https://www.phipps.conservatory.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Phipps Conservatory</a></p>
               <p className="text-sm text-muted">
                 A stunning botanical garden in Oakland (about 15 minutes from
                 downtown by car or bus). Beautiful glass greenhouses, seasonal
@@ -371,7 +371,7 @@ export default function ThingsToDoPage() {
 
             <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
               <p className="font-bold text-amber-900">
-                National Aviary (CLOSED Thu-Fri)
+                <a href="https://www.aviary.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">National Aviary</a> (CLOSED Thu-Fri)
               </p>
               <p className="text-sm text-amber-800">
                 America's only independent indoor aviary with 700+ birds.
@@ -403,7 +403,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Randyland</p>
+              <p className="font-bold"><a href="https://randyland.club/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Randyland</a></p>
               <p className="text-sm text-muted">
                 A free, wildly colorful public art installation on the North
                 Side. Covered in murals, sculptures, and random art
@@ -413,7 +413,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Cathedral of Learning</p>
+              <p className="font-bold"><a href="https://www.cathedral.pitt.edu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a></p>
               <p className="text-sm text-muted">
                 A 42-story Gothic tower on the University of Pittsburgh campus
                 in Oakland. Free to walk into the lobby. The Nationality Rooms
@@ -463,23 +463,23 @@ export default function ThingsToDoPage() {
               kids. Free with OnePass registration.
             </li>
             <li>
-              <strong>Kennywood</strong> (Pittsburgh's beloved amusement park)
+              <a href="https://www.kennywood.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kennywood</a> (Pittsburgh's beloved amusement park)
               opens for the season the same weekend. It's about 12 miles
               southeast of downtown. Perfect for a half-day if the kids need a
               break from football.
             </li>
             <li>
-              <strong>Carnegie Science Center</strong> is right on the North
+              <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a> is right on the North
               Shore, steps from the draft. Interactive science exhibits, a
               planetarium, and a real submarine. Half-day easy.
             </li>
             <li>
-              <strong>Children's Museum of Pittsburgh</strong> is on the North
+              <a href="https://pittsburghkids.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Children's Museum of Pittsburgh</a> is on the North
               Side. Interactive exhibits designed specifically for younger kids.
               Check their website for draft weekend hours.
             </li>
             <li>
-              <strong>Pittsburgh Zoo &amp; Aquarium</strong> is about 7 miles
+              <a href="https://www.pittsburghzoo.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Pittsburgh Zoo &amp; Aquarium</a> is about 7 miles
               from downtown in Highland Park. A solid option if you want a full
               day away from the draft crowds.
             </li>
@@ -507,7 +507,7 @@ export default function ThingsToDoPage() {
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5 mb-3">
             <li>
-              Ride the <strong>Duquesne Incline</strong> to Mt. Washington for
+              Ride the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> to Mt. Washington for
               skyline views and dinner at Altius or Monterey Bay Fish Grotto
             </li>
             <li>
@@ -516,8 +516,8 @@ export default function ThingsToDoPage() {
               is a newer standout)
             </li>
             <li>
-              Visit the <strong>Andy Warhol Museum</strong> and the{" "}
-              <strong>Mattress Factory</strong> (immersive installation art) on
+              Visit the <a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Andy Warhol Museum</a> and the{" "}
+              <a href="https://mattress.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mattress Factory</a> (immersive installation art) on
               the North Side
             </li>
             <li>
@@ -526,11 +526,11 @@ export default function ThingsToDoPage() {
               there are 8+ breweries within walking distance
             </li>
             <li>
-              Walk through <strong>Phipps Conservatory</strong> in Oakland, then
+              Walk through <a href="https://www.phipps.conservatory.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Phipps Conservatory</a> in Oakland, then
               check out the Cathedral of Learning across the street
             </li>
             <li>
-              Book a <strong>Gateway Clipper</strong> river cruise for views from
+              Book a <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> river cruise for views from
               the water
             </li>
             <li>
