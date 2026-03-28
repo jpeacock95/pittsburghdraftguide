@@ -74,12 +74,40 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-500">
-          <p>Made in Cranberry Township, PA</p>
-          <p className="mt-1">
-            &copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
-            affiliated with the NFL.
-          </p>
+        {/* Bookkeeping bridge */}
+        <div className="border-t border-gray-700 mt-8 pt-6">
+          <div className="text-center mb-4">
+            <p className="text-sm text-gray-400">
+              This guide is built by{" "}
+              <a
+                href="https://www.peacockbookkeepingservices.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent hover:text-white font-semibold"
+              >
+                Peacock Bookkeeping Services LLC
+              </a>
+              , a bookkeeping firm based in Cranberry Township, PA.
+            </p>
+            <p className="text-sm text-gray-500 mt-1">
+              Own a business in Pittsburgh?{" "}
+              <a
+                href="https://www.peacockbookkeepingservices.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white underline"
+              >
+                We help small businesses get their books in order.
+              </a>
+            </p>
+          </div>
+          <div className="text-center text-sm text-gray-500">
+            <p>Made in Cranberry Township, PA</p>
+            <p className="mt-1">
+              &copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
+              affiliated with the NFL.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

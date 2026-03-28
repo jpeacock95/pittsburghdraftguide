@@ -725,6 +725,27 @@ export default function CranberryTownship() {
           </div>
         </section>
 
+        {/* Local business callout */}
+        <section className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-8">
+          <p className="font-bold text-amber-900 mb-1">
+            Own a Business in Cranberry Township?
+          </p>
+          <p className="text-sm text-amber-800">
+            This guide was built by{" "}
+            <a
+              href="https://www.peacockbookkeepingservices.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold underline hover:text-amber-950"
+            >
+              Peacock Bookkeeping Services
+            </a>
+            , right here in Cranberry Township. We help local businesses with
+            bookkeeping, QuickBooks cleanup, and tax prep. If your books need
+            attention, we're your neighbors.
+          </p>
+        </section>
+
         {/* Cross-links */}
         <section className="bg-surface border border-border rounded-lg p-6">
           <p className="font-semibold mb-3">More Draft Weekend Guides</p>
