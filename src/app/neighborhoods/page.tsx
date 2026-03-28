@@ -429,12 +429,14 @@ export default function NeighborhoodsPage() {
           <p className="text-sm text-blue-800 mb-3">
             A lot of people visit for the draft and start thinking about moving
             here. If you're considering buying a home in Pittsburgh or the North
-            Hills, talk to Dante Egizio. He's a local realtor with 7 years in
+            Hills, talk to{" "}
+            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-blue-900 underline font-semibold">Dante Egizio</a>.
+            He's a local realtor with 7 years in
             the area who specializes in helping first-time buyers navigate the
             Pittsburgh market.
           </p>
           <a
-            href="https://calendly.com/peacockbookkeepingservices/30min"
+            href="https://danteegizio.remax.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"

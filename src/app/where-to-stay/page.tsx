@@ -818,13 +818,14 @@ export default function WhereToStay() {
           </p>
           <p className="text-sm text-blue-800 mb-3">
             Every year, people visit Pittsburgh for a big event and end up
-            wanting to move here. If that's you, Dante Egizio is a Pittsburgh
+            wanting to move here. If that's you,{" "}
+            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-blue-900 underline font-semibold">Dante Egizio</a> is a Pittsburgh
             realtor with 7 years in the North Hills who specializes in
             first-time buyers. No pressure, just a conversation about what's
             out there.
           </p>
           <a
-            href="https://calendly.com/peacockbookkeepingservices/30min"
+            href="https://danteegizio.remax.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
