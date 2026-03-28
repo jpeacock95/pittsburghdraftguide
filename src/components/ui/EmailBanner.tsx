@@ -22,6 +22,7 @@ export function EmailBanner() {
         body: JSON.stringify({
           email,
           _subject: "New Draft Guide subscriber!",
+          _autoresponse: "Thanks for grabbing the Draft Weekend Checklist!\n\nDownload your PDF here:\nhttps://www.pittsburghdraftguide.com/draft-weekend-checklist.pdf\n\nOr view the full checklist online:\nhttps://www.pittsburghdraftguide.com/checklist\n\nKey links:\n- Parking Guide: https://www.pittsburghdraftguide.com/parking-transportation\n- Where to Stay: https://www.pittsburghdraftguide.com/where-to-stay\n- Day-by-Day Itinerary: https://www.pittsburghdraftguide.com/itinerary\n- Bars & Restaurants: https://www.pittsburghdraftguide.com/bars-restaurants\n\nHave an amazing draft weekend!\n- Pittsburgh Draft Guide (built by Peacock Bookkeeping Services, Cranberry Township PA)",
           source: "banner",
         }),
       });
@@ -37,14 +38,23 @@ export function EmailBanner() {
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-green-800 text-white border-t border-green-600 shadow-lg">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex-1 text-center sm:text-left">
-            <p className="font-bold text-sm">You're in! Here's your checklist:</p>
+            <p className="font-bold text-sm">You're in! Check your email for the PDF.</p>
           </div>
-          <a
-            href="/checklist"
-            className="bg-accent hover:bg-accent-dark text-foreground font-bold px-4 py-2 rounded-lg text-sm transition-colors whitespace-nowrap"
-          >
-            View Checklist
-          </a>
+          <div className="flex gap-2">
+            <a
+              href="/checklist"
+              className="bg-accent hover:bg-accent-dark text-foreground font-bold px-3 py-2 rounded-lg text-sm transition-colors whitespace-nowrap"
+            >
+              View Online
+            </a>
+            <a
+              href="/draft-weekend-checklist.pdf"
+              download
+              className="bg-white/20 hover:bg-white/30 text-white font-bold px-3 py-2 rounded-lg text-sm transition-colors whitespace-nowrap border border-white/30"
+            >
+              Download PDF
+            </a>
+          </div>
           <button
             onClick={() => setDismissed(true)}
             className="text-green-300 hover:text-white p-1 ml-2"

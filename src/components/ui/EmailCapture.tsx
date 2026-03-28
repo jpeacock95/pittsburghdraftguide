@@ -19,6 +19,7 @@ export function EmailCapture() {
         body: JSON.stringify({
           email,
           _subject: "New Draft Guide subscriber!",
+          _autoresponse: "Thanks for grabbing the Draft Weekend Checklist!\n\nDownload your PDF here:\nhttps://www.pittsburghdraftguide.com/draft-weekend-checklist.pdf\n\nOr view the full checklist online:\nhttps://www.pittsburghdraftguide.com/checklist\n\nKey links:\n- Parking Guide: https://www.pittsburghdraftguide.com/parking-transportation\n- Where to Stay: https://www.pittsburghdraftguide.com/where-to-stay\n- Day-by-Day Itinerary: https://www.pittsburghdraftguide.com/itinerary\n- Bars & Restaurants: https://www.pittsburghdraftguide.com/bars-restaurants\n\nHave an amazing draft weekend!\n- Pittsburgh Draft Guide (built by Peacock Bookkeeping Services, Cranberry Township PA)",
           source: "inline",
         }),
       });
@@ -37,12 +38,24 @@ export function EmailCapture() {
           Here's your Draft Weekend Checklist. Bookmark it and check it the
           night before you head to Pittsburgh.
         </p>
-        <a
-          href="/checklist"
-          className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
-        >
-          View Your Checklist
-        </a>
+        <div className="flex flex-col sm:flex-row gap-2 justify-center">
+          <a
+            href="/checklist"
+            className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
+          >
+            View Checklist
+          </a>
+          <a
+            href="/draft-weekend-checklist.pdf"
+            download
+            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
+          >
+            Download PDF
+          </a>
+        </div>
+        <p className="text-xs text-green-700 mt-3">
+          We also sent the PDF link to your email.
+        </p>
       </section>
     );
   }
