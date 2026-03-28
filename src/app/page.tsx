@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EventSchema } from "@/components/schema/EventSchema";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh 2026: Your Complete Guide",
@@ -233,6 +234,11 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
+
+      {/* Email capture */}
+      <div className="max-w-3xl mx-auto px-4">
+        <EmailCapture />
+      </div>
 
       {/* Budget callout */}
       <section className="max-w-3xl mx-auto px-4 py-12 text-center">
