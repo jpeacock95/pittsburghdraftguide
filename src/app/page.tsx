@@ -15,31 +15,37 @@ const quickLinks = [
     href: "/parking-transportation",
     title: "Parking & Transportation",
     desc: "Where to park, park-and-ride options, road closures, and why officials say don't drive.",
+    color: "border-l-amber-500",
   },
   {
     href: "/where-to-stay",
     title: "Where to Stay",
     desc: "Hotels from $120/night in Cranberry to $2,000 downtown. Plus Airbnb and budget alternatives.",
+    color: "border-l-blue-500",
   },
   {
     href: "/bars-restaurants",
     title: "Bars & Restaurants",
     desc: "Where to eat and drink near both venues. North Shore, Strip District, South Side, and more.",
+    color: "border-l-red-500",
   },
   {
     href: "/schedule",
     title: "Schedule & What to Expect",
     desc: "Round-by-round times, free entry, OnePass registration, bag policy, and what to bring.",
+    color: "border-l-green-500",
   },
   {
     href: "/faq",
     title: "FAQ",
     desc: "Answers to the 20 most-asked questions about the Pittsburgh NFL Draft.",
+    color: "border-l-purple-500",
   },
   {
     href: "/cranberry-township",
     title: "From Cranberry Township",
     desc: "Park-and-ride options, bus routes, and tips for visitors from the northern suburbs.",
+    color: "border-l-teal-500",
   },
 ];
 
@@ -131,7 +137,7 @@ export default function HomePage() {
             <Link
               key={link.href}
               href={link.href}
-              className="block bg-white border border-border rounded-lg p-5 hover:border-primary hover:shadow-md transition-all"
+              className={`block bg-white border border-border border-l-4 ${link.color} rounded-lg p-5 hover:shadow-md transition-all`}
             >
               <h3 className="font-bold mb-1">{link.title}</h3>
               <p className="text-sm text-muted leading-relaxed">{link.desc}</p>

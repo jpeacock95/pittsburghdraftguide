@@ -231,8 +231,12 @@ export default function NeighborhoodsPage() {
       />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
-        <div className="max-w-3xl mx-auto px-4">
+      <section
+        className="relative text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/north-shore.png')" }}
+      >
+        <div className="absolute inset-0 bg-primary-dark/75" />
+        <div className="relative max-w-3xl mx-auto px-4">
           <p className="text-sm text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
