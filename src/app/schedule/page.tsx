@@ -302,8 +302,8 @@ export default function Schedule() {
             Getting between the Draft Theater (North Shore) and the Draft
             Experience (Point State Park) is easy. The Roberto Clemente Bridge
             is pedestrian-only during draft weekend. You can walk it in about 15
-            minutes. The T light rail also connects both areas for free. Gateway
-            Clipper riverboats are running between the two sites as well.
+            minutes. The T light rail also connects both areas for free. <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway
+            Clipper</a> riverboats are running between the two sites as well.
           </p>
         </section>
 
@@ -418,9 +418,9 @@ export default function Schedule() {
               </p>
             </div>
             <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-bold">Draft After-Parties at Shorty's</p>
+              <p className="font-bold">Draft After-Parties at <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's</a></p>
               <p className="text-xs text-muted">
-                Wed-Sat &middot; Shorty's Goodtimes Bar, North Shore
+                Wed-Sat &middot; <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a>, North Shore
               </p>
               <p className="text-sm text-muted mt-2">
                 The official draft after-party spot. Steve Aoki (draft eve

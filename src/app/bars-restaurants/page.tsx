@@ -544,8 +544,8 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>Pro tip:</strong> Ride the Duquesne Incline or Monongahela
-            Incline up to Mt. Washington for the best city views in America (USA
+            <strong>Pro tip:</strong> Ride the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> or <a href="https://monongahelaincline.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Monongahela
+            Incline</a> up to Mt. Washington for the best city views in America (USA
             Today said so, not us). Then eat at one of the restaurants up there.
             It's the most Pittsburgh thing you can do, and most draft visitors
             won't think of it.

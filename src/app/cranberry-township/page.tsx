@@ -333,7 +333,7 @@ export default function CranberryTownship() {
               <p className="text-sm text-muted">
                 One of the cheapest name-brand options. Fitness center, clean
                 rooms, Marriott loyalty points. <a href="https://www.booking.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Booking.com</a> lists it at 20
-                miles from the Andy Warhol Museum. Good value for Marriott
+                miles from the <a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Andy Warhol Museum</a>. Good value for Marriott
                 members.
               </p>
             </div>

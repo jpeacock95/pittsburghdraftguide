@@ -41,9 +41,9 @@ export default function ChecklistPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">Before You Leave Home</h2>
           <div className="space-y-3">
-            <CheckItem text="Download the NFL OnePass app and register (required for free entry)" />
+            <CheckItem>Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register (required for free entry)</CheckItem>
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
-            <CheckItem text="Pre-book parking on SpotHero if you're driving" />
+            <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving</CheckItem>
             <CheckItem text="Check the road closure map — several bridges and I-279 exits are closed" />
             <CheckItem text="Charge your portable battery pack (you'll need it)" />
             <CheckItem text="Check the weather forecast for Pittsburgh April 23-25" />
@@ -194,13 +194,13 @@ export default function ChecklistPage() {
   );
 }
 
-function CheckItem({ text, isNo }: { text: string; isNo?: boolean }) {
+function CheckItem({ text, isNo, children }: { text?: string; isNo?: boolean; children?: React.ReactNode }) {
   return (
     <div className="flex items-start gap-3">
       <span className={`mt-0.5 text-lg ${isNo ? "text-red-500" : "text-green-600"}`}>
         {isNo ? "\u2717" : "\u2713"}
       </span>
-      <p className="text-sm text-muted">{text}</p>
+      <p className="text-sm text-muted">{children || text}</p>
     </div>
   );
 }

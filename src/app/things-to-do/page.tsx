@@ -213,7 +213,7 @@ export default function ThingsToDoPage() {
                 Shorty's After-Parties (Draft Eve through Day 2)
               </p>
               <p className="text-sm text-muted">
-                Shorty's Goodtimes Bar on the North Shore is hosting the
+                <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> on the North Shore is hosting the
                 official draft after-parties. Steve Aoki on draft eve, Nelly
                 after Day 1, and 2 Chainz after Day 2. These are ticketed
                 events. Prices TBA.
@@ -508,7 +508,7 @@ export default function ThingsToDoPage() {
           <ul className="space-y-2 text-muted list-disc pl-5 mb-3">
             <li>
               Ride the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> to Mt. Washington for
-              skyline views and dinner at Altius or Monterey Bay Fish Grotto
+              skyline views and dinner at <a href="https://altiuspgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Altius</a> or Monterey Bay Fish Grotto
             </li>
             <li>
               Spend a morning in the <strong>Strip District</strong> eating your
@@ -521,13 +521,13 @@ export default function ThingsToDoPage() {
               the North Side
             </li>
             <li>
-              Do a <strong>brewery crawl</strong> in Lawrenceville. Church Brew
-              Works (a brewery inside a converted church) is the headliner, but
+              Do a <strong>brewery crawl</strong> in Lawrenceville. <a href="https://churchbrew.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Church Brew
+              Works</a> (a brewery inside a converted church) is the headliner, but
               there are 8+ breweries within walking distance
             </li>
             <li>
               Walk through <a href="https://www.phipps.conservatory.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Phipps Conservatory</a> in Oakland, then
-              check out the Cathedral of Learning across the street
+              check out the <a href="https://www.cathedral.pitt.edu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a> across the street
             </li>
             <li>
               Book a <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> river cruise for views from
