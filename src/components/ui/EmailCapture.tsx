@@ -32,10 +32,17 @@ export function EmailCapture() {
   if (submitted) {
     return (
       <section className="bg-green-50 border border-green-200 rounded-lg p-6 text-center my-8">
-        <p className="font-bold text-green-900">You're on the list!</p>
-        <p className="text-sm text-green-800 mt-1">
-          Check your inbox for the Draft Weekend Checklist.
+        <p className="font-bold text-green-900 text-lg">You're in!</p>
+        <p className="text-sm text-green-800 mt-2 mb-3">
+          Here's your Draft Weekend Checklist. Bookmark it and check it the
+          night before you head to Pittsburgh.
         </p>
+        <a
+          href="/checklist"
+          className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
+        >
+          View Your Checklist
+        </a>
       </section>
     );
   }
@@ -47,8 +54,8 @@ export function EmailCapture() {
           Get the Draft Weekend Checklist
         </h3>
         <p className="text-sm text-muted mb-4">
-          Everything you need to pack, plan, and know before you go. One email,
-          no spam, unsubscribe anytime.
+          Everything you need to pack, plan, and know before you go. Drop your
+          email and get instant access to the checklist.
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
           <input
