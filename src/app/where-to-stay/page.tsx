@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
@@ -85,6 +86,13 @@ export default function WhereToStay() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <Image
+          src="/hotel-room.png"
+          alt="Hotel room with city skyline view for NFL Draft weekend in Pittsburgh"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8 max-w-3xl mx-auto px-4"
+        />
         {/* Section 1: Price reality */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">

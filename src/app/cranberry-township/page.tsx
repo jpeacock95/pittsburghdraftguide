@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
@@ -88,6 +89,13 @@ export default function CranberryTownship() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <Image
+          src="/cranberry-township.png"
+          alt="Cranberry Township Pennsylvania suburban town center with shops and restaurants"
+          width={800}
+          height={450}
+          className="rounded-lg w-full h-auto mb-8"
+        />
         {/* Section 1: Why Stay in Cranberry */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
