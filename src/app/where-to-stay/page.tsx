@@ -382,7 +382,7 @@ export default function WhereToStay() {
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Red Roof Inn McKnight Road</p>
+                <a href="https://www.redroof.com/property/pa/pittsburgh/RRI006" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Red Roof Inn McKnight Road</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$</span>
               </div>
               <p className="text-sm text-muted">
@@ -396,7 +396,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Hampton Inn &amp; Holiday Inn Express (McKnight area)</p>
+                <a href="https://www.hilton.com/en/hotels/pitnohx-hampton-pittsburgh-mcknight-rd/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hampton Inn &amp; Holiday Inn Express (McKnight area)</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$-$$</span>
               </div>
               <p className="text-sm text-muted">
@@ -408,7 +408,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Comfort Inn &amp; Budget Chains (McKnight corridor)</p>
+                <a href="https://www.choicehotels.com/pennsylvania/pittsburgh/comfort-inn-hotels" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Comfort Inn &amp; Budget Chains (McKnight corridor)</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$</span>
               </div>
               <p className="text-sm text-muted">
