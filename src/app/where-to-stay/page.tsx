@@ -149,7 +149,7 @@ export default function WhereToStay() {
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Omni William Penn Hotel</p>
+                <a href="https://www.omnihotels.com/hotels/pittsburgh-william-penn" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Omni William Penn Hotel</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">530 William Penn Pl, Downtown</p>
@@ -163,7 +163,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Fairmont Pittsburgh</p>
+                <a href="https://www.fairmont.com/en/hotels/pittsburgh/fairmont-pittsburgh.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Fairmont Pittsburgh</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">510 Market St, Downtown</p>
@@ -176,7 +176,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Drury Plaza Hotel</p>
+                <a href="https://www.druryhotels.com/locations/pittsburgh-pa/drury-plaza-hotel-pittsburgh-downtown" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Drury Plaza Hotel</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">745 Grant St, Downtown</p>
@@ -210,7 +210,7 @@ export default function WhereToStay() {
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">SpringHill Suites North Shore</p>
+                <a href="https://www.marriott.com/en-us/hotels/pitns-springhill-suites-pittsburgh-north-shore/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">SpringHill Suites North Shore</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$2,173/night</span>
               </div>
               <p className="text-sm text-muted mb-1">223 Federal St, North Shore</p>
@@ -224,7 +224,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Hyatt Place North Shore</p>
+                <a href="https://www.hyatt.com/hyatt-place/en-US/pitzn-hyatt-place-pittsburgh-north-shore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hyatt Place North Shore</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">260 North Shore Dr</p>
@@ -237,7 +237,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">The Landing Hotel at Rivers Casino</p>
+                <a href="https://thelandinghotelpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Landing Hotel at Rivers Casino</a>
                 <span className="text-xs bg-red-100 text-red-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">777 Casino Dr, North Shore</p>
@@ -321,7 +321,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Sheraton at Station Square</p>
+                <a href="https://www.marriott.com/en-us/hotels/pitps-sheraton-pittsburgh-hotel-at-station-square/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Sheraton at Station Square</a>
                 <span className="text-xs bg-yellow-100 text-yellow-700 px-2 py-1 rounded font-semibold">$$$</span>
               </div>
               <p className="text-sm text-muted mb-1">Station Square, South Shore</p>
@@ -439,7 +439,7 @@ export default function WhereToStay() {
           <div className="space-y-3 mb-4">
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Hampton Inn &amp; Suites Cranberry Pittsburgh</p>
+                <a href="https://www.hilton.com/en/hotels/pitcmhx-hampton-suites-cranberry-pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hampton Inn &amp; Suites Cranberry Pittsburgh</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$$</span>
               </div>
               <p className="text-sm text-muted mb-1">10015 Pendleton Way, Cranberry Woods Business Park</p>
@@ -452,7 +452,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Courtyard by Marriott Cranberry Woods</p>
+                <a href="https://www.marriott.com/en-us/hotels/pitct-courtyard-pittsburgh-north-cranberry-woods/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Courtyard by Marriott Cranberry Woods</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$$</span>
               </div>
               <p className="text-sm text-muted mb-1">Cranberry Township</p>
@@ -465,7 +465,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Hilton Garden Inn Cranberry</p>
+                <a href="https://www.hilton.com/en/hotels/pitcrgi-hilton-garden-inn-pittsburgh-cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hilton Garden Inn Cranberry</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$$</span>
               </div>
               <p className="text-sm text-muted">
@@ -477,7 +477,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Home2 Suites by Hilton Cranberry</p>
+                <a href="https://www.hilton.com/en/hotels/pitltht-home2-suites-pittsburgh-cranberry-pa/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Home2 Suites by Hilton Cranberry</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$$</span>
               </div>
               <p className="text-sm text-muted">
@@ -489,7 +489,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Best Western Plus Cranberry-Pittsburgh North</p>
+                <a href="https://www.bestwestern.com/en_US/book/hotels-in-cranberry-township/best-western-plus-cranberry-pittsburgh-north/propertyCode.39142.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Best Western Plus Cranberry-Pittsburgh North</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$-$$</span>
               </div>
               <p className="text-sm text-muted">
@@ -500,7 +500,7 @@ export default function WhereToStay() {
 
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start mb-1">
-                <p className="font-semibold">Pittsburgh Marriott North &amp; TownePlace Suites</p>
+                <a href="https://www.marriott.com/en-us/hotels/pitno-pittsburgh-marriott-north/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Pittsburgh Marriott North &amp; TownePlace Suites</a>
                 <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">$$</span>
               </div>
               <p className="text-sm text-muted">
@@ -519,7 +519,8 @@ export default function WhereToStay() {
               Drive to the Ross Park &amp; Ride (I-279 Exit 5), about 15
               minutes south. Take the #8 bus or O1 express to downtown (25
               minutes). Total trip: about 40-45 minutes. Or just drive and
-              pre-book parking on SpotHero. Uber from Cranberry with surge
+              pre-book parking on{" "}
+              <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">SpotHero</a>. Uber from Cranberry with surge
               pricing could hit $80.
             </p>
           </div>
@@ -693,6 +694,31 @@ export default function WhereToStay() {
                 </p>
               </div>
             </div>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-3 mt-6">
+            <a
+              href="https://www.booking.com/city/us/pittsburgh.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-50 border border-blue-200 rounded-lg p-4 hover:bg-blue-100 transition-colors block"
+            >
+              <p className="font-bold text-blue-900 mb-1">Search Pittsburgh Hotels on Booking.com</p>
+              <p className="text-sm text-blue-700">
+                Compare rates across all downtown, North Shore, and suburban hotels. Free cancellation on most rooms.
+              </p>
+            </a>
+            <a
+              href="https://spothero.com/city/pittsburgh-parking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-50 border border-green-200 rounded-lg p-4 hover:bg-green-100 transition-colors block"
+            >
+              <p className="font-bold text-green-900 mb-1">Pre-Book Parking on SpotHero</p>
+              <p className="text-sm text-green-700">
+                Lock in downtown parking rates now before draft weekend surge pricing kicks in. Spots fill fast.
+              </p>
+            </a>
           </div>
         </section>
 

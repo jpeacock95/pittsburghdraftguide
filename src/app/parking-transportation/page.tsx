@@ -182,10 +182,31 @@ export default function ParkingPage() {
 
           <h3 className="text-lg font-bold mt-6 mb-3">Pre-Book on SpotHero</h3>
           <p className="text-muted mb-4">
-            The smartest move if you're driving is to pre-book a guaranteed spot.
-            SpotHero has listings starting from $10.99 for suburban lots and
+            The smartest move if you're driving is to pre-book a guaranteed spot.{" "}
+            <a
+              href="https://spothero.com/city/pittsburgh-parking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold hover:underline"
+            >
+              SpotHero
+            </a>{" "}
+            has listings starting from $10.99 for suburban lots and
             $50+ for downtown locations. Prices go up as the event gets closer.
           </p>
+          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+            <a
+              href="https://spothero.com/city/pittsburgh-parking"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-green-900 hover:underline"
+            >
+              Search Pittsburgh Parking on SpotHero &rarr;
+            </a>
+            <p className="text-sm text-green-800 mt-1">
+              Pre-book a guaranteed spot now. Prices are going up daily as the draft gets closer.
+            </p>
+          </div>
 
           <h3 className="text-lg font-bold mt-6 mb-3">Downtown Garages</h3>
           <div className="overflow-x-auto">
