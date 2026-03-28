@@ -64,6 +64,11 @@ export default function ParkingPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <p className="text-xs text-muted text-center mb-6">
+          Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
+          SpotHero listings, local news coverage. Last updated March 2026.
+        </p>
+
         {/* Don't drive warning */}
         <section className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-10">
           <h2 className="text-xl font-bold text-amber-900 mb-2">

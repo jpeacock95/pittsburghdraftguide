@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { ItemListSchema } from "@/components/schema/ItemListSchema";
 
 export const metadata: Metadata = {
   title: "Where to Eat & Drink: NFL Draft Pittsburgh",
@@ -47,6 +48,21 @@ export default function BarsRestaurants() {
         items={[
           { name: "Home", href: "/" },
           { name: "Bars & Restaurants", href: "/bars-restaurants" },
+        ]}
+      />
+      <ItemListSchema
+        name="Best Bars and Restaurants Near the NFL Draft in Pittsburgh"
+        items={[
+          { name: "Tom's Watch Bar", description: "Sports bar steps from Acrisure Stadium with massive video walls" },
+          { name: "Federal Galley", description: "Food hall with 4 restaurant concepts and happy hour specials" },
+          { name: "Gaucho Parrilla Argentina", description: "Top-rated Argentine steakhouse in the Strip District" },
+          { name: "Butcher and the Rye", description: "Craft cocktails and New American cuisine downtown" },
+          { name: "DiAnoia's Eatery", description: "Handmade Italian pasta and sandwiches in the Strip District" },
+          { name: "Hofbrauhaus Pittsburgh", description: "Authentic German beer hall on the South Side" },
+          { name: "Church Brew Works", description: "Brewery inside a converted church in Lawrenceville" },
+          { name: "Pamela's Diner", description: "Famous thin crispy pancakes, Pittsburgh's favorite diner" },
+          { name: "Altius", description: "Fine dining with the best view of the city on Mt. Washington" },
+          { name: "Shorty's Goodtimes Bar", description: "Retro gaming bar hosting official draft after-parties" },
         ]}
       />
 

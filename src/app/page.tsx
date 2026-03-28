@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { EventSchema } from "@/components/schema/EventSchema";
+import { WebSiteSchema } from "@/components/schema/WebSiteSchema";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
@@ -46,6 +47,7 @@ export default function HomePage() {
   return (
     <>
       <EventSchema />
+      <WebSiteSchema />
 
       {/* Hero */}
       <section
@@ -105,6 +107,17 @@ export default function HomePage() {
               <p className="text-sm text-muted">Expected visitors</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Trust signals */}
+      <section className="max-w-4xl mx-auto px-4 py-6">
+        <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-xs text-muted text-center">
+          <span>Built by a Cranberry Township local</span>
+          <span>Data from 27 Reddit threads</span>
+          <span>12 competitor sites analyzed</span>
+          <span>70+ businesses researched</span>
+          <span>Updated March 2026</span>
         </div>
       </section>
 

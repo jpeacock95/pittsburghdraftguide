@@ -122,6 +122,28 @@ export default function GettingAroundPage() {
               </li>
             </ul>
           </div>
+
+          {/* Map */}
+          <div className="mt-6">
+            <h3 className="text-lg font-bold mb-2">Draft Venue Map</h3>
+            <p className="text-sm text-muted mb-3">
+              Point State Park (Draft Experience) is at the bottom. Acrisure
+              Stadium (Draft Theater) is across the river at the top. Roberto
+              Clemente Bridge connects them.
+            </p>
+            <div className="rounded-lg overflow-hidden border border-border">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6067.84!2d-80.0095!3d40.4425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f157d1e0e0a1%3A0x0!2zNDDCsDI2JzMzLjAiTiA4MMKwMDAnMzQuMiJX!5e0!3m2!1sen!2sus!4v1"
+                width="100%"
+                height="350"
+                className="border-0"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Map of NFL Draft venues in Pittsburgh"
+              />
+            </div>
+          </div>
         </section>
 
         {/* The T */}

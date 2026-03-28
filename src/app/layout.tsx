@@ -12,7 +12,10 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pittsburghdraftguide.com"),
+  metadataBase: new URL("https://www.pittsburghdraftguide.com"),
+  alternates: {
+    canonical: "./",
+  },
   title: {
     default: "NFL Draft Pittsburgh 2026: Your Complete Guide",
     template: "%s | Pittsburgh Draft Guide",
@@ -23,6 +26,18 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Pittsburgh Draft Guide",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Pittsburgh Draft Guide 2026 - Your Complete Guide to the NFL Draft in Pittsburgh",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: ["/og-image.jpg"],
   },
 };
 
