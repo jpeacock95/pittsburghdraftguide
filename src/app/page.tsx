@@ -170,6 +170,21 @@ export default function HomePage() {
             2019. Pittsburgh is aiming to top both. The economic impact is
             projected at $120-200 million.
           </p>
+
+          <div className="rounded-lg overflow-hidden border border-border mb-4 mt-8">
+            <iframe
+              src="https://www.youtube.com/embed/Q1Rwwi_5Mck"
+              width="100%"
+              height="350"
+              className="border-0"
+              allowFullScreen
+              loading="lazy"
+              title="Pittsburgh Selected to Host 2026 NFL Draft"
+            />
+          </div>
+          <p className="text-xs text-muted text-center">
+            Watch: Pittsburgh's official announcement as the 2026 NFL Draft host city
+          </p>
         </div>
       </section>
 

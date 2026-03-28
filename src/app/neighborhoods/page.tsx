@@ -285,6 +285,18 @@ export default function NeighborhoodsPage() {
           </p>
         </section>
 
+        <div className="rounded-lg overflow-hidden border border-border mb-8">
+          <iframe
+            src="https://www.youtube.com/embed/a6g67ib1fxw"
+            width="100%"
+            height="350"
+            className="border-0"
+            allowFullScreen
+            loading="lazy"
+            title="Pittsburgh, Pennsylvania In 4K By Drone"
+          />
+        </div>
+
         <Image
           src="/north-shore.png"
           alt="North Shore riverwalk with Acrisure Stadium at dusk in Pittsburgh"

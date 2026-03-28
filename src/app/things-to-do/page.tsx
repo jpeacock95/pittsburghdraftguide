@@ -326,6 +326,18 @@ export default function ThingsToDoPage() {
             within a short ride (or walk) from the draft venues.
           </p>
 
+          <div className="rounded-lg overflow-hidden border border-border mb-8">
+            <iframe
+              src="https://www.youtube.com/embed/TYmRger4pSg"
+              width="100%"
+              height="350"
+              className="border-0"
+              allowFullScreen
+              loading="lazy"
+              title="Amazing Duquesne Incline Ride - Built in 1877 - Pittsburgh, PA"
+            />
+          </div>
+
           <div className="space-y-3">
             <div className="bg-surface border border-border rounded-lg p-4">
               <p className="font-bold">

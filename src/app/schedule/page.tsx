@@ -72,6 +72,19 @@ export default function Schedule() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        {/* Draft preview video */}
+        <div className="rounded-lg overflow-hidden border border-border mb-8">
+          <iframe
+            src="https://www.youtube.com/embed/DogQpaGD3Xw"
+            width="100%"
+            height="350"
+            className="border-0"
+            allowFullScreen
+            loading="lazy"
+            title="Countdown to the 2026 NFL Draft in Pittsburgh"
+          />
+        </div>
+
         {/* Draft Schedule */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
