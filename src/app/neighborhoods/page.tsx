@@ -388,6 +388,28 @@ export default function NeighborhoodsPage() {
           </div>
         </section>
 
+        {/* Real estate callout */}
+        <section className="bg-blue-50 border border-blue-200 rounded-lg p-5 mb-8">
+          <p className="font-bold text-blue-900 mb-1">
+            Falling in Love with Pittsburgh?
+          </p>
+          <p className="text-sm text-blue-800 mb-3">
+            A lot of people visit for the draft and start thinking about moving
+            here. If you're considering buying a home in Pittsburgh or the North
+            Hills, talk to Dante Egizio. He's a local realtor with 7 years in
+            the area who specializes in helping first-time buyers navigate the
+            Pittsburgh market.
+          </p>
+          <a
+            href="https://calendly.com/peacockbookkeepingservices/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
+          >
+            Connect with Dante
+          </a>
+        </section>
+
         {/* Cross-links */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
           <h2 className="text-lg font-bold mb-2">
