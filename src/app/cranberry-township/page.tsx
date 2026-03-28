@@ -730,7 +730,7 @@ export default function CranberryTownship() {
           <p className="font-bold text-amber-900 mb-1">
             Own a Business in Cranberry Township?
           </p>
-          <p className="text-sm text-amber-800">
+          <p className="text-sm text-amber-800 mb-3">
             This guide was built by{" "}
             <a
               href="https://www.peacockbookkeepingservices.com"
@@ -744,6 +744,14 @@ export default function CranberryTownship() {
             bookkeeping, QuickBooks cleanup, and tax prep. If your books need
             attention, we're your neighbors.
           </p>
+          <a
+            href="https://calendly.com/peacockbookkeepingservices/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-amber-800 hover:bg-amber-900 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
+          >
+            Book a Free Call
+          </a>
         </section>
 
         {/* Cross-links */}

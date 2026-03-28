@@ -92,13 +92,14 @@ export function Footer() {
             <p className="text-sm text-gray-500 mt-1">
               Own a business in Pittsburgh?{" "}
               <a
-                href="https://www.peacockbookkeepingservices.com"
+                href="https://calendly.com/peacockbookkeepingservices/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white underline"
+                className="text-accent hover:text-white font-semibold underline"
               >
-                We help small businesses get their books in order.
-              </a>
+                Book a free call
+              </a>{" "}
+              and let's talk about your books.
             </p>
           </div>
           <div className="text-center text-sm text-gray-500">
