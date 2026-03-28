@@ -70,6 +70,11 @@ export function Footer() {
                   Pittsburgh Neighborhoods
                 </Link>
               </li>
+              <li>
+                <Link href="/local-professionals" className="hover:text-white">
+                  Local Professionals
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

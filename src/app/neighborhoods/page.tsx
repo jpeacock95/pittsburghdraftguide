@@ -443,6 +443,12 @@ export default function NeighborhoodsPage() {
           >
             Connect with Dante
           </a>
+          <p className="text-xs text-blue-700 mt-3">
+            RE/MAX Select Realty | 400 Broad St. Suite 2006, Sewickley, PA
+            15143 | (724) 933-6300 | Dante Egizio, Associate Broker | (412)
+            347-8125 | PA License #AB069313 | Brokerage License #RB063030C |
+            Equal Housing Opportunity
+          </p>
         </section>
 
         {/* Cross-links */}

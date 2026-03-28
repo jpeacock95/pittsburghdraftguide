@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/getting-around", priority: 0.7, changeFrequency: "weekly" as const },
     { url: "/cranberry-township", priority: 0.7, changeFrequency: "weekly" as const },
     { url: "/budget-guide", priority: 0.7, changeFrequency: "weekly" as const },
+    { url: "/local-professionals", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/what-to-wear-nfl-draft-pittsburgh", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/nfl-draft-pittsburgh-rain-plan", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/nfl-draft-pittsburgh-kids-family", priority: 0.6, changeFrequency: "monthly" as const },
