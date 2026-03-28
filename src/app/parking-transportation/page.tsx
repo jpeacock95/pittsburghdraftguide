@@ -106,23 +106,44 @@ export default function ParkingPage() {
           </p>
         </section>
 
-        {/* Venue map */}
+        {/* Downtown parking map */}
         <section className="mb-10">
-          <h3 className="text-lg font-bold mb-2">Draft Venue Map</h3>
+          <h3 className="text-lg font-bold mb-2">Parking Near Draft Venues</h3>
           <p className="text-sm text-muted mb-3">
-            The two draft venues and the key bridges between them. Most
-            North Shore parking lots are closed for stage construction.
+            Parking garages and lots near Point State Park and Acrisure
+            Stadium. Most North Shore lots are closed for stage
+            construction. Downtown garages are your closest option if
+            you're driving.
           </p>
-          <div className="rounded-lg overflow-hidden border border-border">
+          <div className="rounded-lg overflow-hidden border border-border mb-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6067.84!2d-80.0095!3d40.4425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f157d1e0e0a1%3A0x0!2zNDDCsDI2JzMzLjAiTiA4MMKwMDAnMzQuMiJX!5e0!3m2!1sen!2sus!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6068!2d-80.008!3d40.442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparking+garages+near+Point+State+Park+Pittsburgh+PA!5e0!3m2!1sen!2sus!4v1"
               width="100%"
-              height="300"
+              height="350"
               className="border-0"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Map of NFL Draft venues and parking areas in Pittsburgh"
+              title="Parking garages near NFL Draft venues in Pittsburgh"
+            />
+          </div>
+
+          <h3 className="text-lg font-bold mb-2">Park-and-Ride Locations</h3>
+          <p className="text-sm text-muted mb-3">
+            Officials say don't drive downtown. These park-and-ride
+            lots let you park for free and take the bus or T light rail
+            to the draft.
+          </p>
+          <div className="rounded-lg overflow-hidden border border-border">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48540!2d-80.05!3d40.47!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spark+and+ride+pittsburgh+PA!5e0!3m2!1sen!2sus!4v1"
+              width="100%"
+              height="350"
+              className="border-0"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Park and ride locations near Pittsburgh for NFL Draft"
             />
           </div>
         </section>
