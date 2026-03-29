@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://pittsburghdraftguide.com";
+  const baseUrl = "https://www.pittsburghdraftguide.com";
   const now = new Date().toISOString();
 
   const pages = [
@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/getting-around", priority: 0.7, changeFrequency: "weekly" as const },
     { url: "/cranberry-township", priority: 0.7, changeFrequency: "weekly" as const },
     { url: "/budget-guide", priority: 0.7, changeFrequency: "weekly" as const },
+    { url: "/checklist", priority: 0.8, changeFrequency: "weekly" as const },
     { url: "/about", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/what-to-wear-nfl-draft-pittsburgh", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/nfl-draft-pittsburgh-rain-plan", priority: 0.6, changeFrequency: "monthly" as const },
