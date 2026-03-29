@@ -240,13 +240,13 @@ export default function NeighborhoodsPage() {
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Neighborhoods
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Pittsburgh Neighborhoods Guide for Draft Visitors
           </h1>
           <p className="text-gray-300">
@@ -261,14 +261,14 @@ export default function NeighborhoodsPage() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Quick nav */}
-        <section className="mb-10">
-          <h2 className="text-xl font-bold mb-3">Jump to a Neighborhood</h2>
+        <section className="mb-14">
+          <h2 className="text-xl font-heading mb-3">Jump to a Neighborhood</h2>
           <div className="flex flex-wrap gap-2">
             {neighborhoods.map((n) => (
               <a
                 key={n.slug}
                 href={`#${n.slug}`}
-                className="bg-surface border border-border rounded-lg px-3 py-1.5 text-sm font-semibold hover:bg-primary-dark hover:text-white hover:border-primary-dark transition-colors"
+                className="px-3 py-1.5 text-sm font-semibold hover:bg-primary-dark hover:text-white transition-colors text-muted"
               >
                 {n.name}
               </a>
@@ -277,7 +277,7 @@ export default function NeighborhoodsPage() {
         </section>
 
         {/* Intro */}
-        <section className="mb-10">
+        <section className="mb-14">
           <p className="text-muted mb-3">
             The 2026 NFL Draft has two main venues: the Draft Theater at
             Acrisure Stadium on the{" "}
@@ -294,7 +294,7 @@ export default function NeighborhoodsPage() {
           </p>
         </section>
 
-        <div className="rounded-lg overflow-hidden border border-border mb-8">
+        <div className="rounded-lg overflow-hidden mb-8">
           <iframe
             src="https://www.youtube.com/embed/a6g67ib1fxw"
             width="100%"
@@ -319,11 +319,11 @@ export default function NeighborhoodsPage() {
           <section
             key={neighborhood.slug}
             id={neighborhood.slug}
-            className="mb-10 scroll-mt-20"
+            className="mb-14 scroll-mt-20"
           >
-            <div className="bg-surface border border-border rounded-lg overflow-hidden">
+            <div className="overflow-hidden">
               <div className="bg-primary-dark text-white p-5">
-                <h2 className="text-2xl font-bold">{neighborhood.name}</h2>
+                <h2 className="text-2xl font-heading">{neighborhood.name}</h2>
                 <p className="text-gray-300 text-sm mt-1">
                   {neighborhood.vibe}
                 </p>
@@ -331,19 +331,19 @@ export default function NeighborhoodsPage() {
 
               <div className="p-5">
                 <div className="flex flex-col sm:flex-row gap-4 mb-5">
-                  <div className="flex-1 bg-green-50 border border-green-200 rounded-lg p-3">
-                    <p className="text-xs font-bold text-green-900 uppercase mb-1">
+                  <div className="flex-1 border-l-2 border-accent pl-4">
+                    <p className="text-xs font-bold text-foreground uppercase mb-1">
                       Best for
                     </p>
-                    <p className="text-sm text-green-800">
+                    <p className="text-sm text-muted">
                       {neighborhood.bestFor}
                     </p>
                   </div>
-                  <div className="flex-1 bg-blue-50 border border-blue-200 rounded-lg p-3">
-                    <p className="text-xs font-bold text-blue-900 uppercase mb-1">
+                  <div className="flex-1 border-l-2 border-accent pl-4">
+                    <p className="text-xs font-bold text-foreground uppercase mb-1">
                       Getting there
                     </p>
-                    <p className="text-sm text-blue-800">
+                    <p className="text-sm text-muted">
                       {neighborhood.gettingThere}
                     </p>
                   </div>
@@ -354,7 +354,7 @@ export default function NeighborhoodsPage() {
                   {neighborhood.spots.map((spot) => (
                     <div
                       key={spot.name}
-                      className="border-l-4 border-primary-dark pl-3"
+                      className="border-l-2 border-accent pl-4"
                     >
                       <p className="font-semibold text-sm">{spot.name}</p>
                       <p className="text-sm text-muted">{spot.desc}</p>
@@ -375,48 +375,48 @@ export default function NeighborhoodsPage() {
         />
 
         {/* Pro tips */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Quick Tips for Exploring Pittsburgh
           </h2>
           <div className="space-y-3">
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-bold text-amber-900 text-sm mb-1">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm mb-1">
                 Saturday morning in the Strip District
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 This is the quintessential Pittsburgh experience. Markets, street
                 vendors, fresh produce, imported Italian goods. Get there before
                 10am for the best experience. It's draft day 3, so the rest of
                 the city won't be as crazy yet.
               </p>
             </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-bold text-amber-900 text-sm mb-1">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm mb-1">
                 Uber away from the venues
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 Surge pricing right at Acrisure Stadium or Point State Park will
                 be brutal. Walk 3-4 blocks in any direction before you request a
                 ride. You'll save $20-30 easily.
               </p>
             </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-bold text-amber-900 text-sm mb-1">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm mb-1">
                 The T is free downtown
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 Pittsburgh's light rail (called "the T") runs through a free
                 fare zone that covers downtown and the North Shore. Use it to
                 hop between the two draft venues. Allegheny Station serves the
                 North Shore side.
               </p>
             </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-bold text-amber-900 text-sm mb-1">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm mb-1">
                 Reservations everywhere
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 If you want a sit-down dinner at any of the restaurants listed
                 here, book it now. Draft weekend will be the busiest restaurant
                 weekend Pittsburgh has seen in years. Walk-in waits of 90+ minutes
@@ -451,7 +451,7 @@ export default function NeighborhoodsPage() {
 
         {/* Cross-links */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Plan the rest of your trip
           </h2>
           <p className="text-gray-300 text-sm mb-4">

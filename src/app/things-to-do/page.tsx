@@ -53,13 +53,13 @@ export default function ThingsToDoPage() {
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Things to Do
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Things to Do During NFL Draft Weekend Pittsburgh
           </h1>
           <p className="text-gray-300">
@@ -75,8 +75,8 @@ export default function ThingsToDoPage() {
         <LastUpdated date="March 29, 2026" />
 
         {/* What is there to do? */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             What Is There to Do Besides Watch Picks?
           </h2>
           <p className="text-muted mb-3">
@@ -108,8 +108,8 @@ export default function ThingsToDoPage() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             NFL Draft Experience (Free Fan Zone at Point State Park)
           </h2>
           <p className="text-muted mb-3">
@@ -119,7 +119,7 @@ export default function ThingsToDoPage() {
             activities, exhibits, and appearances.
           </p>
 
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
+          <div className="card-minimal p-5 mb-4">
             <p className="font-bold mb-3">What you'll find inside:</p>
             <ul className="space-y-2 text-muted list-disc pl-5">
               <li>
@@ -149,9 +149,9 @@ export default function ThingsToDoPage() {
             </ul>
           </div>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
-            <p className="font-bold text-green-900 mb-1">Hours &amp; Admission</p>
-            <ul className="text-sm text-green-800 space-y-1">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <p className="font-bold text-foreground mb-1">Hours &amp; Admission</p>
+            <ul className="text-sm text-muted space-y-1">
               <li>
                 <strong>Thursday &amp; Friday:</strong> 12:00 PM to 10:00 PM
               </li>
@@ -173,8 +173,8 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Concerts & Entertainment */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Concerts &amp; Entertainment
           </h2>
           <p className="text-muted mb-3">
@@ -186,7 +186,7 @@ export default function ThingsToDoPage() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Free Draft Stage Concerts</p>
               <p className="text-sm text-muted">
                 Lineup TBA. Concerts happen each evening on the main stage at
@@ -195,7 +195,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Drone Show (After Day 2)</p>
               <p className="text-sm text-muted">
                 A massive drone light show over the rivers after the Friday
@@ -205,7 +205,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">
                 Jason Aldean at Rivers Casino (April 22)
               </p>
@@ -216,7 +216,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">
                 Shorty's After-Parties (Draft Eve through Day 2)
               </p>
@@ -241,15 +241,15 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* PicksBURGH 5K */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
           <p className="text-muted mb-3">
             <a href="https://p3r.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">P3R</a> (the organization behind the Pittsburgh Marathon) is running a
             5K race on Saturday morning of draft weekend. It's called the
             PicksBURGH 5K and the route goes through some of Pittsburgh's most
             scenic areas near the draft venues.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-3">
+          <div className="card-minimal p-4 mb-3">
             <ul className="text-sm text-muted space-y-1">
               <li>
                 <strong>When:</strong> Saturday morning (Day 3 of the draft)
@@ -282,8 +282,8 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Taste of the Draft */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Taste of the Draft (April 22)
           </h2>
           <p className="text-muted mb-3">
@@ -292,7 +292,7 @@ export default function ThingsToDoPage() {
             restaurants and is a charity event benefiting GENYOUth (which fights
             student hunger).
           </p>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-3">
+          <div className="card-minimal p-4 mb-3">
             <ul className="text-sm text-muted space-y-1">
               <li>
                 <strong>When:</strong> Tuesday, April 22 (the night before the
@@ -324,8 +324,8 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Pittsburgh Attractions */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Pittsburgh Attractions Worth Visiting
           </h2>
           <p className="text-muted mb-4">
@@ -334,7 +334,7 @@ export default function ThingsToDoPage() {
             within a short ride (or walk) from the draft venues.
           </p>
 
-          <div className="rounded-lg overflow-hidden border border-border mb-8">
+          <div className="rounded-lg overflow-hidden mb-8">
             <iframe
               src="https://www.youtube.com/embed/TYmRger4pSg"
               width="100%"
@@ -347,7 +347,7 @@ export default function ThingsToDoPage() {
           </div>
 
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">
                 <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> &amp; <a href="https://monongahelaincline.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Monongahela Incline</a>
               </p>
@@ -360,7 +360,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold"><a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a></p>
               <p className="text-sm text-muted">
                 Right on the North Shore, walking distance from the draft
@@ -370,7 +370,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold"><a href="https://www.warhol.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Andy Warhol Museum</a></p>
               <p className="text-sm text-muted">
                 The world's largest collection of Warhol's art, right on the
@@ -379,7 +379,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold"><a href="https://www.phipps.conservatory.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Phipps Conservatory</a></p>
               <p className="text-sm text-muted">
                 A stunning botanical garden in Oakland (about 15 minutes from
@@ -389,11 +389,11 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-bold text-amber-900">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground">
                 <a href="https://www.aviary.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">National Aviary</a> (CLOSED Thu-Fri)
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 America's only independent indoor aviary with 700+ birds.
                 Normally a must-visit, but it's{" "}
                 <strong>closed Thursday and Friday</strong> during draft week
@@ -402,7 +402,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Steelers Hall of Honor Museum</p>
               <p className="text-sm text-muted">
                 Inside Acrisure Stadium. If you're a Steelers fan (or any
@@ -411,7 +411,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Roberto Clemente Bridge Walk</p>
               <p className="text-sm text-muted">
                 The yellow bridge that connects the North Shore (Acrisure
@@ -422,7 +422,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold"><a href="https://randyland.club/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Randyland</a></p>
               <p className="text-sm text-muted">
                 A free, wildly colorful public art installation on the North
@@ -432,7 +432,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold"><a href="https://www.cathedral.pitt.edu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a></p>
               <p className="text-sm text-muted">
                 A 42-story Gothic tower on the University of Pittsburgh campus
@@ -442,7 +442,7 @@ export default function ThingsToDoPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Strip District Saturday Morning</p>
               <p className="text-sm text-muted">
                 Pittsburgh's famous market neighborhood. Saturday mornings are
@@ -467,8 +467,8 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Family-friendly */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Family-Friendly Activities
           </h2>
           <p className="text-muted mb-3">
@@ -513,8 +513,8 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Non-football fans */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             For Non-Football Fans
           </h2>
           <p className="text-muted mb-3">
@@ -566,15 +566,15 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">
             Things to Do FAQ
           </h2>
           <div className="space-y-4">
             {thingsToDoFAQs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -584,14 +584,14 @@ export default function ThingsToDoPage() {
         </section>
 
         {/* Quick links */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Plan the Rest of Your Weekend
           </h2>
           <div className="grid sm:grid-cols-2 gap-3">
             <Link
               href="/schedule"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors"
+              className="card-minimal p-4 hover:shadow-md transition-all"
             >
               <p className="font-bold mb-1">Draft Schedule</p>
               <p className="text-sm text-muted">
@@ -600,7 +600,7 @@ export default function ThingsToDoPage() {
             </Link>
             <Link
               href="/bars-restaurants"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors"
+              className="card-minimal p-4 hover:shadow-md transition-all"
             >
               <p className="font-bold mb-1">Bars &amp; Restaurants</p>
               <p className="text-sm text-muted">
@@ -609,7 +609,7 @@ export default function ThingsToDoPage() {
             </Link>
             <Link
               href="/itinerary"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors"
+              className="card-minimal p-4 hover:shadow-md transition-all"
             >
               <p className="font-bold mb-1">Day-by-Day Itinerary</p>
               <p className="text-sm text-muted">
@@ -618,7 +618,7 @@ export default function ThingsToDoPage() {
             </Link>
             <Link
               href="/neighborhoods"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors"
+              className="card-minimal p-4 hover:shadow-md transition-all"
             >
               <p className="font-bold mb-1">Neighborhoods</p>
               <p className="text-sm text-muted">
@@ -630,7 +630,7 @@ export default function ThingsToDoPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Need help getting there?
           </h2>
           <p className="text-gray-300 text-sm mb-4">

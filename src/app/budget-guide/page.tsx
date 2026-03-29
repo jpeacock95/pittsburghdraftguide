@@ -46,15 +46,15 @@ export default function BudgetGuide() {
       <FAQSchema items={budgetFAQs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Budget Guide
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             NFL Draft Pittsburgh on a Budget 2026
           </h1>
           <p className="text-gray-300">
@@ -68,8 +68,8 @@ export default function BudgetGuide() {
         <LastUpdated date="March 29, 2026" />
 
         {/* The Good News */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Good News: The Draft Is Free
           </h2>
           <p className="text-muted mb-3">
@@ -94,8 +94,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Where the Money Goes */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Where the Money Actually Goes
           </h2>
           <p className="text-muted mb-3">
@@ -103,8 +103,8 @@ export default function BudgetGuide() {
             spending $2,000+ for the weekend? Three things:
           </p>
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold text-red-600">
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-foreground">
                 1. Lodging (the killer)
               </p>
               <p className="text-sm text-muted">
@@ -115,8 +115,8 @@ export default function BudgetGuide() {
                 release at higher prices later.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold text-red-600">
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-foreground">
                 2. Transportation
               </p>
               <p className="text-sm text-muted">
@@ -126,8 +126,8 @@ export default function BudgetGuide() {
                 This adds up fast if you don't have a plan.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
-              <p className="font-semibold text-red-600">3. Food and drinks</p>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-foreground">3. Food and drinks</p>
               <p className="text-sm text-muted">
                 $15 beers at the event. $18 cocktails at North Shore bars.
                 Sit-down restaurants charging draft weekend premiums. Three
@@ -143,8 +143,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Budget Hotels */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Budget Hotels: $80-180/Night
           </h2>
           <p className="text-muted mb-4">
@@ -152,7 +152,7 @@ export default function BudgetGuide() {
             in the suburbs and taking transit in. Here are your best bets:
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">
+          <h3 className="text-lg font-heading mt-6 mb-2">
             McKnight Road, Ross Township ($80-130/night)
           </h3>
           <p className="text-sm text-muted mb-4">
@@ -163,7 +163,7 @@ export default function BudgetGuide() {
             &amp; Ride.
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">
+          <h3 className="text-lg font-heading mt-6 mb-2">
             Cranberry Township ($120-180/night)
           </h3>
           <p className="text-sm text-muted mb-4">
@@ -173,7 +173,7 @@ export default function BudgetGuide() {
             a break from the draft. About 25-30 minutes to downtown.
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">
+          <h3 className="text-lg font-heading mt-6 mb-2">
             Robinson / Airport Area ($100-150/night)
           </h3>
           <p className="text-sm text-muted mb-4">
@@ -183,7 +183,7 @@ export default function BudgetGuide() {
             shopping.
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">
+          <h3 className="text-lg font-heading mt-6 mb-2">
             Along the T Line ($120-250/night)
           </h3>
           <p className="text-sm text-muted mb-4">
@@ -212,8 +212,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Skip Parking */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Skip Parking, Save $100+
           </h2>
           <p className="text-muted mb-3">
@@ -257,8 +257,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Budget Eats */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Budget Eats Under $15
           </h2>
           <p className="text-muted mb-3">
@@ -267,7 +267,7 @@ export default function BudgetGuide() {
             to look:
           </p>
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Food trucks near the venues</p>
               <p className="text-sm text-muted">
                 Expect dozens of food trucks lining the draft footprint.
@@ -275,7 +275,7 @@ export default function BudgetGuide() {
                 lines. That's usually where the best food is.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">
                 The PA Market (Strip District)
               </p>
@@ -286,7 +286,7 @@ export default function BudgetGuide() {
                 cheap or splurge on one meal.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Primanti Bros (~$12)</p>
               <p className="text-sm text-muted">
                 The iconic Pittsburgh sandwich with fries and coleslaw
@@ -295,7 +295,7 @@ export default function BudgetGuide() {
                 Point State Park.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Pizza by the slice ($3-5)</p>
               <p className="text-sm text-muted">
                 Pizzaiolo Primo downtown and several spots in the Strip
@@ -303,7 +303,7 @@ export default function BudgetGuide() {
                 under $15. That's a meal.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">
                 Condado Tacos (Market Square, ~$10-14)
               </p>
@@ -312,7 +312,7 @@ export default function BudgetGuide() {
                 without emptying your wallet. Good for groups.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Convenience stores for water and snacks</p>
               <p className="text-sm text-muted">
                 Grab a case of water and some granola bars before you head
@@ -329,8 +329,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Free Things */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Free Things to Do
           </h2>
           <p className="text-muted mb-4">
@@ -349,7 +349,7 @@ export default function BudgetGuide() {
               <tbody>
                 <tr className="border-t border-border">
                   <td className="p-3 font-semibold">Draft Experience</td>
-                  <td className="p-3 text-green-600 font-bold">Free</td>
+                  <td className="p-3 text-accent font-semibold">Free</td>
                   <td className="p-3 text-muted">
                     The entire fan zone at Point State Park. Interactive
                     games, mock drafts, player appearances, photo ops.
@@ -357,7 +357,7 @@ export default function BudgetGuide() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-3 font-semibold">Concerts</td>
-                  <td className="p-3 text-green-600 font-bold">Free</td>
+                  <td className="p-3 text-accent font-semibold">Free</td>
                   <td className="p-3 text-muted">
                     Live music on the main stage all three days. Past drafts
                     have had major artists.
@@ -365,7 +365,7 @@ export default function BudgetGuide() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-3 font-semibold">Drone Show</td>
-                  <td className="p-3 text-green-600 font-bold">Free</td>
+                  <td className="p-3 text-accent font-semibold">Free</td>
                   <td className="p-3 text-muted">
                     Over the rivers at night. Visible from the North Shore,
                     Point State Park, and Mt. Washington.
@@ -381,7 +381,7 @@ export default function BudgetGuide() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-3 font-semibold">Riverwalk</td>
-                  <td className="p-3 text-green-600 font-bold">Free</td>
+                  <td className="p-3 text-accent font-semibold">Free</td>
                   <td className="p-3 text-muted">
                     Walk along the Three Rivers Heritage Trail. Connects
                     North Shore to Point State Park.
@@ -389,7 +389,7 @@ export default function BudgetGuide() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-3 font-semibold">Roberto Clemente Bridge</td>
-                  <td className="p-3 text-green-600 font-bold">Free</td>
+                  <td className="p-3 text-accent font-semibold">Free</td>
                   <td className="p-3 text-muted">
                     Closed to cars during the draft. Walk across the iconic
                     yellow bridge connecting the two venue areas.
@@ -410,8 +410,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* The $400 Draft Weekend */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The $500 Draft Weekend (Sample Budget)
           </h2>
           <p className="text-muted mb-4">
@@ -419,11 +419,11 @@ export default function BudgetGuide() {
             breaking the bank. This is a real budget for one person:
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-5 mb-6">
-            <h3 className="text-lg font-bold text-green-900 mb-3">
+          <div className="border-l-2 border-accent pl-5 mb-6">
+            <h3 className="text-lg font-bold text-foreground mb-3">
               The Budget Approach
             </h3>
-            <div className="space-y-2 text-green-800">
+            <div className="space-y-2 text-muted">
               <div className="flex justify-between">
                 <span>Hotel (Cranberry or McKnight Rd)</span>
                 <span className="font-semibold">
@@ -442,18 +442,18 @@ export default function BudgetGuide() {
                 <span>Incline ride</span>
                 <span className="font-semibold">$6</span>
               </div>
-              <div className="flex justify-between border-t border-green-300 pt-2 mt-2">
+              <div className="flex justify-between border-t border-border pt-2 mt-2">
                 <span className="font-bold">Total</span>
                 <span className="font-bold text-lg">~$500-565</span>
               </div>
             </div>
           </div>
 
-          <div className="bg-red-50 border border-red-200 rounded-lg p-5 mb-4">
-            <h3 className="text-lg font-bold text-red-900 mb-3">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <h3 className="text-lg font-bold text-foreground mb-3">
               The "I Didn't Plan" Approach
             </h3>
-            <div className="space-y-2 text-red-800">
+            <div className="space-y-2 text-muted">
               <div className="flex justify-between">
                 <span>Downtown hotel</span>
                 <span className="font-semibold">
@@ -468,7 +468,7 @@ export default function BudgetGuide() {
                 <span>Restaurants and event drinks</span>
                 <span className="font-semibold">$75-100/day x 3 = $225-300</span>
               </div>
-              <div className="flex justify-between border-t border-red-300 pt-2 mt-2">
+              <div className="flex justify-between border-t border-border pt-2 mt-2">
                 <span className="font-bold">Total</span>
                 <span className="font-bold text-lg">$2,600+</span>
               </div>
@@ -483,8 +483,8 @@ export default function BudgetGuide() {
         </section>
 
         {/* Money-Saving Tips */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Money-Saving Tips
           </h2>
           <p className="text-muted mb-3">
@@ -536,15 +536,15 @@ export default function BudgetGuide() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">
             Budget FAQ
           </h2>
           <div className="space-y-4">
             {budgetFAQs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -555,7 +555,7 @@ export default function BudgetGuide() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Plan the rest of your weekend
           </h2>
           <p className="text-gray-300 text-sm mb-4">

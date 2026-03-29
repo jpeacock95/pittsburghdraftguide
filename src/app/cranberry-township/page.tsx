@@ -71,15 +71,15 @@ export default function CranberryTownship() {
       />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Cranberry Township
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Getting to the NFL Draft from Cranberry Township
           </h1>
           <p className="text-gray-300">
@@ -102,8 +102,8 @@ export default function CranberryTownship() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Section 1: Why Stay in Cranberry */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Why Stay in Cranberry Township?
           </h2>
           <p className="text-muted mb-3">
@@ -119,11 +119,11 @@ export default function CranberryTownship() {
             probably a jersey.
           </p>
 
-          <div className="bg-green-50 border border-green-200 rounded-lg p-5 mb-4">
-            <p className="text-green-900 font-bold text-lg mb-2">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <p className="text-foreground font-bold text-lg mb-2">
               Why Cranberry works for draft weekend:
             </p>
-            <ul className="text-green-800 space-y-2 list-disc pl-5">
+            <ul className="text-muted space-y-2 list-disc pl-5">
               <li>
                 Hotels run <strong>$120-180/night</strong> vs. $500-2,000
                 downtown
@@ -153,8 +153,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 2: Getting Downtown from Cranberry */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             How to Get Downtown from Cranberry Township
           </h2>
           <p className="text-muted mb-4">
@@ -164,16 +164,16 @@ export default function CranberryTownship() {
           </p>
 
           {/* Option 1: Ross Park & Ride */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-5 mb-4">
+          <div className="border-l-2 border-accent pl-5 mb-4">
             <div className="flex items-start gap-3 mb-3">
-              <span className="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded">
+              <span className="label">
                 #1 BEST OPTION
               </span>
             </div>
-            <h3 className="text-xl font-bold text-blue-900 mb-2">
+            <h3 className="text-xl font-heading mb-2">
               Ross Park &amp; Ride (I-279 Exit 5)
             </h3>
-            <p className="text-blue-800 mb-3">
+            <p className="text-muted mb-3">
               This is it. The option Reddit recommends unanimously. Every single
               thread about getting from Cranberry to the draft says the same
               thing: drive to Ross Park &amp; Ride.
@@ -201,7 +201,7 @@ export default function CranberryTownship() {
                 </li>
               </ol>
             </div>
-            <p className="text-blue-800 text-sm">
+            <p className="text-muted text-sm">
               The drive from most Cranberry hotels to Ross Park &amp; Ride is
               about 10 minutes. Total door-to-draft time: 35-40 minutes. And you
               paid $0 for parking.
@@ -209,8 +209,8 @@ export default function CranberryTownship() {
           </div>
 
           {/* Option 2: Butler Transit Authority */}
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
-            <h3 className="text-lg font-bold mb-2">
+          <div className="card-minimal p-5 mb-4">
+            <h3 className="text-lg font-heading mb-2">
               Butler Transit Authority (528 Lot)
             </h3>
             <p className="text-muted mb-3">
@@ -228,14 +228,14 @@ export default function CranberryTownship() {
           </div>
 
           {/* Option 3: Driving yourself */}
-          <div className="bg-red-50 border border-red-200 rounded-lg p-5 mb-4">
-            <h3 className="text-lg font-bold text-red-900 mb-2">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <h3 className="text-lg font-heading mb-2">
               Driving Yourself Downtown (Not Recommended)
             </h3>
-            <p className="text-red-800 mb-3">
+            <p className="text-muted mb-3">
               Can you do it? Sure. Should you? Probably not. Here's why.
             </p>
-            <ul className="text-red-800 space-y-2 list-disc pl-5 mb-3">
+            <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
               <li>
                 Road closures are massive. Roberto Clemente Bridge, Andy Warhol
                 Bridge, multiple I-279 exits, and Fort Duquesne Boulevard are
@@ -251,7 +251,7 @@ export default function CranberryTownship() {
                 Officials are literally telling people not to drive downtown.
               </li>
             </ul>
-            <p className="text-red-800 text-sm">
+            <p className="text-muted text-sm">
               If you absolutely must drive, take I-279 South from Cranberry,
               exit before downtown, and park in a neighborhood lot. South Side
               or the Strip District are your best bets. Then walk or take the T
@@ -260,8 +260,8 @@ export default function CranberryTownship() {
           </div>
 
           {/* Option 4: Uber/Lyft */}
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
-            <h3 className="text-lg font-bold mb-2">Uber/Lyft from Cranberry</h3>
+          <div className="card-minimal p-5 mb-4">
+            <h3 className="text-lg font-heading mb-2">Uber/Lyft from Cranberry</h3>
             <p className="text-muted mb-3">
               It works. It's just expensive. Expect <strong>$40-80</strong> one
               way with surge pricing during draft weekend. One Reddit commenter
@@ -294,8 +294,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 3: Hotels */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Cranberry Township Hotels ($120-180/night)
           </h2>
           <p className="text-muted mb-4">
@@ -306,12 +306,12 @@ export default function CranberryTownship() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
                   <a href="https://www.hilton.com/en/hotels/pitcmhx-hampton-suites-cranberry-pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hampton Inn &amp; Suites Cranberry</a>
                 </p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $120-160
                 </span>
               </div>
@@ -325,12 +325,12 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
                   <a href="https://www.marriott.com/en-us/hotels/pitct-courtyard-pittsburgh-north-cranberry-woods/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Courtyard by Marriott Cranberry Woods</a>
                 </p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   From $92
                 </span>
               </div>
@@ -343,12 +343,12 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
                   <a href="https://www.hilton.com/en/hotels/pitcrgi-hilton-garden-inn-pittsburgh-cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hilton Garden Inn Pittsburgh/Cranberry</a>
                 </p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $140-180
                 </span>
               </div>
@@ -360,12 +360,12 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
                   <a href="https://www.hilton.com/en/hotels/pitltht-home2-suites-pittsburgh-cranberry-pa/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Home2 Suites by Hilton Cranberry</a>
                 </p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $130-170
                 </span>
               </div>
@@ -378,10 +378,10 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold"><a href="https://www.marriott.com/en-us/hotels/pitno-pittsburgh-marriott-north/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Pittsburgh Marriott North</a></p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $140-180
                 </span>
               </div>
@@ -393,10 +393,10 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold"><a href="https://www.marriott.com/en-us/hotels/pitrr-towneplace-suites-pittsburgh-cranberry-township/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">TownePlace Suites Cranberry</a></p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $120-160
                 </span>
               </div>
@@ -408,12 +408,12 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold">
                   <a href="https://www.bestwestern.com/en_US/book/hotels-in-cranberry-township/best-western-plus-cranberry-pittsburgh-north/propertyCode.39142.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Best Western Plus Cranberry-Pittsburgh North</a>
                 </p>
-                <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   $100-140
                 </span>
               </div>
@@ -426,8 +426,8 @@ export default function CranberryTownship() {
             </div>
           </div>
 
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-            <p className="text-amber-800 text-sm">
+          <div className="border-l-2 border-accent pl-5">
+            <p className="text-muted text-sm">
               <strong>Book now.</strong> These hotels know the draft is
               happening. Prices will climb as April 23 gets closer. Lock in a
               free-cancellation rate today and keep checking. Even at $180/night
@@ -445,8 +445,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 4: Restaurants & Bars */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Restaurants &amp; Bars in Cranberry Township
           </h2>
           <p className="text-muted mb-4">
@@ -457,10 +457,10 @@ export default function CranberryTownship() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start mb-1">
                 <p className="font-semibold"><a href="https://junipergrill.com/locations/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Juniper Grill</a></p>
-                <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded font-semibold">
+                <span className="text-sm text-muted font-semibold">
                   #1 on TripAdvisor
                 </span>
               </div>
@@ -471,7 +471,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://theturnclubs.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Turn Club</a></p>
               <p className="text-sm text-muted">
                 #2 on TripAdvisor. Newer spot that's earned a solid reputation
@@ -479,7 +479,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">
                 <a href="https://firebirdsrestaurants.com/cranberry" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Firebirds Wood Fired Grill</a>
               </p>
@@ -490,7 +490,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://www.napaprimechophouse.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Napa Prime Chophouse</a></p>
               <p className="text-sm text-muted">
                 Upscale steakhouse. OpenTable top pick. If you're celebrating
@@ -498,7 +498,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://www.thesportsgrillecranberry.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Sports Grille at Cranberry</a></p>
               <p className="text-sm text-muted">
                 The spot to watch draft coverage if you don't feel like heading
@@ -507,7 +507,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">
                 <a href="https://www.offthehookfish.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Off The Hook</a> / <a href="https://www.mrmisterpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Mr. Mister Supper Club</a>
               </p>
@@ -517,7 +517,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://tamarindpa.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Tamarind</a></p>
               <p className="text-sm text-muted">
                 Reddit's pick for the best Indian food in the Pittsburgh area.
@@ -527,9 +527,9 @@ export default function CranberryTownship() {
             </div>
           </div>
 
-          <h3 className="text-lg font-bold mb-3">Local Breweries</h3>
+          <h3 className="text-lg font-heading mb-3">Local Breweries</h3>
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://smiling-moose.com/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Smiling Moose</a></p>
               <p className="text-sm text-muted">
                 #1 bar on Yelp for Cranberry (77 reviews). Good spot for a beer
@@ -537,7 +537,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">
                 <a href="https://www.reconbrewing.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Recon Brewing</a> / <a href="https://www.dentedkeg.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Dented Keg</a> / <a href="https://www.stickcitybeer.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Stick City Brewing</a>
               </p>
@@ -562,8 +562,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 5: Day-Trip Strategy */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Day-Trip Strategy
           </h2>
           <p className="text-muted mb-3">
@@ -572,7 +572,7 @@ export default function CranberryTownship() {
             Pennsylvania who want to do the draft as a day trip.
           </p>
 
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
+          <div className="card-minimal p-5 mb-4">
             <p className="font-semibold mb-3">The day-trip game plan:</p>
             <ol className="text-muted space-y-3 list-decimal pl-5">
               <li>
@@ -625,8 +625,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 6: Things to Do in Cranberry */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Things to Do in Cranberry (When You're Not at the Draft)
           </h2>
           <p className="text-muted mb-4">
@@ -635,7 +635,7 @@ export default function CranberryTownship() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://funforeall.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Fun Fore All Family Fun Park</a></p>
               <p className="text-sm text-muted">
                 Go-karts, mini-golf, arcade, bumper boats. TripAdvisor's top
@@ -644,7 +644,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://www.facebook.com/StreetsofCranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Streets of Cranberry</a></p>
               <p className="text-sm text-muted">
                 Outdoor shopping center with restaurants and stores. Good for
@@ -652,7 +652,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1"><a href="https://axethrowingpgh.com/cranberry/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">LumberjAxes Axe Throwing</a></p>
               <p className="text-sm text-muted">
                 Axe throwing in Cranberry. Fun group activity, especially if
@@ -661,7 +661,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">Graham Park</p>
               <p className="text-sm text-muted">
                 Local park for walking and relaxing. Nice in late April when
@@ -673,8 +673,8 @@ export default function CranberryTownship() {
         </section>
 
         {/* Section 7: Other Northern Suburbs */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Other Northern Suburbs (Wexford, Mars, Warrendale)
           </h2>
           <p className="text-muted mb-3">
@@ -683,7 +683,7 @@ export default function CranberryTownship() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">Wexford</p>
               <p className="text-sm text-muted">
                 Just south of Cranberry on I-79. Home to Wexford Public
@@ -693,7 +693,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">Mars</p>
               <p className="text-sm text-muted">
                 East of Cranberry along Route 228. Smaller and quieter, but
@@ -702,7 +702,7 @@ export default function CranberryTownship() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold mb-1">Warrendale</p>
               <p className="text-sm text-muted">
                 Between Cranberry and Wexford on I-79. Some hotel options and
@@ -721,15 +721,15 @@ export default function CranberryTownship() {
         </section>
 
         {/* FAQ Section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Cranberry Township NFL Draft FAQ
           </h2>
           <div className="space-y-4">
             {cranberryFAQs.map((faq, index) => (
               <div
                 key={index}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-semibold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -754,7 +754,7 @@ export default function CranberryTownship() {
         </section>
 
         {/* Cross-links */}
-        <section className="bg-surface border border-border rounded-lg p-6">
+        <section className="card-minimal p-6">
           <p className="font-semibold mb-3">More Draft Weekend Guides</p>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             <Link

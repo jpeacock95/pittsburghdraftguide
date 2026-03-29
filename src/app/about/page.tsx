@@ -22,15 +22,15 @@ export default function About() {
         ]}
       />
 
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / About This Guide
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Why This Guide Exists
           </h1>
           <p className="text-gray-300">
@@ -54,7 +54,7 @@ export default function About() {
             />
           </div>
           <div>
-            <h2 className="text-2xl font-bold mb-1">Jordan Peacock</h2>
+            <h2 className="text-2xl font-heading mb-1">Jordan Peacock</h2>
             <p className="text-sm text-muted mb-3">
               Cranberry Township, PA
             </p>
@@ -124,7 +124,7 @@ export default function About() {
 
         {/* Bookkeeping section */}
         <div className="mt-12 pt-8 border-t border-border">
-          <h2 className="text-xl font-bold mb-4">If you need a bookkeeper</h2>
+          <h2 className="text-xl font-heading mb-4">If you need a bookkeeper</h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
               I wasn't going to put this here, but it felt weird not to. This is
@@ -205,7 +205,7 @@ export default function About() {
 
         {/* Dante section */}
         <div className="mt-12 pt-8 border-t border-border">
-          <h2 className="text-xl font-bold mb-4">About Dante</h2>
+          <h2 className="text-xl font-heading mb-4">About Dante</h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <div className="flex flex-col sm:flex-row gap-6 mb-4">
               <div className="flex-shrink-0">
@@ -312,7 +312,7 @@ export default function About() {
                 partner="dante"
                 action="phone"
                 page="about"
-                className="inline-block bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
+                className="inline-block bg-white border border-blue-600 text-primary hover:bg-blue-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 Call Dante
               </TrackedLink>
@@ -343,7 +343,7 @@ export default function About() {
 
         {/* What happens after the draft */}
         <div className="mt-12 pt-8 border-t border-border">
-          <h2 className="text-xl font-bold mb-4">What happens after the draft</h2>
+          <h2 className="text-xl font-heading mb-4">What happens after the draft</h2>
           <div className="space-y-4 text-muted leading-relaxed">
             <p>
               This site isn't going away on April 26. I'm planning to turn it
@@ -355,8 +355,8 @@ export default function About() {
         </div>
 
         {/* Want to be featured */}
-        <section className="mt-12 bg-surface border border-border rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+        <section className="mt-12 card-minimal p-6 text-center">
+          <h2 className="text-lg font-heading mb-2">
             Want to Be Featured on This Site?
           </h2>
           <p className="text-sm text-muted mb-4">

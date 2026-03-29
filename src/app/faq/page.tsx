@@ -150,15 +150,15 @@ export default function FAQ() {
       <FAQSchema items={faqItems} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / FAQ
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             NFL Draft Pittsburgh 2026: Top 20 Questions Answered
           </h1>
           <p className="text-gray-300">
@@ -181,14 +181,14 @@ export default function FAQ() {
         <LastUpdated date="March 29, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">
             Getting There &amp; Parking
           </h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Where do I park for the NFL Draft in Pittsburgh?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -214,8 +214,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 How do I get to the NFL Draft without driving?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -241,8 +241,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Which bridges and roads are closed during the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -260,8 +260,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 How bad will traffic be during the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -280,8 +280,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 How much will Uber and Lyft cost during draft weekend?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -302,12 +302,12 @@ export default function FAQ() {
         </section>
 
         {/* ========== SECTION 2: Tickets & Entry ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Tickets &amp; Entry</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">Tickets &amp; Entry</h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Is the NFL Draft free to attend?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -324,8 +324,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Do I need to register for the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -341,8 +341,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 What is the NFL Draft bag policy?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -357,8 +357,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 What time should I arrive at the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -385,12 +385,12 @@ export default function FAQ() {
         </section>
 
         {/* ========== SECTION 3: Where to Stay ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Where to Stay</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">Where to Stay</h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Are there affordable hotels left for draft weekend?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -415,8 +415,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Hotel vs. Airbnb: which is cheaper for draft weekend?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -433,8 +433,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Should I stay in Cranberry Township for the draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -461,12 +461,12 @@ export default function FAQ() {
         </section>
 
         {/* ========== SECTION 4: What to Do ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">What to Do</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">What to Do</h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 What is there to do at the draft besides watching picks?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -494,8 +494,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Is it worth going on Day 3 (Saturday)?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -520,8 +520,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Are there free concerts at the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -538,8 +538,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Is the NFL Draft family-friendly?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -560,12 +560,12 @@ export default function FAQ() {
         </section>
 
         {/* ========== SECTION 5: Practical Stuff ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">Practical Stuff</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">Practical Stuff</h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 What should I wear and bring to the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -587,8 +587,8 @@ export default function FAQ() {
               </ul>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 How many people are actually coming? Is it really 700,000?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -611,8 +611,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 What's the weather like in Pittsburgh in late April?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -628,8 +628,8 @@ export default function FAQ() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Where can I charge my phone at the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -649,12 +649,12 @@ export default function FAQ() {
         </section>
 
         {/* ========== SECTION 6: For Locals ========== */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">For Locals</h2>
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">For Locals</h2>
 
           <div className="space-y-5">
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <h3 className="font-bold text-lg mb-2">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
                 Can I still get to work downtown during the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
@@ -675,8 +675,8 @@ export default function FAQ() {
         </section>
 
         {/* ========== CTA ========== */}
-        <section className="bg-surface border border-border rounded-lg p-6 text-center">
-          <h2 className="text-xl font-bold mb-3">
+        <section className="card-minimal p-6 text-center">
+          <h2 className="text-xl font-heading mb-3">
             Still Have Questions? We've Got More Guides.
           </h2>
           <p className="text-sm text-muted mb-5">

@@ -47,15 +47,15 @@ export default function ParkingPage() {
       <FAQSchema items={parkingFAQs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Parking &amp; Transportation
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             NFL Draft Pittsburgh Parking Guide 2026
           </h1>
           <p className="text-gray-300">
@@ -82,16 +82,16 @@ export default function ParkingPage() {
         <div className="mb-6" />
 
         {/* Don't drive warning */}
-        <section className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-10">
-          <h2 className="text-xl font-bold text-amber-900 mb-2">
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">
             Should You Drive? Officials Say No. Here's Why.
           </h2>
-          <p className="text-amber-800 mb-3">
+          <p className="text-muted mb-3">
             Pittsburgh city officials, PRT (the transit authority), and the NFL
             are all saying the same thing: don't drive downtown for the draft.
             They're not being dramatic. Here's what you're up against:
           </p>
-          <ul className="text-amber-800 space-y-2 list-disc pl-5">
+          <ul className="text-muted space-y-2 list-disc pl-5">
             <li>
               Most North Shore parking lots are{" "}
               <strong>closed for stage construction</strong>
@@ -112,23 +112,23 @@ export default function ParkingPage() {
               all of them
             </li>
           </ul>
-          <p className="text-amber-800 mt-3 font-semibold">
+          <p className="text-muted mt-3 font-semibold">
             The best move: park at a suburban lot, take the bus or T downtown.
             Keep reading for exactly how to do that.
           </p>
         </section>
 
         {/* Free transit callout */}
-        <section className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-10">
-          <h2 className="text-xl font-bold text-green-900 mb-2">
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">
             ALL T Rides Are FREE April 23-25 (Sheetz + PRT)
           </h2>
-          <p className="text-green-800 mb-3">
+          <p className="text-muted mb-3">
             Sheetz just partnered with PRT to cover all fares on the T light
             rail (red, blue, and silver lines) and the Monongahela Incline
             during draft weekend. Every station. Every line. $0.
           </p>
-          <ul className="text-green-800 space-y-2 list-disc pl-5 mb-3">
+          <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
             <li>
               Park at <strong>South Hills Village</strong>, <strong>Dormont</strong>, or <strong>Castle Shannon</strong> T stations and ride straight downtown for free
             </li>
@@ -139,10 +139,10 @@ export default function ParkingPage() {
               <strong>Butler Transit</strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to Ross Park lot — $10 round trip, exact cash only
             </li>
           </ul>
-          <p className="text-green-800 text-sm">
+          <p className="text-muted text-sm">
             <Link
               href="/getting-around"
-              className="text-green-900 font-semibold hover:underline"
+              className="text-primary font-semibold hover:underline"
             >
               Full transit details on our Getting Around page &rarr;
             </Link>
@@ -150,15 +150,15 @@ export default function ParkingPage() {
         </section>
 
         {/* Downtown parking map */}
-        <section className="mb-10">
-          <h3 className="text-lg font-bold mb-2">Parking Near Draft Venues</h3>
+        <section className="mb-14">
+          <h3 className="text-lg font-heading mb-2">Parking Near Draft Venues</h3>
           <p className="text-sm text-muted mb-3">
             Parking garages and lots near Point State Park and Acrisure
             Stadium. Most North Shore lots are closed for stage
             construction. Downtown garages are your closest option if
             you're driving.
           </p>
-          <div className="rounded-lg overflow-hidden border border-border mb-4">
+          <div className="rounded-lg overflow-hidden mb-4">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6068!2d-80.008!3d40.442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparking+garages+near+Point+State+Park+Pittsburgh+PA!5e0!3m2!1sen!2sus!4v1"
               width="100%"
@@ -171,13 +171,13 @@ export default function ParkingPage() {
             />
           </div>
 
-          <h3 className="text-lg font-bold mb-2">Park-and-Ride Locations</h3>
+          <h3 className="text-lg font-heading mb-2">Park-and-Ride Locations</h3>
           <p className="text-sm text-muted mb-3">
             Officials say don't drive downtown. These park-and-ride
             lots let you park for free and take the bus or T light rail
             to the draft.
           </p>
-          <div className="rounded-lg overflow-hidden border border-border">
+          <div className="rounded-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48540!2d-80.05!3d40.47!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spark+and+ride+pittsburgh+PA!5e0!3m2!1sen!2sus!4v1"
               width="100%"
@@ -192,8 +192,8 @@ export default function ParkingPage() {
         </section>
 
         {/* Park and ride */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Park-and-Ride Locations (By Direction)
           </h2>
           <p className="text-muted mb-4">
@@ -202,8 +202,8 @@ export default function ParkingPage() {
             based on where you're coming from.
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">From the North (Cranberry, Ross, McCandless)</h3>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <h3 className="text-lg font-heading mt-6 mb-2">From the North (Cranberry, Ross, McCandless)</h3>
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">Ross Park &amp; Ride (I-279 Exit 5)</p>
             <p className="text-sm text-muted">
               The #1 recommendation on Reddit for anyone coming from the north.
@@ -211,7 +211,7 @@ export default function ParkingPage() {
               draft venues.
             </p>
           </div>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">Butler Transit Authority (Route 528 Lot)</p>
             <p className="text-sm text-muted">
               Commuter bus from Butler County. Good option if you're coming from
@@ -227,8 +227,8 @@ export default function ParkingPage() {
             </Link>
           </p>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">From the South</h3>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <h3 className="text-lg font-heading mt-6 mb-2">From the South</h3>
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">South Hills Village T Station</p>
             <p className="text-sm text-muted">
               Park here and ride the T light rail directly to Allegheny Station
@@ -236,7 +236,7 @@ export default function ParkingPage() {
               downtown. About 35 minutes.
             </p>
           </div>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">Dormont T Stations (Beechview, Dormont, Castle Shannon)</p>
             <p className="text-sm text-muted">
               Multiple stations along the T line with paid parking lots and free
@@ -244,8 +244,8 @@ export default function ParkingPage() {
             </p>
           </div>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">From the East</h3>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <h3 className="text-lg font-heading mt-6 mb-2">From the East</h3>
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">Wilkinsburg Park &amp; Ride</p>
             <p className="text-sm text-muted">
               Take the P1 bus. 15 minutes to downtown. The East Busway is one of
@@ -254,8 +254,8 @@ export default function ParkingPage() {
             </p>
           </div>
 
-          <h3 className="text-lg font-bold mt-6 mb-2">From the West / Airport</h3>
-          <div className="bg-surface border border-border rounded-lg p-4 mb-4">
+          <h3 className="text-lg font-heading mt-6 mb-2">From the West / Airport</h3>
+          <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">PRT Route 28X</p>
             <p className="text-sm text-muted">
               Airport bus service to downtown. PRT is adding extra 28X service
@@ -265,12 +265,12 @@ export default function ParkingPage() {
         </section>
 
         {/* Downtown parking */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             If You Must Drive: Parking Options and Pricing
           </h2>
 
-          <h3 className="text-lg font-bold mt-6 mb-3">Pre-Book on SpotHero</h3>
+          <h3 className="text-lg font-heading mt-6 mb-3">Pre-Book on SpotHero</h3>
           <p className="text-muted mb-4">
             The smartest move if you're driving is to pre-book a guaranteed spot.{" "}
             <a
@@ -284,21 +284,21 @@ export default function ParkingPage() {
             has listings starting from $10.99 for suburban lots and
             $50+ for downtown locations. Prices go up as the event gets closer.
           </p>
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+          <div className="border-l-2 border-accent pl-5 mb-4">
             <a
               href="https://spothero.com/city/pittsburgh-parking"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-bold text-green-900 hover:underline"
+              className="font-bold text-foreground hover:underline"
             >
               Search Pittsburgh Parking on SpotHero &rarr;
             </a>
-            <p className="text-sm text-green-800 mt-1">
+            <p className="text-sm text-muted mt-1">
               Pre-book a guaranteed spot now. Prices are going up daily as the draft gets closer.
             </p>
           </div>
 
-          <h3 className="text-lg font-bold mt-6 mb-3">Downtown Garages</h3>
+          <h3 className="text-lg font-heading mt-6 mb-3">Downtown Garages</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border border-border rounded-lg">
               <thead className="bg-surface">
@@ -335,8 +335,8 @@ export default function ParkingPage() {
         </section>
 
         {/* The T */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The T Light Rail: Free Rides Between Both Venues
           </h2>
           <p className="text-muted mb-3">
@@ -354,8 +354,8 @@ export default function ParkingPage() {
         </section>
 
         {/* Road closures */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Road Closures You Need to Know
           </h2>
           <p className="text-muted mb-4">
@@ -393,8 +393,8 @@ export default function ParkingPage() {
         </section>
 
         {/* Uber/Lyft */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Uber and Lyft Tips
           </h2>
           <p className="text-muted mb-3">
@@ -422,15 +422,15 @@ export default function ParkingPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">
             Parking FAQ
           </h2>
           <div className="space-y-4">
             {parkingFAQs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -441,7 +441,7 @@ export default function ParkingPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Need the full picture?
           </h2>
           <p className="text-gray-300 text-sm mb-4">

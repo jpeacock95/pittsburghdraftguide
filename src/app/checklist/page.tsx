@@ -20,15 +20,15 @@ export default function ChecklistPage() {
         ]}
       />
 
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Draft Weekend Checklist
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Your Draft Weekend Checklist
           </h1>
           <p className="text-gray-300">
@@ -42,7 +42,7 @@ export default function ChecklistPage() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Weather note */}
-        <div className="bg-surface border border-border rounded-lg p-4 mb-8">
+        <div className="card-minimal p-4 mb-8">
           <p className="text-sm text-muted">
             <strong className="text-foreground">Pittsburgh weather in late April:</strong> Expect 45-65&#176;F (7-18&#176;C). Rain is common. Dress in layers and bring a light rain jacket. Check the{" "}
             <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-primary underline font-semibold">forecast</a>{" "}
@@ -51,8 +51,8 @@ export default function ChecklistPage() {
         </div>
 
         {/* Before you go */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Before You Leave Home</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Before You Leave Home</h2>
           <div className="space-y-3">
             <CheckItem>Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register (required for free entry)</CheckItem>
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
@@ -67,10 +67,10 @@ export default function ChecklistPage() {
         </section>
 
         {/* Packing list */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">What to Pack</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">What to Pack</h2>
 
-          <h3 className="text-lg font-bold mt-6 mb-3">Must-Haves</h3>
+          <h3 className="text-lg font-heading mt-6 mb-3">Must-Haves</h3>
           <div className="space-y-3">
             {/* TODO: Replace Amazon links with affiliate links once Associate tag is received */}
             <CheckItem>
@@ -87,7 +87,7 @@ export default function ChecklistPage() {
             <CheckItem>Your phone with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> installed and your account set up</CheckItem>
           </div>
 
-          <h3 className="text-lg font-bold mt-6 mb-3">Smart Additions</h3>
+          <h3 className="text-lg font-heading mt-6 mb-3">Smart Additions</h3>
           <div className="space-y-3">
             <CheckItem>
               <a href="https://www.amazon.com/s?k=sport+sunscreen+spf+50" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Sunscreen</a> — if it's a clear day, you're outside for hours
@@ -102,7 +102,7 @@ export default function ChecklistPage() {
             <CheckItem text="Small umbrella that fits in your clear bag" />
           </div>
 
-          <h3 className="text-lg font-bold mt-6 mb-3">Leave at Home</h3>
+          <h3 className="text-lg font-heading mt-6 mb-3">Leave at Home</h3>
           <div className="space-y-3">
             <CheckItem
               text="Large bags, backpacks, or purses (won't pass security)"
@@ -116,8 +116,8 @@ export default function ChecklistPage() {
         </section>
 
         {/* Day-of checklist */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Day-Of Checklist</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Day-Of Checklist</h2>
           <div className="space-y-3">
             <CheckItem text="Phone charged to 100%" />
             <CheckItem text="Portable charger fully charged" />
@@ -133,10 +133,10 @@ export default function ChecklistPage() {
         </section>
 
         {/* Key times */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Key Times to Remember</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Key Times to Remember</h2>
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Wednesday, April 22</p>
@@ -147,7 +147,7 @@ export default function ChecklistPage() {
                 </span>
               </div>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Thursday, April 23</p>
@@ -158,7 +158,7 @@ export default function ChecklistPage() {
                 </span>
               </div>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Friday, April 24</p>
@@ -169,7 +169,7 @@ export default function ChecklistPage() {
                 </span>
               </div>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Saturday, April 25</p>
@@ -184,50 +184,50 @@ export default function ChecklistPage() {
         </section>
 
         {/* Free transit callout */}
-        <section className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-10">
-          <p className="font-bold text-green-900 text-lg mb-2">
+        <section className="border-l-2 border-accent pl-5 mb-10">
+          <p className="font-bold text-foreground text-lg mb-2">
             ALL T Rides FREE April 23-25 (Sheetz + PRT)
           </p>
-          <div className="space-y-2 text-sm text-green-800">
+          <div className="space-y-2 text-sm text-muted">
             <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5) — Football Flyer bus, 25 min</p>
             <p><strong>From South:</strong> South Hills Village T Station — ride the T for free, 35 min</p>
             <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride — P1 bus, 15 min</p>
             <p><strong>From West/Airport:</strong> PRT Route 28X, 45-60 min</p>
             <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride — Butler Transit every 30 min to Ross Park lot ($10 round trip, exact cash)</p>
           </div>
-          <p className="text-sm text-green-800 mt-3">
+          <p className="text-sm text-muted mt-3">
             Sheetz is covering all fares on the T (red, blue, silver lines) and the Monongahela Incline all 3 days. Park at any T station and ride downtown for $0.
           </p>
         </section>
 
         {/* Quick reference links */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Quick Reference Links</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Quick Reference Links</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <Link
               href="/parking-transportation"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors block"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
             >
               <p className="font-bold">Parking Guide</p>
               <p className="text-sm text-muted">Park-and-ride locations, pricing, road closures</p>
             </Link>
             <Link
               href="/schedule"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors block"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
             >
               <p className="font-bold">Full Schedule</p>
               <p className="text-sm text-muted">Round times, bag policy, OnePass details</p>
             </Link>
             <Link
               href="/itinerary"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors block"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
             >
               <p className="font-bold">Day-by-Day Itinerary</p>
               <p className="text-sm text-muted">Hour-by-hour plan for each day</p>
             </Link>
             <Link
               href="/bars-restaurants"
-              className="bg-surface border border-border rounded-lg p-4 hover:border-primary transition-colors block"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
             >
               <p className="font-bold">Where to Eat</p>
               <p className="text-sm text-muted">Restaurants and bars by neighborhood</p>
@@ -236,9 +236,9 @@ export default function ChecklistPage() {
         </section>
 
         {/* Final note */}
-        <section className="bg-green-50 border border-green-200 rounded-lg p-5 text-center">
-          <p className="font-bold text-green-900">You're ready.</p>
-          <p className="text-sm text-green-800 mt-1">
+        <section className="border-l-2 border-accent pl-5 text-center">
+          <p className="font-bold text-foreground">You're ready.</p>
+          <p className="text-sm text-muted mt-1">
             Bookmark this page and check it the night before you head to Pittsburgh.
             Have an amazing draft weekend.
           </p>
@@ -253,7 +253,7 @@ export default function ChecklistPage() {
 function CheckItem({ text, isNo, children }: { text?: string; isNo?: boolean; children?: React.ReactNode }) {
   return (
     <div className="flex items-start gap-3">
-      <span className={`mt-0.5 text-lg ${isNo ? "text-red-500" : "text-green-600"}`}>
+      <span className={`mt-0.5 text-lg ${isNo ? "text-muted" : "text-accent"}`}>
         {isNo ? "\u2717" : "\u2713"}
       </span>
       <p className="text-sm text-muted">{children || text}</p>

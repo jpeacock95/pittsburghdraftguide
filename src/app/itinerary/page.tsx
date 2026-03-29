@@ -23,10 +23,10 @@ function TimeSlot({
 }) {
   return (
     <div
-      className={`flex gap-4 rounded-lg border p-4 ${
+      className={`flex gap-4 p-4 ${
         highlight
-          ? "border-accent bg-amber-50"
-          : "border-border bg-surface"
+          ? "border-l-2 border-accent pl-5"
+          : ""
       }`}
     >
       <div className="shrink-0 w-24 md:w-28">
@@ -56,7 +56,7 @@ function DayHeader({
       <p className="text-sm font-semibold uppercase tracking-wide opacity-80">
         {day}
       </p>
-      <h2 className="text-2xl font-bold">{date}</h2>
+      <h2 className="text-2xl font-heading">{date}</h2>
       <p className="text-sm mt-1 opacity-90">{tagline}</p>
     </div>
   );
@@ -73,15 +73,15 @@ export default function ItineraryPage() {
       />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Itinerary
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             NFL Draft Pittsburgh Day-by-Day Itinerary
           </h1>
           <p className="text-gray-300">
@@ -96,7 +96,7 @@ export default function ItineraryPage() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Quick nav */}
-        <nav className="bg-surface border border-border rounded-lg p-4 mb-10">
+        <nav className="card-minimal p-4 mb-14">
           <p className="font-bold mb-2">Jump to a day:</p>
           <div className="flex flex-wrap gap-2">
             <a
@@ -146,7 +146,7 @@ export default function ItineraryPage() {
         </p>
 
         {/* ===================== WEDNESDAY ===================== */}
-        <section id="wednesday" className="mb-12 scroll-mt-20">
+        <section id="wednesday" className="mb-16 scroll-mt-20">
           <DayHeader
             day="Pre-Draft"
             date="Wednesday, April 22"
@@ -216,7 +216,7 @@ export default function ItineraryPage() {
         </section>
 
         {/* ===================== THURSDAY ===================== */}
-        <section id="thursday" className="mb-12 scroll-mt-20">
+        <section id="thursday" className="mb-16 scroll-mt-20">
           <DayHeader
             day="Day 1 — The Big Night"
             date="Thursday, April 23"
@@ -353,12 +353,12 @@ export default function ItineraryPage() {
         </section>
 
         {/* ===================== FRIDAY ===================== */}
-        <section id="friday" className="mb-12 scroll-mt-20">
+        <section id="friday" className="mb-16 scroll-mt-20">
           <DayHeader
             day="Day 2 — The Sweet Spot"
             date="Friday, April 24"
             tagline="Smaller crowds than Thursday. Better vibes. Locals call this the best day."
-            color="bg-blue-700 text-white"
+            color="bg-primary-dark text-white"
           />
 
           <div className="space-y-3">
@@ -507,7 +507,7 @@ export default function ItineraryPage() {
         </section>
 
         {/* ===================== SATURDAY ===================== */}
-        <section id="saturday" className="mb-12 scroll-mt-20">
+        <section id="saturday" className="mb-16 scroll-mt-20">
           <DayHeader
             day="Day 3 — The Local's Pick"
             date="Saturday, April 25"
@@ -699,8 +699,8 @@ export default function ItineraryPage() {
         </section>
 
         {/* ===================== PRO TIPS ===================== */}
-        <section id="pro-tips" className="mb-10 scroll-mt-20">
-          <h2 className="text-2xl font-bold mb-4">
+        <section id="pro-tips" className="mb-14 scroll-mt-20">
+          <h2 className="text-2xl font-heading mb-4">
             Pro Tips from Locals and Reddit
           </h2>
           <p className="text-muted mb-4">
@@ -710,7 +710,7 @@ export default function ItineraryPage() {
           </p>
 
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">Saturday is the insider's pick</p>
               <p className="text-sm text-muted">
                 Locals say it. Reddit confirms it. Day 3 has the smallest
@@ -720,7 +720,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Thursday is for die-hards. Friday is the sweet spot.
               </p>
@@ -732,7 +732,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Download OnePass Wednesday night
               </p>
@@ -744,7 +744,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Bring a portable charger. Your phone will die.
               </p>
@@ -756,7 +756,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Don't drive. Seriously.
               </p>
@@ -777,7 +777,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Eat early or eat late. Never at peak time.
               </p>
@@ -789,7 +789,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Check the weather. Pittsburgh in late April is unpredictable.
               </p>
@@ -801,7 +801,7 @@ export default function ItineraryPage() {
               </p>
             </div>
 
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">
                 Walk a few blocks before calling an Uber
               </p>
@@ -817,8 +817,8 @@ export default function ItineraryPage() {
         </section>
 
         {/* Which day is right for you */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Which Day Is Right for You?
           </h2>
           <div className="overflow-x-auto">
@@ -870,7 +870,7 @@ export default function ItineraryPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">Plan the rest of your trip</h2>
+          <h2 className="text-lg font-heading mb-2">Plan the rest of your trip</h2>
           <p className="text-gray-300 text-sm mb-4">
             This itinerary tells you when. These guides tell you everything
             else.

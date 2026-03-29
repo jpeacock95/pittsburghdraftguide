@@ -31,24 +31,24 @@ function SpotCard({
   const isPrivate = status === "private";
 
   return (
-    <div className={`border rounded-lg p-4 ${isClosed ? "bg-red-950/30 border-red-800/40" : isPrivate ? "bg-amber-950/30 border-amber-700/40" : "bg-surface border-border"}`}>
+    <div className={`p-4 ${isClosed ? "opacity-50" : isPrivate ? "border-l-2 border-accent pl-5" : "card-minimal"}`}>
       {isClosed && (
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-xs font-bold bg-red-700 text-white px-2.5 py-1 rounded-full">
+          <span className="label">
             Permanently Closed
           </span>
         </div>
       )}
       {isPrivate && (
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-xs font-bold bg-amber-600 text-white px-2.5 py-1 rounded-full">
+          <span className="label">
             Private Events Only - Draft Weekend
           </span>
         </div>
       )}
       <div>
         {url && !isClosed ? (
-          <a href={url} target="_blank" rel="noopener noreferrer" className={`font-bold hover:underline ${isPrivate ? "text-amber-300" : "text-primary"}`}>
+          <a href={url} target="_blank" rel="noopener noreferrer" className="font-bold hover:underline text-primary">
             {name}
           </a>
         ) : (
@@ -96,13 +96,13 @@ export default function BarsRestaurants() {
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Bars &amp; Restaurants
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Where to Eat &amp; Drink: NFL Draft Pittsburgh
           </h1>
           <p className="text-gray-300">
@@ -124,8 +124,8 @@ export default function BarsRestaurants() {
 
         <LastUpdated date="March 29, 2026" />
 
-        <div className="bg-amber-900/20 border border-amber-700/30 rounded-lg p-4 mb-6">
-          <p className="text-sm font-bold text-amber-400 mb-1">Draft Weekend Heads Up</p>
+        <div className="border-l-2 border-accent pl-5 mb-6">
+          <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>
           <p className="text-sm text-muted">
             Some bars and restaurants near the draft venues have been bought out
             for private NFL and corporate events, especially Thursday night (Round 1).
@@ -152,7 +152,7 @@ export default function BarsRestaurants() {
               <a
                 key={s.id}
                 href={`#${s.id}`}
-                className="text-xs bg-surface border border-border px-3 py-1.5 rounded-full hover:bg-primary hover:text-white hover:border-primary transition-colors"
+                className="text-xs px-3 py-1.5 rounded-full hover:bg-primary-dark hover:text-white transition-colors text-muted"
               >
                 {s.label}
               </a>
@@ -169,8 +169,8 @@ export default function BarsRestaurants() {
         />
 
         {/* North Shore */}
-        <section id="north-shore" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="north-shore" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             North Shore (Walking Distance from the Draft Stage)
           </h2>
           <p className="text-muted mb-4">
@@ -258,8 +258,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Downtown */}
-        <section id="downtown" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="downtown" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             Downtown &amp; Near Point State Park
           </h2>
           <p className="text-muted mb-4">
@@ -338,8 +338,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Strip District */}
-        <section id="strip-district" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="strip-district" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             Strip District (10-Minute Walk, Pittsburgh's Foodie Neighborhood)
           </h2>
           <p className="text-muted mb-4">
@@ -403,8 +403,8 @@ export default function BarsRestaurants() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
-        <section id="south-side" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="south-side" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             South Side / Carson Street (80+ Bars, Best Nightlife)
           </h2>
           <p className="text-muted mb-4">
@@ -469,8 +469,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Breweries */}
-        <section id="breweries" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">Breweries Worth the Trip</h2>
+        <section id="breweries" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">Breweries Worth the Trip</h2>
           <p className="text-muted mb-4">
             Pittsburgh's craft beer scene is serious. These are slightly outside
             the draft footprint but absolutely worth the Uber ride.
@@ -514,8 +514,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Budget Eats */}
-        <section id="budget" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">Budget Eats Under $15</h2>
+        <section id="budget" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">Budget Eats Under $15</h2>
           <p className="text-muted mb-4">
             Not everyone wants to drop $50 on dinner. Here are quick, affordable
             options near the draft venues.
@@ -567,8 +567,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Taste of the Draft */}
-        <section id="taste" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="taste" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             Taste of the Draft (Tuesday, April 22)
           </h2>
           <p className="text-muted mb-4">
@@ -577,7 +577,7 @@ export default function BarsRestaurants() {
             food event benefiting GENYOUth (fighting student hunger). Tickets are
             $845 and it's a premium experience.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-4">
+          <div className="card-minimal p-4">
             <p className="font-bold">What you get:</p>
             <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
               <li>Food from 20+ of Pittsburgh's top restaurants</li>
@@ -594,8 +594,8 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Where Locals Actually Eat */}
-        <section id="locals" className="mb-10 scroll-mt-16">
-          <h2 className="text-2xl font-bold mb-2">
+        <section id="locals" className="mb-14 scroll-mt-16">
+          <h2 className="text-2xl font-heading mb-2">
             Where Locals Actually Eat (Skip Primanti Bros)
           </h2>
           <p className="text-muted mb-4">
@@ -659,7 +659,7 @@ export default function BarsRestaurants() {
 
         {/* Cross-links */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Plan the rest of your draft weekend
           </h2>
           <p className="text-gray-300 text-sm mb-4">

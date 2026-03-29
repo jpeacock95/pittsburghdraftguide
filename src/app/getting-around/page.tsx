@@ -50,15 +50,15 @@ export default function GettingAroundPage() {
       <FAQSchema items={gettingAroundFAQs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Getting Around
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Getting Around Pittsburgh During the NFL Draft
           </h1>
           <p className="text-gray-300">
@@ -80,8 +80,8 @@ export default function GettingAroundPage() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Two Venues (And How to Get Between Them)
           </h2>
           <p className="text-muted mb-3">
@@ -89,14 +89,14 @@ export default function GettingAroundPage() {
             Allegheny River:
           </p>
           <div className="grid sm:grid-cols-2 gap-4 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">Draft Theater</p>
               <p className="text-sm text-muted">
                 North Shore, near Acrisure Stadium. This is the main stage where
                 picks get announced. Fan viewing on the field for Rounds 1-3.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold mb-1">Draft Experience</p>
               <p className="text-sm text-muted">
                 Point State Park, downtown. Free fan festival with the 40-yard
@@ -105,11 +105,11 @@ export default function GettingAroundPage() {
               </p>
             </div>
           </div>
-          <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-            <p className="font-bold text-green-900 text-sm mb-2">
+          <div className="border-l-2 border-accent pl-5">
+            <p className="font-bold text-foreground text-sm mb-2">
               3 ways to get between them:
             </p>
-            <ul className="text-sm text-green-800 space-y-2 list-disc pl-5">
+            <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
                 <strong>Walk across Roberto Clemente Bridge</strong> --
                 Pedestrian-only during draft weekend. About 15 minutes door to
@@ -129,13 +129,13 @@ export default function GettingAroundPage() {
 
           {/* Map */}
           <div className="mt-6">
-            <h3 className="text-lg font-bold mb-2">Draft Venue Map</h3>
+            <h3 className="text-lg font-heading mb-2">Draft Venue Map</h3>
             <p className="text-sm text-muted mb-3">
               Point State Park (Draft Experience) is at the bottom. Acrisure
               Stadium (Draft Theater) is across the river at the top. Roberto
               Clemente Bridge connects them. Transit stops are pinned.
             </p>
-            <div className="rounded-lg overflow-hidden border border-border">
+            <div className="rounded-lg overflow-hidden">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6068!2d-80.008!3d40.442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stransit+stops+near+Point+State+Park+and+Acrisure+Stadium+Pittsburgh+PA!5e0!3m2!1sen!2sus!4v1"
                 width="100%"
@@ -151,21 +151,21 @@ export default function GettingAroundPage() {
         </section>
 
         {/* The T */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The T Light Rail (Your Best Friend)
           </h2>
-          <div className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-4">
-            <p className="font-bold text-green-900 text-lg mb-2">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <p className="font-bold text-foreground text-lg mb-2">
               ALL T rides are FREE during draft weekend
             </p>
-            <p className="text-sm text-green-800 mb-3">
+            <p className="text-sm text-muted mb-3">
               Sheetz and PRT just announced a partnership covering all fares on
               the T (red, blue, and silver lines) and the Monongahela Incline
               from April 23-25. Not just the downtown Free Fare Zone. Every
               station. Every line. Every ride. Free.
             </p>
-            <p className="text-sm text-green-800">
+            <p className="text-sm text-muted">
               That means you can park at South Hills Village, ride the T all
               the way downtown, and pay $0. This is the single best
               transportation hack for draft weekend.
@@ -176,7 +176,7 @@ export default function GettingAroundPage() {
             downtown/North Shore area is a permanent Free Fare Zone. But during
             draft weekend, Sheetz is covering fares on the entire system.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
+          <div className="card-minimal p-5 mb-4">
             <h3 className="font-bold mb-3">Draft weekend transit details</h3>
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
@@ -202,11 +202,11 @@ export default function GettingAroundPage() {
               </li>
             </ul>
           </div>
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <p className="font-bold text-blue-900 text-sm mb-1">
+          <div className="border-l-2 border-accent pl-5">
+            <p className="font-bold text-foreground text-sm mb-1">
               Pro tip for drivers
             </p>
-            <p className="text-sm text-blue-800">
+            <p className="text-sm text-muted">
               Park at South Hills Village, Dormont, or Castle Shannon T
               stations. Ride the T straight downtown for free. You'll
               skip all the parking chaos and road closures. About 35
@@ -216,8 +216,8 @@ export default function GettingAroundPage() {
         </section>
 
         {/* Football Flyer */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Football Flyer Bus Routes
           </h2>
           <p className="text-muted mb-3">
@@ -227,7 +227,7 @@ export default function GettingAroundPage() {
             straight to the venues.
           </p>
           <div className="space-y-3 mb-4">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold text-sm">From the North</p>
               <p className="text-sm text-muted">
                 Ross Park &amp; Ride (I-279 Exit 5). The #1 recommendation for
@@ -235,14 +235,14 @@ export default function GettingAroundPage() {
                 About 25 minutes to the draft venues.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold text-sm">From the South</p>
               <p className="text-sm text-muted">
                 South Hills Village T Station or Dormont T stations. Park and
                 ride the T directly into the Free Fare Zone.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold text-sm">From the East</p>
               <p className="text-sm text-muted">
                 Wilkinsburg Park &amp; Ride on the East Busway. P1 bus. 15
@@ -250,7 +250,7 @@ export default function GettingAroundPage() {
                 routes.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold text-sm">From the West / Airport</p>
               <p className="text-sm text-muted">
                 PRT Route 28X airport bus. Extra service added for draft
@@ -269,8 +269,8 @@ export default function GettingAroundPage() {
         </section>
 
         {/* Walking routes */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Walking Routes</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Walking Routes</h2>
           <p className="text-muted mb-4">
             Pittsburgh is more walkable than most people expect, especially in
             the draft area. Here are the key walking routes and times.
@@ -338,11 +338,11 @@ export default function GettingAroundPage() {
               </tbody>
             </table>
           </div>
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-            <p className="font-bold text-amber-900 text-sm mb-1">
+          <div className="border-l-2 border-accent pl-5">
+            <p className="font-bold text-foreground text-sm mb-1">
               The Riverwalk trail
             </p>
-            <p className="text-sm text-amber-800">
+            <p className="text-sm text-muted">
               Pittsburgh's Three Rivers Heritage Trail runs along the riverfront
               on both sides. It connects the North Shore, Point State Park,
               Station Square, and the Strip District. It's flat, paved, and
@@ -353,8 +353,8 @@ export default function GettingAroundPage() {
         </section>
 
         {/* Uber/Lyft */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Uber &amp; Lyft Tips</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Uber &amp; Lyft Tips</h2>
           <p className="text-muted mb-4">
             Rideshare will work. But it won't be cheap, and it won't be fast.
             Here's how to make it less painful.
@@ -403,8 +403,8 @@ export default function GettingAroundPage() {
         </section>
 
         {/* Gateway Clipper */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (River Ferry)
           </h2>
           <p className="text-muted mb-3">
@@ -413,7 +413,7 @@ export default function GettingAroundPage() {
             all draft weekend. It's confirmed for events and games, and the NFL
             Draft qualifies.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-4">
+          <div className="card-minimal p-4">
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
                 Connects North Shore, downtown, and Station Square by water.
@@ -436,8 +436,8 @@ export default function GettingAroundPage() {
         </section>
 
         {/* Bridges */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Bridges You Need to Know
           </h2>
           <p className="text-muted mb-4">
@@ -445,51 +445,51 @@ export default function GettingAroundPage() {
             Here are the 5 that matter for draft weekend.
           </p>
           <div className="space-y-3">
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="font-bold text-green-900 text-sm">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm">
                 Roberto Clemente Bridge (6th Street)
               </p>
-              <p className="text-sm text-green-800">
+              <p className="text-sm text-muted">
                 Pedestrian-only all draft weekend. This is THE bridge connecting
                 the two draft sites. You'll probably walk it 5 times. It's the
                 iconic yellow one in every Pittsburgh photo.
               </p>
             </div>
-            <div className="bg-red-50 border border-red-200 rounded-lg p-4">
-              <p className="font-bold text-red-900 text-sm">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm">
                 Andy Warhol Bridge (7th Street)
               </p>
-              <p className="text-sm text-red-800">
+              <p className="text-sm text-muted">
                 Closed to vehicles AND pedestrians during the draft. Don't plan
                 on using this one.
               </p>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="font-bold text-green-900 text-sm">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm">
                 Fort Duquesne Bridge
               </p>
-              <p className="text-sm text-green-800">
+              <p className="text-sm text-muted">
                 Walkable. Connects the North Shore to the northeast edge of
                 downtown. Good alternate route if Roberto Clemente Bridge is too
                 crowded. Also useful for walking to the Strip District from the
                 North Shore.
               </p>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="font-bold text-green-900 text-sm">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm">
                 Smithfield Street Bridge
               </p>
-              <p className="text-sm text-green-800">
+              <p className="text-sm text-muted">
                 Open to vehicles and pedestrians. Connects downtown to Station
                 Square and the South Side. Your best bet for crossing the
                 Monongahela River on foot.
               </p>
             </div>
-            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
-              <p className="font-bold text-green-900 text-sm">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold text-foreground text-sm">
                 10th Street Bridge (South 10th Street)
               </p>
-              <p className="text-sm text-green-800">
+              <p className="text-sm text-muted">
                 Connects downtown to the South Side directly. About a 20-min
                 walk from Point State Park to Carson Street via this bridge.
                 Good option for getting to South Side nightlife.
@@ -499,15 +499,15 @@ export default function GettingAroundPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">
             Getting Around FAQ
           </h2>
           <div className="space-y-4">
             {gettingAroundFAQs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -518,7 +518,7 @@ export default function GettingAroundPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Now that you know how to get around...
           </h2>
           <p className="text-gray-300 text-sm mb-4">

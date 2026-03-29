@@ -47,15 +47,15 @@ export default function WhatToWearPage() {
       <FAQSchema items={faqs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / What to Wear to the NFL Draft
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             What to Wear to the NFL Draft in Pittsburgh
           </h1>
           <p className="text-gray-300">
@@ -67,17 +67,17 @@ export default function WhatToWearPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
-          <p className="text-sm text-blue-900">
+        <div className="border-l-2 border-accent pl-5 mb-8">
+          <p className="text-sm text-foreground">
             <strong>Quick answer:</strong> Layers. Pittsburgh in late April averages 45-65&#176;F. Rain is likely at least one of the three days. Wear comfortable shoes, bring a light rain jacket, and don't count on warm weather. Check the{" "}
-            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline font-semibold">7-day forecast</a>{" "}
+            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-primary underline font-semibold">7-day forecast</a>{" "}
             the week before you go.
           </p>
         </div>
 
         {/* April weather reality */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Pittsburgh in April: Expect Everything
           </h2>
           <p className="text-muted mb-3">
@@ -97,8 +97,8 @@ export default function WhatToWearPage() {
         </section>
 
         {/* Layers strategy */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Layer Strategy (This Is the Move)
           </h2>
           <p className="text-muted mb-4">
@@ -106,7 +106,7 @@ export default function WhatToWearPage() {
             Layers you can add and remove as the day changes.
           </p>
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Base: T-shirt or jersey</p>
               <p className="text-sm text-muted">
                 Your team jersey works perfectly here. It's comfortable, it's
@@ -115,7 +115,7 @@ export default function WhatToWearPage() {
                 t-shirt works.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Mid layer: Hoodie or light jacket</p>
               <p className="text-sm text-muted">
                 Something you can tie around your waist when it warms up.
@@ -124,7 +124,7 @@ export default function WhatToWearPage() {
                 them by noon.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Rain layer: Packable poncho</p>
               <p className="text-sm text-muted">
                 A $5 disposable poncho from Target takes up zero space and
@@ -136,8 +136,8 @@ export default function WhatToWearPage() {
         </section>
 
         {/* Shoes */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Shoes: The Most Important Decision You'll Make
           </h2>
           <p className="text-muted mb-3">
@@ -147,9 +147,9 @@ export default function WhatToWearPage() {
             the fan zone, hitting restaurants, and getting to transit stops.
             It adds up fast.
           </p>
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-4">
-            <p className="font-bold text-amber-900 mb-2">Do NOT wear:</p>
-            <ul className="text-amber-800 space-y-1 list-disc pl-5 text-sm">
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <p className="font-bold text-foreground mb-2">Do NOT wear:</p>
+            <ul className="text-muted space-y-1 list-disc pl-5 text-sm">
               <li>Brand new shoes (blisters by hour 3)</li>
               <li>Flip flops or sandals (your feet will hurt and get stepped on)</li>
               <li>Heels or dress shoes (you're walking on concrete and grass all day)</li>
@@ -164,8 +164,8 @@ export default function WhatToWearPage() {
         </section>
 
         {/* Clear bag policy */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Clear Bag Rule (Don't Get Turned Away)
           </h2>
           <p className="text-muted mb-3">
@@ -198,8 +198,8 @@ export default function WhatToWearPage() {
         </section>
 
         {/* What NOT to wear */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             What NOT to Wear
           </h2>
           <ul className="space-y-2 text-muted list-disc pl-5">
@@ -225,8 +225,8 @@ export default function WhatToWearPage() {
         </section>
 
         {/* Quick packing list */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Quick Packing Checklist
           </h2>
           <p className="text-muted mb-3">
@@ -252,13 +252,13 @@ export default function WhatToWearPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">FAQ</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">FAQ</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -269,7 +269,7 @@ export default function WhatToWearPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Ready to plan the rest of your trip?
           </h2>
           <p className="text-gray-300 text-sm mb-4">

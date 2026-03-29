@@ -55,15 +55,15 @@ export default function Schedule() {
       <FAQSchema items={scheduleFAQs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Schedule
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             2026 NFL Draft Schedule &amp; What to Expect
           </h1>
           <p className="text-gray-300">
@@ -85,7 +85,7 @@ export default function Schedule() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Draft preview video */}
-        <div className="rounded-lg overflow-hidden border border-border mb-8">
+        <div className="rounded-lg overflow-hidden mb-8">
           <iframe
             src="https://www.youtube.com/embed/DogQpaGD3Xw"
             width="100%"
@@ -98,8 +98,8 @@ export default function Schedule() {
         </div>
 
         {/* Draft Schedule */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Draft Schedule (Round-by-Round)
           </h2>
           <p className="text-muted mb-4">
@@ -207,8 +207,8 @@ export default function Schedule() {
         </section>
 
         {/* Free entry */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Is the NFL Draft Free? (Yes)
           </h2>
           <p className="text-muted mb-3">
@@ -229,9 +229,9 @@ export default function Schedule() {
         </section>
 
         {/* OnePass */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
-          <div className="bg-surface border border-border rounded-lg p-5">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
+          <div className="card-minimal p-5">
             <p className="font-bold mb-2">
               Download this BEFORE you get to Pittsburgh
             </p>
@@ -274,8 +274,8 @@ export default function Schedule() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Draft Experience at Point State Park
           </h2>
           <p className="text-muted mb-4">
@@ -283,7 +283,7 @@ export default function Schedule() {
             basically a football-themed festival with interactive attractions,
             and it's open to everyone with an NFL OnePass registration.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-5 mb-4">
+          <div className="card-minimal p-5 mb-4">
             <p className="font-bold mb-3">Hours:</p>
             <ul className="text-sm text-muted space-y-1">
               <li>
@@ -296,26 +296,26 @@ export default function Schedule() {
           </div>
           <p className="font-bold mb-2">What's there:</p>
           <div className="grid gap-3 sm:grid-cols-2">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold text-sm">40-Yard Dash</p>
               <p className="text-xs text-muted mt-1">
                 Run the same 40 the prospects run. Get your time. Brag about it.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold text-sm">Field Goal Challenge</p>
               <p className="text-xs text-muted mt-1">
                 Try to kick a field goal. It's harder than it looks on TV.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold text-sm">Autograph Stage</p>
               <p className="text-xs text-muted mt-1">
                 Current and former NFL players signing autographs. Schedule
                 announced through the OnePass app.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold text-sm">Lombardi Trophy Photos</p>
               <p className="text-xs text-muted mt-1">
                 Get your photo with the actual Vince Lombardi Trophy. The line
@@ -326,8 +326,8 @@ export default function Schedule() {
         </section>
 
         {/* Draft Theater */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Draft Theater at Acrisure Stadium
           </h2>
           <p className="text-muted mb-3">
@@ -352,15 +352,15 @@ export default function Schedule() {
         </section>
 
         {/* Bag Policy */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Bag Policy</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Bag Policy</h2>
           <p className="text-muted mb-4">
             This is critical. The two venues have{" "}
             <strong>different bag policies</strong>. Read this carefully so you
             don't get turned away at the gate.
           </p>
           <div className="grid gap-4 sm:grid-cols-2">
-            <div className="bg-surface border border-border rounded-lg p-5">
+            <div className="card-minimal p-5">
               <p className="font-bold mb-2">Draft Experience (Point State Park)</p>
               <ul className="text-sm text-muted space-y-1 list-disc pl-5">
                 <li>Clear bags up to <strong>16" x 16" x 6"</strong></li>
@@ -369,7 +369,7 @@ export default function Schedule() {
                 <li>No non-clear bags</li>
               </ul>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-5">
+            <div className="card-minimal p-5">
               <p className="font-bold mb-2">Draft Theater (Acrisure Stadium)</p>
               <ul className="text-sm text-muted space-y-1 list-disc pl-5">
                 <li>Clear bags up to <strong>12" x 6" x 12"</strong></li>
@@ -387,14 +387,14 @@ export default function Schedule() {
         </section>
 
         {/* What to Wear & Bring */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">What to Wear &amp; Bring</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">What to Wear &amp; Bring</h2>
           <p className="text-muted mb-4">
             April in Pittsburgh is unpredictable. It could be 45 degrees and
             raining. It could be 75 and sunny. Sometimes both in the same day.
             Here's your packing checklist.
           </p>
-          <div className="bg-surface border border-border rounded-lg p-5">
+          <div className="card-minimal p-5">
             <ul className="space-y-3 text-sm text-muted">
               <li>
                 <strong>Layers.</strong> A t-shirt, a hoodie or fleece, and a
@@ -434,14 +434,14 @@ export default function Schedule() {
         </section>
 
         {/* Events Beyond the Draft */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">Events Beyond the Draft</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Events Beyond the Draft</h2>
           <p className="text-muted mb-4">
             The draft isn't just about picks. There's a full week of events
             surrounding it. Here's what's happening.
           </p>
           <div className="grid gap-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Taste of the Draft</p>
               <p className="text-xs text-muted">
                 Tuesday, April 22 &middot; Tower at PNC Plaza
@@ -452,7 +452,7 @@ export default function Schedule() {
                 with NFL player appearances.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Jason Aldean "The Night Before" Concert</p>
               <p className="text-xs text-muted">
                 Tuesday, April 22 &middot; Rivers Casino
@@ -462,7 +462,7 @@ export default function Schedule() {
                 the night before Round 1. Presented by Audacy and S&amp;T Bank.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Draft After-Parties at <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's</a></p>
               <p className="text-xs text-muted">
                 Wed-Sat &middot; <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a>, North Shore
@@ -473,7 +473,7 @@ export default function Schedule() {
                 This is where the party moves after picks end.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">PicksBURGH 5K</p>
               <p className="text-xs text-muted">
                 Saturday, April 25 &middot; Morning (before Day 3)
@@ -484,7 +484,7 @@ export default function Schedule() {
                 start the final day of the draft.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Drone Show</p>
               <p className="text-xs text-muted">
                 After Day 2 (Friday night)
@@ -495,7 +495,7 @@ export default function Schedule() {
                 The Pittsburgh skyline will make this one special.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-bold">Free Concerts at the Draft</p>
               <p className="text-xs text-muted">
                 All 3 days &middot; Draft Experience stage
@@ -519,15 +519,15 @@ export default function Schedule() {
         </section>
 
         {/* FAQ */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">
             FAQ: Schedule Questions
           </h2>
           <div className="space-y-4">
             {scheduleFAQs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -538,7 +538,7 @@ export default function Schedule() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Now figure out the logistics
           </h2>
           <p className="text-gray-300 text-sm mb-4">

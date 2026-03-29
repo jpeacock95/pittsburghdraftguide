@@ -47,15 +47,15 @@ export default function RainPlanPage() {
       <FAQSchema items={faqs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / NFL Draft Pittsburgh Rain Plan
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             NFL Draft Pittsburgh Rain Plan: What Happens If It Rains?
           </h1>
           <p className="text-gray-300">
@@ -67,8 +67,8 @@ export default function RainPlanPage() {
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         {/* The short answer */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Short Answer: It Goes On. Rain or Shine.
           </h2>
           <p className="text-muted mb-3">
@@ -86,8 +86,8 @@ export default function RainPlanPage() {
         </section>
 
         {/* What to expect */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             What Rain Actually Looks Like at a Draft
           </h2>
           <p className="text-muted mb-3">
@@ -110,12 +110,12 @@ export default function RainPlanPage() {
         </section>
 
         {/* What to bring */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             What to Bring If Rain Is in the Forecast
           </h2>
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Packable rain poncho</p>
               <p className="text-sm text-muted">
                 $5 at Target or Walmart. Folds up to the size of your fist.
@@ -124,7 +124,7 @@ export default function RainPlanPage() {
                 in case one rips.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Waterproof phone case</p>
               <p className="text-sm text-muted">
                 $8-10 on Amazon. You'll be taking photos, checking the{" "}
@@ -138,7 +138,7 @@ export default function RainPlanPage() {
                 case pays for itself 10 times over.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Waterproof shoes (or old shoes you don't care about)</p>
               <p className="text-sm text-muted">
                 If rain is likely, skip the nice sneakers. Wear shoes that
@@ -146,7 +146,7 @@ export default function RainPlanPage() {
                 won't drain well with hundreds of thousands of feet on them.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Extra layer</p>
               <p className="text-sm text-muted">
                 Rain drops the temperature. If it's 65 and sunny at noon,
@@ -168,8 +168,8 @@ export default function RainPlanPage() {
         </section>
 
         {/* Where to take shelter */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Where to Take Shelter If It Pours
           </h2>
           <p className="text-muted mb-4">
@@ -207,8 +207,8 @@ export default function RainPlanPage() {
         </section>
 
         {/* Saturday tip */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Pro Tip: Saturday Is Your Safety Net
           </h2>
           <p className="text-muted mb-3">
@@ -233,13 +233,13 @@ export default function RainPlanPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">FAQ</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">FAQ</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -250,7 +250,7 @@ export default function RainPlanPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Don't let rain ruin your trip.
           </h2>
           <p className="text-gray-300 text-sm mb-4">

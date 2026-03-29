@@ -47,15 +47,15 @@ export default function KidsFamilyPage() {
       <FAQSchema items={faqs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-12">
+      <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">
-          <p className="text-sm text-gray-400 mb-2">
+          <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
               Home
             </Link>{" "}
             / Bringing Kids to the NFL Draft
           </p>
-          <h1 className="text-3xl md:text-4xl font-bold mb-3">
+          <h1 className="text-3xl md:text-4xl font-heading mb-3">
             Bringing Kids to the NFL Draft in Pittsburgh
           </h1>
           <p className="text-gray-300">
@@ -68,8 +68,8 @@ export default function KidsFamilyPage() {
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         {/* Draft Experience for kids */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             The Draft Experience Is Built for Kids
           </h2>
           <p className="text-muted mb-3">
@@ -79,7 +79,7 @@ export default function KidsFamilyPage() {
             (which is also free).
           </p>
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">40-Yard Dash</p>
               <p className="text-sm text-muted">
                 Kids can run the same 40-yard dash the prospects run at the
@@ -87,14 +87,14 @@ export default function KidsFamilyPage() {
                 longest line, so hit it early in the day.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Field Goal Challenge</p>
               <p className="text-sm text-muted">
                 Kick a field goal through real uprights. Sized for all ages.
                 Kids go absolutely nuts for this one.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Autograph Stage</p>
               <p className="text-sm text-muted">
                 Current and former NFL players sign autographs at scheduled
@@ -108,7 +108,7 @@ export default function KidsFamilyPage() {
                 for specific times once they're announced.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Interactive Exhibits</p>
               <p className="text-sm text-muted">
                 Past drafts have featured a Lombardi Trophy photo op, a
@@ -120,8 +120,8 @@ export default function KidsFamilyPage() {
         </section>
 
         {/* Nearby family attractions */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Family Attractions Near the Draft
           </h2>
           <p className="text-muted mb-4">
@@ -191,8 +191,8 @@ export default function KidsFamilyPage() {
         </section>
 
         {/* Tips for families */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Tips for Families at the Draft
           </h2>
           <ul className="space-y-3 text-muted list-disc pl-5">
@@ -246,12 +246,12 @@ export default function KidsFamilyPage() {
         </section>
 
         {/* Best day breakdown */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">
             Which Day Is Best for Families?
           </h2>
           <div className="space-y-3">
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Thursday (April 23) - Round 1</p>
               <p className="text-sm text-muted">
                 The biggest crowd. The most energy. Also the most chaotic.
@@ -259,18 +259,18 @@ export default function KidsFamilyPage() {
                 crowds. Tough for toddlers and young kids.
               </p>
             </div>
-            <div className="bg-surface border border-border rounded-lg p-4">
+            <div className="card-minimal p-4">
               <p className="font-semibold">Friday (April 24) - Rounds 2-3</p>
               <p className="text-sm text-muted">
                 Still crowded but less intense than Thursday. A solid middle
                 ground. Draft Experience lines are shorter than Day 1.
               </p>
             </div>
-            <div className="bg-amber-50 border border-amber-200 rounded-lg p-4">
-              <p className="font-semibold text-amber-900">
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-semibold text-foreground">
                 Saturday (April 25) - Rounds 4-7 (Best for families)
               </p>
-              <p className="text-sm text-amber-800">
+              <p className="text-sm text-muted">
                 Smallest crowd. Shortest lines. The day moves fast. You can
                 do the full Draft Experience in 2-3 hours without insane
                 waits. This is the day for young kids, strollers, and
@@ -281,13 +281,13 @@ export default function KidsFamilyPage() {
         </section>
 
         {/* FAQ section */}
-        <section className="mb-10">
-          <h2 className="text-2xl font-bold mb-6">FAQ</h2>
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-6">FAQ</h2>
           <div className="space-y-4">
             {faqs.map((faq) => (
               <div
                 key={faq.question}
-                className="bg-surface border border-border rounded-lg p-5"
+                className="card-minimal p-5"
               >
                 <h3 className="font-bold mb-2">{faq.question}</h3>
                 <p className="text-sm text-muted">{faq.answer}</p>
@@ -298,7 +298,7 @@ export default function KidsFamilyPage() {
 
         {/* CTA */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
-          <h2 className="text-lg font-bold mb-2">
+          <h2 className="text-lg font-heading mb-2">
             Plan your family's draft weekend.
           </h2>
           <p className="text-gray-300 text-sm mb-4">
