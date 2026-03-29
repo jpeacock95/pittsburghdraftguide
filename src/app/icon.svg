@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#0f1d2f"/>
-  <text x="16" y="22.5" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="400" fill="#c8913a" letter-spacing="-0.5">PD</text>
+  <ellipse cx="16" cy="16" rx="10" ry="6.5" fill="#c8913a" transform="rotate(-35 16 16)"/>
+  <line x1="16" y1="8.5" x2="16" y2="23.5" stroke="#0f1d2f" stroke-width="1.2" transform="rotate(-35 16 16)"/>
+  <path d="M12 14 Q16 12.5 20 14" stroke="#0f1d2f" stroke-width="0.9" fill="none" transform="rotate(-35 16 16)"/>
+  <path d="M12 16.5 Q16 15 20 16.5" stroke="#0f1d2f" stroke-width="0.9" fill="none" transform="rotate(-35 16 16)"/>
+  <path d="M12 19 Q16 17.5 20 19" stroke="#0f1d2f" stroke-width="0.9" fill="none" transform="rotate(-35 16 16)"/>
 </svg>
