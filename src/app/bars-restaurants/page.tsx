@@ -103,6 +103,17 @@ export default function BarsRestaurants() {
 
         <LastUpdated date="March 29, 2026" />
 
+        <div className="bg-amber-900/20 border border-amber-700/30 rounded-lg p-4 mb-6">
+          <p className="text-sm font-bold text-amber-400 mb-1">Draft Weekend Heads Up</p>
+          <p className="text-sm text-muted">
+            Some bars and restaurants near the draft venues have been bought out
+            for private NFL and corporate events, especially Thursday night (Round 1).
+            Call ahead before you walk over, particularly on the North Shore. We've
+            noted the ones we know about below, but more buyouts may pop up closer
+            to the event.
+          </p>
+        </div>
+
         {/* Jump nav */}
         <div className="mb-8">
           <p className="text-sm font-bold text-muted mb-2">Jump to:</p>
@@ -151,57 +162,64 @@ export default function BarsRestaurants() {
               name="Tom's Watch Bar"
               type="Sports Bar"
               url="https://tomswatchbar.com/pittsburgh/"
-              description="Steps from Acrisure Stadium and PNC Park. Massive video walls everywhere. Built for exactly this kind of event. You won't miss a single pick."
+              description="It's a chain, not going to pretend otherwise. But the location is hard to beat -- right between Acrisure and PNC Park with TVs on every wall. You'll see every pick without fighting for a spot."
             />
             <SpotCard
               name="North Shore Tavern"
               type="Bar & Restaurant"
               url="https://northshoretavern.com/"
-              description="Directly across from PNC Park on Federal Street. Laid-back atmosphere, solid food, and it's going to be the epicenter of draft foot traffic."
+              description="On Federal Street across from PNC Park. Nothing fancy, just a solid neighborhood bar with decent food. It's going to be wall-to-wall people draft weekend because of the location."
             />
             <SpotCard
               name="Jason Aldean's Kitchen + Bar"
               type="Country Bar & Restaurant"
               url="https://jasonaldeansbar.com/pittsburgh/"
-              description="Country-themed restaurant with outdoor seating and huge video walls. Jason Aldean is performing at Rivers Casino on draft eve, so this place will be packed all weekend."
+              description="Country-themed with big video walls and outdoor seating. Food is fine, not the reason to go. The vibe is. Aldean is performing at Rivers Casino draft eve, so expect this place to ride that energy all weekend."
             />
             <SpotCard
               name="Shorty's Goodtimes Bar"
               type="Bar & Entertainment"
               url="https://www.shortysx.com/"
-              description="Retro-gaming bar hosting the official draft after-parties. Steve Aoki on draft eve, Nelly after Day 1, 2 Chainz after Day 2. This is THE nightlife spot of draft weekend."
+              description="Retro-gaming bar that somehow landed all three official after-parties: Steve Aoki on draft eve, Nelly after Day 1, 2 Chainz after Day 3. Expect lines. Get there early or don't bother."
+            />
+            <SpotCard
+              name="SugarBird"
+              type="Restaurant (NEW)"
+              description="Brand new restaurant opening at the Plaza at North Shore right before the draft. We haven't been yet (nobody has), but the Plaza itself is a new outdoor dining and entertainment area between the stadiums. Worth checking out just because it's new."
             />
             <SpotCard
               name="Southern Tier Brewery Pittsburgh"
               type="Brewery & Restaurant"
               url="https://pittsburgh.stbcbeer.com/"
-              description="Indoor/outdoor seating, good beer, solid food. Dogs allowed on the patio. 4-minute walk to PNC Park. Great spot to kill time between draft rounds."
+              description="4-minute walk to PNC Park. Good beer, decent food, dogs allowed on the patio. Not the most exciting spot on this list, but reliable and less chaotic than anything on Federal Street."
             />
             <SpotCard
               name="Federal Galley"
               type="Food Hall"
               url="https://www.federalgalley.org/"
-              description="4 restaurant concepts under one roof plus a full bar. Happy hour Tue-Fri 4:30-6:30pm with half-off drafts, cocktails, and wine. Perfect if your group can't agree on what to eat."
+              description="Four different restaurants under one roof. This is where you go when your group can't agree on anything. Happy hour Tue-Fri 4:30-6:30pm, half-off drafts and cocktails. Underrated."
             />
             <SpotCard
               name="Mike's Beer Bar"
               type="Beer Bar"
               url="https://mikesbeerbar.com/"
-              description="500+ beers and 80 rotating taps. Next to PNC Park. Open daily 11am-midnight. If you're serious about craft beer, this is your spot."
+              description="80 rotating taps and 500+ beers. I've lost count of how many times I've been here before Pirates games. It's a beer nerd's paradise next to PNC Park. Open 11am-midnight daily."
             />
             <SpotCard
               name="City Works Restaurant & Bar"
               type="Restaurant & Bar"
               url="https://www.cityworksrestaurant.com/locations/pittsburgh/"
-              description="Modern American menu with 90 craft beers on tap. Lunch, happy hour, dinner, and late night. Beer-forward with real food."
+              description="90 craft beers on tap with an actual full menu (not just bar food). Good for a sit-down meal without making a reservation weeks in advance."
             />
           </div>
           <p className="text-sm text-muted mt-4">
             <strong>Also on the North Shore:</strong> SoHo Pittsburgh (the
-            original North Shore restaurant), Burgatory (gourmet burgers), The
-            Foundry Table &amp; Tap (multiple dining concepts), Hyde Park Prime
-            Steakhouse (upscale), Bar Louie (casual gastrobar), and Shorty's
-            Pins x Pints (bowling + drinks, 0.25 mi from Acrisure).
+            original North Shore restaurant, been around forever), Burgatory (gourmet burgers, always a wait),
+            The Foundry Table &amp; Tap (multiple dining concepts), Hyde Park Prime
+            Steakhouse (upscale, make a reservation now or forget it), and Shorty's
+            Pins x Pints (bowling + drinks, 0.25 mi from Acrisure). Note:
+            Voodoo Brewing and North Shore Saloon are both permanently closed.
+            You'll still see them on Google Maps but they're gone.
           </p>
         </section>
 
@@ -220,57 +238,59 @@ export default function BarsRestaurants() {
               name="Gaucho Parrilla Argentina"
               type="Argentine Steakhouse"
               url="https://www.eatgaucho.com/"
-              description="4.5 stars on TripAdvisor with 833 reviews. Argentine grill that's consistently rated one of Pittsburgh's best restaurants. Worth the wait."
+              description="Ask anyone in Pittsburgh for their top 3 restaurants and Gaucho comes up every time. Argentine grill in the Strip District, technically a 10-min walk from Point State Park. There will be a wait. Go anyway."
             />
             <SpotCard
               name="Proper Brick Oven and Tap Room"
               type="Pizza & Craft Beer"
               url="https://properpgh.com/"
-              description="4.5 stars on TripAdvisor with 725 reviews. Brick oven pizza and an excellent craft beer selection. Near Point State Park."
+              description="Good brick oven pizza and a solid beer list. Not trying to be fancy, just trying to be good. Close to Point State Park. You can do a lot worse for $15-20."
             />
             <SpotCard
               name="Butcher and the Rye"
               type="Cocktails & New American"
               url="https://butcherandtherye.com/"
-              description="Craft cocktails and a whiskey list that'll make your head spin. New American menu. Popular with foodies and the cocktail crowd."
+              description="The whiskey menu is overwhelming (in a good way). New American food, cocktails that actually taste like someone cared. Pricier side. Good date spot if you're dragging a partner to the draft."
             />
             <SpotCard
               name="Bridges & Bourbon"
               type="Cocktail Bar & Restaurant"
               url="https://www.bridgesandbourbonpgh.com/"
-              description="High-end cocktail bar with a full restaurant menu. Upscale but not stuffy. One of the best bars downtown."
+              description="Upscale cocktail bar downtown. Feels more grown-up than most of Carson Street. Full menu, not just drinks. If you want a nice night out without the frat energy, this is it."
             />
             <SpotCard
               name="Olive or Twist"
               type="Cocktail Bar & Restaurant"
               url="https://www.olive-twist.com/"
-              description="Premier cocktail bar on 6th Street. Hosting the YinzerMOB Draft Party on Saturday ($100, 2nd floor). Great drinks any night."
+              description="On 6th Street. Strong cocktails, nice atmosphere. They're hosting the YinzerMOB Draft Party on Saturday ($100, 2nd floor). Call ahead because some draft nights may be event-only."
             />
             <SpotCard
               name="The Original Oyster House"
               type="Seafood & Bar"
               url="http://www.originaloysterhousepittsburgh.com/"
-              description="The oldest restaurant in Pittsburgh, right on Market Square. A landmark. Tourists love it, and honestly, the fish sandwiches are legit."
+              description="Oldest restaurant in Pittsburgh, right on Market Square. Tourists love it. Locals have opinions about it. The fish sandwiches are good though, no argument there. Cash only last I checked."
             />
             <SpotCard
               name="Condado Tacos"
               type="Build-Your-Own Tacos"
               url="https://condadotacos.com/"
-              description="Market Square location. Build your own tacos, solid margaritas. Casual, affordable, and great for groups."
+              description="Build-your-own tacos on Market Square. It's a chain, but the tacos are $5 each and the margaritas do their job. Quick, cheap, and good for groups who don't want to wait 45 minutes for a table."
             />
             <SpotCard
               name="Eddie Merlot's"
               type="Fine Dining"
               url="https://www.eddiemerlots.com/pittsburgh/"
-              description="Prime aged beef and seafood. They've built dedicated NFL Draft landing pages on their website. They're ready for you."
+              description="Steakhouse. Expensive. They're actively marketing draft-weekend dining on their website, so they clearly want your business. If someone else is paying, go for it."
             />
           </div>
           <p className="text-sm text-muted mt-4">
             <strong>More downtown options:</strong> The Warren Bar and Burrow
-            (craft cocktails), Alta Via at Market Square (Italian), Gi-Jin
-            (Asian fusion), Vallozzi's (Italian), Puttery (mini-golf bar),
-            Ritual House (near Omni William Penn Hotel), The Yard (monster
-            grilled cheese), and Pizzaiolo Primo (quick pizza).
+            (craft cocktails, intimate), Alta Via at Market Square (Italian, good),
+            Gi-Jin (Asian fusion), Vallozzi's (Italian, solid), Puttery (mini-golf
+            bar, fun for groups), Ritual House (near Omni William Penn), The Yard
+            (monster grilled cheese, cheap and filling), and Pizzaiolo Primo (quick
+            slices). Note: Space Bar on Market Square is booked for private NFL
+            events all draft weekend ($18K-$60K buyouts). Don't plan on walking in.
           </p>
         </section>
 
@@ -290,37 +310,37 @@ export default function BarsRestaurants() {
               name="The PA Market"
               type="Food Hall"
               url="https://www.thepamarket.com/"
-              description="European-inspired market on two floors. Cocktail bars, food vendors, wine garden. 14,000 square feet. This is Pittsburgh's best food hall experience."
+              description="Two floors of food vendors, cocktail bars, and a wine garden. 14,000 square feet. It feels more European market than American food court. Best food hall in the city, and it's not close."
             />
             <SpotCard
               name="Pamela's Diner"
               type="Diner / Breakfast"
               url="https://pamelasdiner.com/"
-              description="#1 on TripAdvisor for the Strip District with 1,029 reviews. Famous for thin, crispy pancakes. Pittsburgh's favorite diner. Expect a long line draft weekend."
+              description="The thin, crispy pancakes are famous for a reason. Get here early Saturday before Day 3 of the draft. The line will be insane but it moves fast. Cash is helpful."
             />
             <SpotCard
               name="DiAnoia's Eatery"
               type="Italian"
               url="https://dianoiaseatery.com/"
-              description="1,200+ Yelp reviews. Italian market and restaurant on Penn Ave. One of the best Italian spots in the city. Fresh pasta, incredible sandwiches."
+              description="Handmade pasta and sandwiches on Penn Ave. This is where Pittsburghers take out-of-town guests when they want to show off. 1,200+ Yelp reviews and they're almost all 5 stars. Go for lunch -- dinner waits are brutal."
             />
             <SpotCard
               name="Wigle Whiskey Distillery"
               type="Distillery & Tasting Room"
               url="https://wiglewhiskey.com/"
-              description="Local craft whiskey with a tasting room right in the Strip. A unique Pittsburgh experience you won't get anywhere else."
+              description="Local craft whiskey with a tasting room in the Strip. Do the tasting flight, buy a bottle to bring home. It's the kind of thing you can't do in most cities."
             />
             <SpotCard
               name="Bar Marco"
               type="Craft Cocktails & Small Plates"
               url="https://www.barmarcopgh.com/"
-              description="Some of the best bartenders in the city. Small plates, craft cocktails, and a vibe that feels more Brooklyn than Pittsburgh. In the best way."
+              description="Small, intimate, bartenders who actually know what they're doing. Not cheap, not a sports bar, not a tourist trap. If you want a quiet cocktail away from draft chaos, this is your spot."
             />
             <SpotCard
               name="Novo Asian Food Hall"
               type="Asian Food Hall"
               url="https://novoasianfoodhall.com/"
-              description="Sushi, pho, spring rolls, pancit from multiple vendors. Great variety under one roof at 1931 Smallman Street."
+              description="Sushi, pho, spring rolls from multiple vendors at 1931 Smallman Street. Good variety if your group wants different things. Nothing mindblowing but solid and quick."
             />
           </div>
           <p className="text-sm text-muted mt-4">
@@ -355,37 +375,37 @@ export default function BarsRestaurants() {
               name="Hofbrauhaus Pittsburgh"
               type="German Beer Hall"
               url="https://www.hofbrauhauspittsburgh.com/"
-              description="Authentic German beer hall with live music. Huge space, great food, and an experience that out-of-towners love. Expect a wait but it's worth it."
+              description="German beer hall on the waterfront. Big space, live music, liter steins. Touristy? Yeah. Fun? Also yeah. If you've never been to one, go. If you have, you know what you're getting."
             />
             <SpotCard
               name="Pins Mechanical"
               type="Entertainment Bar"
               url="https://www.pinsbar.com/locations/pittsburgh/"
-              description="Pinball, duckpin bowling, and craft drinks. Fun group activity that isn't just sitting at a bar. Good for larger groups."
+              description="Pinball, duckpin bowling, craft drinks. Good for groups who want to actually do something instead of just sit at a bar. Gets loud and crowded late night."
             />
             <SpotCard
               name="Jack's Bar"
               type="Bar"
               url="https://jacksbar.shop/"
-              description="#1 on TripAdvisor for South Side bars. 'Best bar in all of the Southside flats.' Great atmosphere, solid food, good drinks. A local favorite."
+              description="Local favorite on Carson Street. Good food, good drinks, good atmosphere. Not trying to be anything it's not. The kind of bar where you end up staying longer than you planned."
             />
             <SpotCard
               name="Acacia"
               type="Cocktail Bar"
               url="https://acaciacocktails.com/"
-              description="Craft cocktails and a more upscale vibe than most of Carson Street. If you want good drinks without the college bar energy, this is it."
+              description="If you want actual cocktails and not a $5 vodka soda in a plastic cup, Acacia is the move on the South Side. More chill than most of Carson Street."
             />
             <SpotCard
               name="Jekyl & Hyde"
               type="Bar"
               url="https://www.jekylandhydepgh.com/"
-              description="Made Yelp's best bars list for March 2026. Fun spot with character. Late-night option after draft sessions."
+              description="Fun spot with character. Late-night option after draft sessions. Made Yelp's best bars list recently. Not the place for a quiet conversation."
             />
             <SpotCard
               name="Bar 11"
               type="Bar"
               url="https://maps.google.com/?q=Bar+11+1101+Bradish+St+Pittsburgh+PA"
-              description="Slightly off the main Carson Street strip on Bradish. 'Favorite place we visited,' says Discover the Burgh. A hidden gem."
+              description="Slightly off Carson Street on Bradish. Easy to miss, which is part of the appeal. Locals like it because it's not overrun with the Carson Street crowd."
             />
           </div>
           <p className="text-sm text-muted mt-4">
