@@ -1,28 +1,60 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #ffffff;
-  --color-foreground: #171717;
-  --color-primary: #1d4ed8;
-  --color-primary-dark: #1e3a8a;
-  --color-accent: #f59e0b;
-  --color-accent-dark: #d97706;
-  --color-surface: #f8fafc;
-  --color-border: #e2e8f0;
-  --color-muted: #64748b;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: #fafaf9;
+  --color-foreground: #1c1917;
+  --color-primary: #1e3a5f;
+  --color-primary-dark: #0f1d2f;
+  --color-accent: #e8a838;
+  --color-accent-dark: #c78a1e;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f5f3f0;
+  --color-border: #e7e5e2;
+  --color-muted: #78716c;
+  --font-body: var(--font-body);
+  --font-heading: var(--font-heading);
+  --font-mono: ui-monospace, SFMono-Regular, monospace;
 }
 
 body {
   background: var(--color-background);
   color: var(--color-foreground);
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
 }
 
 h1, h2, h3, h4 {
+  font-family: var(--font-heading), system-ui, sans-serif;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+/* Subtle divider between major sections */
+.section-divider {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-border), transparent);
+  margin: 2.5rem 0;
+}
+
+/* Warm paper-like background for alternating sections */
+.bg-warm {
+  background-color: var(--color-surface-alt);
+}
+
+.bg-white-card {
+  background-color: var(--color-surface);
 }
 
 /* Mobile: cap iframe heights so maps/videos don't eat the whole screen */
@@ -40,4 +72,27 @@ h1, h2, h3, h4 {
   select {
     font-size: 16px;
   }
+}
+
+/* Prose-like styling for article content */
+article p {
+  margin-bottom: 1.15em;
+}
+
+article ul {
+  margin-bottom: 1.15em;
+}
+
+/* Links in article body get a subtle underline style */
+article a:not([class]) {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  transition: text-decoration-color 0.2s;
+}
+
+article a:not([class]):hover {
+  text-decoration-color: var(--color-primary);
 }
