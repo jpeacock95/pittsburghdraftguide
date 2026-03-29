@@ -31,33 +31,35 @@ function SpotCard({
   const isPrivate = status === "private";
 
   return (
-    <div className={`border rounded-lg p-4 ${isClosed ? "bg-gray-900/50 border-gray-700 opacity-60" : isPrivate ? "bg-amber-900/10 border-amber-700/30" : "bg-surface border-border"}`}>
-      <div className="flex items-start justify-between gap-2">
-        <div>
-          {url && !isClosed ? (
-            <a href={url} target="_blank" rel="noopener noreferrer" className={`font-bold hover:underline ${isClosed ? "line-through text-gray-500" : "text-primary"}`}>
-              {name}
-            </a>
-          ) : (
-            <p className={`font-bold ${isClosed ? "line-through text-gray-500" : ""}`}>{name}</p>
-          )}
-          <p className="text-xs text-muted mt-0.5">
-            {type}
-            {neighborhood && <> &middot; {neighborhood}</>}
-          </p>
-        </div>
-        {isClosed && (
-          <span className="text-xs font-bold bg-red-900/40 text-red-400 px-2 py-0.5 rounded-full whitespace-nowrap">
+    <div className={`border rounded-lg p-4 ${isClosed ? "bg-red-950/30 border-red-800/40" : isPrivate ? "bg-amber-950/30 border-amber-700/40" : "bg-surface border-border"}`}>
+      {isClosed && (
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-xs font-bold bg-red-700 text-white px-2.5 py-1 rounded-full">
             Permanently Closed
           </span>
-        )}
-        {isPrivate && (
-          <span className="text-xs font-bold bg-amber-900/40 text-amber-400 px-2 py-0.5 rounded-full whitespace-nowrap">
-            Private Events Only
+        </div>
+      )}
+      {isPrivate && (
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-xs font-bold bg-amber-600 text-white px-2.5 py-1 rounded-full">
+            Private Events Only - Draft Weekend
           </span>
+        </div>
+      )}
+      <div>
+        {url && !isClosed ? (
+          <a href={url} target="_blank" rel="noopener noreferrer" className={`font-bold hover:underline ${isPrivate ? "text-amber-300" : "text-primary"}`}>
+            {name}
+          </a>
+        ) : (
+          <p className={`font-bold ${isClosed ? "line-through text-gray-300" : ""}`}>{name}</p>
         )}
+        <p className={`text-xs mt-0.5 ${isClosed ? "text-gray-400" : "text-muted"}`}>
+          {type}
+          {neighborhood && <> &middot; {neighborhood}</>}
+        </p>
       </div>
-      <p className={`text-sm mt-2 ${isClosed ? "text-gray-500 italic" : "text-muted"}`}>{description}</p>
+      <p className={`text-sm mt-2 ${isClosed ? "text-gray-400" : "text-muted"}`}>{description}</p>
     </div>
   );
 }
