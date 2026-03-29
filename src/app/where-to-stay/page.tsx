@@ -811,33 +811,28 @@ export default function WhereToStay() {
           </div>
         </section>
 
-        {/* Real estate callout */}
-        <section className="bg-blue-50 border border-blue-200 rounded-lg p-5 mb-8">
-          <p className="font-bold text-blue-900 mb-1">
-            Thinking About More Than a Hotel?
+        {/* Beyond draft weekend */}
+        <section className="mb-8">
+          <p className="text-muted leading-relaxed mb-3">
+            <strong>Beyond draft weekend:</strong> Every time Pittsburgh hosts a
+            major event, some visitors end up falling in love with the city. If
+            you're one of them, check out the{" "}
+            <Link href="/neighborhoods" className="text-primary font-semibold hover:underline">
+              neighborhoods page
+            </Link>{" "}
+            for a breakdown of what each area is actually like. And if you want
+            to talk to someone who knows the housing market here,{" "}
+            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+              Dante Egizio
+            </a>{" "}
+            is a friend of mine who's been selling homes across Pittsburgh for 7
+            years. He can tell you things Zillow can't.
           </p>
-          <p className="text-sm text-blue-800 mb-3">
-            Every year, people visit Pittsburgh for a big event and end up
-            wanting to move here. If that's you,{" "}
-            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-blue-900 underline font-semibold">Dante Egizio</a> is a
-            Pittsburgh &amp; Surrounding Areas expert with RE/MAX Select
-            Realty. He handles everything from first-time homebuyers to
-            luxury homes and investment properties. No pressure, just a
-            conversation about what's out there.
-          </p>
-          <a
-            href="https://danteegizio.remax.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
-          >
-            Talk to Dante About Pittsburgh Real Estate
-          </a>
-          <p className="text-xs text-blue-700 mt-3">
-            RE/MAX Select Realty | 400 Broad St. Suite 2006, Sewickley, PA
-            15143 | (724) 933-6300 | Dante Egizio, Associate Broker | (412)
-            347-8125 | PA License #AB069313 | Brokerage License #RB063030C |
-            Equal Housing Opportunity
+          <p className="text-xs text-gray-500">
+            Dante Egizio, Associate Broker, RE/MAX Select Realty | 400 Broad St.
+            Suite 2006, Sewickley, PA 15143 | (724) 933-6300 | (412) 347-8125 |
+            PA License #AB069313 | Brokerage License #RB063030C | Equal Housing
+            Opportunity
           </p>
         </section>
 

@@ -71,46 +71,39 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/local-professionals" className="hover:text-white">
-                  Local Professionals
+                <Link href="/about" className="hover:text-white">
+                  About This Guide
                 </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        {/* Bookkeeping bridge */}
+        {/* About the creator */}
         <div className="border-t border-gray-700 mt-8 pt-6">
           <div className="text-center mb-4">
             <p className="text-sm text-gray-400">
-              This guide is built by{" "}
-              <a
-                href="https://www.peacockbookkeepingservices.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              Built by{" "}
+              <Link
+                href="/about"
                 className="text-accent hover:text-white font-semibold"
               >
-                Peacock Bookkeeping Services LLC
-              </a>
-              , a bookkeeping firm based in Cranberry Township, PA.
+                Jordan Peacock
+              </Link>
+              {" "}in Cranberry Township, PA.
             </p>
             <p className="text-sm text-gray-500 mt-1">
-              Own a business in Pittsburgh?{" "}
+              Questions about the guide or anything else?{" "}
               <a
-                href="https://calendly.com/peacockbookkeepingservices/30min"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="mailto:jordan@peacockbookkeepingservices.com"
                 className="text-accent hover:text-white font-semibold underline"
               >
-                Book a free call
-              </a>{" "}
-              and let's talk about your books.
+                Get in touch
+              </a>
             </p>
           </div>
           <div className="text-center text-sm text-gray-500">
-            <p>Made in Cranberry Township, PA</p>
-            <p className="mt-1">
-              &copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
+            <p>&copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
               affiliated with the NFL.
             </p>
             <p className="mt-2 text-xs text-gray-600">

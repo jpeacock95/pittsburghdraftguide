@@ -733,33 +733,19 @@ export default function CranberryTownship() {
           </div>
         </section>
 
-        {/* Local business callout */}
-        <section className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-8">
-          <p className="font-bold text-amber-900 mb-1">
-            Own a Business in Cranberry Township?
+        {/* About the author */}
+        <section className="mb-8">
+          <p className="text-muted leading-relaxed">
+            <strong>About this page:</strong> This was written by someone who
+            actually lives here. I'm Jordan Peacock, I've been in Cranberry
+            Township for years, and I built this entire guide because I wanted
+            visitors to have something better than what was out there. If you
+            want to know more about who's behind this site,{" "}
+            <Link href="/about" className="text-primary font-semibold hover:underline">
+              here's the full story
+            </Link>
+            .
           </p>
-          <p className="text-sm text-amber-800 mb-3">
-            This guide was built by{" "}
-            <a
-              href="https://www.peacockbookkeepingservices.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold underline hover:text-amber-950"
-            >
-              Peacock Bookkeeping Services
-            </a>
-            , right here in Cranberry Township. We help local businesses with
-            bookkeeping, QuickBooks cleanup, and tax prep. If your books need
-            attention, we're your neighbors.
-          </p>
-          <a
-            href="https://calendly.com/peacockbookkeepingservices/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-amber-800 hover:bg-amber-900 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
-          >
-            Book a Free Call
-          </a>
         </section>
 
         {/* Cross-links */}

@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { EmailBanner } from "@/components/ui/EmailBanner";
 import { FeedbackWidget } from "@/components/ui/FeedbackWidget";
+import { AuthorByline } from "@/components/ui/AuthorByline";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,6 +73,7 @@ export default function RootLayout({
         <Header />
         <main className="flex-1 pb-28 sm:pb-20">
           {children}
+          <AuthorByline />
           <div className="max-w-3xl mx-auto px-4">
             <FeedbackWidget />
           </div>
