@@ -63,11 +63,10 @@ export default function RootLayout({
             gtag('config', 'G-GJ0PDB2N27');
           `}
         </Script>
-        {/* Umami Analytics */}
+        {/* Umami Analytics - all cloud endpoints returning 404 as of 3/29/2026, monitoring */}
         <Script
           src="https://cloud.umami.is/script.js"
           data-website-id="f0268c92-9074-4ea3-9c6b-e2197c409bd8"
-          data-host-url="https://gateway.umami.is"
           strategy="afterInteractive"
         />
         <Header />
