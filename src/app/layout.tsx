@@ -50,6 +50,20 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${geistSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-sans">
+        {/* Google Analytics (GA4) */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-GJ0PDB2N27"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-GJ0PDB2N27');
+          `}
+        </Script>
+        {/* Umami Analytics */}
         <Script
           src="https://cloud.umami.is/script.js"
           data-website-id="f0268c92-9074-4ea3-9c6b-e2197c409bd8"
