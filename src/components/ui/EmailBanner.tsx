@@ -1,25 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export function EmailBanner() {
   const [dismissed, setDismissed] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    try {
-      if (localStorage.getItem("checklist_subscribed") === "1") {
-        setSubmitted(true);
-      }
-    } catch {}
-  }, []);
-
-  function handleDismiss() {
-    setDismissed(true);
-    try { localStorage.setItem("checklist_dismissed", "1"); } catch {}
-  }
 
   if (dismissed) return null;
 
@@ -41,10 +28,8 @@ export function EmailBanner() {
         }),
       });
       setSubmitted(true);
-      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     } catch {
       setSubmitted(true);
-      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     }
     setLoading(false);
   }
@@ -54,25 +39,25 @@ export function EmailBanner() {
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-green-800 text-white border-t border-green-600 shadow-lg">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex-1 text-center sm:text-left">
-            <p className="font-bold text-sm">Your Draft Checklist</p>
+            <p className="font-bold text-sm">Check your email for the PDF link.</p>
           </div>
           <div className="flex gap-2">
             <a
               href="/checklist"
-              className="bg-accent hover:bg-accent-dark text-foreground font-bold px-3 py-2 rounded-lg text-sm transition-colors whitespace-nowrap"
+              className="bg-accent hover:bg-accent-dark text-foreground font-bold px-3 py-2.5 rounded-lg text-sm transition-colors whitespace-nowrap min-h-[44px]"
             >
               View Online
             </a>
             <a
               href="/draft-weekend-checklist.pdf"
               download
-              className="bg-white/20 hover:bg-white/30 text-white font-bold px-3 py-2 rounded-lg text-sm transition-colors whitespace-nowrap border border-white/30"
+              className="bg-white/20 hover:bg-white/30 text-white font-bold px-3 py-2.5 rounded-lg text-sm transition-colors whitespace-nowrap border border-white/30 min-h-[44px]"
             >
               Download PDF
             </a>
           </div>
           <button
-            onClick={handleDismiss}
+            onClick={() => setDismissed(true)}
             className="text-green-300 hover:text-white p-1 ml-2"
             aria-label="Dismiss"
           >
@@ -115,7 +100,7 @@ export function EmailBanner() {
           </button>
         </form>
         <button
-          onClick={handleDismiss}
+          onClick={() => setDismissed(true)}
           className="absolute top-2 right-2 sm:static text-gray-400 hover:text-white p-1"
           aria-label="Dismiss"
         >

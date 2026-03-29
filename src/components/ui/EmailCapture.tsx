@@ -25,10 +25,8 @@ export function EmailCapture() {
         }),
       });
       setSubmitted(true);
-      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     } catch {
       setSubmitted(true);
-      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     }
     setLoading(false);
   }
