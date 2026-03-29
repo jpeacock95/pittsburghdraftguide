@@ -85,12 +85,13 @@ export function Footer() {
           <div className="text-center mb-4">
             <p className="text-sm text-gray-400">
               Built by{" "}
-              <Link
+              <TrackedLink
                 href="/about"
+                eventName="peacock_builtby_footer_click"
                 className="text-accent hover:text-white font-semibold transition-colors"
               >
                 Jordan Peacock
-              </Link>
+              </TrackedLink>
               {" "}in Cranberry Township, PA.
             </p>
             <p className="text-sm text-gray-500 mt-1.5">

@@ -8,7 +8,7 @@ export function AuthorByline() {
           By{" "}
           <TrackedLink
             href="/about"
-            eventName="byline_jordan_click"
+            eventName="peacock_byjordan_header_click"
             className="text-foreground hover:text-accent font-medium transition-colors"
           >
             Jordan Peacock
@@ -17,7 +17,7 @@ export function AuthorByline() {
           <span className="hidden sm:inline text-border">&middot;</span>{" "}
           <TrackedLink
             href="/about"
-            eventName="byline_about_click"
+            eventName="peacock_aboutguide_header_click"
             className="text-muted hover:text-accent transition-colors"
           >
             About this guide
