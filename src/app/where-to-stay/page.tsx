@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
@@ -827,9 +828,9 @@ export default function WhereToStay() {
             </Link>{" "}
             for a breakdown of what each area is actually like. And if you want
             to talk to someone who knows the housing market here,{" "}
-            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+            <TrackedLink href="https://danteegizio.remax.com/" partner="dante" action="remax_profile" page="where-to-stay" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
               Dante Egizio
-            </a>{" "}
+            </TrackedLink>{" "}
             is a friend of mine who's been selling homes across Pittsburgh for 7
             years. He can tell you things Zillow can't.
           </p>

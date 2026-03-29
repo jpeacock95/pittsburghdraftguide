@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
@@ -80,14 +81,17 @@ export default function About() {
 
           <p>
             I'm not a journalist or a travel writer. I'm a bookkeeper. I run{" "}
-            <a
+            <TrackedLink
               href="https://www.peacockbookkeepingservices.com"
+              partner="peacock"
+              action="website"
+              page="about"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary font-semibold hover:underline"
             >
               Peacock Bookkeeping Services
-            </a>{" "}
+            </TrackedLink>{" "}
             out of Cranberry Township. I help small business owners figure out
             where their money is going, clean up their QuickBooks, and stop
             losing money they don't know they're losing. I've got three
@@ -143,44 +147,56 @@ export default function About() {
             </p>
 
             <div className="mt-4 flex flex-col sm:flex-row gap-3">
-              <a
+              <TrackedLink
                 href="https://calendly.com/peacockbookkeepingservices/30min"
+                partner="peacock"
+                action="calendly"
+                page="about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 Book a Free Call
-              </a>
-              <a
+              </TrackedLink>
+              <TrackedLink
                 href="https://www.peacockbookkeepingservices.com"
+                partner="peacock"
+                action="website"
+                page="about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white border border-amber-600 text-amber-600 hover:bg-amber-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 Visit My Website
-              </a>
+              </TrackedLink>
             </div>
 
             <div className="mt-3 bg-surface rounded-lg p-3">
               <div className="flex flex-col sm:flex-row gap-2 text-sm">
                 <span className="text-muted">
                   Phone:{" "}
-                  <a
+                  <TrackedLink
                     href="tel:+14124077420"
+                    partner="peacock"
+                    action="phone"
+                    page="about"
                     className="text-primary font-semibold hover:underline"
                   >
                     (412) 407-7420
-                  </a>
+                  </TrackedLink>
                 </span>
                 <span className="hidden sm:inline text-gray-300">|</span>
                 <span className="text-muted">
                   Email:{" "}
-                  <a
+                  <TrackedLink
                     href="mailto:jordan@peacockbookkeepingservices.com"
+                    partner="peacock"
+                    action="email"
+                    page="about"
                     className="text-primary font-semibold hover:underline"
                   >
                     jordan@peacockbookkeepingservices.com
-                  </a>
+                  </TrackedLink>
                 </span>
               </div>
             </div>
@@ -280,20 +296,26 @@ export default function About() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-3">
-              <a
+              <TrackedLink
                 href="https://danteegizio.remax.com/"
+                partner="dante"
+                action="remax_profile"
+                page="about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 View Dante's RE/MAX Profile
-              </a>
-              <a
+              </TrackedLink>
+              <TrackedLink
                 href="tel:+14123478125"
+                partner="dante"
+                action="phone"
+                page="about"
                 className="inline-block bg-white border border-blue-600 text-blue-600 hover:bg-blue-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 Call Dante
-              </a>
+              </TrackedLink>
             </div>
 
             {/* RE/MAX compliance footer */}

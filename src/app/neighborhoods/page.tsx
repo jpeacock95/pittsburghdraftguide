@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
@@ -432,9 +433,9 @@ export default function NeighborhoodsPage() {
             an event and end up falling in love with Pittsburgh. If that's you
             and you want to know what it's really like to live in any of these
             neighborhoods,{" "}
-            <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+            <TrackedLink href="https://danteegizio.remax.com/" partner="dante" action="remax_profile" page="neighborhoods" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
               Dante Egizio
-            </a>{" "}
+            </TrackedLink>{" "}
             is a friend of mine who's been helping people buy and sell homes here
             for 7 years. He lives in Ohio Township and knows every one of these
             areas firsthand. He can tell you the stuff that doesn't show up on
