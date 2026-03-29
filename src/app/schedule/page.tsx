@@ -268,8 +268,8 @@ export default function Schedule() {
 
         {/* Draft Experience */}
         <Image
-          src="/point-state-park.png"
-          alt="Point State Park where the NFL Draft Experience fan zone is located"
+          src="/pgh-point-state-park.jpg"
+          alt="Point State Park fountain at golden hour, home of the NFL Draft Experience fan zone"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

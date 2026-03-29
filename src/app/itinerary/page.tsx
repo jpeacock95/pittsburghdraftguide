@@ -218,7 +218,7 @@ export default function ItineraryPage() {
         {/* ===================== THURSDAY ===================== */}
         <section id="thursday" className="mb-16 scroll-mt-20">
           <DayHeader
-            day="Day 1 — The Big Night"
+            day="Day 1: The Big Night"
             date="Thursday, April 23"
             tagline="Biggest crowds. First-round picks. The energy is unreal."
             color="bg-primary-dark text-white"
@@ -288,20 +288,20 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://www.federalgalley.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Federal Galley</a></strong> — 4 restaurant concepts under
+                  <strong><a href="https://www.federalgalley.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Federal Galley</a></strong>. 4 restaurant concepts under
                   one roof. Great if your group can't agree on food. Half-off
                   drafts at happy hour until 6:30 PM.
                 </li>
                 <li>
-                  <strong><a href="https://tomswatchbar.com/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Tom's Watch Bar</a></strong> — Steps from Acrisure Stadium.
+                  <strong><a href="https://tomswatchbar.com/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Tom's Watch Bar</a></strong>. Steps from Acrisure Stadium.
                   Massive video walls so you won't miss a pick.
                 </li>
                 <li>
-                  <strong><a href="https://pittsburgh.stbcbeer.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Southern Tier Brewery</a></strong> — Indoor/outdoor seating,
+                  <strong><a href="https://pittsburgh.stbcbeer.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Southern Tier Brewery</a></strong>. Indoor/outdoor seating,
                   solid beer, dogs allowed. 4-minute walk to PNC Park.
                 </li>
                 <li>
-                  <strong>Burgatory</strong> — Gourmet burgers. Reliable, popular,
+                  <strong>Burgatory</strong>. Gourmet burgers. Reliable, popular,
                   won't disappoint.
                 </li>
               </ul>
@@ -355,7 +355,7 @@ export default function ItineraryPage() {
         {/* ===================== FRIDAY ===================== */}
         <section id="friday" className="mb-16 scroll-mt-20">
           <DayHeader
-            day="Day 2 — The Sweet Spot"
+            day="Day 2: The Sweet Spot"
             date="Friday, April 24"
             tagline="Smaller crowds than Thursday. Better vibes. Locals call this the best day."
             color="bg-primary-dark text-white"
@@ -402,20 +402,20 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://dianoiaseatery.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">DiAnoia's Eatery</a></strong> — 1,200+ Yelp reviews.
+                  <strong><a href="https://dianoiaseatery.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">DiAnoia's Eatery</a></strong>. 1,200+ Yelp reviews.
                   Italian market and restaurant. Get the pasta.
                 </li>
                 <li>
-                  <strong><a href="https://www.thepamarket.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The PA Market</a></strong> — European-style food hall.
+                  <strong><a href="https://www.thepamarket.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The PA Market</a></strong>. European-style food hall.
                   Two floors: cocktail bars, food vendors, wine garden. 14,000
                   sq ft.
                 </li>
                 <li>
-                  <strong><a href="https://novoasianfoodhall.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Novo Asian Food Hall</a></strong> — Sushi, pho, spring
+                  <strong><a href="https://novoasianfoodhall.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Novo Asian Food Hall</a></strong>. Sushi, pho, spring
                   rolls from multiple vendors. Great variety.
                 </li>
                 <li>
-                  <strong><a href="https://www.eatgaucho.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gaucho Parrilla Argentina</a></strong> — 4.5 stars on
+                  <strong><a href="https://www.eatgaucho.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gaucho Parrilla Argentina</a></strong>. 4.5 stars on
                   TripAdvisor with 833 reviews. Argentine grill. One of the
                   highest-rated restaurants near the draft.
                 </li>
@@ -430,15 +430,15 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://www.bridgesandbourbonpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Bridges &amp; Bourbon</a></strong> — High-end cocktail
+                  <strong><a href="https://www.bridgesandbourbonpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Bridges &amp; Bourbon</a></strong>. High-end cocktail
                   bar. Whiskey-forward.
                 </li>
                 <li>
-                  <strong><a href="https://butcherandtherye.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butcher and the Rye</a></strong> — Craft cocktails, New
+                  <strong><a href="https://butcherandtherye.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butcher and the Rye</a></strong>. Craft cocktails, New
                   American food. Popular with foodies.
                 </li>
                 <li>
-                  <strong><a href="http://www.originaloysterhousepittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The Original Oyster House</a></strong> — The oldest
+                  <strong><a href="http://www.originaloysterhousepittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The Original Oyster House</a></strong>. The oldest
                   restaurant in Pittsburgh. Tourists love it.
                 </li>
               </ul>
@@ -451,15 +451,15 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://www.eatgaucho.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gaucho Parrilla Argentina</a></strong> — If you didn't
+                  <strong><a href="https://www.eatgaucho.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gaucho Parrilla Argentina</a></strong>. If you didn't
                   hit it at lunch, do it now.
                 </li>
                 <li>
-                  <strong><a href="https://properpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Proper Brick Oven and Tap Room</a></strong> — 4.5 stars,
+                  <strong><a href="https://properpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Proper Brick Oven and Tap Room</a></strong>. 4.5 stars,
                   725 TripAdvisor reviews. Great pizza and craft beer.
                 </li>
                 <li>
-                  <strong>Alta Via</strong> — Italian at Market Square. Perfect
+                  <strong>Alta Via</strong>. Italian at Market Square. Perfect
                   central location.
                 </li>
               </ul>
@@ -509,7 +509,7 @@ export default function ItineraryPage() {
         {/* ===================== SATURDAY ===================== */}
         <section id="saturday" className="mb-16 scroll-mt-20">
           <DayHeader
-            day="Day 3 — The Local's Pick"
+            day="Day 3: The Local's Pick"
             date="Saturday, April 25"
             tagline="The insider's day. Smaller crowds. 5K run. Concert. Last call at the Draft Experience."
             color="bg-accent text-foreground"
@@ -560,15 +560,15 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong>Lawrenceville</strong> — Trendy restaurants and
+                  <strong>Lawrenceville</strong>. Trendy restaurants and
                   independent shops along Butler Street. Great breweries.
                 </li>
                 <li>
-                  <strong>South Side</strong> — Walk Carson Street during the
+                  <strong>South Side</strong>. Walk Carson Street during the
                   day when it's calmer. Hit SouthSide Works for shopping.
                 </li>
                 <li>
-                  <strong>North Side (beyond stadiums)</strong> — The <a href="https://mattress.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mattress
+                  <strong>North Side (beyond stadiums)</strong>. The <a href="https://mattress.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mattress
                   Factory</a> has immersive contemporary art. $22 admission, open
                   11 AM to 6 PM. <a href="https://randyland.club/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Randyland</a> is free.
                 </li>
@@ -603,15 +603,15 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://condadotacos.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Condado Tacos</a></strong> — Build-your-own tacos near
+                  <strong><a href="https://condadotacos.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Condado Tacos</a></strong>. Build-your-own tacos near
                   Market Square. Casual, affordable, fast.
                 </li>
                 <li>
-                  <strong><a href="https://www.theyardpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The Yard</a></strong> — Monster grilled cheese
+                  <strong><a href="https://www.theyardpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">The Yard</a></strong>. Monster grilled cheese
                   sandwiches and a solid draft beer list. Fun spot.
                 </li>
                 <li>
-                  <strong><a href="https://www.cityworksrestaurant.com/locations/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">City Works</a></strong> — 90 craft beers on tap. Modern
+                  <strong><a href="https://www.cityworksrestaurant.com/locations/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">City Works</a></strong>. 90 craft beers on tap. Modern
                   American menu. Good lunch-and-watch spot.
                 </li>
               </ul>
@@ -652,22 +652,22 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://churchbrew.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Church Brew Works</a></strong> — A brewery inside a
+                  <strong><a href="https://churchbrew.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Church Brew Works</a></strong>. A brewery inside a
                   converted 1902 church in Lawrenceville. Copper brew kettles
                   sit where the altar used to be. One of the most unique
                   restaurants in America.
                 </li>
                 <li>
-                  <strong><a href="https://gristhouse.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Grist House Craft Brewery</a></strong> — Huge outdoor
+                  <strong><a href="https://gristhouse.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Grist House Craft Brewery</a></strong>. Huge outdoor
                   patio space. If the weather's good, this is the move.
                 </li>
                 <li>
-                  <strong><a href="https://www.hofbrauhauspittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Hofbrauhaus Pittsburgh</a></strong> — German beer hall on
+                  <strong><a href="https://www.hofbrauhauspittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Hofbrauhaus Pittsburgh</a></strong>. German beer hall on
                   the South Side. Live music, big steins, great atmosphere for
                   a group.
                 </li>
                 <li>
-                  <strong><a href="https://www.eddiemerlots.com/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Eddie Merlot's</a></strong> — If you want to go upscale.
+                  <strong><a href="https://www.eddiemerlots.com/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Eddie Merlot's</a></strong>. If you want to go upscale.
                   Prime aged beef downtown. They're running draft-specific
                   promotions.
                 </li>
@@ -681,16 +681,16 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong><a href="https://www.barmarcopgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Bar Marco</a></strong> — Some of the best bartenders in
+                  <strong><a href="https://www.barmarcopgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Bar Marco</a></strong>. Some of the best bartenders in
                   the city. Strip District. Small plates and craft cocktails.
                 </li>
                 <li>
-                  <strong><a href="https://www.olive-twist.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Olive or Twist</a></strong> — Hosting the YinzerMOB
+                  <strong><a href="https://www.olive-twist.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Olive or Twist</a></strong>. Hosting the YinzerMOB
                   Draft Party on the 2nd floor. $100 ticket. Premium
                   cocktails downtown.
                 </li>
                 <li>
-                  <strong>Cadence Cellars</strong> — Speakeasy-style wine bar
+                  <strong>Cadence Cellars</strong>. Speakeasy-style wine bar
                   near downtown. Low-key ending to a big weekend.
                 </li>
               </ul>

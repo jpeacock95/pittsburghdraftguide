@@ -49,7 +49,7 @@ export default function ThingsToDoPage() {
       {/* Hero */}
       <section
         className="relative text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/point-state-park.png')" }}
+        style={{ backgroundImage: "url('/pgh-fountain-sunset.jpg')" }}
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
@@ -102,8 +102,8 @@ export default function ThingsToDoPage() {
 
         {/* Draft Experience */}
         <Image
-          src="/point-state-park.png"
-          alt="Aerial view of Point State Park with fountain where Pittsburgh's three rivers meet"
+          src="/pgh-point-state-park.jpg"
+          alt="Point State Park fountain at golden hour where Pittsburgh's three rivers meet"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

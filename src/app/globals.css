@@ -34,6 +34,16 @@ h1, h2, h3 {
   color: var(--color-foreground);
 }
 
+/* Headings inside dark/photo sections inherit white text */
+.photo-section h1,
+.photo-section h2,
+.photo-section h3,
+.bg-primary-dark h1,
+.bg-primary-dark h2,
+.bg-primary-dark h3 {
+  color: #ffffff;
+}
+
 h4 {
   font-family: var(--font-body), system-ui, sans-serif;
   font-weight: 600;

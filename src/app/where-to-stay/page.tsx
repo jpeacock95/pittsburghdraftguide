@@ -90,8 +90,8 @@ export default function WhereToStay() {
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         <Image
-          src="/hotel-room.png"
-          alt="Hotel room with city skyline view for NFL Draft weekend in Pittsburgh"
+          src="/pgh-skyline-night.jpg"
+          alt="Pittsburgh skyline at night from the Duquesne Incline overlook"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8 max-w-3xl mx-auto px-4"

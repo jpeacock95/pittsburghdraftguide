@@ -236,7 +236,7 @@ export default function NeighborhoodsPage() {
       {/* Hero */}
       <section
         className="relative text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/north-shore.png')" }}
+        style={{ backgroundImage: "url('/pgh-clemente-bridge.jpg')" }}
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
@@ -307,8 +307,8 @@ export default function NeighborhoodsPage() {
         </div>
 
         <Image
-          src="/north-shore.png"
-          alt="North Shore riverwalk with Acrisure Stadium at dusk in Pittsburgh"
+          src="/pgh-clemente-bridge.jpg"
+          alt="Roberto Clemente Bridge and Pittsburgh skyline from the North Shore"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"
@@ -367,8 +367,8 @@ export default function NeighborhoodsPage() {
         ))}
 
         <Image
-          src="/incline-view.png"
-          alt="Duquesne Incline view of Pittsburgh skyline at sunset"
+          src="/pgh-incline-view.jpg"
+          alt="View of Pittsburgh skyline from the top of the Duquesne Incline"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

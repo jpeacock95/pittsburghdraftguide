@@ -92,7 +92,7 @@ export default function BarsRestaurants() {
       {/* Hero */}
       <section
         className="relative text-white py-16 md:py-20 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/sports-bar.png')" }}
+        style={{ backgroundImage: "url('/pgh-bridge-night.jpg')" }}
       >
         <div className="absolute inset-0 bg-primary-dark/75" />
         <div className="relative max-w-3xl mx-auto px-4">
@@ -161,8 +161,8 @@ export default function BarsRestaurants() {
         </div>
 
         <Image
-          src="/sports-bar.png"
-          alt="Pittsburgh sports bar during draft weekend"
+          src="/pgh-bridge-night.jpg"
+          alt="Roberto Clemente Bridge lit up at night with Pittsburgh skyline"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"
@@ -397,8 +397,8 @@ export default function BarsRestaurants() {
 
         {/* South Side */}
         <Image
-          src="/south-side.png"
-          alt="South Side Carson Street nightlife in Pittsburgh"
+          src="/pgh-bridge-night.jpg"
+          alt="Pittsburgh at night from the South Side, looking toward downtown"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

@@ -60,7 +60,7 @@ export default function HomePage() {
       {/* Hero - cinematic full-bleed */}
       <section
         className="photo-section text-white py-32 md:py-44"
-        style={{ backgroundImage: "url('/hero-pittsburgh.png')" }}
+        style={{ backgroundImage: "url('/pgh-skyline-night.jpg')" }}
       >
         <div className="max-w-3xl mx-auto px-4 text-center">
           <p className="label text-accent/90 mb-5">
@@ -172,7 +172,7 @@ export default function HomePage() {
             <p>
               The main stage at Acrisure Stadium on the North Shore is where teams
               make their picks. But across the river at Point State Park, there's
-              the NFL Draft Experience &mdash; a free fan zone with a 40-yard dash,
+              the NFL Draft Experience, a free fan zone with a 40-yard dash,
               field goal challenge, autograph stage, Lombardi Trophy photo ops,
               and a whole lot more.
             </p>
@@ -209,7 +209,7 @@ export default function HomePage() {
       {/* Schedule overview - dark cinematic section */}
       <section
         className="photo-section text-white py-20"
-        style={{ backgroundImage: "url('/north-shore.png')" }}
+        style={{ backgroundImage: "url('/pgh-bridge-night.jpg')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="label mb-4">Schedule</p>

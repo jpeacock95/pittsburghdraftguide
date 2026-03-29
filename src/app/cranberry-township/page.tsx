@@ -92,8 +92,8 @@ export default function CranberryTownship() {
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         <Image
-          src="/cranberry-township.png"
-          alt="Cranberry Township Pennsylvania suburban town center with shops and restaurants"
+          src="/pgh-incline-view.jpg"
+          alt="View of Pittsburgh skyline from the Duquesne Incline, the city Cranberry Township visitors will see"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

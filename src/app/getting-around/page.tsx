@@ -74,8 +74,8 @@ export default function GettingAroundPage() {
 
         {/* The two venues */}
         <Image
-          src="/north-shore.png"
-          alt="North Shore riverwalk connecting the two NFL Draft venues in Pittsburgh"
+          src="/pgh-clemente-bridge.jpg"
+          alt="Roberto Clemente Bridge connecting downtown Pittsburgh to the North Shore draft venues"
           width={800}
           height={450}
           className="rounded-lg w-full h-auto mb-8"

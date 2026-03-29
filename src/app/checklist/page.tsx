@@ -56,9 +56,9 @@ export default function ChecklistPage() {
           <div className="space-y-3">
             <CheckItem>Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register (required for free entry)</CheckItem>
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
-            <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving (or skip parking entirely — ALL T rides are free April 23-25 thanks to Sheetz)</CheckItem>
+            <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving (or skip parking entirely. ALL T rides are free April 23-25 thanks to Sheetz)</CheckItem>
             <CheckItem text="Download the Ready2Ride app if you want the $25 Draft Pass (7 days unlimited PRT rides including buses)" />
-            <CheckItem text="Check the road closure map — several bridges and I-279 exits are closed" />
+            <CheckItem text="Check the road closure map. Several bridges and I-279 exits are closed" />
             <CheckItem text="Charge your portable battery pack (you'll need it)" />
             <CheckItem text="Check the weather forecast for Pittsburgh April 23-25" />
             <CheckItem text="Screenshot or save the park-and-ride directions for your approach" />
@@ -74,15 +74,15 @@ export default function ChecklistPage() {
           <div className="space-y-3">
             {/* TODO: Replace Amazon links with affiliate links once Associate tag is received */}
             <CheckItem>
-              <a href="https://www.amazon.com/s?k=clear+stadium+bag+12x6x12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Clear bag</a> (12x6x12 max for Acrisure Stadium, 16x16x6 for Point State Park) — buy one on Amazon for $8, don't pay $25 at the event
+              <a href="https://www.amazon.com/s?k=clear+stadium+bag+12x6x12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Clear bag</a> (12x6x12 max for Acrisure Stadium, 16x16x6 for Point State Park). Buy one on Amazon for $8, don't pay $25 at the event
             </CheckItem>
             <CheckItem>
-              <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Portable phone charger</a> — OnePass drains your battery fast, and 500K other people will be competing for cell signal
+              <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Portable phone charger</a>. OnePass drains your battery fast, and 500K other people will be competing for cell signal
             </CheckItem>
-            <CheckItem text="Comfortable walking shoes — you'll walk 5-10 miles per day between venues" />
-            <CheckItem text="Layers — April in Pittsburgh can be 45 or 75 degrees. Seriously. Pack for both." />
+            <CheckItem text="Comfortable walking shoes. You'll walk 5-10 miles per day between venues" />
+            <CheckItem text="Layers. April in Pittsburgh can be 45 or 75 degrees. Seriously. Pack for both." />
             <CheckItem>
-              <a href="https://www.amazon.com/s?k=packable+rain+jacket" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Rain jacket or poncho</a> — it's an outdoor event and April showers are real
+              <a href="https://www.amazon.com/s?k=packable+rain+jacket" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Rain jacket or poncho</a>. It's an outdoor event and April showers are real
             </CheckItem>
             <CheckItem>Your phone with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> installed and your account set up</CheckItem>
           </div>
@@ -90,14 +90,14 @@ export default function ChecklistPage() {
           <h3 className="text-lg font-heading mt-6 mb-3">Smart Additions</h3>
           <div className="space-y-3">
             <CheckItem>
-              <a href="https://www.amazon.com/s?k=sport+sunscreen+spf+50" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Sunscreen</a> — if it's a clear day, you're outside for hours
+              <a href="https://www.amazon.com/s?k=sport+sunscreen+spf+50" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Sunscreen</a>. If it's a clear day, you're outside for hours
             </CheckItem>
             <CheckItem text="Sunglasses and a hat" />
             <CheckItem>
               <a href="https://www.amazon.com/s?k=collapsible+water+bottle" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Water bottle</a> (refill stations will be available)
             </CheckItem>
-            <CheckItem text="Snacks — food lines will be long and $15 beers add up" />
-            <CheckItem text="Cash — some vendors and parking lots are cash-only" />
+            <CheckItem text="Snacks. Food lines will be long and $15 beers add up" />
+            <CheckItem text="Cash. Some vendors and parking lots are cash-only" />
             <CheckItem text="Your team's jersey or gear (this is a football event, rep your team)" />
             <CheckItem text="Small umbrella that fits in your clear bag" />
           </div>
@@ -123,11 +123,11 @@ export default function ChecklistPage() {
             <CheckItem text="Portable charger fully charged" />
             <CheckItem text="OnePass app open and working" />
             <CheckItem text="Clear bag packed with essentials" />
-            <CheckItem text="Check weather one more time — adjust layers" />
+            <CheckItem text="Check weather one more time. Adjust layers" />
             <CheckItem text="Eat a real meal before you go (food at the event is expensive and lines are long)" />
-            <CheckItem text="Know your parking/transit plan (don't wing it) — remember ALL T rides are FREE" />
-            <CheckItem text="Screenshot your return transit route — cell signal will be weak with 200K people around you" />
-            <CheckItem text="Watch out for scams — BBB warns about fake tickets, counterfeit merchandise, and rental fraud. The draft is FREE. If someone is selling tickets, it's a scam." />
+            <CheckItem text="Know your parking/transit plan (don't wing it). Remember ALL T rides are FREE" />
+            <CheckItem text="Screenshot your return transit route. Cell signal will be weak with 200K people around you" />
+            <CheckItem text="Watch out for scams. BBB warns about fake tickets, counterfeit merchandise, and rental fraud. The draft is FREE. If someone is selling tickets, it's a scam." />
             <CheckItem text="Tell someone where you're going and when you expect to be back" />
           </div>
         </section>
@@ -189,11 +189,11 @@ export default function ChecklistPage() {
             ALL T Rides FREE April 23-25 (Sheetz + PRT)
           </p>
           <div className="space-y-2 text-sm text-muted">
-            <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5) — Football Flyer bus, 25 min</p>
-            <p><strong>From South:</strong> South Hills Village T Station — ride the T for free, 35 min</p>
-            <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride — P1 bus, 15 min</p>
+            <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5), Football Flyer bus, 25 min</p>
+            <p><strong>From South:</strong> South Hills Village T Station, ride the T for free, 35 min</p>
+            <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride, P1 bus, 15 min</p>
             <p><strong>From West/Airport:</strong> PRT Route 28X, 45-60 min</p>
-            <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride — Butler Transit every 30 min to Ross Park lot ($10 round trip, exact cash)</p>
+            <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride, Butler Transit every 30 min to Ross Park lot ($10 round trip, exact cash)</p>
           </div>
           <p className="text-sm text-muted mt-3">
             Sheetz is covering all fares on the T (red, blue, silver lines) and the Monongahela Incline all 3 days. Park at any T station and ride downtown for $0.
