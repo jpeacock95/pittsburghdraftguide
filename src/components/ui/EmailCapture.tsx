@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export function EmailCapture() {
-  const [submitted, setSubmitted] = useState(false);
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
+  const router = useRouter();
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -24,37 +24,11 @@ export function EmailCapture() {
           source: "inline",
         }),
       });
-      setSubmitted(true);
     } catch {
-      setSubmitted(true);
+      // Email capture failed silently, still redirect
     }
     setLoading(false);
-  }
-
-  if (submitted) {
-    return (
-      <section className="bg-green-50 border border-green-200 rounded-lg p-6 text-center my-8">
-        <p className="font-bold text-green-900 text-lg">Your checklist is ready!</p>
-        <p className="text-sm text-green-800 mt-2 mb-4">
-          View it online or download the PDF to print and bring with you.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link
-            href="/checklist"
-            className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-3 rounded-lg text-sm transition-colors min-h-[44px]"
-          >
-            View Checklist Online
-          </Link>
-          <a
-            href="/draft-weekend-checklist.pdf"
-            download
-            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-3 rounded-lg text-sm transition-colors min-h-[44px]"
-          >
-            Download PDF
-          </a>
-        </div>
-      </section>
-    );
+    router.push("/checklist");
   }
 
   return (
