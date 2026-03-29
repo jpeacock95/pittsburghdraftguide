@@ -97,9 +97,7 @@ export function Footer() {
               Questions about the guide or anything else?{" "}
               <TrackedLink
                 href="mailto:jordan@peacockbookkeepingservices.com"
-                partner="peacock"
-                action="email"
-                page="footer"
+                eventName="peacock_getintouch_footer_click"
                 className="text-accent hover:text-white font-semibold underline underline-offset-2 transition-colors"
               >
                 Get in touch

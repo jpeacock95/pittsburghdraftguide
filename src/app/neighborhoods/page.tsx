@@ -432,7 +432,7 @@ export default function NeighborhoodsPage() {
             an event and end up falling in love with Pittsburgh. If that's you
             and you want to know what it's really like to live in any of these
             neighborhoods,{" "}
-            <TrackedLink href="https://danteegizio.remax.com/" partner="dante" action="remax_profile" page="neighborhoods" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+            <TrackedLink href="https://danteegizio.remax.com/" eventName="dante_remax_link_neighborhoods_click" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
               Dante Egizio
             </TrackedLink>{" "}
             is a friend of mine who's been helping people buy and sell homes here

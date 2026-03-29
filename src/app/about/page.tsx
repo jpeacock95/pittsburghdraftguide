@@ -83,9 +83,7 @@ export default function About() {
             I'm not a journalist or a travel writer. I'm a bookkeeper. I run{" "}
             <TrackedLink
               href="https://www.peacockbookkeepingservices.com"
-              partner="peacock"
-              action="website"
-              page="about"
+              eventName="peacock_website_click"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary font-semibold hover:underline"
@@ -149,9 +147,7 @@ export default function About() {
             <div className="mt-4 flex flex-col sm:flex-row gap-3">
               <TrackedLink
                 href="https://calendly.com/peacockbookkeepingservices/30min"
-                partner="peacock"
-                action="calendly"
-                page="about"
+                eventName="peacock_calendly_click"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
@@ -160,9 +156,7 @@ export default function About() {
               </TrackedLink>
               <TrackedLink
                 href="https://www.peacockbookkeepingservices.com"
-                partner="peacock"
-                action="website"
-                page="about"
+                eventName="peacock_website_button_click"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-white border border-amber-600 text-amber-600 hover:bg-amber-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
@@ -177,9 +171,7 @@ export default function About() {
                   Phone:{" "}
                   <TrackedLink
                     href="tel:+14124077420"
-                    partner="peacock"
-                    action="phone"
-                    page="about"
+                    eventName="peacock_phone_click"
                     className="text-primary font-semibold hover:underline"
                   >
                     (412) 407-7420
@@ -190,9 +182,7 @@ export default function About() {
                   Email:{" "}
                   <TrackedLink
                     href="mailto:jordan@peacockbookkeepingservices.com"
-                    partner="peacock"
-                    action="email"
-                    page="about"
+                    eventName="peacock_email_click"
                     className="text-primary font-semibold hover:underline"
                   >
                     jordan@peacockbookkeepingservices.com
@@ -277,9 +267,7 @@ export default function About() {
                   Phone:{" "}
                   <TrackedLink
                     href="tel:+14123478125"
-                    partner="dante"
-                    action="phone"
-                    page="about-contact"
+                    eventName="dante_phone_click"
                     className="text-primary font-semibold hover:underline"
                   >
                     (412) 347-8125
@@ -290,9 +278,7 @@ export default function About() {
                   Email:{" "}
                   <TrackedLink
                     href="mailto:danteegizio@remax.net"
-                    partner="dante"
-                    action="email"
-                    page="about-contact"
+                    eventName="dante_email_click"
                     className="text-primary font-semibold hover:underline"
                   >
                     danteegizio@remax.net
@@ -304,9 +290,7 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-3">
               <TrackedLink
                 href="https://danteegizio.remax.com/"
-                partner="dante"
-                action="remax_profile"
-                page="about"
+                eventName="dante_remax_button_click"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
@@ -315,9 +299,7 @@ export default function About() {
               </TrackedLink>
               <TrackedLink
                 href="tel:+14123478125"
-                partner="dante"
-                action="phone"
-                page="about"
+                eventName="dante_call_button_click"
                 className="inline-block bg-white border border-blue-600 text-primary hover:bg-blue-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
               >
                 Call Dante
@@ -335,7 +317,7 @@ export default function About() {
               </p>
               <p className="mt-1">
                 Dante Egizio, Associate Broker |{" "}
-                <TrackedLink href="tel:+14123478125" partner="dante" action="phone" page="about-compliance" className="hover:underline">
+                <TrackedLink href="tel:+14123478125" eventName="dante_phone_compliance_click" className="hover:underline">
                   (412) 347-8125
                 </TrackedLink>
               </p>
@@ -372,9 +354,7 @@ export default function About() {
           </p>
           <TrackedLink
             href="mailto:jordan@peacockbookkeepingservices.com?subject=Featured%20Listing%20Inquiry%20-%20Pittsburgh%20Draft%20Guide"
-            partner="peacock"
-            action="featured_listing_inquiry"
-            page="about"
+            eventName="peacock_featured_inquiry_click"
             className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
           >
             Inquire About a Featured Spot

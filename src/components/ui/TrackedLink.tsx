@@ -2,9 +2,7 @@
 
 interface TrackedLinkProps {
   href: string;
-  partner: "dante" | "peacock" | "affiliate";
-  action: string; // e.g. "remax_profile", "calendly", "phone", "website", "email"
-  page: string; // e.g. "about", "where-to-stay", "neighborhoods", "footer"
+  eventName: string; // e.g. "dante_remax_button_click", "peacock_calendly_click"
   children: React.ReactNode;
   className?: string;
   target?: string;
@@ -13,9 +11,7 @@ interface TrackedLinkProps {
 
 export function TrackedLink({
   href,
-  partner,
-  action,
-  page,
+  eventName,
   children,
   className,
   target,
@@ -27,27 +23,24 @@ export function TrackedLink({
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const w = window as any;
 
-    // For outbound links (target="_blank"), prevent default briefly to ensure events fire
-    const isOutbound = e.currentTarget.target === "_blank" || e.currentTarget.href.startsWith("tel:") || e.currentTarget.href.startsWith("mailto:");
+    const isOutbound = e.currentTarget.target === "_blank"
+      || e.currentTarget.href.startsWith("tel:")
+      || e.currentTarget.href.startsWith("mailto:");
 
-    // GA4 events -- separate event names so they show up distinctly in Realtime
+    // GA4 event
     if (typeof w.gtag === "function") {
-      w.gtag("event", `${partner}_click`, {
-        click_action: action,
-        source_page: page,
+      w.gtag("event", eventName, {
+        link_url: href,
         transport_type: "beacon",
       });
     }
 
     // Umami event
     if (w.umami && typeof w.umami.track === "function") {
-      w.umami.track(`${partner}_click`, {
-        action: action,
-        page: page,
-      });
+      w.umami.track(eventName, { link_url: href });
     }
 
-    // For same-tab navigation, add a tiny delay so events fire before navigating
+    // For same-tab navigation, brief delay so events fire before navigating
     if (!isOutbound) {
       e.preventDefault();
       setTimeout(() => {
@@ -58,9 +51,9 @@ export function TrackedLink({
 
   // Add UTM params for Dante's RE/MAX links
   let trackedHref = href;
-  if (partner === "dante" && href.includes("danteegizio.remax.com")) {
+  if (eventName.startsWith("dante_remax") && href.includes("danteegizio.remax.com")) {
     const separator = href.includes("?") ? "&" : "?";
-    trackedHref = `${href}${separator}utm_source=pittsburghdraftguide&utm_medium=referral&utm_campaign=draft2026&utm_content=${page}`;
+    trackedHref = `${href}${separator}utm_source=pittsburghdraftguide&utm_medium=referral&utm_campaign=draft2026&utm_content=${eventName}`;
   }
 
   return (

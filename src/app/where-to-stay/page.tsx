@@ -831,7 +831,7 @@ export default function WhereToStay() {
             </Link>{" "}
             for a breakdown of what each area is actually like. And if you want
             to talk to someone who knows the housing market here,{" "}
-            <TrackedLink href="https://danteegizio.remax.com/" partner="dante" action="remax_profile" page="where-to-stay" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+            <TrackedLink href="https://danteegizio.remax.com/" eventName="dante_remax_link_wheretostay_click" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
               Dante Egizio
             </TrackedLink>{" "}
             is a friend of mine who's been selling homes across Pittsburgh for 7

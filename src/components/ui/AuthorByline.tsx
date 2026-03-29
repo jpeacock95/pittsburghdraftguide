@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export function AuthorByline() {
   return (
@@ -6,20 +6,22 @@ export function AuthorByline() {
       <div className="max-w-6xl mx-auto px-4 py-2">
         <p className="text-xs text-muted text-center sm:text-right tracking-wide">
           By{" "}
-          <Link
+          <TrackedLink
             href="/about"
+            eventName="byline_jordan_click"
             className="text-foreground hover:text-accent font-medium transition-colors"
           >
             Jordan Peacock
-          </Link>
+          </TrackedLink>
           , Cranberry Township local{" "}
           <span className="hidden sm:inline text-border">&middot;</span>{" "}
-          <Link
+          <TrackedLink
             href="/about"
+            eventName="byline_about_click"
             className="text-muted hover:text-accent transition-colors"
           >
             About this guide
-          </Link>
+          </TrackedLink>
         </p>
       </div>
     </div>
