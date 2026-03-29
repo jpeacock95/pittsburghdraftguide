@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Draft Weekend Checklist</title>
+<style>
+  @page { size: letter; margin: 0.45in 0.6in 0.4in; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: #1a1a2e; font-size: 9.5pt; line-height: 1.35; }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(135deg, #0f2744 0%, #1e3a5f 60%, #2a5080 100%);
+    color: white; text-align: center;
+    padding: 16px 24px 12px;
+    margin: -0.45in -0.6in 14px; width: calc(100% + 1.2in);
+    position: relative;
+  }
+  .header .icon { font-size: 22pt; margin-bottom: 1px; }
+  .header h1 { font-size: 22pt; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 1px; }
+  .header .subtitle { font-size: 10pt; opacity: 0.8; font-weight: 400; }
+  .header .url-bar {
+    margin-top: 8px; background: rgba(255,255,255,0.15);
+    display: inline-block; padding: 4px 16px; border-radius: 20px;
+    font-size: 9.5pt; font-weight: 600; letter-spacing: 0.3px;
+  }
+
+  /* ── SCHEDULE STRIP ── */
+  .schedule-strip {
+    display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid #1e3a5f; border-radius: 6px; overflow: hidden;
+    margin-bottom: 12px;
+  }
+  .sched-cell { padding: 6px 8px; border-right: 1px solid #d0d8e0; background: #f0f4f8; }
+  .sched-cell:last-child { border-right: none; }
+  .sched-cell.highlight-cell { background: #e3f2fd; }
+  .sched-cell .day { font-weight: 800; font-size: 9pt; color: #1e3a5f; text-transform: uppercase; }
+  .sched-cell .info { font-size: 8pt; color: #555; line-height: 1.3; }
+  .sched-cell .concert { font-size: 7.5pt; color: #7b1fa2; font-weight: 600; }
+
+  /* ── SECTION HEADERS ── */
+  h2 {
+    font-size: 11pt; font-weight: 800; color: #0f2744;
+    margin: 10px 0 5px; padding-bottom: 2px;
+    border-bottom: 2px solid #1e3a5f;
+    text-transform: uppercase; letter-spacing: 0.5px;
+  }
+  h3 { font-size: 9.5pt; font-weight: 700; color: #333; margin: 7px 0 3px; }
+
+  /* ── CHECKBOXES ── */
+  .checks { columns: 1; }
+  .checks-2col { columns: 2; column-gap: 16px; }
+  .ck {
+    display: flex; align-items: flex-start; gap: 5px;
+    margin-bottom: 2.5px; font-size: 9pt; break-inside: avoid;
+  }
+  .ck .b {
+    flex-shrink: 0; width: 11px; height: 11px;
+    border: 1.5px solid #1e3a5f; border-radius: 2px; margin-top: 1.5px;
+  }
+  .ck .x {
+    flex-shrink: 0; width: 11px; height: 11px;
+    border: 1.5px solid #c62828; border-radius: 2px; margin-top: 1.5px;
+    background: #ffebee; text-align: center; line-height: 9px;
+    font-size: 7pt; color: #c62828; font-weight: 800;
+  }
+  .ck .t { flex: 1; }
+  .ck strong { font-weight: 700; }
+
+  /* ── TRANSIT BOX ── */
+  .transit {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+    border: 2px solid #43a047; border-radius: 6px;
+    padding: 8px 12px; margin: 8px 0;
+  }
+  .transit h3 { color: #1b5e20; margin: 0 0 5px; font-size: 10.5pt; font-weight: 800; border: none; }
+  .transit .route { font-size: 8.5pt; color: #2e7d32; margin-bottom: 2px; }
+  .transit .note { font-size: 8.5pt; color: #1b5e20; font-weight: 700; margin-top: 4px; padding-top: 4px; border-top: 1px solid #a5d6a7; }
+
+  /* ── WARNING ── */
+  .warn {
+    background: #fff8e1; border-left: 4px solid #f57f17;
+    padding: 5px 10px; margin: 6px 0; font-size: 8.5pt; border-radius: 0 4px 4px 0;
+  }
+  .warn strong { color: #e65100; }
+
+  /* ── SCHEDULE CARDS ── */
+  .events { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 5px 0; }
+  .ev {
+    background: #f5f7fa; border: 1px solid #d0d8e0;
+    border-radius: 4px; padding: 5px 8px; border-left: 3px solid #1e3a5f;
+  }
+  .ev.ev-open { border-left-color: #7b1fa2; }
+  .ev .ev-label { font-size: 7pt; font-weight: 800; color: #1e3a5f; text-transform: uppercase; letter-spacing: 0.3px; }
+  .ev.ev-open .ev-label { color: #7b1fa2; }
+  .ev .ev-time { font-weight: 800; font-size: 9pt; }
+  .ev .ev-detail { font-size: 8pt; color: #555; }
+
+  /* ── LINKS + FOOTER ── */
+  .links { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 14px; margin: 5px 0; }
+  .lnk { font-size: 8.5pt; display: flex; gap: 4px; }
+  .lnk .ll { font-weight: 700; color: #333; min-width: 72px; }
+  .lnk a { color: #1e3a5f; text-decoration: none; }
+  .lnk a:hover { text-decoration: underline; }
+
+  .footer-strip {
+    background: #0f2744; color: white;
+    margin: 10px -0.6in -0.4in; width: calc(100% + 1.2in);
+    padding: 8px 20px; text-align: center;
+  }
+  .footer-strip .line1 { font-size: 9pt; font-weight: 700; margin-bottom: 2px; }
+  .footer-strip .line2 { font-size: 7.5pt; opacity: 0.75; }
+
+  .page1-wrap { }
+  .page1-footer {
+    margin-top: 4px; text-align: center; font-size: 8pt; color: #888;
+    border-top: 1px solid #e0e0e0; padding-top: 3px;
+  }
+  .page1-footer strong { color: #1e3a5f; }
+
+  /* ── QR SECTION ── */
+  .qr-section {
+    display: flex; align-items: center; gap: 12px;
+    background: #f5f7fa; border: 1px solid #d0d8e0; border-radius: 6px;
+    padding: 8px 14px; margin: 8px 0;
+  }
+  .qr-section img { width: 64px; height: 64px; }
+  .qr-section .qr-text { font-size: 8.5pt; color: #333; }
+  .qr-section .qr-text strong { color: #1e3a5f; font-size: 10pt; display: block; margin-bottom: 1px; }
+
+  /* ── PAGE 2 ── */
+  .page2-wrap { break-before: page; page-break-before: always; }
+  .p2-header {
+    background: linear-gradient(135deg, #0f2744 0%, #1e3a5f 60%, #2a5080 100%);
+    color: white; text-align: center;
+    padding: 10px 20px;
+    margin: -0.45in -0.6in 12px; width: calc(100% + 1.2in);
+  }
+  .p2-header h2 { font-size: 13pt; font-weight: 800; border: none; color: white; margin: 0; padding: 0; text-transform: none; letter-spacing: 0; }
+  .p2-header .p2-url { font-size: 8pt; opacity: 0.7; margin-top: 2px; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════════ PAGE 1 ═══════════════ -->
+<div class="page1-wrap">
+<div class="header">
+  <div class="icon">&#127944;</div>
+  <h1>Draft Weekend Checklist</h1>
+  <div class="subtitle">2026 NFL Draft &nbsp;|&nbsp; Pittsburgh, PA &nbsp;|&nbsp; April 22&ndash;25</div>
+  <div class="url-bar">pittsburghdraftguide.com</div>
+</div>
+
+<div class="schedule-strip">
+  <div class="sched-cell highlight-cell">
+    <div class="day">Wed Apr 22</div>
+    <div class="info">Opening Night</div>
+    <div class="concert">Nelly Concert</div>
+  </div>
+  <div class="sched-cell">
+    <div class="day">Thu Apr 23</div>
+    <div class="info">R1: 8pm ET | Gates: 12pm</div>
+    <div class="concert">DJ Steve Aoki</div>
+  </div>
+  <div class="sched-cell">
+    <div class="day">Fri Apr 24</div>
+    <div class="info">R2-3: 7pm ET | Gates: 12pm</div>
+  </div>
+  <div class="sched-cell">
+    <div class="day">Sat Apr 25</div>
+    <div class="info">R4-7: 12pm ET | Gates: 9am</div>
+    <div class="concert">5K + 2 Chainz</div>
+  </div>
+</div>
+
+<h2>Before You Leave Home</h2>
+<div class="checks">
+  <div class="ck"><div class="b"></div><div class="t">Download the <strong>NFL OnePass app</strong> and register (required for free entry)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Book your hotel (prices are only going up)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Pre-book parking on <strong>SpotHero</strong> if driving (or skip it &mdash; ALL T rides are free)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Download <strong>Ready2Ride app</strong> for $25 Draft Pass (7 days unlimited PRT + buses)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Check road closure map &mdash; bridges and I-279 exits are closed</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Charge your portable battery pack</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Check weather forecast for Pittsburgh April 22-25</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Save park-and-ride directions for your approach</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Make dinner reservations (everywhere will be packed)</div></div>
+</div>
+
+<h2>What to Pack</h2>
+<h3>Must-Haves</h3>
+<div class="checks">
+  <div class="ck"><div class="b"></div><div class="t"><strong>Clear bag</strong> (12x6x12 for Stadium, 16x16x6 for Point State Park) &mdash; $8 on Amazon</div></div>
+  <div class="ck"><div class="b"></div><div class="t"><strong>Portable phone charger</strong> &mdash; OnePass drains battery, 500K people killing cell signal</div></div>
+  <div class="ck"><div class="b"></div><div class="t"><strong>Comfortable walking shoes</strong> &mdash; 5-10 miles per day between venues</div></div>
+  <div class="ck"><div class="b"></div><div class="t"><strong>Layers</strong> &mdash; April in Pittsburgh can be 45&deg; or 75&deg;</div></div>
+  <div class="ck"><div class="b"></div><div class="t"><strong>Rain jacket or poncho</strong> &mdash; outdoor event, April showers are real</div></div>
+  <div class="ck"><div class="b"></div><div class="t"><strong>Phone with OnePass</strong> installed and account set up</div></div>
+</div>
+
+<h3>Smart Additions</h3>
+<div class="checks-2col">
+  <div class="ck"><div class="b"></div><div class="t">Sunscreen, sunglasses, hat</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Water bottle (refill stations available)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Snacks &mdash; food lines will be long</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Cash &mdash; some vendors are cash-only</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Team jersey or gear</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Small umbrella for clear bag</div></div>
+</div>
+
+<h3>Leave at Home</h3>
+<div class="checks-2col">
+  <div class="ck"><div class="x">X</div><div class="t">Large bags, backpacks, purses</div></div>
+  <div class="ck"><div class="x">X</div><div class="t">Coolers, outside food/drinks</div></div>
+  <div class="ck"><div class="x">X</div><div class="t">Chairs, blankets, tents</div></div>
+  <div class="ck"><div class="x">X</div><div class="t">Drones</div></div>
+</div>
+
+<div class="page1-footer">
+  Full guide with maps, restaurants, and hotel recommendations at <strong>pittsburghdraftguide.com</strong>
+</div>
+
+</div><!-- end page1-wrap -->
+
+<!-- ═══════════════ PAGE 2 ═══════════════ -->
+<div class="page2-wrap">
+
+<h2 style="margin-top: 0;">Day-Of Checklist</h2>
+<div class="checks-2col">
+  <div class="ck"><div class="b"></div><div class="t">Phone charged to 100%</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Portable charger fully charged</div></div>
+  <div class="ck"><div class="b"></div><div class="t">OnePass app open and working</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Clear bag packed with essentials</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Check weather one more time</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Eat a real meal before you go</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Know your parking/transit plan</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Screenshot return route (weak cell signal)</div></div>
+</div>
+
+<div class="transit">
+  <h3>&#9989; ALL T Rides FREE April 23&ndash;25 (Sheetz + PRT)</h3>
+  <div class="route"><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5) &mdash; Football Flyer bus, 25 min</div>
+  <div class="route"><strong>From South:</strong> South Hills Village T Station &mdash; ride the T free, 35 min</div>
+  <div class="route"><strong>From East:</strong> Wilkinsburg Park &amp; Ride &mdash; P1 bus, 15 min</div>
+  <div class="route"><strong>From West/Airport:</strong> PRT Route 28X &mdash; 45-60 min</div>
+  <div class="route"><strong>From Butler County:</strong> Zelienople Rt 528 park-and-ride &mdash; Butler Transit every 30 min ($10 RT, exact cash)</div>
+  <div class="note">Sheetz covers all fares on the T (red, blue, silver lines) and Monongahela Incline. Park at any T station &rarr; ride downtown for $0.</div>
+</div>
+
+<div class="warn">
+  <strong>&#9888; Scam Warning (BBB):</strong> Watch out for fake tickets, counterfeit merchandise, and rental fraud. The NFL Draft is FREE. If someone is selling tickets, it's a scam.
+</div>
+
+<h2>Key Times &amp; Entertainment</h2>
+<div class="events">
+  <div class="ev ev-open">
+    <div class="ev-label">Opening Night &mdash; Wed Apr 22</div>
+    <div class="ev-detail">Draft Experience opens | Nelly at Plaza at North Shore</div>
+  </div>
+  <div class="ev">
+    <div class="ev-label">Day 1 &mdash; Thu Apr 23</div>
+    <div class="ev-time">Round 1: 8pm ET</div>
+    <div class="ev-detail">Gates: 12pm | DJ Steve Aoki concert</div>
+  </div>
+  <div class="ev">
+    <div class="ev-label">Day 2 &mdash; Fri Apr 24</div>
+    <div class="ev-time">Rounds 2-3: 7pm ET</div>
+    <div class="ev-detail">Gates: 12pm</div>
+  </div>
+  <div class="ev">
+    <div class="ev-label">Day 3 &mdash; Sat Apr 25</div>
+    <div class="ev-time">Rounds 4-7: 12pm ET</div>
+    <div class="ev-detail">Gates: 9am | PicksBURGH 5K | 2 Chainz</div>
+  </div>
+</div>
+
+<h2>Money-Saving Tips</h2>
+<div class="checks-2col">
+  <div class="ck"><div class="b"></div><div class="t">The draft is <strong>FREE</strong> (register on OnePass)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">ALL T rides free &mdash; skip $125-250/day parking</div></div>
+  <div class="ck"><div class="b"></div><div class="t">$25 Draft Pass = 7 days unlimited (Ready2Ride)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Clear bag on Amazon ($8) not at event ($25)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Bring water &amp; snacks &mdash; $15 beers add up</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Cranberry hotels: $120-180 vs $500-2K downtown</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Walk from venues before calling Uber (surge)</div></div>
+  <div class="ck"><div class="b"></div><div class="t">Saturday = smallest crowds, best vibe</div></div>
+</div>
+
+<div class="qr-section">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.pittsburghdraftguide.com?utm_source=pdf&utm_medium=checklist&format=svg" alt="QR Code to pittsburghdraftguide.com" />
+  <div class="qr-text">
+    <strong>pittsburghdraftguide.com</strong>
+    Scan for the full guide with maps, restaurant reviews,<br>hotel recommendations, and neighborhood breakdowns.
+  </div>
+</div>
+
+<h2>Quick Links</h2>
+<div class="links">
+  <div class="lnk"><span class="ll">Full Guide:</span> <a href="https://www.pittsburghdraftguide.com">pittsburghdraftguide.com</a></div>
+  <div class="lnk"><span class="ll">Parking:</span> <a href="https://www.pittsburghdraftguide.com/parking-transportation">pittsburghdraftguide.com/parking</a></div>
+  <div class="lnk"><span class="ll">Itinerary:</span> <a href="https://www.pittsburghdraftguide.com/itinerary">pittsburghdraftguide.com/itinerary</a></div>
+  <div class="lnk"><span class="ll">Where to Eat:</span> <a href="https://www.pittsburghdraftguide.com/bars-restaurants">pittsburghdraftguide.com/bars</a></div>
+  <div class="lnk"><span class="ll">Where to Stay:</span> <a href="https://www.pittsburghdraftguide.com/where-to-stay">pittsburghdraftguide.com/hotels</a></div>
+  <div class="lnk"><span class="ll">Cranberry:</span> <a href="https://www.pittsburghdraftguide.com/cranberry-township">pittsburghdraftguide.com/cranberry</a></div>
+  <div class="lnk"><span class="ll">Getting Around:</span> <a href="https://www.pittsburghdraftguide.com/getting-around">pittsburghdraftguide.com/transit</a></div>
+  <div class="lnk"><span class="ll">Schedule:</span> <a href="https://www.pittsburghdraftguide.com/schedule">pittsburghdraftguide.com/schedule</a></div>
+</div>
+
+<div class="footer-strip">
+  <div class="line1">pittsburghdraftguide.com &nbsp;&bull;&nbsp; Your Complete NFL Draft Visitor Guide</div>
+  <div class="line2">Built by Peacock Bookkeeping Services LLC &nbsp;|&nbsp; Cranberry Township, PA &nbsp;|&nbsp; peacockbookkeepingservices.com</div>
+</div>
+</div><!-- end page2-wrap -->
+
+</body>
+</html>
