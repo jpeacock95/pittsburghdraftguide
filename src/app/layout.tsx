@@ -63,11 +63,12 @@ export default function RootLayout({
             gtag('config', 'G-GJ0PDB2N27');
           `}
         </Script>
-        {/* Umami Analytics - must use beforeInteractive to load in <head> with defer per Umami docs */}
+        {/* Umami Analytics */}
         <Script
           src="https://cloud.umami.is/script.js"
           data-website-id="f0268c92-9074-4ea3-9c6b-e2197c409bd8"
-          strategy="beforeInteractive"
+          data-host-url="https://cloud.umami.is"
+          strategy="afterInteractive"
         />
         <Header />
         <main className="flex-1 pb-28 sm:pb-20">
