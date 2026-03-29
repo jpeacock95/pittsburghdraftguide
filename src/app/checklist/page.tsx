@@ -42,10 +42,10 @@ export default function ChecklistPage() {
         <LastUpdated date="March 29, 2026" />
 
         {/* Weather note */}
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
-          <p className="text-sm text-blue-900">
-            <strong>Pittsburgh weather in late April:</strong> Expect 45-65&#176;F (7-18&#176;C). Rain is common. Dress in layers and bring a light rain jacket. Check the{" "}
-            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline font-semibold">forecast</a>{" "}
+        <div className="bg-surface border border-border rounded-lg p-4 mb-8">
+          <p className="text-sm text-muted">
+            <strong className="text-foreground">Pittsburgh weather in late April:</strong> Expect 45-65&#176;F (7-18&#176;C). Rain is common. Dress in layers and bring a light rain jacket. Check the{" "}
+            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-primary underline font-semibold">forecast</a>{" "}
             the week of the draft.
           </p>
         </div>

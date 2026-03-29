@@ -81,11 +81,11 @@ export default function HomePage() {
       </section>
 
       {/* Free transit banner */}
-      <section className="bg-green-800 text-white py-3.5">
+      <section className="bg-primary text-white py-3.5">
         <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-sm font-bold">
-            &#x1f689; All T light rail and most PRT buses are FREE April 23&ndash;25.{" "}
-            <Link href="/getting-around" className="underline underline-offset-2 hover:text-green-200">
+          <p className="text-sm font-semibold">
+            All T light rail and most PRT buses are FREE April 23&ndash;25.{" "}
+            <Link href="/getting-around" className="underline underline-offset-2 hover:text-accent transition-colors">
               See all free transit options
             </Link>
           </p>
@@ -95,15 +95,19 @@ export default function HomePage() {
       {/* Trust bar */}
       <section className="max-w-4xl mx-auto px-4 py-6">
         <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-muted text-center">
-          <span className="flex items-center gap-1">&#128221; Built by a Cranberry Township local</span>
-          <span className="flex items-center gap-1">&#128172; Data from 27 Reddit threads</span>
-          <span className="flex items-center gap-1">&#128269; 12 competitor sites analyzed</span>
-          <span className="flex items-center gap-1">&#127860; 70+ businesses researched</span>
-          <span className="flex items-center gap-1">&#128197; Updated March 2026</span>
+          <span>Built by a Cranberry Township local</span>
+          <span>&middot;</span>
+          <span>Data from 27 Reddit threads</span>
+          <span>&middot;</span>
+          <span>12 competitor sites analyzed</span>
+          <span>&middot;</span>
+          <span>70+ businesses researched</span>
+          <span>&middot;</span>
+          <span>Updated March 2026</span>
         </div>
       </section>
 
-      {/* Guide sections -- mixed layout, NOT uniform cards */}
+      {/* Guide sections */}
       <section className="bg-surface-alt py-14">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="font-heading text-3xl font-bold mb-10 text-center">
@@ -114,21 +118,21 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
             <Link
               href="/parking-transportation"
-              className="group relative bg-surface rounded-xl p-6 border border-border hover:border-accent transition-all hover:shadow-lg"
+              className="group bg-surface rounded-xl p-7 border border-border hover:border-primary/40 transition-all hover:shadow-lg"
             >
-              <span className="text-3xl mb-3 block">&#128663;</span>
+              <p className="text-xs font-bold uppercase tracking-wider text-muted mb-3">Essential</p>
               <h3 className="font-heading text-xl font-bold mb-2 group-hover:text-primary transition-colors">Parking & Transportation</h3>
               <p className="text-muted text-sm leading-relaxed">Where to park, park-and-ride options, road closures, and why officials say don't drive.</p>
-              <span className="text-primary text-sm font-semibold mt-3 inline-block">Read guide &rarr;</span>
+              <span className="text-primary text-sm font-semibold mt-4 inline-block group-hover:underline">Read guide &rarr;</span>
             </Link>
             <Link
               href="/where-to-stay"
-              className="group relative bg-surface rounded-xl p-6 border border-border hover:border-accent transition-all hover:shadow-lg"
+              className="group bg-surface rounded-xl p-7 border border-border hover:border-primary/40 transition-all hover:shadow-lg"
             >
-              <span className="text-3xl mb-3 block">&#127976;</span>
+              <p className="text-xs font-bold uppercase tracking-wider text-muted mb-3">Essential</p>
               <h3 className="font-heading text-xl font-bold mb-2 group-hover:text-primary transition-colors">Where to Stay</h3>
               <p className="text-muted text-sm leading-relaxed">Hotels from $120/night in Cranberry to $2,000 downtown. Plus Airbnb and budget alternatives.</p>
-              <span className="text-primary text-sm font-semibold mt-3 inline-block">Read guide &rarr;</span>
+              <span className="text-primary text-sm font-semibold mt-4 inline-block group-hover:underline">Read guide &rarr;</span>
             </Link>
           </div>
 
@@ -136,33 +140,29 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <Link
               href="/bars-restaurants"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-accent transition-all hover:shadow-md"
+              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
             >
-              <span className="text-2xl mb-2 block">&#127867;</span>
               <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">Bars & Restaurants</h3>
               <p className="text-muted text-xs leading-relaxed">44 spots to eat and drink near both venues.</p>
             </Link>
             <Link
               href="/schedule"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-accent transition-all hover:shadow-md"
+              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
             >
-              <span className="text-2xl mb-2 block">&#128197;</span>
               <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">Schedule & What to Expect</h3>
               <p className="text-muted text-xs leading-relaxed">Round times, free entry, bag policy.</p>
             </Link>
             <Link
               href="/faq"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-accent transition-all hover:shadow-md"
+              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
             >
-              <span className="text-2xl mb-2 block">&#10067;</span>
               <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">FAQ</h3>
               <p className="text-muted text-xs leading-relaxed">Top 20 questions answered.</p>
             </Link>
             <Link
               href="/cranberry-township"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-accent transition-all hover:shadow-md"
+              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
             >
-              <span className="text-2xl mb-2 block">&#128205;</span>
               <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">From Cranberry Township</h3>
               <p className="text-muted text-xs leading-relaxed">Park-and-ride, bus routes, tips.</p>
             </Link>
@@ -220,24 +220,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Schedule -- timeline style */}
+      {/* Schedule -- clean, no color-coding per day */}
       <section className="bg-primary-dark text-white py-14">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="font-heading text-3xl font-bold mb-8">Draft Schedule at a Glance</h2>
-          <div className="space-y-0">
+          <div className="divide-y divide-white/10">
             {[
-              { day: "THU", date: "Apr 23", label: "Round 1", desc: "Starts at 8:00 PM ET. Gates open at 12:00 PM. The biggest night of the draft. Expect the largest crowds.", accent: true },
-              { day: "FRI", date: "Apr 24", label: "Rounds 2-3", desc: "Starts at 7:00 PM ET. Gates open at 12:00 PM. Slightly smaller crowds. Great day for the Draft Experience fan zone.", accent: false },
-              { day: "SAT", date: "Apr 25", label: "Rounds 4-7", desc: "Starts at 12:00 PM ET. Gates open at 9:00 AM. Locals say this is the best day. Less chaos, featured concert, PicksBURGH 5K in the morning.", accent: false },
+              { day: "Thursday", date: "April 23", label: "Round 1", time: "8:00 PM ET", desc: "Gates open at 12:00 PM. The biggest night of the draft. Expect the largest crowds." },
+              { day: "Friday", date: "April 24", label: "Rounds 2-3", time: "7:00 PM ET", desc: "Gates open at 12:00 PM. Slightly smaller crowds. Great day for the Draft Experience fan zone." },
+              { day: "Saturday", date: "April 25", label: "Rounds 4-7", time: "12:00 PM ET", desc: "Gates open at 9:00 AM. Locals say this is the best day. Less chaos, featured concert, PicksBURGH 5K in the morning." },
             ].map((item) => (
-              <div key={item.day} className="flex items-start gap-5 py-5 border-b border-white/10 last:border-0">
-                <div className={`text-center min-w-[56px] py-2 px-1 rounded-lg ${item.accent ? 'bg-accent text-primary-dark' : 'bg-white/10'}`}>
-                  <p className="text-xs font-bold uppercase">{item.day}</p>
-                  <p className="text-sm font-bold">{item.date}</p>
+              <div key={item.day} className="flex items-start gap-5 py-6 first:pt-0">
+                <div className="min-w-[80px] shrink-0">
+                  <p className="text-accent font-bold text-sm">{item.day}</p>
+                  <p className="text-gray-400 text-xs">{item.date}</p>
                 </div>
                 <div>
-                  <p className="font-heading font-bold text-lg">{item.label}</p>
-                  <p className="text-sm text-gray-300 leading-relaxed mt-1">{item.desc}</p>
+                  <div className="flex items-baseline gap-3 mb-1">
+                    <p className="font-heading font-bold text-lg">{item.label}</p>
+                    <p className="text-xs text-gray-400 font-medium">{item.time}</p>
+                  </div>
+                  <p className="text-sm text-gray-300 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
@@ -256,7 +259,6 @@ export default function HomePage() {
       {/* Cranberry callout */}
       <section className="py-14">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <span className="text-4xl mb-4 block">&#128652;</span>
           <h2 className="font-heading text-2xl font-bold mb-3">
             Coming from Cranberry Township or the Northern Suburbs?
           </h2>

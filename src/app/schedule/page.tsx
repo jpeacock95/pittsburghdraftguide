@@ -106,114 +106,102 @@ export default function Schedule() {
             The 2026 NFL Draft runs Thursday through Saturday, April 23-25.
             Here's the full breakdown.
           </p>
-          <div className="grid gap-4">
+          <div className="divide-y divide-border">
             {/* Thursday */}
-            <div className="bg-surface border border-border border-l-4 border-l-amber-500 rounded-lg p-5">
-              <div className="flex items-start justify-between flex-wrap gap-2">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-primary">
-                    Day 1
-                  </p>
-                  <p className="text-lg font-bold mt-1">
-                    Thursday, April 23
-                  </p>
+            <div className="py-6 first:pt-0">
+              <div className="flex items-start gap-4">
+                <div className="min-w-[80px] shrink-0">
+                  <p className="font-heading font-bold text-primary">Thursday</p>
+                  <p className="text-xs text-muted">April 23</p>
                 </div>
-                <span className="bg-primary-dark text-white text-sm font-bold px-3 py-1 rounded-full">
-                  8:00 PM ET
-                </span>
+                <div className="flex-1">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <p className="font-heading text-lg font-bold">Round 1</p>
+                    <p className="text-xs text-muted font-medium">8:00 PM ET</p>
+                  </div>
+                  <p className="text-sm text-muted">
+                    32 picks. The main event. This is when the top prospects
+                    hear their names called. Expect the biggest crowds, loudest
+                    reactions, and heaviest security. Each pick gets 10 minutes,
+                    so this goes late.
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>Concert:</strong> DJ Steve Aoki at the Plaza at North Shore.
+                  </p>
+                  <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
+                </div>
               </div>
-              <p className="text-sm text-muted mt-3">
-                <strong>Round 1</strong> (32 picks). The main event. This is
-                when the top prospects hear their names called. Expect the
-                biggest crowds, loudest reactions, and heaviest security. Each
-                pick gets 10 minutes, so this goes late.
-              </p>
-              <p className="text-sm text-muted mt-2">
-                <strong>Concert:</strong> DJ Steve Aoki at the Plaza at North
-                Shore (tailgate concert).
-              </p>
-              <p className="text-xs text-muted mt-2">
-                TV: ABC, ESPN, NFL Network
-              </p>
             </div>
 
             {/* Friday */}
-            <div className="bg-surface border border-border border-l-4 border-l-blue-500 rounded-lg p-5">
-              <div className="flex items-start justify-between flex-wrap gap-2">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-primary">
-                    Day 2
-                  </p>
-                  <p className="text-lg font-bold mt-1">
-                    Friday, April 24
-                  </p>
+            <div className="py-6">
+              <div className="flex items-start gap-4">
+                <div className="min-w-[80px] shrink-0">
+                  <p className="font-heading font-bold text-primary">Friday</p>
+                  <p className="text-xs text-muted">April 24</p>
                 </div>
-                <span className="bg-primary-dark text-white text-sm font-bold px-3 py-1 rounded-full">
-                  7:00 PM ET
-                </span>
+                <div className="flex-1">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <p className="font-heading text-lg font-bold">Rounds 2-3</p>
+                    <p className="text-xs text-muted font-medium">7:00 PM ET</p>
+                  </div>
+                  <p className="text-sm text-muted">
+                    64 picks total. The pace picks up. Picks move faster (7
+                    minutes each in Round 2, 5 minutes in Round 3). Still
+                    prime-time energy. Drone show expected after the last pick.
+                  </p>
+                  <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
+                </div>
               </div>
-              <p className="text-sm text-muted mt-3">
-                <strong>Rounds 2-3</strong> (64 picks total for Day 2). The
-                pace picks up. Picks move faster (7 minutes each in Round 2, 5
-                minutes in Round 3). Still prime-time energy. Drone show
-                expected after the last pick.
-              </p>
-              <p className="text-xs text-muted mt-2">
-                TV: ABC, ESPN, NFL Network
-              </p>
             </div>
 
             {/* Saturday */}
-            <div className="bg-surface border border-border border-l-4 border-l-green-500 rounded-lg p-5">
-              <div className="flex items-start justify-between flex-wrap gap-2">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-primary">
-                    Day 3
-                  </p>
-                  <p className="text-lg font-bold mt-1">
-                    Saturday, April 25
-                  </p>
+            <div className="py-6">
+              <div className="flex items-start gap-4">
+                <div className="min-w-[80px] shrink-0">
+                  <p className="font-heading font-bold text-primary">Saturday</p>
+                  <p className="text-xs text-muted">April 25</p>
                 </div>
-                <span className="bg-primary-dark text-white text-sm font-bold px-3 py-1 rounded-full">
-                  12:00 PM ET
-                </span>
+                <div className="flex-1">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <p className="font-heading text-lg font-bold">Rounds 4-7</p>
+                    <p className="text-xs text-muted font-medium">12:00 PM ET</p>
+                  </div>
+                  <p className="text-sm text-muted">
+                    163 picks. Starts at noon, wraps up by early evening. This
+                    is the most relaxed day. Locals say Saturday is the best day
+                    to go. Smaller crowds, more space.
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore
+                    after the final pick. Plus the PicksBURGH Draft Day 5K near
+                    PNC Park in the morning.
+                  </p>
+                  <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
+                </div>
               </div>
-              <p className="text-sm text-muted mt-3">
-                <strong>Rounds 4-7</strong> (163 picks). Starts at noon, wraps
-                up by early evening. This is the most relaxed day. Locals say
-                Saturday is the best day to go. Smaller crowds, more space.
-              </p>
-              <p className="text-sm text-muted mt-2">
-                <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore
-                after the final pick. Plus the PicksBURGH Draft Day 5K near
-                PNC Park in the morning.
-              </p>
-              <p className="text-xs text-muted mt-2">
-                TV: ABC, ESPN, NFL Network
-              </p>
             </div>
 
             {/* Opening Night */}
-            <div className="bg-surface border border-border rounded-lg p-5">
-              <div className="flex items-start justify-between flex-wrap gap-2">
-                <div>
-                  <p className="text-xs font-bold uppercase tracking-wider text-accent">
-                    Opening Night
-                  </p>
-                  <p className="text-lg font-bold mt-1">
-                    Wednesday, April 22
+            <div className="py-6">
+              <div className="flex items-start gap-4">
+                <div className="min-w-[80px] shrink-0">
+                  <p className="font-heading font-bold text-accent">Wednesday</p>
+                  <p className="text-xs text-muted">April 22</p>
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-baseline gap-3 mb-2">
+                    <p className="font-heading text-lg font-bold">Opening Night</p>
+                    <p className="text-xs text-muted font-medium">Pre-Draft</p>
+                  </div>
+                  <p className="text-sm text-muted">
+                    The party starts before the picks do. <strong>Nelly</strong> is
+                    performing at the Plaza at North Shore for opening night. The
+                    Draft Experience at Point State Park opens Wednesday as well.
+                    Get here a day early if you can.
                   </p>
                 </div>
-                <span className="bg-accent text-foreground text-sm font-bold px-3 py-1 rounded-full">
-                  Pre-Draft
-                </span>
               </div>
-              <p className="text-sm text-muted mt-3">
-                The party starts before the picks do. <strong>Nelly</strong> is
-                performing at the Plaza at North Shore for opening night. The
-                Draft Experience at Point State Park opens Wednesday as well.
-                Get here a day early if you can.
-              </p>
             </div>
           </div>
         </section>
@@ -243,16 +231,16 @@ export default function Schedule() {
         {/* OnePass */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
-          <div className="bg-amber-50 border border-amber-200 rounded-lg p-5">
-            <p className="text-amber-900 font-bold mb-2">
+          <div className="bg-surface border border-border rounded-lg p-5">
+            <p className="font-bold mb-2">
               Download this BEFORE you get to Pittsburgh
             </p>
-            <p className="text-amber-800 text-sm mb-3">
+            <p className="text-muted text-sm mb-3">
               Don't wait until you're standing in line. Download the NFL OnePass
               app now, create your account, and register for the event. Here's
               why it matters:
             </p>
-            <ul className="text-amber-800 text-sm space-y-2 list-disc pl-5">
+            <ul className="text-muted text-sm space-y-2 list-disc pl-5">
               <li>
                 <strong>Required for entry</strong> to the Draft Experience and
                 Draft Theater
