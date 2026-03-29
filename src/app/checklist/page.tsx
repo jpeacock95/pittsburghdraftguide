@@ -180,7 +180,7 @@ export default function ChecklistPage() {
             <p><strong>From South:</strong> South Hills Village T Station — ride the T for free, 35 min</p>
             <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride — P1 bus, 15 min</p>
             <p><strong>From West/Airport:</strong> PRT Route 28X, 45-60 min</p>
-            <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride — Butler Transit every 30 min to Ross Park lot</p>
+            <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride — Butler Transit every 30 min to Ross Park lot ($10 round trip, exact cash)</p>
           </div>
           <p className="text-sm text-green-800 mt-3">
             Sheetz is covering all fares on the T (red, blue, silver lines) and the Monongahela Incline all 3 days. Park at any T station and ride downtown for $0.

@@ -124,7 +124,7 @@ export default function ParkingPage() {
               <strong>$25 Draft Pass</strong> in the Ready2Ride app gives you 7 days of unlimited PRT rides (buses too)
             </li>
             <li>
-              <strong>Butler Transit</strong> is running service every 30 min from Zelienople (Route 528 park-and-ride) to Ross Park lot
+              <strong>Butler Transit</strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to Ross Park lot — $10 round trip, exact cash only
             </li>
           </ul>
           <p className="text-green-800 text-sm">

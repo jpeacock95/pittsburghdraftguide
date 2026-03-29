@@ -192,8 +192,9 @@ export default function GettingAroundPage() {
               <li>
                 <strong>Butler Transit Authority</strong> is running service
                 every 30 minutes between the Route 528 park-and-ride in
-                Zelienople and PRT's Ross Park lot. Great if you're coming from
-                Butler County.
+                Zelienople (150 Lindsay Rd, Jackson Township) and PRT's Ross
+                Park lot. $10 round trip, exact cash only. 350 parking spaces
+                available. Great if you're coming from Butler County.
               </li>
             </ul>
           </div>
