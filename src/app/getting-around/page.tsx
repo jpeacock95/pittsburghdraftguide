@@ -119,11 +119,11 @@ export default function GettingAroundPage() {
                 door. The easiest option.
               </li>
               <li>
-                <strong>Ride the T light rail</strong> -- Allegheny Station
+                <strong>Ride the T light rail</strong> - Allegheny Station
                 (North Shore) to any downtown station. Free. About 5 minutes.
               </li>
               <li>
-                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry</strong> -- Boat service
+                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry</strong> - Boat service
                 between North Shore and downtown/Station Square. Unique way to
                 travel. Confirmed running all draft weekend.
               </li>

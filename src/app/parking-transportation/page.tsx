@@ -252,7 +252,7 @@ export default function ParkingPage() {
             <p className="font-semibold">Wilkinsburg Park &amp; Ride</p>
             <p className="text-sm text-muted">
               Take the P1 bus. 15 minutes to downtown. The East Busway is one of
-              Pittsburgh's best transit routes -- fast, reliable, and frequent
+              Pittsburgh's best transit routes - fast, reliable, and frequent
               service.
             </p>
           </div>
@@ -346,8 +346,8 @@ export default function ParkingPage() {
             Here's something most visitors don't know: Pittsburgh has a light
             rail system called "the T," and it runs through a{" "}
             <strong>free fare zone</strong> downtown. That means you can ride
-            between the two draft venues -- Allegheny Station (North Shore, near
-            Acrisure Stadium) and downtown (near Point State Park) -- for free.
+            between the two draft venues - Allegheny Station (North Shore, near
+            Acrisure Stadium) and downtown (near Point State Park) - for free.
           </p>
           <p className="text-muted">
             The T is also the easiest way to get to the draft from the south
@@ -368,23 +368,23 @@ export default function ParkingPage() {
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5">
             <li>
-              <strong>Roberto Clemente Bridge (6th Street)</strong> -- Closed to
+              <strong>Roberto Clemente Bridge (6th Street)</strong> - Closed to
               vehicles. Open to pedestrians (it connects the two draft areas).
             </li>
             <li>
-              <strong>Andy Warhol Bridge (7th Street)</strong> -- Closed to
+              <strong>Andy Warhol Bridge (7th Street)</strong> - Closed to
               vehicles.
             </li>
             <li>
-              <strong>Fort Duquesne Boulevard</strong> -- Closed between 6th
+              <strong>Fort Duquesne Boulevard</strong> - Closed between 6th
               and 10th Streets.
             </li>
             <li>
-              <strong>I-279 Exit Ramps</strong> -- Several exits near downtown
+              <strong>I-279 Exit Ramps</strong> - Several exits near downtown
               are closed. Check PennDOT for specifics.
             </li>
             <li>
-              <strong>Fort Pitt Bridge on-ramp</strong> -- Closed from the
+              <strong>Fort Pitt Bridge on-ramp</strong> - Closed from the
               Boulevard of the Allies.
             </li>
           </ul>

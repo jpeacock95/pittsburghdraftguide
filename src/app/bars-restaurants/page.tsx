@@ -182,7 +182,7 @@ export default function BarsRestaurants() {
               name="Tom's Watch Bar"
               type="Sports Bar"
               url="https://tomswatchbar.com/pittsburgh/"
-              description="It's a chain, not going to pretend otherwise. But the location is hard to beat -- right between Acrisure and PNC Park with TVs on every wall. You'll see every pick without fighting for a spot."
+              description="It's a chain, not going to pretend otherwise. But the location is hard to beat - right between Acrisure and PNC Park with TVs on every wall. You'll see every pick without fighting for a spot."
             />
             <SpotCard
               name="North Shore Tavern"
@@ -364,7 +364,7 @@ export default function BarsRestaurants() {
               name="DiAnoia's Eatery"
               type="Italian"
               url="https://dianoiaseatery.com/"
-              description="Handmade pasta and sandwiches on Penn Ave. This is where Pittsburghers take out-of-town guests when they want to show off. 1,200+ Yelp reviews and they're almost all 5 stars. Go for lunch -- dinner waits are brutal."
+              description="Handmade pasta and sandwiches on Penn Ave. This is where Pittsburghers take out-of-town guests when they want to show off. 1,200+ Yelp reviews and they're almost all 5 stars. Go for lunch - dinner waits are brutal."
             />
             <SpotCard
               name="Wigle Whiskey Distillery"
