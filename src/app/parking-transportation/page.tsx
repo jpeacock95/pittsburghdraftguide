@@ -106,6 +106,37 @@ export default function ParkingPage() {
           </p>
         </section>
 
+        {/* Free transit callout */}
+        <section className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-10">
+          <h2 className="text-xl font-bold text-green-900 mb-2">
+            ALL T Rides Are FREE April 23-25 (Sheetz + PRT)
+          </h2>
+          <p className="text-green-800 mb-3">
+            Sheetz just partnered with PRT to cover all fares on the T light
+            rail (red, blue, and silver lines) and the Monongahela Incline
+            during draft weekend. Every station. Every line. $0.
+          </p>
+          <ul className="text-green-800 space-y-2 list-disc pl-5 mb-3">
+            <li>
+              Park at <strong>South Hills Village</strong>, <strong>Dormont</strong>, or <strong>Castle Shannon</strong> T stations and ride straight downtown for free
+            </li>
+            <li>
+              <strong>$25 Draft Pass</strong> in the Ready2Ride app gives you 7 days of unlimited PRT rides (buses too)
+            </li>
+            <li>
+              <strong>Butler Transit</strong> is running service every 30 min from Zelienople (Route 528 park-and-ride) to Ross Park lot
+            </li>
+          </ul>
+          <p className="text-green-800 text-sm">
+            <Link
+              href="/getting-around"
+              className="text-green-900 font-semibold hover:underline"
+            >
+              Full transit details on our Getting Around page &rarr;
+            </Link>
+          </p>
+        </section>
+
         {/* Downtown parking map */}
         <section className="mb-10">
           <h3 className="text-lg font-bold mb-2">Parking Near Draft Venues</h3>

@@ -20,7 +20,7 @@ const gettingAroundFAQs = [
   {
     question: "Is the T light rail free during the NFL Draft?",
     answer:
-      "Yes. Pittsburgh's T light rail has a permanent Free Fare Zone that covers all downtown stations and the North Shore (Allegheny Station). You can ride between the two draft venues for free. If you board outside the Free Fare Zone (like from South Hills Village), you'll pay standard fare until you enter the free zone.",
+      "Yes. ALL T rides are completely free April 23-25 thanks to a Sheetz and PRT partnership. That covers every station on the red, blue, and silver lines plus the Monongahela Incline. You can park at South Hills Village and ride the T all the way downtown for $0. There's also a $25 Draft Pass in the Ready2Ride app for 7 days of unlimited rides including buses.",
   },
   {
     question:
@@ -151,31 +151,49 @@ export default function GettingAroundPage() {
           <h2 className="text-2xl font-bold mb-4">
             The T Light Rail (Your Best Friend)
           </h2>
+          <div className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-4">
+            <p className="font-bold text-green-900 text-lg mb-2">
+              ALL T rides are FREE during draft weekend
+            </p>
+            <p className="text-sm text-green-800 mb-3">
+              Sheetz and PRT just announced a partnership covering all fares on
+              the T (red, blue, and silver lines) and the Monongahela Incline
+              from April 23-25. Not just the downtown Free Fare Zone. Every
+              station. Every line. Every ride. Free.
+            </p>
+            <p className="text-sm text-green-800">
+              That means you can park at South Hills Village, ride the T all
+              the way downtown, and pay $0. This is the single best
+              transportation hack for draft weekend.
+            </p>
+          </div>
           <p className="text-muted mb-3">
-            If you remember one thing from this page, make it this: Pittsburgh
-            has a light rail system called "the T," and it's{" "}
-            <strong>free</strong> in the downtown/North Shore area.
+            Pittsburgh has a light rail system called "the T." Normally, the
+            downtown/North Shore area is a permanent Free Fare Zone. But during
+            draft weekend, Sheetz is covering fares on the entire system.
           </p>
           <div className="bg-surface border border-border rounded-lg p-5 mb-4">
-            <h3 className="font-bold mb-3">How the Free Fare Zone works</h3>
+            <h3 className="font-bold mb-3">Draft weekend transit details</h3>
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
-                The Free Fare Zone covers every station from{" "}
-                <strong>Allegheny Station</strong> (North Shore) through all
-                downtown stations to <strong>First Avenue Station</strong>.
+                <strong>Free fares April 23-25</strong> on all T lines (red,
+                blue, silver) and the Monongahela Incline. Courtesy of Sheetz.
               </li>
               <li>
-                That means free rides between both draft venues. Just hop on, hop
-                off. No ticket, no tap, no fare.
+                The T connects South Hills suburbs all the way through
+                downtown and across to North Shore. Three lines: Red (South Hills
+                Village), Blue (Library), and Silver.
               </li>
               <li>
-                If you board outside the Free Fare Zone (like South Hills
-                Village), you pay standard fare until you enter the zone.
+                <strong>$25 Draft Pass</strong> available through the Ready2Ride
+                app starting April 1. Seven days of unlimited PRT rides
+                including buses. Good option if you're in town the whole week.
               </li>
               <li>
-                The T runs from the South Hills suburbs all the way through
-                downtown and across to North Shore. Two lines: Red (South Hills
-                Village) and Blue (Library).
+                <strong>Butler Transit Authority</strong> is running service
+                every 30 minutes between the Route 528 park-and-ride in
+                Zelienople and PRT's Ross Park lot. Great if you're coming from
+                Butler County.
               </li>
             </ul>
           </div>
@@ -185,9 +203,9 @@ export default function GettingAroundPage() {
             </p>
             <p className="text-sm text-blue-800">
               Park at South Hills Village, Dormont, or Castle Shannon T
-              stations. Ride the T straight into the Free Fare Zone. You'll
-              skip all the downtown parking chaos and road closures. About 35
-              minutes from South Hills Village to Allegheny Station.
+              stations. Ride the T straight downtown for free. You'll
+              skip all the parking chaos and road closures. About 35
+              minutes from South Hills Village to Allegheny Station. Cost: $0.
             </p>
           </div>
         </section>

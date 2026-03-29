@@ -116,6 +116,10 @@ export default function Schedule() {
                 biggest crowds, loudest reactions, and heaviest security. Each
                 pick gets 10 minutes, so this goes late.
               </p>
+              <p className="text-sm text-muted mt-2">
+                <strong>Concert:</strong> DJ Steve Aoki at the Plaza at North
+                Shore (tailgate concert).
+              </p>
               <p className="text-xs text-muted mt-2">
                 TV: ABC, ESPN, NFL Network
               </p>
@@ -165,11 +169,38 @@ export default function Schedule() {
               <p className="text-sm text-muted mt-3">
                 <strong>Rounds 4-7</strong> (163 picks). Starts at noon, wraps
                 up by early evening. This is the most relaxed day. Locals say
-                Saturday is the best day to go. Smaller crowds, more space, plus
-                the featured concert happens after the final pick.
+                Saturday is the best day to go. Smaller crowds, more space.
+              </p>
+              <p className="text-sm text-muted mt-2">
+                <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore
+                after the final pick. Plus the PicksBURGH Draft Day 5K near
+                PNC Park in the morning.
               </p>
               <p className="text-xs text-muted mt-2">
                 TV: ABC, ESPN, NFL Network
+              </p>
+            </div>
+
+            {/* Opening Night */}
+            <div className="bg-surface border border-border rounded-lg p-5">
+              <div className="flex items-start justify-between flex-wrap gap-2">
+                <div>
+                  <p className="text-xs font-bold uppercase tracking-wider text-accent">
+                    Opening Night
+                  </p>
+                  <p className="text-lg font-bold mt-1">
+                    Wednesday, April 22
+                  </p>
+                </div>
+                <span className="bg-accent text-foreground text-sm font-bold px-3 py-1 rounded-full">
+                  Pre-Draft
+                </span>
+              </div>
+              <p className="text-sm text-muted mt-3">
+                The party starts before the picks do. <strong>Nelly</strong> is
+                performing at the Plaza at North Shore for opening night. The
+                Draft Experience at Point State Park opens Wednesday as well.
+                Get here a day early if you can.
               </p>
             </div>
           </div>
