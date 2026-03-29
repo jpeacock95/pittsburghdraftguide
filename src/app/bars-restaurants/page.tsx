@@ -18,27 +18,46 @@ function SpotCard({
   neighborhood,
   description,
   url,
+  status,
 }: {
   name: string;
   type: string;
   neighborhood?: string;
   description: string;
   url?: string;
+  status?: "closed" | "private" | "unverified";
 }) {
+  const isClosed = status === "closed";
+  const isPrivate = status === "private";
+
   return (
-    <div className="bg-surface border border-border rounded-lg p-4">
-      {url ? (
-        <a href={url} target="_blank" rel="noopener noreferrer" className="font-bold text-primary hover:underline">
-          {name}
-        </a>
-      ) : (
-        <p className="font-bold">{name}</p>
-      )}
-      <p className="text-xs text-muted mt-0.5">
-        {type}
-        {neighborhood && <> &middot; {neighborhood}</>}
-      </p>
-      <p className="text-sm text-muted mt-2">{description}</p>
+    <div className={`border rounded-lg p-4 ${isClosed ? "bg-gray-900/50 border-gray-700 opacity-60" : isPrivate ? "bg-amber-900/10 border-amber-700/30" : "bg-surface border-border"}`}>
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          {url && !isClosed ? (
+            <a href={url} target="_blank" rel="noopener noreferrer" className={`font-bold hover:underline ${isClosed ? "line-through text-gray-500" : "text-primary"}`}>
+              {name}
+            </a>
+          ) : (
+            <p className={`font-bold ${isClosed ? "line-through text-gray-500" : ""}`}>{name}</p>
+          )}
+          <p className="text-xs text-muted mt-0.5">
+            {type}
+            {neighborhood && <> &middot; {neighborhood}</>}
+          </p>
+        </div>
+        {isClosed && (
+          <span className="text-xs font-bold bg-red-900/40 text-red-400 px-2 py-0.5 rounded-full whitespace-nowrap">
+            Permanently Closed
+          </span>
+        )}
+        {isPrivate && (
+          <span className="text-xs font-bold bg-amber-900/40 text-amber-400 px-2 py-0.5 rounded-full whitespace-nowrap">
+            Private Events Only
+          </span>
+        )}
+      </div>
+      <p className={`text-sm mt-2 ${isClosed ? "text-gray-500 italic" : "text-muted"}`}>{description}</p>
     </div>
   );
 }
@@ -216,11 +235,24 @@ export default function BarsRestaurants() {
             <strong>Also on the North Shore:</strong> SoHo Pittsburgh (the
             original North Shore restaurant, been around forever), Burgatory (gourmet burgers, always a wait),
             The Foundry Table &amp; Tap (multiple dining concepts), Hyde Park Prime
-            Steakhouse (upscale, make a reservation now or forget it), and Shorty's
-            Pins x Pints (bowling + drinks, 0.25 mi from Acrisure). Note:
-            Voodoo Brewing and North Shore Saloon are both permanently closed.
-            You'll still see them on Google Maps but they're gone.
+            Steakhouse (upscale, make a reservation now or forget it), Bar Louie
+            (casual gastrobar, staffing up for draft week), and Shorty's
+            Pins x Pints (bowling + drinks, 0.25 mi from Acrisure).
           </p>
+          <div className="grid gap-3 mt-3">
+            <SpotCard
+              name="Voodoo Brewing Co."
+              type="Brewery"
+              status="closed"
+              description="Closed June 2025. You'll still see it on Google Maps but it's gone. The Meadville locations are still open."
+            />
+            <SpotCard
+              name="North Shore Saloon"
+              type="Bar"
+              status="closed"
+              description="Permanently closed. Still shows up in some search results but don't go looking for it."
+            />
+          </div>
         </section>
 
         {/* Downtown */}
@@ -289,9 +321,18 @@ export default function BarsRestaurants() {
             Gi-Jin (Asian fusion), Vallozzi's (Italian, solid), Puttery (mini-golf
             bar, fun for groups), Ritual House (near Omni William Penn), The Yard
             (monster grilled cheese, cheap and filling), and Pizzaiolo Primo (quick
-            slices). Note: Space Bar on Market Square is booked for private NFL
-            events all draft weekend ($18K-$60K buyouts). Don't plan on walking in.
+            slices).
           </p>
+          <div className="grid gap-3 mt-3">
+            <SpotCard
+              name="Space Bar"
+              type="Molecular Mixology Lounge"
+              neighborhood="Market Square"
+              status="private"
+              url="https://www.spacebarpittsburgh.com/nfl-draft-private-event-inquiry"
+              description="Normally a cool cocktail spot on Market Square. During draft weekend, the entire venue is booked for private NFL/corporate events ($18K-$60K buyouts). Not open to the public April 23-25."
+            />
+          </div>
         </section>
 
         {/* Strip District */}
@@ -410,10 +451,19 @@ export default function BarsRestaurants() {
           </div>
           <p className="text-sm text-muted mt-4">
             <strong>More on the South Side:</strong> Tiki Lounge (themed tiki
-            bar since 2002), The Library on Carson (themed bar), Dish (upscale
-            dining), La Palapa (Mexican), Carson City Saloon (sports bar), Club
-            Cafe (live music), and Linx (Pittsburgh's newest nightspot).
+            bar since 2002, still going), Dish (upscale dining), La Palapa
+            (Mexican, solid margaritas), Club Cafe (live music, reopened summer
+            2025 under new owners), and Smiling Moose (dive bar with live music).
           </p>
+          <div className="grid gap-3 mt-3">
+            <SpotCard
+              name="Carson City Saloon"
+              type="Sports Bar"
+              neighborhood="Carson Street"
+              status="closed"
+              description="Had temporary closures in 2023 due to South Side safety issues. Now appears permanently closed per Yelp. Don't plan on going here."
+            />
+          </div>
         </section>
 
         {/* Breweries */}
