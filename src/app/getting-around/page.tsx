@@ -50,7 +50,10 @@ export default function GettingAroundPage() {
       <FAQSchema items={gettingAroundFAQs} />
 
       {/* Hero */}
-      <section className="bg-primary-dark text-white py-16">
+      <section
+        className="photo-section text-white py-16 md:py-20"
+        style={{ backgroundImage: "url('/pgh-bridge-night.jpg')" }}
+      >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
             <Link href="/" className="hover:text-white">
