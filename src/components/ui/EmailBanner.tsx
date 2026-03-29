@@ -1,12 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function EmailBanner() {
   const [dismissed, setDismissed] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    try {
+      if (localStorage.getItem("checklist_subscribed") === "1") {
+        setSubmitted(true);
+      }
+    } catch {}
+  }, []);
+
+  function handleDismiss() {
+    setDismissed(true);
+    try { localStorage.setItem("checklist_dismissed", "1"); } catch {}
+  }
 
   if (dismissed) return null;
 
@@ -28,8 +41,10 @@ export function EmailBanner() {
         }),
       });
       setSubmitted(true);
+      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     } catch {
       setSubmitted(true);
+      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     }
     setLoading(false);
   }
@@ -39,7 +54,7 @@ export function EmailBanner() {
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-green-800 text-white border-t border-green-600 shadow-lg">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex-1 text-center sm:text-left">
-            <p className="font-bold text-sm">You're in! Check your email for the PDF.</p>
+            <p className="font-bold text-sm">Your Draft Checklist</p>
           </div>
           <div className="flex gap-2">
             <a
@@ -57,7 +72,7 @@ export function EmailBanner() {
             </a>
           </div>
           <button
-            onClick={() => setDismissed(true)}
+            onClick={handleDismiss}
             className="text-green-300 hover:text-white p-1 ml-2"
             aria-label="Dismiss"
           >
@@ -100,7 +115,7 @@ export function EmailBanner() {
           </button>
         </form>
         <button
-          onClick={() => setDismissed(true)}
+          onClick={handleDismiss}
           className="absolute top-2 right-2 sm:static text-gray-400 hover:text-white p-1"
           aria-label="Dismiss"
         >

@@ -25,8 +25,10 @@ export function EmailCapture() {
         }),
       });
       setSubmitted(true);
+      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     } catch {
       setSubmitted(true);
+      try { localStorage.setItem("checklist_subscribed", "1"); } catch {}
     }
     setLoading(false);
   }
@@ -55,7 +57,8 @@ export function EmailCapture() {
           </a>
         </div>
         <p className="text-xs text-green-700 mt-3">
-          We also sent the PDF link to your email.
+          We also sent the PDF link to your email. The PDF download stays
+          available at the bottom of every page.
         </p>
       </section>
     );
