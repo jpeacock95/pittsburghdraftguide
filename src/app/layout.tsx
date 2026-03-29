@@ -71,9 +71,9 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Header />
+        <AuthorByline />
         <main className="flex-1 pb-28 sm:pb-20">
           {children}
-          <AuthorByline />
           <div className="max-w-3xl mx-auto px-4">
             <FeedbackWidget />
           </div>
