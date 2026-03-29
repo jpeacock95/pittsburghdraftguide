@@ -44,14 +44,14 @@ export function EmailCapture() {
         <div className="flex flex-col sm:flex-row gap-2 justify-center">
           <a
             href="/checklist"
-            className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
+            className="inline-block bg-green-700 hover:bg-green-800 text-white font-bold px-5 py-3 rounded-lg text-sm transition-colors min-h-[44px]"
           >
             View Checklist
           </a>
           <a
             href="/draft-weekend-checklist.pdf"
             download
-            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
+            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-3 rounded-lg text-sm transition-colors min-h-[44px]"
           >
             Download PDF
           </a>
@@ -82,12 +82,12 @@ export function EmailCapture() {
             placeholder="your@email.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="px-4 py-2.5 rounded-lg text-sm text-foreground bg-white border border-border flex-1 min-w-0"
+            className="px-4 py-3 rounded-lg text-base sm:text-sm text-foreground bg-white border border-border flex-1 min-w-0"
           />
           <button
             type="submit"
             disabled={loading}
-            className="bg-accent hover:bg-accent-dark text-foreground font-bold px-5 py-2.5 rounded-lg text-sm transition-colors whitespace-nowrap disabled:opacity-50"
+            className="bg-accent hover:bg-accent-dark text-foreground font-bold px-5 py-3 rounded-lg text-sm transition-colors whitespace-nowrap disabled:opacity-50 min-h-[44px]"
           >
             {loading ? "Sending..." : "Send Me the Checklist"}
           </button>

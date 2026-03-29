@@ -104,12 +104,12 @@ export function EmailBanner() {
             placeholder="your@email.com"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="px-3 py-2 rounded-lg text-sm text-foreground bg-white flex-1 sm:w-56 min-w-0"
+            className="px-3 py-2.5 rounded-lg text-base sm:text-sm text-foreground bg-white flex-1 sm:w-56 min-w-0"
           />
           <button
             type="submit"
             disabled={loading}
-            className="bg-accent hover:bg-accent-dark text-foreground font-bold px-4 py-2 rounded-lg text-sm transition-colors whitespace-nowrap disabled:opacity-50"
+            className="bg-accent hover:bg-accent-dark text-foreground font-bold px-4 py-2.5 rounded-lg text-sm transition-colors whitespace-nowrap disabled:opacity-50 min-h-[44px]"
           >
             {loading ? "..." : "Send It"}
           </button>

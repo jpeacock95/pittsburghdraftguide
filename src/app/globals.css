@@ -24,3 +24,20 @@ h1, h2, h3, h4 {
   font-weight: 700;
   line-height: 1.2;
 }
+
+/* Mobile: cap iframe heights so maps/videos don't eat the whole screen */
+@media (max-width: 639px) {
+  iframe {
+    max-height: 220px;
+  }
+}
+
+/* Mobile: ensure form inputs are 16px+ to prevent iOS auto-zoom */
+@media (max-width: 639px) {
+  input[type="email"],
+  input[type="text"],
+  textarea,
+  select {
+    font-size: 16px;
+  }
+}

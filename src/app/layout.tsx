@@ -56,7 +56,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Header />
-        <main className="flex-1 pb-16">
+        <main className="flex-1 pb-28 sm:pb-20">
           {children}
           <div className="max-w-3xl mx-auto px-4">
             <FeedbackWidget />
