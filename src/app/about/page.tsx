@@ -335,9 +335,9 @@ export default function About() {
               </p>
               <p className="mt-1">
                 Dante Egizio, Associate Broker |{" "}
-                <a href="tel:+14123478125" className="hover:underline">
+                <TrackedLink href="tel:+14123478125" partner="dante" action="phone" page="about-compliance" className="hover:underline">
                   (412) 347-8125
-                </a>
+                </TrackedLink>
               </p>
               <p className="mt-1">
                 PA License #AB069313 | Brokerage License #RB063030C | Equal
