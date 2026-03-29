@@ -43,7 +43,8 @@ export default function ChecklistPage() {
           <div className="space-y-3">
             <CheckItem>Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register (required for free entry)</CheckItem>
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
-            <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving</CheckItem>
+            <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving (or skip parking entirely — ALL T rides are free April 23-25 thanks to Sheetz)</CheckItem>
+            <CheckItem text="Download the Ready2Ride app if you want the $25 Draft Pass (7 days unlimited PRT rides including buses)" />
             <CheckItem text="Check the road closure map — several bridges and I-279 exits are closed" />
             <CheckItem text="Charge your portable battery pack (you'll need it)" />
             <CheckItem text="Check the weather forecast for Pittsburgh April 23-25" />
@@ -111,8 +112,9 @@ export default function ChecklistPage() {
             <CheckItem text="Clear bag packed with essentials" />
             <CheckItem text="Check weather one more time — adjust layers" />
             <CheckItem text="Eat a real meal before you go (food at the event is expensive and lines are long)" />
-            <CheckItem text="Know your parking/transit plan (don't wing it)" />
+            <CheckItem text="Know your parking/transit plan (don't wing it) — remember ALL T rides are FREE" />
             <CheckItem text="Screenshot your return transit route — cell signal will be weak with 200K people around you" />
+            <CheckItem text="Watch out for scams — BBB warns about fake tickets, counterfeit merchandise, and rental fraud. The draft is FREE. If someone is selling tickets, it's a scam." />
             <CheckItem text="Tell someone where you're going and when you expect to be back" />
           </div>
         </section>
@@ -124,8 +126,19 @@ export default function ChecklistPage() {
             <div className="bg-surface border border-border rounded-lg p-4">
               <div className="flex justify-between items-start">
                 <div>
+                  <p className="font-bold">Wednesday, April 22</p>
+                  <p className="text-sm text-muted">Opening Night | Draft Experience opens | Nelly concert at Plaza at North Shore</p>
+                </div>
+                <span className="text-xs bg-accent text-foreground px-2 py-1 rounded font-semibold">
+                  Pre-Draft
+                </span>
+              </div>
+            </div>
+            <div className="bg-surface border border-border rounded-lg p-4">
+              <div className="flex justify-between items-start">
+                <div>
                   <p className="font-bold">Thursday, April 23</p>
-                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET</p>
+                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET | DJ Steve Aoki concert</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 1
@@ -147,7 +160,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Saturday, April 25</p>
-                  <p className="text-sm text-muted">Gates: 9:00 AM | Rounds 4-7: 12:00 PM ET</p>
+                  <p className="text-sm text-muted">Gates: 9:00 AM | Rounds 4-7: 12:00 PM ET | PicksBURGH 5K | 2 Chainz concert</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 3
@@ -155,6 +168,23 @@ export default function ChecklistPage() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Free transit callout */}
+        <section className="bg-green-50 border-2 border-green-300 rounded-lg p-5 mb-10">
+          <p className="font-bold text-green-900 text-lg mb-2">
+            ALL T Rides FREE April 23-25 (Sheetz + PRT)
+          </p>
+          <div className="space-y-2 text-sm text-green-800">
+            <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5) — Football Flyer bus, 25 min</p>
+            <p><strong>From South:</strong> South Hills Village T Station — ride the T for free, 35 min</p>
+            <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride — P1 bus, 15 min</p>
+            <p><strong>From West/Airport:</strong> PRT Route 28X, 45-60 min</p>
+            <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride — Butler Transit every 30 min to Ross Park lot</p>
+          </div>
+          <p className="text-sm text-green-800 mt-3">
+            Sheetz is covering all fares on the T (red, blue, silver lines) and the Monongahela Incline all 3 days. Park at any T station and ride downtown for $0.
+          </p>
         </section>
 
         {/* Quick reference links */}
