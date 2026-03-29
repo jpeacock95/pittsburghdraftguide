@@ -275,22 +275,28 @@ export default function About() {
               <div className="flex flex-col sm:flex-row gap-2 text-sm">
                 <span className="text-muted">
                   Phone:{" "}
-                  <a
+                  <TrackedLink
                     href="tel:+14123478125"
+                    partner="dante"
+                    action="phone"
+                    page="about-contact"
                     className="text-primary font-semibold hover:underline"
                   >
                     (412) 347-8125
-                  </a>
+                  </TrackedLink>
                 </span>
                 <span className="hidden sm:inline text-gray-300">|</span>
                 <span className="text-muted">
                   Email:{" "}
-                  <a
+                  <TrackedLink
                     href="mailto:danteegizio@remax.net"
+                    partner="dante"
+                    action="email"
+                    page="about-contact"
                     className="text-primary font-semibold hover:underline"
                   >
                     danteegizio@remax.net
-                  </a>
+                  </TrackedLink>
                 </span>
               </div>
             </div>
@@ -364,12 +370,15 @@ export default function About() {
             draft weekend and beyond. Restaurants, bars, hotels, tour guides,
             photographers, and local services. Spots are limited.
           </p>
-          <a
+          <TrackedLink
             href="mailto:jordan@peacockbookkeepingservices.com?subject=Featured%20Listing%20Inquiry%20-%20Pittsburgh%20Draft%20Guide"
+            partner="peacock"
+            action="featured_listing_inquiry"
+            page="about"
             className="inline-block bg-primary hover:bg-primary-dark text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors"
           >
             Inquire About a Featured Spot
-          </a>
+          </TrackedLink>
         </section>
       </article>
 

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export function Footer() {
   return (
@@ -94,12 +95,15 @@ export function Footer() {
             </p>
             <p className="text-sm text-gray-500 mt-1.5">
               Questions about the guide or anything else?{" "}
-              <a
+              <TrackedLink
                 href="mailto:jordan@peacockbookkeepingservices.com"
+                partner="peacock"
+                action="email"
+                page="footer"
                 className="text-accent hover:text-white font-semibold underline underline-offset-2 transition-colors"
               >
                 Get in touch
-              </a>
+              </TrackedLink>
             </p>
           </div>
           <div className="text-center text-sm text-gray-500 mt-4">

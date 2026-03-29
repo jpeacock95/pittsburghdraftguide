@@ -21,11 +21,14 @@ export function TrackedLink({
   target,
   rel,
 }: TrackedLinkProps) {
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (typeof window === "undefined") return;
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const w = window as any;
+
+    // For outbound links (target="_blank"), prevent default briefly to ensure events fire
+    const isOutbound = e.currentTarget.target === "_blank" || e.currentTarget.href.startsWith("tel:") || e.currentTarget.href.startsWith("mailto:");
 
     // GA4 event
     if (typeof w.gtag === "function") {
@@ -33,6 +36,7 @@ export function TrackedLink({
         partner_name: partner,
         click_action: action,
         source_page: page,
+        transport_type: "beacon",
       });
     }
 
@@ -42,6 +46,14 @@ export function TrackedLink({
         action: action,
         page: page,
       });
+    }
+
+    // For same-tab navigation, add a tiny delay so events fire before navigating
+    if (!isOutbound) {
+      e.preventDefault();
+      setTimeout(() => {
+        window.location.href = e.currentTarget.href;
+      }, 150);
     }
   };
 
