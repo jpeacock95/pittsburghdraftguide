@@ -424,16 +424,17 @@ export default function NeighborhoodsPage() {
         {/* Real estate callout */}
         <section className="bg-blue-50 border border-blue-200 rounded-lg p-5 mb-8">
           <p className="font-bold text-blue-900 mb-1">
-            Falling in Love with Pittsburgh?
+            Want a Local's Perspective on These Neighborhoods?
           </p>
           <p className="text-sm text-blue-800 mb-3">
             A lot of people visit for the draft and start thinking about moving
-            here. If you're considering buying a home in Pittsburgh or the North
-            Hills, talk to{" "}
+            here. If you want to know what it's really like to live in the
+            neighborhoods listed above, talk to{" "}
             <a href="https://danteegizio.remax.com/" target="_blank" rel="noopener noreferrer" className="text-blue-900 underline font-semibold">Dante Egizio</a>.
-            He's a local realtor with 7 years in
-            the area who specializes in helping first-time buyers navigate the
-            Pittsburgh market.
+            He's a Pittsburgh &amp; Surrounding Areas expert with RE/MAX
+            Select Realty who handles buyer &amp; seller representation,
+            first-time homebuyers, investment properties, luxury homes, and
+            new construction.
           </p>
           <a
             href="https://danteegizio.remax.com/"

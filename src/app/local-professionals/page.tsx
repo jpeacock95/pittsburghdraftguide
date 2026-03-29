@@ -59,7 +59,14 @@ export default function LocalProfessionals() {
             </div>
             <div className="p-6">
               <div className="flex flex-col sm:flex-row gap-6">
-                <div className="flex-shrink-0">
+                <div className="flex-shrink-0 text-center">
+                  <Image
+                    src="/remax-logo.png"
+                    alt="RE/MAX Select Realty logo"
+                    width={160}
+                    height={50}
+                    className="w-40 h-auto object-contain mb-3"
+                  />
                   <Image
                     src="/dante-headshot.jpg"
                     alt="Dante Egizio, Pittsburgh realtor with RE/MAX Select Realty"
@@ -71,23 +78,21 @@ export default function LocalProfessionals() {
                 <div className="flex-1">
                   <h2 className="text-2xl font-bold mb-1">Dante Egizio</h2>
                   <p className="text-muted text-sm mb-3">
-                    Associate Broker &bull; RE/MAX Select Realty &bull; 7 Years
-                    in Pittsburgh
+                    Associate Broker &bull; RE/MAX Select Realty &bull;
+                    Pittsburgh &amp; Surrounding Areas Expert
                   </p>
                   <p className="text-muted mb-4">
-                    Dante has been helping families buy and sell homes in
-                    Pittsburgh for 7 years. He's not a name on a billboard. He
-                    lives and works in the Ohio Township and North Hills area.
-                    He founded the Ohio Township Community Facebook Group
-                    (1,500+ members) because he actually cares about the
-                    neighborhood, not just the commission.
+                    Dante has been helping families buy and sell homes across
+                    Pittsburgh and the surrounding areas for 7 years. He lives
+                    and works in Ohio Township and founded the Ohio Township
+                    Community Facebook Group (1,500+ members) because he
+                    actually cares about the community, not just the commission.
                   </p>
                   <p className="text-muted mb-4">
                     If you're visiting Pittsburgh for the draft and you start
                     thinking "I could live here," Dante is the person to call.
-                    He specializes in first-time buyers and knows every street,
-                    every school district, and every neighborhood in the North
-                    Hills.
+                    He knows the city inside and out, from the North Hills
+                    suburbs to downtown, and every neighborhood in between.
                   </p>
                 </div>
               </div>
@@ -98,10 +103,11 @@ export default function LocalProfessionals() {
                     Specialties
                   </p>
                   <ul className="text-sm text-muted space-y-1">
-                    <li>First-time home buyers</li>
-                    <li>Inherited and life-transition properties</li>
-                    <li>North Hills and northwest suburbs</li>
-                    <li>Buyer and seller representation</li>
+                    <li>Buyer &amp; Seller Representation</li>
+                    <li>First Time Homebuyers</li>
+                    <li>Investment Properties</li>
+                    <li>Luxury Homes</li>
+                    <li>New Construction</li>
                   </ul>
                 </div>
                 <div className="bg-surface rounded-lg p-3">
@@ -109,10 +115,10 @@ export default function LocalProfessionals() {
                     Areas Served
                   </p>
                   <ul className="text-sm text-muted space-y-1">
+                    <li>Pittsburgh &amp; surrounding areas</li>
+                    <li>North Hills, Cranberry Township, Mars</li>
                     <li>Ohio Township, Sewickley, Ben Avon</li>
-                    <li>Cranberry Township, Mars</li>
                     <li>Bellevue, Emsworth, Kilbuck</li>
-                    <li>Avonworth School District</li>
                   </ul>
                 </div>
               </div>
