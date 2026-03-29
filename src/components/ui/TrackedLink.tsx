@@ -40,11 +40,12 @@ export function TrackedLink({
       w.umami.track(eventName, { link_url: href });
     }
 
-    // For same-tab navigation, brief delay so events fire before navigating
+    // For internal links, brief delay so events fire before navigating
     if (!isOutbound) {
+      const destination = trackedHref;
       e.preventDefault();
       setTimeout(() => {
-        window.location.href = e.currentTarget.href;
+        window.location.href = destination;
       }, 150);
     }
   };
