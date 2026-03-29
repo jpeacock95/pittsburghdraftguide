@@ -4,6 +4,9 @@ import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { EventSchema } from "@/components/schema/EventSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { QuickFacts } from "@/components/ui/QuickFacts";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "2026 NFL Draft Schedule & What to Expect",
@@ -72,6 +75,15 @@ export default function Schedule() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <QuickFacts facts={[
+          "Round 1: Thu Apr 23, 8:00 PM ET (gates open 12 PM)",
+          "Rounds 2-3: Fri Apr 24, 7:00 PM ET (gates open 12 PM)",
+          "Rounds 4-7: Sat Apr 25, 12:00 PM ET (gates open 9 AM)",
+          "FREE entry with NFL OnePass app (download before you go)",
+          "Bag policy: clear bags only, max 12x6x12 inches",
+        ]} />
+        <LastUpdated date="March 29, 2026" />
+
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden border border-border mb-8">
           <iframe
@@ -96,7 +108,7 @@ export default function Schedule() {
           </p>
           <div className="grid gap-4">
             {/* Thursday */}
-            <div className="bg-surface border border-border rounded-lg p-5">
+            <div className="bg-surface border border-border border-l-4 border-l-amber-500 rounded-lg p-5">
               <div className="flex items-start justify-between flex-wrap gap-2">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-primary">
@@ -126,7 +138,7 @@ export default function Schedule() {
             </div>
 
             {/* Friday */}
-            <div className="bg-surface border border-border rounded-lg p-5">
+            <div className="bg-surface border border-border border-l-4 border-l-blue-500 rounded-lg p-5">
               <div className="flex items-start justify-between flex-wrap gap-2">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-primary">
@@ -152,7 +164,7 @@ export default function Schedule() {
             </div>
 
             {/* Saturday */}
-            <div className="bg-surface border border-border rounded-lg p-5">
+            <div className="bg-surface border border-border border-l-4 border-l-green-500 rounded-lg p-5">
               <div className="flex items-start justify-between flex-wrap gap-2">
                 <div>
                   <p className="text-xs font-bold uppercase tracking-wider text-primary">
@@ -567,6 +579,11 @@ export default function Schedule() {
           </div>
         </section>
       </article>
+
+      <RelatedPages
+        current="schedule"
+        slugs={["parking", "checklist", "food", "getting_around"]}
+      />
     </>
   );
 }

@@ -3,6 +3,8 @@ import Link from "next/link";
 import { EventSchema } from "@/components/schema/EventSchema";
 import { WebSiteSchema } from "@/components/schema/WebSiteSchema";
 import { EmailCapture } from "@/components/ui/EmailCapture";
+import { CountdownTimer } from "@/components/ui/CountdownTimer";
+import { RelatedPages } from "@/components/ui/RelatedPages";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh 2026: Your Complete Guide",
@@ -73,7 +75,7 @@ export default function HomePage() {
             is everything you need to know about parking, hotels, food, the
             schedule, and what to actually do during draft weekend.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
             <Link
               href="/parking-transportation"
               className="bg-accent hover:bg-accent-dark text-foreground font-bold py-3 px-6 rounded-lg transition-colors"
@@ -86,6 +88,9 @@ export default function HomePage() {
             >
               See the Schedule
             </Link>
+          </div>
+          <div className="max-w-sm mx-auto">
+            <CountdownTimer />
           </div>
         </div>
       </section>
@@ -113,6 +118,18 @@ export default function HomePage() {
               <p className="text-sm text-muted">Expected visitors</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Free transit callout */}
+      <section className="bg-green-800 text-white py-3">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <p className="text-sm font-bold">
+            All T light rail and most PRT buses are FREE April 23-25.{" "}
+            <Link href="/getting-around" className="underline hover:text-green-200">
+              See all free transit options
+            </Link>
+          </p>
         </div>
       </section>
 
@@ -289,6 +306,11 @@ export default function HomePage() {
           Read the budget guide &rarr;
         </Link>
       </section>
+
+      <RelatedPages
+        current="home"
+        slugs={["parking", "schedule", "checklist", "food"]}
+      />
     </>
   );
 }

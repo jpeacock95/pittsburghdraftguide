@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "About This Guide | Pittsburgh Draft Guide",
@@ -37,6 +39,8 @@ export default function About() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* Jordan's story */}
         <div className="flex flex-col sm:flex-row gap-6 mb-8">
           <div className="flex-shrink-0 sm:mt-1">
@@ -346,6 +350,8 @@ export default function About() {
           </a>
         </section>
       </article>
+
+      <RelatedPages current="about" slugs={["checklist", "schedule", "parking", "food"]} />
     </>
   );
 }

@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { ItemListSchema } from "@/components/schema/ItemListSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Where to Eat & Drink: NFL Draft Pittsburgh",
@@ -99,6 +101,33 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
+        <LastUpdated date="March 29, 2026" />
+
+        {/* Jump nav */}
+        <div className="mb-8">
+          <p className="text-sm font-bold text-muted mb-2">Jump to:</p>
+          <div className="flex flex-wrap gap-2">
+            {[
+              { id: "north-shore", label: "North Shore" },
+              { id: "downtown", label: "Downtown" },
+              { id: "strip-district", label: "Strip District" },
+              { id: "south-side", label: "South Side" },
+              { id: "breweries", label: "Breweries" },
+              { id: "budget", label: "Budget Eats" },
+              { id: "taste", label: "Taste of the Draft" },
+              { id: "locals", label: "Where Locals Eat" },
+            ].map((s) => (
+              <a
+                key={s.id}
+                href={`#${s.id}`}
+                className="text-xs bg-surface border border-border px-3 py-1.5 rounded-full hover:bg-primary hover:text-white hover:border-primary transition-colors"
+              >
+                {s.label}
+              </a>
+            ))}
+          </div>
+        </div>
+
         <Image
           src="/sports-bar.png"
           alt="Pittsburgh sports bar during draft weekend"
@@ -108,7 +137,7 @@ export default function BarsRestaurants() {
         />
 
         {/* North Shore */}
-        <section className="mb-10">
+        <section id="north-shore" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             North Shore (Walking Distance from the Draft Stage)
           </h2>
@@ -177,7 +206,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Downtown */}
-        <section className="mb-10">
+        <section id="downtown" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             Downtown &amp; Near Point State Park
           </h2>
@@ -246,7 +275,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Strip District */}
-        <section className="mb-10">
+        <section id="strip-district" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             Strip District (10-Minute Walk, Pittsburgh's Foodie Neighborhood)
           </h2>
@@ -311,7 +340,7 @@ export default function BarsRestaurants() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
-        <section className="mb-10">
+        <section id="south-side" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             South Side / Carson Street (80+ Bars, Best Nightlife)
           </h2>
@@ -368,7 +397,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Breweries */}
-        <section className="mb-10">
+        <section id="breweries" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">Breweries Worth the Trip</h2>
           <p className="text-muted mb-4">
             Pittsburgh's craft beer scene is serious. These are slightly outside
@@ -413,7 +442,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Budget Eats */}
-        <section className="mb-10">
+        <section id="budget" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">Budget Eats Under $15</h2>
           <p className="text-muted mb-4">
             Not everyone wants to drop $50 on dinner. Here are quick, affordable
@@ -466,7 +495,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Taste of the Draft */}
-        <section className="mb-10">
+        <section id="taste" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             Taste of the Draft (Tuesday, April 22)
           </h2>
@@ -493,7 +522,7 @@ export default function BarsRestaurants() {
         </section>
 
         {/* Where Locals Actually Eat */}
-        <section className="mb-10">
+        <section id="locals" className="mb-10 scroll-mt-16">
           <h2 className="text-2xl font-bold mb-2">
             Where Locals Actually Eat (Skip Primanti Bros)
           </h2>
@@ -587,6 +616,8 @@ export default function BarsRestaurants() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="food" slugs={["neighborhoods", "schedule", "getting_around", "itinerary"]} />
     </>
   );
 }

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh FAQ: Top 20 Questions",
@@ -175,6 +177,8 @@ export default function FAQ() {
           up. Not the questions the NFL wants you to ask. The ones real people
           are actually asking.
         </p>
+
+        <LastUpdated date="March 29, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-12">
@@ -737,6 +741,8 @@ export default function FAQ() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="faq" slugs={["parking", "schedule", "checklist", "budget"]} />
     </>
   );
 }

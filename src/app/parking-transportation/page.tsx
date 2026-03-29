@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { QuickFacts } from "@/components/ui/QuickFacts";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Parking Guide 2026",
@@ -64,10 +67,19 @@ export default function ParkingPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <p className="text-xs text-muted text-center mb-6">
+        <QuickFacts facts={[
+          "All T light rail rides are FREE April 23-25",
+          "Downtown garage parking: $125-250/day",
+          "North Shore lots mostly closed for draft construction",
+          "Best option: Park-and-ride + Football Flyer bus (free)",
+          "Pre-book on SpotHero if you must drive ($10-35 suburban)",
+        ]} />
+        <p className="text-xs text-muted text-center mb-2">
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
-          SpotHero listings, local news coverage. Last updated March 2026.
+          SpotHero listings, local news coverage.
         </p>
+        <LastUpdated date="March 29, 2026" />
+        <div className="mb-6" />
 
         {/* Don't drive warning */}
         <section className="bg-amber-50 border border-amber-200 rounded-lg p-5 mb-10">
@@ -452,6 +464,11 @@ export default function ParkingPage() {
           </div>
         </section>
       </article>
+
+      <RelatedPages
+        current="parking"
+        slugs={["getting_around", "schedule", "budget", "checklist"]}
+      />
     </>
   );
 }

@@ -10,10 +10,24 @@ export function EmailBanner() {
   const pathname = usePathname();
   const router = useRouter();
 
+  // Check sessionStorage on mount for previous dismissal
+  useEffect(() => {
+    if (typeof window !== "undefined" && sessionStorage.getItem("banner_dismissed")) {
+      setDismissed(true);
+    }
+  }, []);
+
   // Clear email field when navigating between pages
   useEffect(() => {
     setEmail("");
   }, [pathname]);
+
+  function dismiss() {
+    setDismissed(true);
+    if (typeof window !== "undefined") {
+      sessionStorage.setItem("banner_dismissed", "1");
+    }
+  }
 
   if (dismissed) return null;
 
@@ -34,7 +48,7 @@ export function EmailBanner() {
           </a>
           <button
             type="button"
-            onClick={() => setDismissed(true)}
+            onClick={dismiss}
             className="text-green-300 hover:text-white p-1.5 flex-shrink-0"
             aria-label="Dismiss"
           >
@@ -103,7 +117,7 @@ export function EmailBanner() {
           </form>
           <button
             type="button"
-            onClick={() => setDismissed(true)}
+            onClick={dismiss}
             className="absolute top-1.5 right-2 sm:static text-gray-400 hover:text-white p-1.5"
             aria-label="Dismiss"
           >

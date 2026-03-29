@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Day-by-Day Itinerary",
@@ -91,6 +93,8 @@ export default function ItineraryPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* Quick nav */}
         <nav className="bg-surface border border-border rounded-lg p-4 mb-10">
           <p className="font-bold mb-2">Jump to a day:</p>
@@ -899,6 +903,8 @@ export default function ItineraryPage() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="itinerary" slugs={["schedule", "food", "parking", "neighborhoods"]} />
     </>
   );
 }

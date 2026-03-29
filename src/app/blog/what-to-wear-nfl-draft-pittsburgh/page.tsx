@@ -67,6 +67,14 @@ export default function WhatToWearPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
+          <p className="text-sm text-blue-900">
+            <strong>Quick answer:</strong> Layers. Pittsburgh in late April averages 45-65&#176;F. Rain is likely at least one of the three days. Wear comfortable shoes, bring a light rain jacket, and don't count on warm weather. Check the{" "}
+            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline font-semibold">7-day forecast</a>{" "}
+            the week before you go.
+          </p>
+        </div>
+
         {/* April weather reality */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">

@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Things to Do During NFL Draft Weekend Pittsburgh",
@@ -70,6 +72,8 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* What is there to do? */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
@@ -649,6 +653,8 @@ export default function ThingsToDoPage() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="things_to_do" slugs={["neighborhoods", "food", "schedule", "getting_around"]} />
     </>
   );
 }

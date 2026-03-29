@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Getting Around Pittsburgh During the NFL Draft",
@@ -68,6 +70,8 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* The two venues */}
         <Image
           src="/north-shore.png"
@@ -549,6 +553,8 @@ export default function GettingAroundPage() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="getting_around" slugs={["parking", "neighborhoods", "food", "schedule"]} />
     </>
   );
 }

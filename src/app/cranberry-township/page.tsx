@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "NFL Draft from Cranberry Township: Transit Guide",
@@ -96,6 +98,9 @@ export default function CranberryTownship() {
           height={450}
           className="rounded-lg w-full h-auto mb-8"
         />
+
+        <LastUpdated date="March 29, 2026" />
+
         {/* Section 1: Why Stay in Cranberry */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
@@ -773,6 +778,8 @@ export default function CranberryTownship() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="cranberry" slugs={["parking", "getting_around", "budget", "hotels"]} />
     </>
   );
 }

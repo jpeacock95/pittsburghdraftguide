@@ -7,6 +7,7 @@ import { Footer } from "@/components/layout/Footer";
 import { EmailBanner } from "@/components/ui/EmailBanner";
 import { FeedbackWidget } from "@/components/ui/FeedbackWidget";
 import { AuthorByline } from "@/components/ui/AuthorByline";
+import { BackToTop } from "@/components/ui/BackToTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -79,6 +80,7 @@ export default function RootLayout({
           </div>
         </main>
         <Footer />
+        <BackToTop />
         <EmailBanner />
       </body>
     </html>

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Draft Weekend Checklist: What to Pack & Know",
@@ -37,6 +39,17 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
+        {/* Weather note */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-8">
+          <p className="text-sm text-blue-900">
+            <strong>Pittsburgh weather in late April:</strong> Expect 45-65&#176;F (7-18&#176;C). Rain is common. Dress in layers and bring a light rain jacket. Check the{" "}
+            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-blue-700 underline font-semibold">forecast</a>{" "}
+            the week of the draft.
+          </p>
+        </div>
+
         {/* Before you go */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">Before You Leave Home</h2>
@@ -231,6 +244,8 @@ export default function ChecklistPage() {
           </p>
         </section>
       </article>
+
+      <RelatedPages current="checklist" slugs={["parking", "schedule", "food", "getting_around"]} />
     </>
   );
 }

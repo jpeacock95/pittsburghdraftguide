@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh on a Budget 2026",
@@ -63,6 +65,8 @@ export default function BudgetGuide() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* The Good News */}
         <section className="mb-10">
           <h2 className="text-2xl font-bold mb-4">
@@ -580,6 +584,8 @@ export default function BudgetGuide() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="budget" slugs={["parking", "hotels", "food", "cranberry"]} />
     </>
   );
 }

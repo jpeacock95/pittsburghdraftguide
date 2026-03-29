@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { RelatedPages } from "@/components/ui/RelatedPages";
+import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
   title: "Pittsburgh Neighborhoods Guide for Draft Visitors",
@@ -255,6 +257,8 @@ export default function NeighborhoodsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
+        <LastUpdated date="March 29, 2026" />
+
         {/* Quick nav */}
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-3">Jump to a Neighborhood</h2>
@@ -481,6 +485,8 @@ export default function NeighborhoodsPage() {
           </div>
         </section>
       </article>
+
+      <RelatedPages current="neighborhoods" slugs={["food", "getting_around", "hotels", "itinerary"]} />
     </>
   );
 }
