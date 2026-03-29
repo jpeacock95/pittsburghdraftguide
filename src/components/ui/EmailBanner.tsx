@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 export function EmailBanner() {
@@ -9,6 +9,11 @@ export function EmailBanner() {
   const [loading, setLoading] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+
+  // Clear email field when navigating between pages
+  useEffect(() => {
+    setEmail("");
+  }, [pathname]);
 
   if (dismissed) return null;
 
