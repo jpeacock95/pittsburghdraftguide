@@ -18,6 +18,7 @@ export function EmailCapture() {
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           email,
+          _honey: "",
           _subject: "New Draft Guide subscriber!",
           _autoresponse: "Thanks for grabbing the Draft Weekend Checklist!\n\nDownload your PDF here:\nhttps://www.pittsburghdraftguide.com/draft-weekend-checklist.pdf\n\nOr view the full checklist online:\nhttps://www.pittsburghdraftguide.com/checklist\n\nKey links:\n- Parking Guide: https://www.pittsburghdraftguide.com/parking-transportation\n- Where to Stay: https://www.pittsburghdraftguide.com/where-to-stay\n- Day-by-Day Itinerary: https://www.pittsburghdraftguide.com/itinerary\n- Bars & Restaurants: https://www.pittsburghdraftguide.com/bars-restaurants\n\nHave an amazing draft weekend!\n- Pittsburgh Draft Guide (built by Peacock Bookkeeping Services, Cranberry Township PA)",
           source: "inline",
@@ -71,6 +72,7 @@ export function EmailCapture() {
           email and get instant access to the checklist.
         </p>
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-2">
+          <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" aria-hidden="true" title="Do not fill this field" />
           <input
             type="email"
             required
