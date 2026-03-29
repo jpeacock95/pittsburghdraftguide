@@ -30,10 +30,9 @@ export function TrackedLink({
     // For outbound links (target="_blank"), prevent default briefly to ensure events fire
     const isOutbound = e.currentTarget.target === "_blank" || e.currentTarget.href.startsWith("tel:") || e.currentTarget.href.startsWith("mailto:");
 
-    // GA4 event
+    // GA4 events -- separate event names so they show up distinctly in Realtime
     if (typeof w.gtag === "function") {
-      w.gtag("event", "partner_click", {
-        partner_name: partner,
+      w.gtag("event", `${partner}_click`, {
         click_action: action,
         source_page: page,
         transport_type: "beacon",
