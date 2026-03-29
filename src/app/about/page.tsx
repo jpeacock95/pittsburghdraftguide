@@ -286,10 +286,10 @@ export default function About() {
                 <span className="text-muted">
                   Email:{" "}
                   <a
-                    href="mailto:degizio9@gmail.com"
+                    href="mailto:danteegizio@remax.net"
                     className="text-primary font-semibold hover:underline"
                   >
-                    degizio9@gmail.com
+                    danteegizio@remax.net
                   </a>
                 </span>
               </div>
