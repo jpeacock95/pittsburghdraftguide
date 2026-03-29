@@ -12,171 +12,157 @@ export const metadata: Metadata = {
     "The ultimate guide to the 2026 NFL Draft in Pittsburgh. Parking, hotels, restaurants, schedule, and everything you need for April 23-25 at Point State Park and Acrisure Stadium.",
 };
 
+const guides = [
+  {
+    href: "/parking-transportation",
+    label: "Essential",
+    title: "Parking & Transportation",
+    desc: "Where to park, park-and-ride options, road closures, and why officials say don't drive.",
+  },
+  {
+    href: "/where-to-stay",
+    label: "Essential",
+    title: "Where to Stay",
+    desc: "Hotels from $120/night in Cranberry to $2,000 downtown. Plus Airbnb and budget alternatives.",
+  },
+  {
+    href: "/bars-restaurants",
+    label: "Food & Drink",
+    title: "Bars & Restaurants",
+    desc: "44 spots to eat and drink near both venues, organized by neighborhood.",
+  },
+  {
+    href: "/schedule",
+    label: "Planning",
+    title: "Schedule & What to Expect",
+    desc: "Round-by-round times, free entry, bag policy, and concerts.",
+  },
+  {
+    href: "/faq",
+    label: "Planning",
+    title: "FAQ",
+    desc: "Answers to the 20 most-asked questions about the draft.",
+  },
+  {
+    href: "/cranberry-township",
+    label: "Local",
+    title: "From Cranberry Township",
+    desc: "Park-and-ride, bus routes, and tips from the northern suburbs.",
+  },
+];
+
 export default function HomePage() {
   return (
     <>
       <EventSchema />
       <WebSiteSchema />
 
-      {/* Hero */}
+      {/* Hero - cinematic full-bleed */}
       <section
-        className="relative text-white py-28 md:py-40 bg-cover bg-center bg-no-repeat"
+        className="photo-section text-white py-32 md:py-44"
         style={{ backgroundImage: "url('/hero-pittsburgh.png')" }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-primary-dark/80 via-primary-dark/70 to-primary-dark/90" />
-        <div className="relative max-w-4xl mx-auto px-4 text-center">
-          <p className="text-accent font-bold text-sm uppercase tracking-widest mb-4">
-            April 23&ndash;25, 2026 &bull; Pittsburgh, PA
+        <div className="max-w-3xl mx-auto px-4 text-center">
+          <p className="label text-accent/90 mb-5">
+            April 23&ndash;25, 2026
           </p>
-          <h1 className="font-heading text-4xl md:text-6xl font-bold mb-5 leading-tight">
-            Your Complete Guide to the 2026 NFL Draft in Pittsburgh
+          <h1 className="text-4xl md:text-6xl mb-6 leading-tight">
+            Your Complete Guide to the<br className="hidden md:block" /> 2026 NFL Draft in Pittsburgh
           </h1>
-          <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
-            500,000+ visitors. Three days. Two venues connected by a river. This
-            is everything you need to know about parking, hotels, food, the
-            schedule, and what to actually do during draft weekend.
+          <p className="text-lg text-gray-300 max-w-xl mx-auto mb-10 leading-relaxed">
+            500,000+ visitors. Three days. Two venues connected by a river.
+            Everything you need to know.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-10">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
             <Link
               href="/parking-transportation"
-              className="bg-accent hover:bg-accent-dark text-primary-dark font-bold py-3.5 px-7 rounded-lg transition-colors text-base"
+              className="bg-accent hover:bg-accent-dark text-white font-semibold py-3 px-7 rounded transition-colors"
             >
-              Parking Guide (Start Here)
+              Parking Guide
             </Link>
             <Link
               href="/schedule"
-              className="bg-white/10 hover:bg-white/20 text-white font-bold py-3.5 px-7 rounded-lg border border-white/25 transition-colors text-base backdrop-blur-sm"
+              className="bg-white/10 hover:bg-white/20 text-white font-semibold py-3 px-7 rounded border border-white/20 transition-colors backdrop-blur-sm"
             >
               See the Schedule
             </Link>
           </div>
-          <div className="max-w-sm mx-auto">
+          <div className="max-w-xs mx-auto">
             <CountdownTimer />
           </div>
         </div>
       </section>
 
-      {/* Quick facts strip */}
-      <section className="bg-surface border-b border-border py-7">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      {/* Quick facts - minimal strip */}
+      <section className="py-8 border-b border-border">
+        <div className="max-w-4xl mx-auto px-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="font-heading text-2xl font-bold text-primary">Apr 23&ndash;25</p>
-              <p className="text-sm text-muted mt-0.5">Thu&ndash;Sat, 2026</p>
+              <p className="font-heading text-2xl text-foreground">Apr 23&ndash;25</p>
+              <p className="text-xs text-muted mt-1">Thursday&ndash;Saturday</p>
             </div>
             <div>
-              <p className="font-heading text-2xl font-bold text-primary">FREE</p>
-              <p className="text-sm text-muted mt-0.5">Entry with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass</a> app</p>
+              <p className="font-heading text-2xl text-foreground">Free Entry</p>
+              <p className="text-xs text-muted mt-1">Register with <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">OnePass</a></p>
             </div>
             <div>
-              <p className="font-heading text-2xl font-bold text-primary">2 Venues</p>
-              <p className="text-sm text-muted mt-0.5">Point State Park + North Shore</p>
+              <p className="font-heading text-2xl text-foreground">2 Venues</p>
+              <p className="text-xs text-muted mt-1">Point State Park + North Shore</p>
             </div>
             <div>
-              <p className="font-heading text-2xl font-bold text-primary">500K+</p>
-              <p className="text-sm text-muted mt-0.5">Expected visitors</p>
+              <p className="font-heading text-2xl text-foreground">500K+</p>
+              <p className="text-xs text-muted mt-1">Expected visitors</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Free transit banner */}
-      <section className="bg-primary text-white py-3.5">
-        <div className="max-w-5xl mx-auto px-4 text-center">
-          <p className="text-sm font-semibold">
-            All T light rail and most PRT buses are FREE April 23&ndash;25.{" "}
-            <Link href="/getting-around" className="underline underline-offset-2 hover:text-accent transition-colors">
+      {/* Free transit - understated bar */}
+      <section className="bg-primary-dark text-white py-3">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <p className="text-sm">
+            All T light rail and most PRT buses are <strong>free</strong> April 23&ndash;25.{" "}
+            <Link href="/getting-around" className="text-accent hover:underline">
               See all free transit options
             </Link>
           </p>
         </div>
       </section>
 
-      {/* Trust bar */}
-      <section className="max-w-4xl mx-auto px-4 py-6">
-        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-muted text-center">
-          <span>Built by a Cranberry Township local</span>
-          <span>&middot;</span>
-          <span>Data from 27 Reddit threads</span>
-          <span>&middot;</span>
-          <span>12 competitor sites analyzed</span>
-          <span>&middot;</span>
-          <span>70+ businesses researched</span>
-          <span>&middot;</span>
-          <span>Updated March 2026</span>
+      {/* Trust line */}
+      <section className="max-w-4xl mx-auto px-4 py-8">
+        <p className="text-center text-xs text-muted tracking-wide">
+          Built by a Cranberry Township local &middot; Data from 27 Reddit threads &middot; 70+ businesses researched &middot; Updated March 2026
+        </p>
+      </section>
+
+      {/* Guides - editorial grid */}
+      <section className="max-w-4xl mx-auto px-4 pb-20">
+        <h2 className="text-3xl md:text-4xl text-center mb-12">
+          Everything You Need for Draft Weekend
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10">
+          {guides.map((g) => (
+            <Link key={g.href} href={g.href} className="group block">
+              <p className="label mb-2">{g.label}</p>
+              <h3 className="text-xl md:text-2xl group-hover:text-accent transition-colors mb-2">
+                {g.title}
+              </h3>
+              <p className="text-muted text-sm leading-relaxed">{g.desc}</p>
+            </Link>
+          ))}
         </div>
       </section>
 
-      {/* Guide sections */}
-      <section className="bg-surface-alt py-14">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="font-heading text-3xl font-bold mb-10 text-center">
-            Everything You Need for Draft Weekend
-          </h2>
-
-          {/* Top 2 -- large featured cards */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
-            <Link
-              href="/parking-transportation"
-              className="group bg-surface rounded-xl p-7 border border-border hover:border-primary/40 transition-all hover:shadow-lg"
-            >
-              <p className="text-xs font-bold uppercase tracking-wider text-muted mb-3">Essential</p>
-              <h3 className="font-heading text-xl font-bold mb-2 group-hover:text-primary transition-colors">Parking & Transportation</h3>
-              <p className="text-muted text-sm leading-relaxed">Where to park, park-and-ride options, road closures, and why officials say don't drive.</p>
-              <span className="text-primary text-sm font-semibold mt-4 inline-block group-hover:underline">Read guide &rarr;</span>
-            </Link>
-            <Link
-              href="/where-to-stay"
-              className="group bg-surface rounded-xl p-7 border border-border hover:border-primary/40 transition-all hover:shadow-lg"
-            >
-              <p className="text-xs font-bold uppercase tracking-wider text-muted mb-3">Essential</p>
-              <h3 className="font-heading text-xl font-bold mb-2 group-hover:text-primary transition-colors">Where to Stay</h3>
-              <p className="text-muted text-sm leading-relaxed">Hotels from $120/night in Cranberry to $2,000 downtown. Plus Airbnb and budget alternatives.</p>
-              <span className="text-primary text-sm font-semibold mt-4 inline-block group-hover:underline">Read guide &rarr;</span>
-            </Link>
-          </div>
-
-          {/* Bottom 4 -- compact row */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <Link
-              href="/bars-restaurants"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
-            >
-              <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">Bars & Restaurants</h3>
-              <p className="text-muted text-xs leading-relaxed">44 spots to eat and drink near both venues.</p>
-            </Link>
-            <Link
-              href="/schedule"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
-            >
-              <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">Schedule & What to Expect</h3>
-              <p className="text-muted text-xs leading-relaxed">Round times, free entry, bag policy.</p>
-            </Link>
-            <Link
-              href="/faq"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
-            >
-              <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">FAQ</h3>
-              <p className="text-muted text-xs leading-relaxed">Top 20 questions answered.</p>
-            </Link>
-            <Link
-              href="/cranberry-township"
-              className="group bg-surface rounded-xl p-5 border border-border hover:border-primary/40 transition-all hover:shadow-md"
-            >
-              <h3 className="font-heading font-bold mb-1 group-hover:text-primary transition-colors">From Cranberry Township</h3>
-              <p className="text-muted text-xs leading-relaxed">Park-and-ride, bus routes, tips.</p>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* What is the draft -- editorial style */}
-      <section className="py-14">
+      {/* What is the draft - editorial prose */}
+      <section className="bg-surface-alt py-20">
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="font-heading text-3xl font-bold mb-6">
+          <p className="label mb-4">Background</p>
+          <h2 className="text-3xl md:text-4xl mb-8">
             What Is the NFL Draft, and Why Are 500,000 People Coming?
           </h2>
-          <div className="text-muted space-y-4 text-base leading-relaxed">
+          <div className="text-muted space-y-5 leading-relaxed">
             <p>
               If you're wondering why half a million people would show up to watch
               names get read off a list, you're not alone. Reddit is full of that
@@ -203,52 +189,56 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="rounded-xl overflow-hidden border border-border mt-8 shadow-sm">
+          <div className="rounded-lg overflow-hidden mt-10">
             <iframe
               src="https://www.youtube.com/embed/Q1Rwwi_5Mck"
               width="100%"
-              height="350"
+              height="380"
               className="border-0"
               allowFullScreen
               loading="lazy"
               title="Pittsburgh Selected to Host 2026 NFL Draft"
             />
           </div>
-          <p className="text-xs text-muted text-center mt-2">
-            Watch: Pittsburgh's official announcement as the 2026 NFL Draft host city
+          <p className="text-xs text-muted text-center mt-3">
+            Pittsburgh's official announcement as the 2026 NFL Draft host city
           </p>
         </div>
       </section>
 
-      {/* Schedule -- clean, no color-coding per day */}
-      <section className="bg-primary-dark text-white py-14">
+      {/* Schedule overview - dark cinematic section */}
+      <section
+        className="photo-section text-white py-20"
+        style={{ backgroundImage: "url('/north-shore.png')" }}
+      >
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="font-heading text-3xl font-bold mb-8">Draft Schedule at a Glance</h2>
+          <p className="label mb-4">Schedule</p>
+          <h2 className="text-3xl md:text-4xl mb-10">Draft Schedule at a Glance</h2>
           <div className="divide-y divide-white/10">
             {[
-              { day: "Thursday", date: "April 23", label: "Round 1", time: "8:00 PM ET", desc: "Gates open at 12:00 PM. The biggest night of the draft. Expect the largest crowds." },
-              { day: "Friday", date: "April 24", label: "Rounds 2-3", time: "7:00 PM ET", desc: "Gates open at 12:00 PM. Slightly smaller crowds. Great day for the Draft Experience fan zone." },
-              { day: "Saturday", date: "April 25", label: "Rounds 4-7", time: "12:00 PM ET", desc: "Gates open at 9:00 AM. Locals say this is the best day. Less chaos, featured concert, PicksBURGH 5K in the morning." },
+              { day: "Thursday", date: "April 23", label: "Round 1", time: "8:00 PM ET", desc: "Gates open at noon. The biggest night. Expect the largest crowds." },
+              { day: "Friday", date: "April 24", label: "Rounds 2-3", time: "7:00 PM ET", desc: "Gates open at noon. Slightly smaller crowds. Great day for the Draft Experience." },
+              { day: "Saturday", date: "April 25", label: "Rounds 4-7", time: "12:00 PM ET", desc: "Gates open at 9 AM. Locals say this is the best day. PicksBURGH 5K in the morning." },
             ].map((item) => (
-              <div key={item.day} className="flex items-start gap-5 py-6 first:pt-0">
+              <div key={item.day} className="flex items-start gap-6 py-6 first:pt-0">
                 <div className="min-w-[80px] shrink-0">
-                  <p className="text-accent font-bold text-sm">{item.day}</p>
+                  <p className="text-accent font-semibold text-sm">{item.day}</p>
                   <p className="text-gray-400 text-xs">{item.date}</p>
                 </div>
                 <div>
                   <div className="flex items-baseline gap-3 mb-1">
-                    <p className="font-heading font-bold text-lg">{item.label}</p>
-                    <p className="text-xs text-gray-400 font-medium">{item.time}</p>
+                    <p className="font-heading text-xl">{item.label}</p>
+                    <p className="text-xs text-gray-400">{item.time}</p>
                   </div>
                   <p className="text-sm text-gray-300 leading-relaxed">{item.desc}</p>
                 </div>
               </div>
             ))}
           </div>
-          <div className="mt-8 text-center">
+          <div className="mt-10">
             <Link
               href="/schedule"
-              className="text-accent font-semibold hover:underline underline-offset-2"
+              className="text-accent font-semibold hover:underline underline-offset-4 text-sm"
             >
               Full schedule, bag policy, and registration info &rarr;
             </Link>
@@ -257,21 +247,22 @@ export default function HomePage() {
       </section>
 
       {/* Cranberry callout */}
-      <section className="py-14">
+      <section className="py-20">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="font-heading text-2xl font-bold mb-3">
-            Coming from Cranberry Township or the Northern Suburbs?
+          <p className="label mb-4">Northern Suburbs</p>
+          <h2 className="text-3xl mb-4">
+            Coming from Cranberry Township?
           </h2>
-          <p className="text-muted mb-6 max-w-lg mx-auto">
+          <p className="text-muted mb-8 max-w-md mx-auto leading-relaxed">
             The T light rail doesn't go north. But there are park-and-ride
             options that'll get you downtown in 25 minutes. We wrote a guide
             specifically for you.
           </p>
           <Link
             href="/cranberry-township"
-            className="inline-block bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-lg transition-colors"
+            className="inline-block bg-primary-dark hover:bg-primary text-white font-semibold py-3 px-7 rounded transition-colors"
           >
-            Cranberry Township Draft Guide
+            Cranberry Township Guide
           </Link>
         </div>
       </section>
@@ -282,17 +273,18 @@ export default function HomePage() {
       </div>
 
       {/* Budget callout */}
-      <section className="bg-surface-alt py-14">
+      <section className="bg-surface-alt py-20">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="font-heading text-2xl font-bold mb-3">Draft Weekend on a Budget</h2>
-          <p className="text-muted mb-5 max-w-lg mx-auto">
+          <p className="label mb-4">Save Money</p>
+          <h2 className="text-3xl mb-4">Draft Weekend on a Budget</h2>
+          <p className="text-muted mb-6 max-w-md mx-auto leading-relaxed">
             Hotels downtown are $500&ndash;2,000 a night. Parking garages are charging
             $100+. But the draft itself is free, and there are ways to do this
             weekend without emptying your bank account.
           </p>
           <Link
             href="/budget-guide"
-            className="text-primary font-semibold hover:underline underline-offset-2"
+            className="text-accent font-semibold hover:underline underline-offset-4"
           >
             Read the budget guide &rarr;
           </Link>

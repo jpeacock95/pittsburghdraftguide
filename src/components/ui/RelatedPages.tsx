@@ -35,17 +35,18 @@ export function RelatedPages({ current, slugs }: RelatedPagesProps) {
   if (pages.length === 0) return null;
 
   return (
-    <section className="max-w-3xl mx-auto px-4 py-10">
-      <h2 className="text-lg font-bold mb-4">You might also need</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+    <section className="max-w-3xl mx-auto px-4 py-16">
+      <hr />
+      <p className="label mb-4">Continue Reading</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {pages.map((page) => (
           <Link
             key={page.href}
             href={page.href}
-            className="block bg-surface border border-border rounded-lg p-4 hover:shadow-md transition-all"
+            className="group block"
           >
-            <p className="font-bold text-sm mb-1">{page.title}</p>
-            <p className="text-xs text-muted leading-relaxed">{page.desc}</p>
+            <p className="font-heading text-lg group-hover:text-accent transition-colors">{page.title}</p>
+            <p className="text-sm text-muted mt-1 leading-relaxed">{page.desc}</p>
           </Link>
         ))}
       </div>

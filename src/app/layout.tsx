@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { DM_Sans, Space_Grotesk } from "next/font/google";
+import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -15,10 +15,10 @@ const dmSans = DM_Sans({
   weight: ["400", "500", "600", "700"],
 });
 
-const spaceGrotesk = Space_Grotesk({
+const dmSerif = DM_Serif_Display({
   variable: "--font-heading",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
+  weight: ["400"],
 });
 
 export const metadata: Metadata = {
@@ -57,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${dmSans.variable} ${spaceGrotesk.variable} h-full antialiased`}>
+    <html lang="en" className={`${dmSans.variable} ${dmSerif.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col font-body">
         {/* Google Analytics (GA4) */}
         <Script
