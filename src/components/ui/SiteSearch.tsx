@@ -1079,7 +1079,7 @@ export function SiteSearch() {
 
       {/* Search overlay */}
       {isOpen && (
-        <div className="absolute right-0 top-full mt-2 w-[calc(100vw-2rem)] sm:w-96 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden z-50">
+        <div className="fixed left-4 right-4 top-16 sm:absolute sm:left-auto sm:right-0 sm:top-full sm:mt-2 sm:w-96 bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden z-50">
           <div className="p-3">
             <input
               ref={inputRef}
