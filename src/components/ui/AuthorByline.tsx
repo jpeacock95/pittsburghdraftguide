@@ -3,8 +3,8 @@ import { TrackedLink } from "@/components/ui/TrackedLink";
 export function AuthorByline() {
   return (
     <div className="border-b border-border">
-      <div className="max-w-6xl mx-auto px-4 py-2">
-        <p className="text-xs text-muted text-center sm:text-right tracking-wide">
+      <div className="max-w-6xl mx-auto px-3 sm:px-4 py-1.5 sm:py-2">
+        <p className="text-[11px] sm:text-xs text-muted text-center sm:text-right tracking-wide">
           By{" "}
           <TrackedLink
             href="/about"
