@@ -4,7 +4,7 @@ export function AuthorByline() {
   return (
     <div className="border-b border-border">
       <div className="max-w-6xl mx-auto px-3 sm:px-4 py-1.5 sm:py-2">
-        <p className="text-[11px] sm:text-xs text-muted text-center sm:text-right tracking-wide">
+        <p className="text-[10.5px] sm:text-xs text-muted text-center sm:text-right sm:tracking-wide">
           By{" "}
           <TrackedLink
             href="/about"
