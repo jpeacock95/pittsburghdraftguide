@@ -4,15 +4,75 @@ import { useState, useEffect } from "react";
 
 const DRAFT_START = new Date("2026-04-23T20:00:00-04:00"); // 8 PM ET, Round 1
 
+function getTimeLeft() {
+  const now = new Date();
+  const total = DRAFT_START.getTime() - now.getTime();
+
+  if (total <= 0) return { total: 0, days: 0, hours: 0, minutes: 0, seconds: 0 };
+
+  return {
+    total,
+    days: Math.floor(total / (1000 * 60 * 60 * 24)),
+    hours: Math.floor((total / (1000 * 60 * 60)) % 24),
+    minutes: Math.floor((total / (1000 * 60)) % 60),
+    seconds: Math.floor((total / 1000) % 60),
+  };
+}
+
 export function CountdownTimer() {
-  const [timeLeft, setTimeLeft] = useState(getTimeLeft());
+  // Start null to avoid hydration mismatch (server builds static HTML at deploy time,
+  // client calculates a different time — React error #418 breaks the component)
+  const [timeLeft, setTimeLeft] = useState<ReturnType<typeof getTimeLeft> | null>(null);
 
   useEffect(() => {
-    // Update every 60s when more than 1 day away, every 1s when close
-    const interval = timeLeft.days > 0 ? 60000 : 1000;
-    const timer = setInterval(() => setTimeLeft(getTimeLeft()), interval);
-    return () => clearInterval(timer);
-  }, [timeLeft.days]);
+    // First paint: calculate immediately
+    setTimeLeft(getTimeLeft());
+
+    // Tick every second
+    const timer = setInterval(() => setTimeLeft(getTimeLeft()), 1000);
+
+    // When mobile browser wakes from sleep, force an immediate refresh
+    const onVisible = () => {
+      if (document.visibilityState === "visible") {
+        setTimeLeft(getTimeLeft());
+      }
+    };
+    document.addEventListener("visibilitychange", onVisible);
+
+    return () => {
+      clearInterval(timer);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
+  }, []);
+
+  // Show placeholder while waiting for client-side calculation
+  if (!timeLeft) {
+    return (
+      <div className="bg-white/10 border border-white/20 rounded-lg px-4 py-3">
+        <p className="text-xs text-gray-400 text-center mb-2 uppercase tracking-wide font-semibold">
+          Countdown to Round 1
+        </p>
+        <div className="grid grid-cols-4 gap-2 text-center">
+          <div>
+            <p className="text-2xl sm:text-3xl font-bold text-white">&ndash;</p>
+            <p className="text-xs text-gray-400">Days</p>
+          </div>
+          <div>
+            <p className="text-2xl sm:text-3xl font-bold text-white">&ndash;</p>
+            <p className="text-xs text-gray-400">Hours</p>
+          </div>
+          <div>
+            <p className="text-2xl sm:text-3xl font-bold text-white">&ndash;</p>
+            <p className="text-xs text-gray-400">Min</p>
+          </div>
+          <div>
+            <p className="text-2xl sm:text-3xl font-bold text-accent">&ndash;</p>
+            <p className="text-xs text-gray-400">Sec</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   if (timeLeft.total <= 0) {
     return (
@@ -48,19 +108,4 @@ export function CountdownTimer() {
       </div>
     </div>
   );
-}
-
-function getTimeLeft() {
-  const now = new Date();
-  const total = DRAFT_START.getTime() - now.getTime();
-
-  if (total <= 0) return { total: 0, days: 0, hours: 0, minutes: 0, seconds: 0 };
-
-  return {
-    total,
-    days: Math.floor(total / (1000 * 60 * 60 * 24)),
-    hours: Math.floor((total / (1000 * 60 * 60)) % 24),
-    minutes: Math.floor((total / (1000 * 60)) % 60),
-    seconds: Math.floor((total / 1000) % 60),
-  };
 }

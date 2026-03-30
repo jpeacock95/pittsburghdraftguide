@@ -115,16 +115,15 @@ export default function GettingAroundPage() {
             </p>
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
-                <strong>Walk across Roberto Clemente Bridge</strong> --
-                Pedestrian-only during draft weekend. About 15 minutes door to
+                <strong>Walk across Roberto Clemente Bridge:</strong> Pedestrian-only during draft weekend. About 15 minutes door to
                 door. The easiest option.
               </li>
               <li>
-                <strong>Ride the T light rail</strong> - Allegheny Station
+                <strong>Ride the T light rail:</strong> Allegheny Station
                 (North Shore) to any downtown station. Free. About 5 minutes.
               </li>
               <li>
-                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry</strong> - Boat service
+                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry:</strong> Boat service
                 between North Shore and downtown/Station Square. Unique way to
                 travel. Confirmed running all draft weekend.
               </li>
@@ -280,61 +279,61 @@ export default function GettingAroundPage() {
             the draft area. Here are the key walking routes and times.
           </p>
           <div className="overflow-x-auto mb-4">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[560px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">From</th>
-                  <th className="text-left p-3 font-semibold">To</th>
-                  <th className="text-left p-3 font-semibold">Walk Time</th>
-                  <th className="text-left p-3 font-semibold">Route</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">From</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">To</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Walk Time</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Route</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3">North Shore (Acrisure)</td>
-                  <td className="p-3">Point State Park</td>
-                  <td className="p-3 font-semibold">15 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">North Shore (Acrisure)</td>
+                  <td className="p-2 sm:p-3">Point State Park</td>
+                  <td className="p-2 sm:p-3 font-semibold">15 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Roberto Clemente Bridge (pedestrian-only)
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Downtown</td>
-                  <td className="p-3">Strip District</td>
-                  <td className="p-3 font-semibold">12 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Downtown</td>
+                  <td className="p-2 sm:p-3">Strip District</td>
+                  <td className="p-2 sm:p-3 font-semibold">12 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     East along Liberty Ave or Penn Ave
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Downtown</td>
-                  <td className="p-3">Station Square</td>
-                  <td className="p-3 font-semibold">10 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Downtown</td>
+                  <td className="p-2 sm:p-3">Station Square</td>
+                  <td className="p-2 sm:p-3 font-semibold">10 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Smithfield Street Bridge (stays open)
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">North Shore</td>
-                  <td className="p-3">Strip District</td>
-                  <td className="p-3 font-semibold">20 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">North Shore</td>
+                  <td className="p-2 sm:p-3">Strip District</td>
+                  <td className="p-2 sm:p-3 font-semibold">20 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Fort Duquesne Bridge walkway, then east along the river
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Point State Park</td>
-                  <td className="p-3">Market Square</td>
-                  <td className="p-3 font-semibold">7 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Point State Park</td>
+                  <td className="p-2 sm:p-3">Market Square</td>
+                  <td className="p-2 sm:p-3 font-semibold">7 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Straight up 4th Ave or Forbes Ave
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Downtown</td>
-                  <td className="p-3">South Side (Carson St)</td>
-                  <td className="p-3 font-semibold">20 min</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Downtown</td>
+                  <td className="p-2 sm:p-3">South Side (Carson St)</td>
+                  <td className="p-2 sm:p-3 font-semibold">20 min</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     10th Street Bridge or Smithfield St Bridge to Station Sq,
                     then walk east
                   </td>

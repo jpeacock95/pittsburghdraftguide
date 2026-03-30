@@ -338,67 +338,67 @@ export default function BudgetGuide() {
             weekend with free stuff and never feel like you're missing out.
           </p>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">Activity</th>
-                  <th className="text-left p-3 font-semibold">Cost</th>
-                  <th className="text-left p-3 font-semibold">Details</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Activity</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Cost</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Details</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Draft Experience</td>
-                  <td className="p-3 text-accent font-semibold">Free</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Draft Experience</td>
+                  <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     The entire fan zone at Point State Park. Interactive
                     games, mock drafts, player appearances, photo ops.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Concerts</td>
-                  <td className="p-3 text-accent font-semibold">Free</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Concerts</td>
+                  <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Live music on the main stage all three days. Past drafts
                     have had major artists.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Drone Show</td>
-                  <td className="p-3 text-accent font-semibold">Free</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Drone Show</td>
+                  <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Over the rivers at night. Visible from the North Shore,
                     Point State Park, and Mt. Washington.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">PicksBURGH 5K</td>
-                  <td className="p-3">$TBD</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">PicksBURGH 5K</td>
+                  <td className="p-2 sm:p-3">$TBD</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     A themed 5K run through the draft footprint. Registration
                     fee TBD.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Riverwalk</td>
-                  <td className="p-3 text-accent font-semibold">Free</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Riverwalk</td>
+                  <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Walk along the Three Rivers Heritage Trail. Connects
                     North Shore to Point State Park.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Roberto Clemente Bridge</td>
-                  <td className="p-3 text-accent font-semibold">Free</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Roberto Clemente Bridge</td>
+                  <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Closed to cars during the draft. Walk across the iconic
                     yellow bridge connecting the two venue areas.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Mt. Washington Views</td>
-                  <td className="p-3">$6 (Incline)</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3 font-semibold">Mt. Washington Views</td>
+                  <td className="p-2 sm:p-3">$6 (Incline)</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Take the <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Duquesne Incline</a> for the best skyline views in
                     America. The overlook at the top is free once you're up
                     there.

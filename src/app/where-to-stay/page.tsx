@@ -746,57 +746,57 @@ export default function WhereToStay() {
             Price Comparison at a Glance
           </h2>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[600px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">Area</th>
-                  <th className="text-left p-3 font-semibold">Price/Night</th>
-                  <th className="text-left p-3 font-semibold">Transit to Draft</th>
-                  <th className="text-left p-3 font-semibold">Vibe</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Area</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Price/Night</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Transit to Draft</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Vibe</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Downtown</td>
-                  <td className="p-3">$500-1,500+</td>
-                  <td className="p-3 text-muted">Walk (5-15 min)</td>
-                  <td className="p-3 text-muted">In the chaos. Love it or hate it.</td>
+                  <td className="p-2 sm:p-3 font-semibold">Downtown</td>
+                  <td className="p-2 sm:p-3">$500-1,500+</td>
+                  <td className="p-2 sm:p-3 text-muted">Walk (5-15 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">In the chaos. Love it or hate it.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">North Shore</td>
-                  <td className="p-3">$800-2,173+</td>
-                  <td className="p-3 text-muted">Walk (5 min to Acrisure)</td>
-                  <td className="p-3 text-muted">Closest to draft stage. Insane prices.</td>
+                  <td className="p-2 sm:p-3 font-semibold">North Shore</td>
+                  <td className="p-2 sm:p-3">$800-2,173+</td>
+                  <td className="p-2 sm:p-3 text-muted">Walk (5 min to Acrisure)</td>
+                  <td className="p-2 sm:p-3 text-muted">Closest to draft stage. Insane prices.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">T Line (South Hills)</td>
-                  <td className="p-3">$120-250</td>
-                  <td className="p-3 text-muted">T train (20-35 min)</td>
-                  <td className="p-3 text-muted">Smart play. Direct train to venues.</td>
+                  <td className="p-2 sm:p-3 font-semibold">T Line (South Hills)</td>
+                  <td className="p-2 sm:p-3">$120-250</td>
+                  <td className="p-2 sm:p-3 text-muted">T train (20-35 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">Smart play. Direct train to venues.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">McKnight Road</td>
-                  <td className="p-3">$100-180</td>
-                  <td className="p-3 text-muted">Bus (25-30 min)</td>
-                  <td className="p-3 text-muted">Budget king. Not pretty, but works.</td>
+                  <td className="p-2 sm:p-3 font-semibold">McKnight Road</td>
+                  <td className="p-2 sm:p-3">$100-180</td>
+                  <td className="p-2 sm:p-3 text-muted">Bus (25-30 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">Budget king. Not pretty, but works.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Cranberry Township</td>
-                  <td className="p-3">$120-180</td>
-                  <td className="p-3 text-muted">Drive + bus (40-45 min)</td>
-                  <td className="p-3 text-muted">Quiet suburb. Families love it.</td>
+                  <td className="p-2 sm:p-3 font-semibold">Cranberry Township</td>
+                  <td className="p-2 sm:p-3">$120-180</td>
+                  <td className="p-2 sm:p-3 text-muted">Drive + bus (40-45 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">Quiet suburb. Families love it.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Robinson / Airport</td>
-                  <td className="p-3">$120-200</td>
-                  <td className="p-3 text-muted">Bus/drive (30-40 min)</td>
-                  <td className="p-3 text-muted">Backup plan. Furthest out.</td>
+                  <td className="p-2 sm:p-3 font-semibold">Robinson / Airport</td>
+                  <td className="p-2 sm:p-3">$120-200</td>
+                  <td className="p-2 sm:p-3 text-muted">Bus/drive (30-40 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">Backup plan. Furthest out.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3 font-semibold">Airbnb (downtown)</td>
-                  <td className="p-3">$1,500-2,000+</td>
-                  <td className="p-3 text-muted">Walk</td>
-                  <td className="p-3 text-muted">"Super Bowl of Airbnb pricing."</td>
+                  <td className="p-2 sm:p-3 font-semibold">Airbnb (downtown)</td>
+                  <td className="p-2 sm:p-3">$1,500-2,000+</td>
+                  <td className="p-2 sm:p-3 text-muted">Walk</td>
+                  <td className="p-2 sm:p-3 text-muted">"Super Bowl of Airbnb pricing."</td>
                 </tr>
               </tbody>
             </table>

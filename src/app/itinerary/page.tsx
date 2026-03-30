@@ -822,43 +822,43 @@ export default function ItineraryPage() {
             Which Day Is Right for You?
           </h2>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">If you're...</th>
-                  <th className="text-left p-3 font-semibold">Go on...</th>
-                  <th className="text-left p-3 font-semibold">Why</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">If you&apos;re...</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Go on...</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Why</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3">A die-hard football fan</td>
-                  <td className="p-3 font-semibold">Thursday</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">A die-hard football fan</td>
+                  <td className="p-2 sm:p-3 font-semibold">Thursday</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Round 1 picks. Biggest energy. This is the night you've
                     been waiting for.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Here for the full experience</td>
-                  <td className="p-3 font-semibold">Friday</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Here for the full experience</td>
+                  <td className="p-2 sm:p-3 font-semibold">Friday</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Best balance of football and fun. Fewer crowds than
                     Thursday, better than Saturday for picks.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">A casual fan or family</td>
-                  <td className="p-3 font-semibold">Saturday</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">A casual fan or family</td>
+                  <td className="p-2 sm:p-3 font-semibold">Saturday</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Smallest crowds. 5K run. Concert. Draft Experience is
                     easiest to enjoy. Locals' pick.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Doing the whole weekend</td>
-                  <td className="p-3 font-semibold">Arrive Wednesday</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Doing the whole weekend</td>
+                  <td className="p-2 sm:p-3 font-semibold">Arrive Wednesday</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Pre-draft parties, concert at Rivers Casino, and a chance
                     to explore before the chaos starts.
                   </td>

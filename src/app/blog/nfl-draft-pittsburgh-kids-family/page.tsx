@@ -136,51 +136,51 @@ export default function KidsFamilyPage() {
             for even more options.
           </p>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">Attraction</th>
-                  <th className="text-left p-3 font-semibold">Distance</th>
-                  <th className="text-left p-3 font-semibold">Notes</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Attraction</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Distance</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Notes</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3">Carnegie Science Center</td>
-                  <td className="p-3">0.5 miles</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Carnegie Science Center</td>
+                  <td className="p-2 sm:p-3">0.5 miles</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     On the North Shore. Walk from Acrisure Stadium. SportsWorks
                     exhibit is perfect for draft weekend.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Children's Museum</td>
-                  <td className="p-3">0.7 miles</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Children's Museum</td>
+                  <td className="p-2 sm:p-3">0.7 miles</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Also on the North Shore. Great for ages 2-10. Indoor, so
                     it's a good rain backup.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">National Aviary</td>
-                  <td className="p-3">0.8 miles</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">National Aviary</td>
+                  <td className="p-2 sm:p-3">0.8 miles</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     The only standalone aviary in the US. Open Saturday and
                     Sunday. CLOSED Thursday and Friday.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Pittsburgh Zoo</td>
-                  <td className="p-3">15 min drive</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Pittsburgh Zoo</td>
+                  <td className="p-2 sm:p-3">15 min drive</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     In Highland Park. About 6 miles from downtown. Uber or
                     drive.
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Kennywood</td>
-                  <td className="p-3">20 min drive</td>
-                  <td className="p-3 text-muted">
+                  <td className="p-2 sm:p-3">Kennywood</td>
+                  <td className="p-2 sm:p-3">20 min drive</td>
+                  <td className="p-2 sm:p-3 text-muted">
                     Classic amusement park. Opens for the 2026 season the
                     same weekend as the draft. About 12 miles east.
                   </td>

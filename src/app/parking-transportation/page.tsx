@@ -303,34 +303,34 @@ export default function ParkingPage() {
 
           <h3 className="text-lg font-heading mt-6 mb-3">Downtown Garages</h3>
           <div className="overflow-x-auto">
-            <table className="w-full text-sm border border-border rounded-lg">
+            <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
               <thead className="bg-surface">
                 <tr>
-                  <th className="text-left p-3 font-semibold">Location</th>
-                  <th className="text-left p-3 font-semibold">Est. Price</th>
-                  <th className="text-left p-3 font-semibold">Notes</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Location</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Est. Price</th>
+                  <th className="text-left p-2 sm:p-3 font-semibold">Notes</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-t border-border">
-                  <td className="p-3">Alco North Shore Lots</td>
-                  <td className="p-3">$15-35 (normal)</td>
-                  <td className="p-3 text-muted">Many closed for draft. Check availability.</td>
+                  <td className="p-2 sm:p-3">Alco North Shore Lots</td>
+                  <td className="p-2 sm:p-3">$15-35 (normal)</td>
+                  <td className="p-2 sm:p-3 text-muted">Many closed for draft. Check availability.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Downtown Garages (6th &amp; Penn area)</td>
-                  <td className="p-3">$50-100+</td>
-                  <td className="p-3 text-muted">Charged $50 for Taylor Swift. Draft will be more.</td>
+                  <td className="p-2 sm:p-3">Downtown Garages (6th &amp; Penn area)</td>
+                  <td className="p-2 sm:p-3">$50-100+</td>
+                  <td className="p-2 sm:p-3 text-muted">Charged $50 for Taylor Swift. Draft will be more.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">Rivers Casino Parking</td>
-                  <td className="p-3">$500 (4-day pass)</td>
-                  <td className="p-3 text-muted">Package deal with hotel. Walking distance to North Shore.</td>
+                  <td className="p-2 sm:p-3">Rivers Casino Parking</td>
+                  <td className="p-2 sm:p-3">$500 (4-day pass)</td>
+                  <td className="p-2 sm:p-3 text-muted">Package deal with hotel. Walking distance to North Shore.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-3">South Side street parking</td>
-                  <td className="p-3">Free-$5</td>
-                  <td className="p-3 text-muted">Walk across 10th Street Bridge (~20 min) or take bus.</td>
+                  <td className="p-2 sm:p-3">South Side street parking</td>
+                  <td className="p-2 sm:p-3">Free-$5</td>
+                  <td className="p-2 sm:p-3 text-muted">Walk across 10th Street Bridge (~20 min) or take bus.</td>
                 </tr>
               </tbody>
             </table>
