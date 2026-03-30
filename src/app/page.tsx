@@ -153,6 +153,11 @@ export default function HomePage() {
             </Link>
           ))}
         </div>
+
+        {/* Email capture - right after guide grid, before they click away */}
+        <div className="mt-12">
+          <EmailCapture />
+        </div>
       </section>
 
       {/* What is the draft - editorial prose */}
@@ -266,11 +271,6 @@ export default function HomePage() {
           </Link>
         </div>
       </section>
-
-      {/* Email capture */}
-      <div className="max-w-3xl mx-auto px-4">
-        <EmailCapture />
-      </div>
 
       {/* Budget callout */}
       <section className="bg-surface-alt py-20">

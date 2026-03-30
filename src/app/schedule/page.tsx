@@ -7,6 +7,7 @@ import { FAQSchema } from "@/components/schema/FAQSchema";
 import { QuickFacts } from "@/components/ui/QuickFacts";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "2026 NFL Draft Schedule & What to Expect",
@@ -436,6 +437,9 @@ export default function Schedule() {
             </ul>
           </div>
         </section>
+
+        {/* Email capture - after packing checklist */}
+        <EmailCapture />
 
         {/* Events Beyond the Draft */}
         <section className="mb-14">

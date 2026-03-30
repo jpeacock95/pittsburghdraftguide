@@ -5,6 +5,7 @@ import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { ItemListSchema } from "@/components/schema/ItemListSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Where to Eat & Drink: NFL Draft Pittsburgh",
@@ -657,6 +658,9 @@ export default function BarsRestaurants() {
             won't think of it.
           </p>
         </section>
+
+        {/* Email capture - after restaurant listings */}
+        <EmailCapture />
 
         {/* Cross-links */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">

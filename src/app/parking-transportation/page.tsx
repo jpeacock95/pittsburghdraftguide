@@ -5,6 +5,7 @@ import { FAQSchema } from "@/components/schema/FAQSchema";
 import { QuickFacts } from "@/components/ui/QuickFacts";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Parking Guide 2026",
@@ -151,6 +152,9 @@ export default function ParkingPage() {
             </Link>
           </p>
         </section>
+
+        {/* Email capture - after free transit info */}
+        <EmailCapture />
 
         {/* Downtown parking map */}
         <section className="mb-14">
@@ -442,8 +446,8 @@ export default function ParkingPage() {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
+        {/* Bottom CTA - cross-links + email capture */}
+        <section className="bg-primary-dark text-white rounded-lg p-6 text-center mb-8">
           <h2 className="text-lg font-heading mb-2">
             Need the full picture?
           </h2>
@@ -466,6 +470,7 @@ export default function ParkingPage() {
             </Link>
           </div>
         </section>
+        <EmailCapture />
       </article>
 
       <RelatedPages
