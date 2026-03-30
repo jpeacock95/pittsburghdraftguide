@@ -5,6 +5,8 @@ import { FAQSchema } from "@/components/schema/FAQSchema";
 import { QuickFacts } from "@/components/ui/QuickFacts";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { EmailCapture } from "@/components/ui/EmailCapture";
+import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Parking Guide 2026",
@@ -151,6 +153,9 @@ export default function ParkingPage() {
             </Link>
           </p>
         </section>
+
+        {/* Email capture - after free transit info */}
+        <EmailCapture />
 
         {/* Downtown parking map */}
         <section className="mb-14">
@@ -301,6 +306,34 @@ export default function ParkingPage() {
             </p>
           </div>
 
+          {/* Dante contextual callout */}
+          <div className="card-minimal p-5 mt-6 mb-6">
+            <p className="text-sm text-muted">
+              <strong>Thinking about Pittsburgh long-term?</strong> A lot of draft
+              visitors end up looking at real estate here. If that's you,{" "}
+              <TrackedLink
+                href="https://danteegizio.remax.com/"
+                eventName="dante_remax_link_parking_click"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary font-semibold hover:underline"
+              >
+                Dante Egizio
+              </TrackedLink>{" "}
+              is a local RE/MAX agent who knows every neighborhood.{" "}
+              <TrackedLink
+                href="tel:+14123478125"
+                eventName="dante_phone_parking_click"
+                className="text-primary font-semibold hover:underline"
+              >
+                (412) 347-8125
+              </TrackedLink>
+            </p>
+            <p className="text-xs text-gray-500 mt-2">
+              Dante Egizio, Associate Broker, RE/MAX Select Realty | 400 Broad St. Suite 2006, Sewickley, PA 15143 | (724) 933-6300 | PA License #AB069313 | Brokerage License #RB063030C | Equal Housing Opportunity
+            </p>
+          </div>
+
           <h3 className="text-lg font-heading mt-6 mb-3">Downtown Garages</h3>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
@@ -442,8 +475,8 @@ export default function ParkingPage() {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
+        {/* Bottom CTA - cross-links + email capture */}
+        <section className="bg-primary-dark text-white rounded-lg p-6 text-center mb-8">
           <h2 className="text-lg font-heading mb-2">
             Need the full picture?
           </h2>
@@ -466,6 +499,7 @@ export default function ParkingPage() {
             </Link>
           </div>
         </section>
+        <EmailCapture />
       </article>
 
       <RelatedPages
