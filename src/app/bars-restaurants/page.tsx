@@ -164,6 +164,7 @@ export default function BarsRestaurants() {
           alt="Roberto Clemente Bridge lit up at night with Pittsburgh skyline"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
 
@@ -400,6 +401,7 @@ export default function BarsRestaurants() {
           alt="Pittsburgh at night from the South Side, looking toward downtown"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
         <section id="south-side" className="mb-14 scroll-mt-16">

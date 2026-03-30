@@ -8,9 +8,11 @@ export function CountdownTimer() {
   const [timeLeft, setTimeLeft] = useState(getTimeLeft());
 
   useEffect(() => {
-    const timer = setInterval(() => setTimeLeft(getTimeLeft()), 1000);
+    // Update every 60s when more than 1 day away, every 1s when close
+    const interval = timeLeft.days > 0 ? 60000 : 1000;
+    const timer = setInterval(() => setTimeLeft(getTimeLeft()), interval);
     return () => clearInterval(timer);
-  }, []);
+  }, [timeLeft.days]);
 
   if (timeLeft.total <= 0) {
     return (

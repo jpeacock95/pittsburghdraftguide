@@ -99,6 +99,7 @@ export default function CranberryTownship() {
           alt="View of Pittsburgh skyline from the Duquesne Incline, the city Cranberry Township visitors will see"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
 

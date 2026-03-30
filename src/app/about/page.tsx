@@ -50,6 +50,7 @@ export default function About() {
               alt="Jordan Peacock"
               width={120}
               height={120}
+              sizes="120px"
               className="rounded-lg w-28 h-28 sm:w-30 sm:h-30 object-cover"
             />
           </div>
@@ -204,6 +205,7 @@ export default function About() {
                   alt="RE/MAX Select Realty logo"
                   width={140}
                   height={44}
+                  sizes="140px"
                   className="w-36 h-auto object-contain mb-2"
                 />
                 <Image
@@ -211,6 +213,7 @@ export default function About() {
                   alt="Dante Egizio, Pittsburgh realtor with RE/MAX Select Realty"
                   width={120}
                   height={120}
+                  sizes="120px"
                   className="rounded-lg w-28 h-28 object-cover"
                 />
               </div>

@@ -1,24 +1,28 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import dynamic from "next/dynamic";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { EmailBanner } from "@/components/ui/EmailBanner";
-import { FeedbackWidget } from "@/components/ui/FeedbackWidget";
 import { AuthorByline } from "@/components/ui/AuthorByline";
-import { BackToTop } from "@/components/ui/BackToTop";
+
+const EmailBanner = dynamic(() => import("@/components/ui/EmailBanner").then(m => m.EmailBanner));
+const FeedbackWidget = dynamic(() => import("@/components/ui/FeedbackWidget").then(m => m.FeedbackWidget));
+const BackToTop = dynamic(() => import("@/components/ui/BackToTop").then(m => m.BackToTop));
 
 const dmSans = DM_Sans({
   variable: "--font-body",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  display: "swap",
 });
 
 const dmSerif = DM_Serif_Display({
   variable: "--font-heading",
   subsets: ["latin"],
   weight: ["400"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -58,13 +62,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${dmSans.variable} ${dmSerif.variable} h-full antialiased`}>
+      <head>
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://cloud.umami.is" />
+      </head>
       <body className="min-h-full flex flex-col font-body">
-        {/* Google Analytics (GA4) */}
+        {/* Google Analytics (GA4) - lazyOnload to avoid blocking paint */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-GJ0PDB2N27"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="ga4-init" strategy="afterInteractive">
+        <Script id="ga4-init" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -72,11 +80,11 @@ export default function RootLayout({
             gtag('config', 'G-GJ0PDB2N27');
           `}
         </Script>
-        {/* Umami Analytics */}
+        {/* Umami Analytics - lazyOnload to avoid blocking paint */}
         <Script
           src="https://cloud.umami.is/script.js"
           data-website-id="683b54f5-fcff-4ec7-94ed-1b992587765b"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
         <Header />
         <AuthorByline />

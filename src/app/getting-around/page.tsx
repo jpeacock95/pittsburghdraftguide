@@ -81,6 +81,7 @@ export default function GettingAroundPage() {
           alt="Roberto Clemente Bridge connecting downtown Pittsburgh to the North Shore draft venues"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
         <section className="mb-14">

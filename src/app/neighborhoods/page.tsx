@@ -310,6 +310,7 @@ export default function NeighborhoodsPage() {
           alt="Roberto Clemente Bridge and Pittsburgh skyline from the North Shore"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
 
@@ -370,6 +371,7 @@ export default function NeighborhoodsPage() {
           alt="View of Pittsburgh skyline from the top of the Duquesne Incline"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8"
         />
 

@@ -97,6 +97,7 @@ export default function WhereToStay() {
           alt="Pittsburgh skyline at night from the Duquesne Incline overlook"
           width={800}
           height={450}
+          sizes="(max-width: 768px) 100vw, 800px"
           className="rounded-lg w-full h-auto mb-8 max-w-3xl mx-auto px-4"
         />
 
