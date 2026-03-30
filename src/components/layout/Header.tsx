@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { SiteSearch } from "@/components/ui/SiteSearch";
 
 const navLinks = [
@@ -14,11 +15,29 @@ const navLinks = [
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+
+  function handleNavClick(e: React.MouseEvent, href: string) {
+    if (pathname === href) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    setMenuOpen(false);
+  }
 
   return (
     <header className="bg-primary-dark text-white sticky top-0 z-50 border-b border-white/10">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2.5">
+        <Link
+          href="/"
+          className="flex items-center gap-2.5"
+          onClick={(e) => {
+            if (pathname === "/") {
+              e.preventDefault();
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          }}
+        >
           <span className="font-heading text-xl font-bold tracking-tight">
             Pittsburgh Draft Guide
           </span>
@@ -33,7 +52,12 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium px-3 py-1.5 rounded-md hover:bg-white/10 transition-colors"
+              onClick={(e) => handleNavClick(e, link.href)}
+              className={`text-sm font-medium px-3 py-1.5 rounded-md transition-colors ${
+                pathname === link.href
+                  ? "bg-white/15 text-white"
+                  : "hover:bg-white/10 text-gray-300"
+              }`}
             >
               {link.label}
             </Link>
@@ -82,8 +106,12 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="block py-2.5 px-3 text-sm font-medium rounded-md hover:bg-white/10 transition-colors"
-              onClick={() => setMenuOpen(false)}
+              onClick={(e) => handleNavClick(e, link.href)}
+              className={`block py-2.5 px-3 text-sm font-medium rounded-md transition-colors ${
+                pathname === link.href
+                  ? "bg-white/15 text-white"
+                  : "hover:bg-white/10 text-gray-300"
+              }`}
             >
               {link.label}
             </Link>
