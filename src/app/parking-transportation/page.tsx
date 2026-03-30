@@ -86,7 +86,7 @@ export default function ParkingPage() {
 
         {/* Don't drive warning */}
         <section className="border-l-2 border-accent pl-5 mb-14">
-          <h2 className="text-xl font-heading mb-2">
+          <h2 id="driving" className="text-xl font-heading mb-2">
             Should You Drive? Officials Say No. Here's Why.
           </h2>
           <p className="text-muted mb-3">
@@ -123,7 +123,7 @@ export default function ParkingPage() {
 
         {/* Free transit callout */}
         <section className="border-l-2 border-accent pl-5 mb-14">
-          <h2 className="text-xl font-heading mb-2">
+          <h2 id="free-t-rides" className="text-xl font-heading mb-2">
             ALL T Rides Are FREE April 23-25 (Sheetz + PRT)
           </h2>
           <p className="text-muted mb-3">
@@ -196,7 +196,7 @@ export default function ParkingPage() {
 
         {/* Park and ride */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="park-and-ride" className="text-2xl font-heading mb-4">
             Park-and-Ride Locations (By Direction)
           </h2>
           <p className="text-muted mb-4">
@@ -358,7 +358,7 @@ export default function ParkingPage() {
 
         {/* Road closures */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="road-closures" className="text-2xl font-heading mb-4">
             Road Closures You Need to Know
           </h2>
           <p className="text-muted mb-4">
@@ -397,7 +397,7 @@ export default function ParkingPage() {
 
         {/* Uber/Lyft */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="rideshare" className="text-2xl font-heading mb-4">
             Uber and Lyft Tips
           </h2>
           <p className="text-muted mb-3">

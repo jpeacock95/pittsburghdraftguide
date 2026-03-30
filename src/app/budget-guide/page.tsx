@@ -144,7 +144,7 @@ export default function BudgetGuide() {
 
         {/* Budget Hotels */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="budget-hotels" className="text-2xl font-heading mb-4">
             Budget Hotels: $80-180/Night
           </h2>
           <p className="text-muted mb-4">
@@ -213,7 +213,7 @@ export default function BudgetGuide() {
 
         {/* Skip Parking */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="skip-parking" className="text-2xl font-heading mb-4">
             Skip Parking, Save $100+
           </h2>
           <p className="text-muted mb-3">
@@ -258,7 +258,7 @@ export default function BudgetGuide() {
 
         {/* Budget Eats */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="budget-eats" className="text-2xl font-heading mb-4">
             Budget Eats Under $15
           </h2>
           <p className="text-muted mb-3">
@@ -330,7 +330,7 @@ export default function BudgetGuide() {
 
         {/* Free Things */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="free-things" className="text-2xl font-heading mb-4">
             Free Things to Do
           </h2>
           <p className="text-muted mb-4">
@@ -411,7 +411,7 @@ export default function BudgetGuide() {
 
         {/* The $400 Draft Weekend */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="sample-budget" className="text-2xl font-heading mb-4">
             The $500 Draft Weekend (Sample Budget)
           </h2>
           <p className="text-muted mb-4">

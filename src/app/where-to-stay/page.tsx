@@ -153,7 +153,7 @@ export default function WhereToStay() {
 
         {/* Section 2: Downtown Hotels */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="downtown-hotels" className="text-2xl font-heading mb-4">
             Downtown Hotels (Closest to the Action)
           </h2>
           <p className="text-muted mb-4">
@@ -215,7 +215,7 @@ export default function WhereToStay() {
 
         {/* Section 3: North Shore Hotels */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="north-shore-hotels" className="text-2xl font-heading mb-4">
             North Shore Hotels (Walking Distance to Acrisure)
           </h2>
           <p className="text-muted mb-4">
@@ -277,7 +277,7 @@ export default function WhereToStay() {
 
         {/* Section 4: T Line Hotels */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="t-line-hotels" className="text-2xl font-heading mb-4">
             Hotels on the T Line (Park-and-Ride Strategy)
           </h2>
           <p className="text-muted mb-3">
@@ -366,7 +366,7 @@ export default function WhereToStay() {
 
         {/* Section 5: McKnight Road */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="mcknight-road" className="text-2xl font-heading mb-4">
             McKnight Road Budget Hotels ($100-180/night)
           </h2>
           <p className="text-muted mb-3">
@@ -442,7 +442,7 @@ export default function WhereToStay() {
 
         {/* Section 6: Cranberry Township */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="cranberry-township" className="text-2xl font-heading mb-4">
             Cranberry Township Hotels ($120-180/night)
           </h2>
           <p className="text-muted mb-3">
@@ -556,7 +556,7 @@ export default function WhereToStay() {
 
         {/* Section 7: Airbnb */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="airbnb-vrbo" className="text-2xl font-heading mb-4">
             Airbnb &amp; VRBO: Is It Actually Cheaper?
           </h2>
           <p className="text-muted mb-3">
@@ -625,7 +625,7 @@ export default function WhereToStay() {
 
         {/* Section 8: Booking tips */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="booking-tips" className="text-2xl font-heading mb-4">
             How to Book Smart
           </h2>
           <p className="text-muted mb-4">
@@ -741,7 +741,7 @@ export default function WhereToStay() {
 
         {/* Price comparison table */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="price-comparison" className="text-2xl font-heading mb-4">
             Price Comparison at a Glance
           </h2>
           <div className="overflow-x-auto">

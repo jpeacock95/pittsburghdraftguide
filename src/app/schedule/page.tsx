@@ -102,7 +102,7 @@ export default function Schedule() {
 
         {/* Draft Schedule */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="schedule" className="text-2xl font-heading mb-4">
             Draft Schedule (Round-by-Round)
           </h2>
           <p className="text-muted mb-4">
@@ -233,7 +233,7 @@ export default function Schedule() {
 
         {/* OnePass */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
+          <h2 id="onepass" className="text-2xl font-heading mb-4"><a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">NFL OnePass App</a></h2>
           <div className="card-minimal p-5">
             <p className="font-bold mb-2">
               Download this BEFORE you get to Pittsburgh
@@ -278,7 +278,7 @@ export default function Schedule() {
           className="rounded-lg w-full h-auto mb-8"
         />
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="draft-experience" className="text-2xl font-heading mb-4">
             Draft Experience at Point State Park
           </h2>
           <p className="text-muted mb-4">
@@ -330,7 +330,7 @@ export default function Schedule() {
 
         {/* Draft Theater */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="draft-theater" className="text-2xl font-heading mb-4">
             Draft Theater at Acrisure Stadium
           </h2>
           <p className="text-muted mb-3">
@@ -356,7 +356,7 @@ export default function Schedule() {
 
         {/* Bag Policy */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Bag Policy</h2>
+          <h2 id="bag-policy" className="text-2xl font-heading mb-4">Bag Policy</h2>
           <p className="text-muted mb-4">
             This is critical. The two venues have{" "}
             <strong>different bag policies</strong>. Read this carefully so you
@@ -438,7 +438,7 @@ export default function Schedule() {
 
         {/* Events Beyond the Draft */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Events Beyond the Draft</h2>
+          <h2 id="events" className="text-2xl font-heading mb-4">Events Beyond the Draft</h2>
           <p className="text-muted mb-4">
             The draft isn't just about picks. There's a full week of events
             surrounding it. Here's what's happening.

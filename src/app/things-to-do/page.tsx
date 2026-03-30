@@ -108,7 +108,7 @@ export default function ThingsToDoPage() {
           className="rounded-lg w-full h-auto mb-8"
         />
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="draft-experience" className="text-2xl font-heading mb-4">
             NFL Draft Experience (Free Fan Zone at Point State Park)
           </h2>
           <p className="text-muted mb-3">
@@ -173,7 +173,7 @@ export default function ThingsToDoPage() {
 
         {/* Concerts & Entertainment */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="concerts" className="text-2xl font-heading mb-4">
             Concerts &amp; Entertainment
           </h2>
           <p className="text-muted mb-3">
@@ -241,7 +241,7 @@ export default function ThingsToDoPage() {
 
         {/* PicksBURGH 5K */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
+          <h2 id="5k-race" className="text-2xl font-heading mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
           <p className="text-muted mb-3">
             <a href="https://p3r.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">P3R</a> (the organization behind the Pittsburgh Marathon) is running a
             5K race on Saturday morning of draft weekend. It's called the
@@ -282,7 +282,7 @@ export default function ThingsToDoPage() {
 
         {/* Taste of the Draft */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="taste-of-draft" className="text-2xl font-heading mb-4">
             Taste of the Draft (April 22)
           </h2>
           <p className="text-muted mb-3">
@@ -324,7 +324,7 @@ export default function ThingsToDoPage() {
 
         {/* Pittsburgh Attractions */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="attractions" className="text-2xl font-heading mb-4">
             Pittsburgh Attractions Worth Visiting
           </h2>
           <p className="text-muted mb-4">
@@ -467,7 +467,7 @@ export default function ThingsToDoPage() {
 
         {/* Family-friendly */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="family-friendly" className="text-2xl font-heading mb-4">
             Family-Friendly Activities
           </h2>
           <p className="text-muted mb-3">
@@ -513,7 +513,7 @@ export default function ThingsToDoPage() {
 
         {/* Non-football fans */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="non-football" className="text-2xl font-heading mb-4">
             For Non-Football Fans
           </h2>
           <p className="text-muted mb-3">

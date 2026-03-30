@@ -52,7 +52,7 @@ export default function ChecklistPage() {
 
         {/* Before you go */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Before You Leave Home</h2>
+          <h2 id="before-you-leave" className="text-2xl font-heading mb-4">Before You Leave Home</h2>
           <div className="space-y-3">
             <CheckItem>Download the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass app</a> and register (required for free entry)</CheckItem>
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
@@ -68,7 +68,7 @@ export default function ChecklistPage() {
 
         {/* Packing list */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">What to Pack</h2>
+          <h2 id="what-to-pack" className="text-2xl font-heading mb-4">What to Pack</h2>
 
           <h3 className="text-lg font-heading mt-6 mb-3">Must-Haves</h3>
           <div className="space-y-3">
@@ -117,7 +117,7 @@ export default function ChecklistPage() {
 
         {/* Day-of checklist */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Day-Of Checklist</h2>
+          <h2 id="day-of" className="text-2xl font-heading mb-4">Day-Of Checklist</h2>
           <div className="space-y-3">
             <CheckItem text="Phone charged to 100%" />
             <CheckItem text="Portable charger fully charged" />

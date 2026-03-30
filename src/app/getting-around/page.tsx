@@ -84,7 +84,7 @@ export default function GettingAroundPage() {
           className="rounded-lg w-full h-auto mb-8"
         />
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="venues" className="text-2xl font-heading mb-4">
             The Two Venues (And How to Get Between Them)
           </h2>
           <p className="text-muted mb-3">
@@ -155,7 +155,7 @@ export default function GettingAroundPage() {
 
         {/* The T */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="t-light-rail" className="text-2xl font-heading mb-4">
             The T Light Rail (Your Best Friend)
           </h2>
           <div className="border-l-2 border-accent pl-5 mb-4">
@@ -220,7 +220,7 @@ export default function GettingAroundPage() {
 
         {/* Football Flyer */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="bus-routes" className="text-2xl font-heading mb-4">
             Football Flyer Bus Routes
           </h2>
           <p className="text-muted mb-3">
@@ -273,7 +273,7 @@ export default function GettingAroundPage() {
 
         {/* Walking routes */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Walking Routes</h2>
+          <h2 id="walking" className="text-2xl font-heading mb-4">Walking Routes</h2>
           <p className="text-muted mb-4">
             Pittsburgh is more walkable than most people expect, especially in
             the draft area. Here are the key walking routes and times.
@@ -357,7 +357,7 @@ export default function GettingAroundPage() {
 
         {/* Uber/Lyft */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">Uber &amp; Lyft Tips</h2>
+          <h2 id="rideshare" className="text-2xl font-heading mb-4">Uber &amp; Lyft Tips</h2>
           <p className="text-muted mb-4">
             Rideshare will work. But it won't be cheap, and it won't be fast.
             Here's how to make it less painful.
@@ -407,7 +407,7 @@ export default function GettingAroundPage() {
 
         {/* Gateway Clipper */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="river-ferry" className="text-2xl font-heading mb-4">
             <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (River Ferry)
           </h2>
           <p className="text-muted mb-3">
@@ -440,7 +440,7 @@ export default function GettingAroundPage() {
 
         {/* Bridges */}
         <section className="mb-14">
-          <h2 className="text-2xl font-heading mb-4">
+          <h2 id="bridges" className="text-2xl font-heading mb-4">
             Bridges You Need to Know
           </h2>
           <p className="text-muted mb-4">
