@@ -121,80 +121,7 @@ export default function About() {
           </p>
         </div>
 
-        {/* Bookkeeping section */}
-        <div className="mt-12 pt-8 border-t border-border">
-          <h2 className="text-xl font-heading mb-4">If you need a bookkeeper</h2>
-          <div className="space-y-4 text-muted leading-relaxed">
-            <p>
-              I wasn't going to put this here, but it felt weird not to. This is
-              my site. I built it. And yeah, I'm also a bookkeeper.
-            </p>
-
-            <p>
-              If you're a business owner and your books are a mess, or you're not
-              sure if your bookkeeper is doing it right, or you just want someone
-              to look at things with fresh eyes, that's what I do. I've found an
-              average of $18,000 per client in their first year. Duplicate
-              charges, forgotten deductions, vendors overcharging. Stuff that
-              adds up.
-            </p>
-
-            <p>
-              I work with businesses in Pittsburgh and across PA, plus remote
-              clients anywhere in the US. If you want to talk, here's my
-              Calendly. 30 minutes, free, no pressure.
-            </p>
-
-            <div className="mt-4 flex flex-col sm:flex-row gap-3">
-              <TrackedLink
-                href="https://calendly.com/peacockbookkeepingservices/30min"
-                eventName="peacock_calendly_click"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
-              >
-                Book a Free Call
-              </TrackedLink>
-              <TrackedLink
-                href="https://www.peacockbookkeepingservices.com"
-                eventName="peacock_website_button_click"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block bg-white border border-amber-600 text-amber-600 hover:bg-amber-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
-              >
-                Visit My Website
-              </TrackedLink>
-            </div>
-
-            <div className="mt-3 bg-surface rounded-lg p-3">
-              <div className="flex flex-col sm:flex-row gap-2 text-sm">
-                <span className="text-muted">
-                  Phone:{" "}
-                  <TrackedLink
-                    href="tel:+14124077420"
-                    eventName="peacock_phone_click"
-                    className="text-primary font-semibold hover:underline"
-                  >
-                    (412) 407-7420
-                  </TrackedLink>
-                </span>
-                <span className="hidden sm:inline text-gray-300">|</span>
-                <span className="text-muted">
-                  Email:{" "}
-                  <TrackedLink
-                    href="mailto:jordan@peacockbookkeepingservices.com"
-                    eventName="peacock_email_click"
-                    className="text-primary font-semibold hover:underline"
-                  >
-                    jordan@peacockbookkeepingservices.com
-                  </TrackedLink>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Dante section */}
+        {/* Dante section - moved up for visibility */}
         <div className="mt-12 pt-8 border-t border-border">
           <h2 className="text-xl font-heading mb-4">About Dante</h2>
           <div className="space-y-4 text-muted leading-relaxed">
@@ -328,6 +255,79 @@ export default function About() {
                 PA License #AB069313 | Brokerage License #RB063030C | Equal
                 Housing Opportunity
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Bookkeeping section - after both personal intros */}
+        <div className="mt-12 pt-8 border-t border-border">
+          <h2 className="text-xl font-heading mb-4">If you need a bookkeeper</h2>
+          <div className="space-y-4 text-muted leading-relaxed">
+            <p>
+              I wasn't going to put this here, but it felt weird not to. This is
+              my site. I built it. And yeah, I'm also a bookkeeper.
+            </p>
+
+            <p>
+              If you're a business owner and your books are a mess, or you're not
+              sure if your bookkeeper is doing it right, or you just want someone
+              to look at things with fresh eyes, that's what I do. I've found an
+              average of $18,000 per client in their first year. Duplicate
+              charges, forgotten deductions, vendors overcharging. Stuff that
+              adds up.
+            </p>
+
+            <p>
+              I work with businesses in Pittsburgh and across PA, plus remote
+              clients anywhere in the US. If you want to talk, here's my
+              Calendly. 30 minutes, free, no pressure.
+            </p>
+
+            <div className="mt-4 flex flex-col sm:flex-row gap-3">
+              <TrackedLink
+                href="https://calendly.com/peacockbookkeepingservices/30min"
+                eventName="peacock_calendly_click"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-amber-600 hover:bg-amber-700 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
+              >
+                Book a Free Call
+              </TrackedLink>
+              <TrackedLink
+                href="https://www.peacockbookkeepingservices.com"
+                eventName="peacock_website_button_click"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-white border border-amber-600 text-amber-600 hover:bg-amber-50 font-bold px-5 py-2.5 rounded-lg text-sm transition-colors text-center"
+              >
+                Visit My Website
+              </TrackedLink>
+            </div>
+
+            <div className="mt-3 bg-surface rounded-lg p-3">
+              <div className="flex flex-col sm:flex-row gap-2 text-sm">
+                <span className="text-muted">
+                  Phone:{" "}
+                  <TrackedLink
+                    href="tel:+14124077420"
+                    eventName="peacock_phone_click"
+                    className="text-primary font-semibold hover:underline"
+                  >
+                    (412) 407-7420
+                  </TrackedLink>
+                </span>
+                <span className="hidden sm:inline text-gray-300">|</span>
+                <span className="text-muted">
+                  Email:{" "}
+                  <TrackedLink
+                    href="mailto:jordan@peacockbookkeepingservices.com"
+                    eventName="peacock_email_click"
+                    className="text-primary font-semibold hover:underline"
+                  >
+                    jordan@peacockbookkeepingservices.com
+                  </TrackedLink>
+                </span>
+              </div>
             </div>
           </div>
         </div>
