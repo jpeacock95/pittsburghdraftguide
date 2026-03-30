@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import dynamic from "next/dynamic";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { AuthorByline } from "@/components/ui/AuthorByline";
-
-const EmailBanner = dynamic(() => import("@/components/ui/EmailBanner").then(m => m.EmailBanner));
-const FeedbackWidget = dynamic(() => import("@/components/ui/FeedbackWidget").then(m => m.FeedbackWidget));
-const BackToTop = dynamic(() => import("@/components/ui/BackToTop").then(m => m.BackToTop));
+import { EmailBanner } from "@/components/ui/EmailBanner";
+import { FeedbackWidget } from "@/components/ui/FeedbackWidget";
+import { BackToTop } from "@/components/ui/BackToTop";
 
 const dmSans = DM_Sans({
   variable: "--font-body",
