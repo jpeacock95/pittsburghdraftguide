@@ -52,7 +52,7 @@ function SpotCard({
             {name}
           </a>
         ) : (
-          <p className={`font-bold ${isClosed ? "line-through text-gray-300/80" : ""}`}>{name}</p>
+          <p className={`font-bold ${isClosed ? "line-through text-red-300" : ""}`}>{name}</p>
         )}
         <p className={`text-xs mt-0.5 ${isClosed ? "text-gray-400" : "text-muted"}`}>
           {type}
