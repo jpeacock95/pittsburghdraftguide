@@ -47,6 +47,7 @@ export function EmailCapture() {
             type="email"
             required
             placeholder="your@email.com"
+            aria-label="Email address"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="px-4 py-3 rounded-lg text-base sm:text-sm text-foreground bg-white border border-border flex-1 min-w-0"

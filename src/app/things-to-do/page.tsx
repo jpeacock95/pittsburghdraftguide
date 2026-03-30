@@ -433,7 +433,7 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="card-minimal p-4">
-              <p className="font-bold"><a href="https://www.cathedral.pitt.edu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a></p>
+              <p className="font-bold"><a href="https://www.tour.pitt.edu/tour/cathedral-learning" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a></p>
               <p className="text-sm text-muted">
                 A 42-story Gothic tower on the University of Pittsburgh campus
                 in Oakland. Free to walk into the lobby. The Nationality Rooms
@@ -547,7 +547,7 @@ export default function ThingsToDoPage() {
             </li>
             <li>
               Walk through <a href="https://www.phipps.conservatory.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Phipps Conservatory</a> in Oakland, then
-              check out the <a href="https://www.cathedral.pitt.edu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a> across the street
+              check out the <a href="https://www.tour.pitt.edu/tour/cathedral-learning" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Cathedral of Learning</a> across the street
             </li>
             <li>
               Book a <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> river cruise for views from

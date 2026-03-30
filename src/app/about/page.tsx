@@ -7,7 +7,7 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "About This Guide | Pittsburgh Draft Guide",
+  title: "About This Guide",
   description:
     "This guide was built by Jordan Peacock, a Cranberry Township local and bookkeeper who wanted a better resource for NFL Draft visitors coming to Pittsburgh.",
 };

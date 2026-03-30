@@ -1069,7 +1069,7 @@ export function SiteSearch() {
       {/* Search toggle button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 rounded-md hover:bg-white/10 transition-colors"
+        className="p-3 rounded-md hover:bg-white/10 transition-colors"
         aria-label="Search this site"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>

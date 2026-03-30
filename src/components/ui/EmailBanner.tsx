@@ -49,7 +49,7 @@ export function EmailBanner() {
           <button
             type="button"
             onClick={dismiss}
-            className="text-green-300 hover:text-white p-1.5 flex-shrink-0"
+            className="text-green-300 hover:text-white p-3 flex-shrink-0"
             aria-label="Dismiss"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -103,6 +103,7 @@ export function EmailBanner() {
               type="email"
               required
               placeholder="your@email.com"
+              aria-label="Email address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="px-3 py-2.5 rounded-lg text-base sm:text-sm text-foreground bg-white flex-1 sm:w-48 min-w-0"
@@ -118,7 +119,7 @@ export function EmailBanner() {
           <button
             type="button"
             onClick={dismiss}
-            className="absolute top-1.5 right-2 sm:static text-gray-400 hover:text-white p-1.5"
+            className="absolute top-1 right-1 sm:static text-gray-400 hover:text-white p-3"
             aria-label="Dismiss"
           >
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

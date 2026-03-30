@@ -343,7 +343,7 @@ export default function ItineraryPage() {
                 <li>
                   <strong>South Side (Carson Street):</strong> 80+ bars within
                   10 blocks. <a href="https://www.hofbrauhauspittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Hofbrauhaus</a> for a beer hall vibe, <a href="https://www.pinsbar.com/locations/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Pins Mechanical</a>
-                  for pinball and bowling, <a href="https://jacksbar.shop/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Jack's Bar</a> for a classic dive. Walk
+                  for pinball and bowling, <a href="https://maps.google.com/?q=Jack%27s+Bar+1117+Carson+St+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Jack&apos;s Bar</a> for a classic dive. Walk
                   a few blocks from the venues before calling an Uber to dodge
                   the worst surge pricing.
                 </li>
@@ -493,7 +493,7 @@ export default function ItineraryPage() {
                   (best IPAs in the city).
                 </li>
                 <li>
-                  <strong>South Side round 2:</strong> <a href="https://acaciacocktails.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Acacia</a> for upscale
+                  <strong>South Side round 2:</strong> <a href="https://maps.google.com/?q=Acacia+Pittsburgh+South+Side" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Acacia</a> for upscale
                   cocktails, <a href="https://www.jekylandhydepgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Jekyl &amp; Hyde</a> for a fun vibe, Bar 11 for a
                   hidden gem off the main strip.
                 </li>

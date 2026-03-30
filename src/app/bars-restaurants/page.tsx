@@ -430,13 +430,13 @@ export default function BarsRestaurants() {
             <SpotCard
               name="Jack's Bar"
               type="Bar"
-              url="https://jacksbar.shop/"
+              url="https://maps.google.com/?q=Jack%27s+Bar+1117+Carson+St+Pittsburgh+PA"
               description="Local favorite on Carson Street. Good food, good drinks, good atmosphere. Not trying to be anything it's not. The kind of bar where you end up staying longer than you planned."
             />
             <SpotCard
               name="Acacia"
               type="Cocktail Bar"
-              url="https://acaciacocktails.com/"
+              url="https://maps.google.com/?q=Acacia+Pittsburgh+South+Side"
               description="If you want actual cocktails and not a $5 vodka soda in a plastic cup, Acacia is the move on the South Side. More chill than most of Carson Street."
             />
             <SpotCard

@@ -45,7 +45,7 @@ export function Header() {
         <div className="flex md:hidden items-center gap-1">
           <SiteSearch />
           <button
-            className="p-2 rounded-md hover:bg-white/10 transition-colors"
+            className="p-2.5 rounded-md hover:bg-white/10 transition-colors"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
