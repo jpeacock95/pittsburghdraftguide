@@ -122,7 +122,7 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         <div className="border-l-2 border-accent pl-5 mb-6">
           <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>
@@ -202,7 +202,7 @@ export default function BarsRestaurants() {
               name="Shorty's Goodtimes Bar"
               type="Bar & Entertainment"
               url="https://www.shortysx.com/"
-              description="Retro-gaming bar that somehow landed all three official after-parties: Steve Aoki on draft eve, Nelly after Day 1, 2 Chainz after Day 3. Expect lines. Get there early or don't bother."
+              description="Retro-gaming bar that somehow landed all three official after-parties: Steve Aoki on draft eve, Nelly after Day 1, 2 Chainz after Day 2. Expect lines. Get there early or don't bother."
             />
             <SpotCard
               name="SugarBird"
@@ -285,7 +285,7 @@ export default function BarsRestaurants() {
               name="Butcher and the Rye"
               type="Cocktails & New American"
               url="https://butcherandtherye.com/"
-              description="The whiskey menu is overwhelming (in a good way). New American food, cocktails that actually taste like someone cared. Pricier side. Good date spot if you're dragging a partner to the draft."
+              description="The whiskey menu is overwhelming (in a good way). New American food, cocktails that actually taste like someone cared. Pricier side. Good date spot if you're dragging a partner to the draft. Note: Reopening April 1 after renovation. Confirm before visiting."
             />
             <SpotCard
               name="Bridges & Bourbon"

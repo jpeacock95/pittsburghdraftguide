@@ -101,7 +101,7 @@ export default function WhereToStay() {
           className="rounded-lg w-full h-auto mb-8 max-w-3xl mx-auto px-4"
         />
 
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* Section 1: Price reality */}
         <section className="mb-14">

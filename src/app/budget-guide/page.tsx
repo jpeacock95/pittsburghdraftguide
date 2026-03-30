@@ -65,7 +65,7 @@ export default function BudgetGuide() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* The Good News */}
         <section className="mb-14">

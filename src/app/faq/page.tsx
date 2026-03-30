@@ -16,19 +16,19 @@ const faqItems = [
   {
     question: "Where do I park for the NFL Draft in Pittsburgh?",
     answer:
-      "Honestly? Don't drive. City officials, PRT, and the NFL are all begging people to use transit. Most North Shore lots are closed for stage construction. Downtown garages that charged $50 for Taylor Swift will hit $100+. Your best bet is a park-and-ride lot: Ross Park & Ride (I-279 Exit 5) from the north, South Hills Village T Station from the south, Wilkinsburg Park & Ride from the east. Pre-book a spot on SpotHero if you absolutely must drive.",
+      "Honestly? Don't drive. City officials, PRT, and the NFL are all begging people to use transit. Most North Shore lots are closed for stage construction. North Shore lots that charged $50 for Taylor Swift will hit $100+. Downtown garages will be even worse. Your best bet is a park-and-ride lot: Ross Park & Ride (I-279 Exit 5) from the north, South Hills Village T Station from the south, Wilkinsburg Park & Ride from the east. Pre-book a spot on SpotHero if you absolutely must drive.",
   },
   {
     question:
       "How do I get to the NFL Draft in Pittsburgh without driving?",
     answer:
-      "PRT is running special Football Flyer bus routes from park-and-ride lots in every direction. The T light rail runs through a free fare zone downtown and stops at Allegheny Station on the North Shore. The East Busway from the east side is fast and reliable. From Cranberry Township, park at Ross Park & Ride and take the #8 bus or O1 express. Budget 25-40 minutes depending on your starting point.",
+      "PRT is running special Football Flyer bus routes from park-and-ride lots in every direction. The T light rail runs through a free fare zone downtown and stops at North Side Station on the North Shore (Allegheny Station is closed during draft weekend). The East Busway from the east side is fast and reliable. From Cranberry Township, park at Ross Park & Ride and take the #8 bus or O1 express. Budget 25-40 minutes depending on your starting point.",
   },
   {
     question:
       "Which bridges and roads are closed during the NFL Draft?",
     answer:
-      "Roberto Clemente Bridge (6th Street) and Andy Warhol Bridge (7th Street) are closed to vehicles. Fort Pitt Bridge on-ramp, several I-279 exit ramps, and Fort Duquesne Boulevard are also closed. The closures happen in 6 phases from March 28 through May 10. Phase 3 (April 22-25) is the biggest, shutting down most of the Allegheny-side of downtown. Roberto Clemente Bridge stays open for pedestrians and is actually a key walking route between the two draft venues.",
+      "Roberto Clemente Bridge (6th Street) and Andy Warhol Bridge (7th Street) are closed to vehicles. Fort Pitt Bridge on-ramp from 10th Street Bypass, I-279 Southbound Exit 1B, and areas near Fort Duquesne Boulevard are also affected. The closures happen in 6 phases from March 28 through May 10. Phase 3 (April 22-25) is the biggest. Roberto Clemente Bridge stays open for pedestrians and is the key walking route between the two draft venues.",
   },
   {
     question: "How bad will traffic be during the NFL Draft in Pittsburgh?",
@@ -178,7 +178,7 @@ export default function FAQ() {
           are actually asking.
         </p>
 
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">
@@ -194,8 +194,8 @@ export default function FAQ() {
               <p className="text-muted text-sm leading-relaxed">
                 Honestly? Don't drive. City officials, PRT, and the NFL are all
                 begging people to use transit. Most North Shore lots are closed
-                for stage construction. Downtown garages that charged $50 for
-                Taylor Swift will hit <strong>$100+</strong>.
+                for stage construction. North Shore lots that charged $50 for
+                Taylor Swift will hit <strong>$100+</strong>. Downtown garages will be even worse.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
                 Your best bet is a park-and-ride lot:{" "}
@@ -222,7 +222,7 @@ export default function FAQ() {
                 PRT is running special <strong>Football Flyer</strong> bus
                 routes from park-and-ride lots in every direction. The{" "}
                 <strong>T light rail</strong> runs through a free fare zone
-                downtown and stops at Allegheny Station on the North Shore. The{" "}
+                downtown and stops at North Side Station on the North Shore (Allegheny Station is closed during draft weekend). The{" "}
                 <strong>East Busway</strong> from the east side is fast and
                 reliable.
               </p>

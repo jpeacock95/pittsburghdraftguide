@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -101,8 +101,8 @@ export default function ParkingPage() {
               <strong>closed for stage construction</strong>
             </li>
             <li>
-              Downtown garages that charged $50 for Taylor Swift are expected to
-              hit <strong>$100+</strong>
+              North Shore lots that charged $50 for Taylor Swift are expected to
+              hit <strong>$100+</strong>. Downtown garages will be even worse
             </li>
             <li>
               Roberto Clemente Bridge and Andy Warhol Bridge are{" "}
@@ -130,7 +130,8 @@ export default function ParkingPage() {
           <p className="text-muted mb-3">
             Sheetz just partnered with PRT to cover all fares on the T light
             rail (red, blue, and silver lines) and the Monongahela Incline
-            during draft weekend. Every station. Every line. $0.
+            during draft weekend. Every station. Every line. $0. (The Duquesne
+            Incline is separately operated and not included.)
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
             <li>
@@ -238,7 +239,7 @@ export default function ParkingPage() {
           <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">South Hills Village T Station</p>
             <p className="text-sm text-muted">
-              Park here and ride the T light rail directly to Allegheny Station
+              Park here and ride the T light rail directly to North Side Station
               (North Shore) or downtown. The T runs through a free fare zone
               downtown. About 35 minutes.
             </p>
@@ -323,8 +324,8 @@ export default function ParkingPage() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3">Downtown Garages (6th &amp; Penn area)</td>
-                  <td className="p-2 sm:p-3">$50-100+</td>
-                  <td className="p-2 sm:p-3 text-muted">Charged $50 for Taylor Swift. Draft will be more.</td>
+                  <td className="p-2 sm:p-3">$100-250+</td>
+                  <td className="p-2 sm:p-3 text-muted">North Shore lots were $50 for Taylor Swift. Draft will be much more.</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3">Rivers Casino Parking</td>
@@ -350,7 +351,7 @@ export default function ParkingPage() {
             Here's something most visitors don't know: Pittsburgh has a light
             rail system called "the T," and it runs through a{" "}
             <strong>free fare zone</strong> downtown. That means you can ride
-            between the two draft venues - Allegheny Station (North Shore, near
+            between the two draft venues - North Side Station (North Shore, near
             Acrisure Stadium) and downtown (near Point State Park) - for free.
           </p>
           <p className="text-muted">
@@ -377,11 +378,12 @@ export default function ParkingPage() {
             </li>
             <li>
               <strong>Andy Warhol Bridge (7th Street)</strong> - Closed to
-              vehicles.
+              vehicles. Officials are routing all pedestrians to Roberto Clemente Bridge instead.
             </li>
             <li>
-              <strong>Fort Duquesne Boulevard</strong> - Closed between 6th
-              and 10th Streets.
+              <strong>Fort Duquesne Boulevard</strong> - Expected to be affected
+              by closures near the North Shore venues. Check the city's official
+              closure map closer to the event.
             </li>
             <li>
               <strong>I-279 Exit Ramps</strong> - Several exits near downtown
@@ -389,7 +391,7 @@ export default function ParkingPage() {
             </li>
             <li>
               <strong>Fort Pitt Bridge on-ramp</strong> - Closed from the
-              Boulevard of the Allies.
+              10th Street Bypass.
             </li>
           </ul>
           <p className="text-muted mt-3">

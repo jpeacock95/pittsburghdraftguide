@@ -93,7 +93,7 @@ export default function ItineraryPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* Quick nav */}
         <nav className="card-minimal p-4 mb-14">
@@ -269,7 +269,7 @@ export default function ItineraryPage() {
               <p>
                 Walk across the Roberto Clemente Bridge (it's pedestrian-only
                 during the draft). Or take the T light rail for free from
-                downtown to Allegheny Station. Both get you to the North Shore
+                downtown to North Side Station. Both get you to the North Shore
                 in under 10 minutes.
               </p>
               <p className="mt-2">

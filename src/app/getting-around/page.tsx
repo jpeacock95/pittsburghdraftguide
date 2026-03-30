@@ -17,7 +17,7 @@ const gettingAroundFAQs = [
     question:
       "How do I get between the two NFL Draft venues in Pittsburgh?",
     answer:
-      "The two venues (Acrisure Stadium on the North Shore and Point State Park downtown) are connected by the Roberto Clemente Bridge, which is pedestrian-only during draft weekend. It's about a 15-minute walk. You can also take the T light rail from Allegheny Station to any downtown station for free. The Gateway Clipper ferry also runs between the two sites.",
+      "The two venues (Acrisure Stadium on the North Shore and Point State Park downtown) are connected by the Roberto Clemente Bridge, which is pedestrian-only during draft weekend. It's about a 15-minute walk. You can also take the T light rail from North Side Station to any downtown station for free (Allegheny Station is closed during draft weekend). The Gateway Clipper ferry also runs between the two sites on Friday and Saturday.",
   },
   {
     question: "Is the T light rail free during the NFL Draft?",
@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* The two venues */}
         <Image
@@ -119,8 +119,8 @@ export default function GettingAroundPage() {
                 door. The easiest option.
               </li>
               <li>
-                <strong>Ride the T light rail:</strong> Allegheny Station
-                (North Shore) to any downtown station. Free. About 5 minutes.
+                <strong>Ride the T light rail:</strong> North Side Station
+                (North Shore) to any downtown station. Free. About 5 minutes. Note: Allegheny Station is closed during draft weekend.
               </li>
               <li>
                 <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry:</strong> Boat service
@@ -166,7 +166,8 @@ export default function GettingAroundPage() {
               Sheetz and PRT just announced a partnership covering all fares on
               the T (red, blue, and silver lines) and the Monongahela Incline
               from April 23-25. Not just the downtown Free Fare Zone. Every
-              station. Every line. Every ride. Free.
+              station. Every line. Every ride. Free. (Note: the Duquesne
+              Incline is separately operated and not included.)
             </p>
             <p className="text-sm text-muted">
               That means you can park at South Hills Village, ride the T all
@@ -213,7 +214,7 @@ export default function GettingAroundPage() {
               Park at South Hills Village, Dormont, or Castle Shannon T
               stations. Ride the T straight downtown for free. You'll
               skip all the parking chaos and road closures. About 35
-              minutes from South Hills Village to Allegheny Station. Cost: $0.
+              minutes from South Hills Village to North Side Station. Cost: $0.
             </p>
           </div>
         </section>
@@ -231,35 +232,40 @@ export default function GettingAroundPage() {
           </p>
           <div className="space-y-3 mb-4">
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">From the North</p>
+              <p className="font-semibold text-sm">From the North (Route 99N)</p>
               <p className="text-sm text-muted">
-                Ross Park &amp; Ride (I-279 Exit 5). The #1 recommendation for
-                anyone coming from Cranberry, McCandless, or Ross Township.
-                About 25 minutes to the draft venues.
+                McCandless Park &amp; Ride (9700 McKnight Rd) to Ross Park &amp;
+                Ride (5204 Perry Hwy), then via I-279 HOV lanes to the venues.
+                Every 15 min Thu/Fri, every 30 min Saturday. About 25 minutes.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">From the South</p>
+              <p className="font-semibold text-sm">From the South (Route 99S + T)</p>
               <p className="text-sm text-muted">
-                South Hills Village T Station or Dormont T stations. Park and
-                ride the T directly into the Free Fare Zone.
+                Large Park &amp; Ride (219 Peters Creek Rd) via South Busway.
+                Or take the T from South Hills Village or Dormont stations for
+                free (Sheetz sponsorship covers the T, not buses).
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">From the East</p>
+              <p className="font-semibold text-sm">From the East (Route 99E)</p>
               <p className="text-sm text-muted">
-                Wilkinsburg Park &amp; Ride on the East Busway. P1 bus. 15
-                minutes to downtown. One of Pittsburgh's fastest transit
-                routes.
+                Starts at Monroeville Mall, serves every East Busway station.
+                The East Busway is one of Pittsburgh's fastest transit routes.
+                15 minutes from Wilkinsburg.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">From the West / Airport</p>
+              <p className="font-semibold text-sm">From the West / Airport (Route 99W + 28X)</p>
               <p className="text-sm text-muted">
-                PRT Route 28X airport bus. Extra service added for draft
-                weekend. About 45-60 minutes from the airport to downtown.
+                University Blvd Park &amp; Ride (9000 University Blvd) via West
+                Busway. PRT Route 28X also has extra airport service. 45-60 min
+                from the airport.
               </p>
             </div>
+            <p className="text-xs text-muted mt-2">
+              Note: Football Flyer buses (99N/99E/99S/99W) run every 15 min Thu/Fri, every 30 min Saturday, 10 AM to 1 AM. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
+            </p>
           </div>
           <p className="text-sm text-muted">
             <Link
@@ -412,9 +418,10 @@ export default function GettingAroundPage() {
           </h2>
           <p className="text-muted mb-3">
             This is the fun option. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
-            riverboat service between North Shore and downtown/Station Square
-            all draft weekend. It's confirmed for events and games, and the NFL
-            Draft qualifies.
+            riverboat service between North Shore and Station Square on{" "}
+            <strong>Friday and Saturday only (April 24-25)</strong>. Four vessels
+            will operate, with routes between Station Square and PNC Park, and
+            between Point State Park and Acrisure Stadium Quay.
           </p>
           <div className="card-minimal p-4">
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
@@ -428,7 +435,7 @@ export default function GettingAroundPage() {
               </li>
               <li>
                 They're also hosting "DVE Rocks the Draft" watch party
-                cruises (waitlist only as of March 2026).
+                cruise on Thursday, April 23 (sold out).
               </li>
               <li>
                 Boarding locations at North Shore and Station Square. Check
@@ -463,7 +470,8 @@ export default function GettingAroundPage() {
                 Andy Warhol Bridge (7th Street)
               </p>
               <p className="text-sm text-muted">
-                Closed to vehicles AND pedestrians during the draft. Don't plan
+                Closed to vehicles during the draft. Officials are routing all
+                pedestrian traffic to Roberto Clemente Bridge instead. Don't plan
                 on using this one.
               </p>
             </div>

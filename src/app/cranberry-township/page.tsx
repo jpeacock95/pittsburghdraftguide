@@ -103,7 +103,7 @@ export default function CranberryTownship() {
           className="rounded-lg w-full h-auto mb-8"
         />
 
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* Section 1: Why Stay in Cranberry */}
         <section className="mb-14">

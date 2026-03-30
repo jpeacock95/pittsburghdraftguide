@@ -39,7 +39,7 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* Weather note */}
         <div className="card-minimal p-4 mb-8">
@@ -151,7 +151,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Thursday, April 23</p>
-                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET | DJ Steve Aoki concert</p>
+                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET | DJ Steve Aoki at Plaza at North Shore (mid-day)</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 1

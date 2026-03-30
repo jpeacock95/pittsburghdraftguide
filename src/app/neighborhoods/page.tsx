@@ -45,7 +45,7 @@ const neighborhoods = [
     vibe: "Business district turned festival zone. Point State Park hosts the Draft Experience. Market Square is the downtown gathering spot with solid restaurants and cocktail bars.",
     bestFor: "Families, foodies, people who want the Draft Experience attractions",
     gettingThere:
-      "15-min walk from North Shore across Roberto Clemente Bridge (pedestrian-only during draft). Or take the T one stop from Allegheny Station. Free ride.",
+      "15-min walk from North Shore across Roberto Clemente Bridge (pedestrian-only during draft). Or take the T one stop from North Side Station. Free ride.",
     spots: [
       {
         name: "Bridges & Bourbon",
@@ -257,7 +257,7 @@ export default function NeighborhoodsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 29, 2026" />
+        <LastUpdated date="March 30, 2026" />
 
         {/* Quick nav */}
         <section className="mb-14">
@@ -409,8 +409,8 @@ export default function NeighborhoodsPage() {
               <p className="text-sm text-muted">
                 Pittsburgh's light rail (called "the T") runs through a free
                 fare zone that covers downtown and the North Shore. Use it to
-                hop between the two draft venues. Allegheny Station serves the
-                North Shore side.
+                hop between the two draft venues. North Side Station serves the
+                North Shore side (Allegheny Station is closed during draft weekend).
               </p>
             </div>
             <div className="border-l-2 border-accent pl-5">
