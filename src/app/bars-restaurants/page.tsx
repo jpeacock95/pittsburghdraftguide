@@ -31,10 +31,10 @@ function SpotCard({
   const isPrivate = status === "private";
 
   return (
-    <div className={`p-4 ${isClosed ? "opacity-50" : isPrivate ? "border-l-2 border-accent pl-5" : "card-minimal"}`}>
+    <div className={`p-4 ${isClosed ? "border-l-2 border-red-500/60 bg-red-950/20 pl-5" : isPrivate ? "border-l-2 border-accent pl-5" : "card-minimal"}`}>
       {isClosed && (
         <div className="flex items-center gap-2 mb-2">
-          <span className="label">
+          <span className="text-xs font-semibold uppercase tracking-wide text-red-400 bg-red-950/40 px-2 py-0.5 rounded">
             Permanently Closed
           </span>
         </div>
@@ -52,7 +52,7 @@ function SpotCard({
             {name}
           </a>
         ) : (
-          <p className={`font-bold ${isClosed ? "line-through text-gray-300" : ""}`}>{name}</p>
+          <p className={`font-bold ${isClosed ? "line-through text-gray-300/80" : ""}`}>{name}</p>
         )}
         <p className={`text-xs mt-0.5 ${isClosed ? "text-gray-400" : "text-muted"}`}>
           {type}
