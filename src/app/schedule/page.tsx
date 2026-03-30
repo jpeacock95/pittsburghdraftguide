@@ -8,7 +8,6 @@ import { QuickFacts } from "@/components/ui/QuickFacts";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
-import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export const metadata: Metadata = {
   title: "2026 NFL Draft Schedule & What to Expect",
@@ -526,35 +525,6 @@ export default function Schedule() {
             Pittsburgh "Draft Darty" block party (free, Sat 3-6pm).
           </p>
         </section>
-
-        {/* Dante contextual callout */}
-        <div className="card-minimal p-5 mb-14">
-          <p className="text-sm text-muted">
-            <strong>Falling in love with Pittsburgh?</strong> You won't be the
-            first. Draft visitors routinely start looking at homes here.{" "}
-            <TrackedLink
-              href="https://danteegizio.remax.com/"
-              eventName="dante_remax_link_schedule_click"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary font-semibold hover:underline"
-            >
-              Dante Egizio
-            </TrackedLink>{" "}
-            is a local RE/MAX agent who's been selling across Pittsburgh for 7
-            years.{" "}
-            <TrackedLink
-              href="tel:+14123478125"
-              eventName="dante_phone_schedule_click"
-              className="text-primary font-semibold hover:underline"
-            >
-              (412) 347-8125
-            </TrackedLink>
-          </p>
-          <p className="text-xs text-gray-500 mt-2">
-            Dante Egizio, Associate Broker, RE/MAX Select Realty | 400 Broad St. Suite 2006, Sewickley, PA 15143 | (724) 933-6300 | PA License #AB069313 | Brokerage License #RB063030C | Equal Housing Opportunity
-          </p>
-        </div>
 
         {/* FAQ */}
         <section className="mb-14">

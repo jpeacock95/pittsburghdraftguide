@@ -6,7 +6,6 @@ import { ItemListSchema } from "@/components/schema/ItemListSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
-import { TrackedLink } from "@/components/ui/TrackedLink";
 
 export const metadata: Metadata = {
   title: "Where to Eat & Drink: NFL Draft Pittsburgh",
@@ -662,35 +661,6 @@ export default function BarsRestaurants() {
 
         {/* Email capture - after restaurant listings */}
         <EmailCapture />
-
-        {/* Dante contextual callout */}
-        <div className="card-minimal p-5 mb-8">
-          <p className="text-sm text-muted">
-            <strong>Love these neighborhoods?</strong> Some draft visitors
-            come for the weekend and start house-hunting by Monday.{" "}
-            <TrackedLink
-              href="https://danteegizio.remax.com/"
-              eventName="dante_remax_link_restaurants_click"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-primary font-semibold hover:underline"
-            >
-              Dante Egizio
-            </TrackedLink>{" "}
-            is a Pittsburgh RE/MAX agent who knows every block in every
-            neighborhood on this page.{" "}
-            <TrackedLink
-              href="tel:+14123478125"
-              eventName="dante_phone_restaurants_click"
-              className="text-primary font-semibold hover:underline"
-            >
-              (412) 347-8125
-            </TrackedLink>
-          </p>
-          <p className="text-xs text-gray-500 mt-2">
-            Dante Egizio, Associate Broker, RE/MAX Select Realty | 400 Broad St. Suite 2006, Sewickley, PA 15143 | (724) 933-6300 | PA License #AB069313 | Brokerage License #RB063030C | Equal Housing Opportunity
-          </p>
-        </div>
 
         {/* Cross-links */}
         <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
