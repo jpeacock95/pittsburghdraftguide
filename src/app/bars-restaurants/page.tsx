@@ -122,7 +122,7 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         <div className="border-l-2 border-accent pl-5 mb-6">
           <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>

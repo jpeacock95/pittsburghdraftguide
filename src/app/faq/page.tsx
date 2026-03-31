@@ -178,7 +178,7 @@ export default function FAQ() {
           are actually asking.
         </p>
 
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">

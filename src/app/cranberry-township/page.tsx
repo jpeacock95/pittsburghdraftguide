@@ -60,7 +60,7 @@ export default function CranberryTownship() {
             description:
               "Getting to the 2026 NFL Draft from Cranberry Township PA. Park-and-ride options, bus routes, hotels under $180/night, and restaurants nearby.",
             datePublished: "2026-03-27",
-            dateModified: "2026-03-27",
+            dateModified: "2026-03-31",
             author: {
               "@type": "Organization",
               name: "Pittsburgh Draft Guide",
@@ -103,7 +103,7 @@ export default function CranberryTownship() {
           className="rounded-lg w-full h-auto mb-8"
         />
 
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* Section 1: Why Stay in Cranberry */}
         <section className="mb-14">

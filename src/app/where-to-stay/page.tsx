@@ -58,7 +58,7 @@ export default function WhereToStay() {
             description:
               "Hotels for the 2026 NFL Draft are $500-2,000/night downtown. Here are cheaper options in Cranberry Township, McKnight Rd, and along the T line.",
             datePublished: "2026-03-27",
-            dateModified: "2026-03-27",
+            dateModified: "2026-03-31",
             author: {
               "@type": "Organization",
               name: "Pittsburgh Draft Guide",
@@ -101,7 +101,7 @@ export default function WhereToStay() {
           className="rounded-lg w-full h-auto mb-8 max-w-3xl mx-auto px-4"
         />
 
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* Section 1: Price reality */}
         <section className="mb-14">

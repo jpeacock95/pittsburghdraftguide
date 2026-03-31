@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}

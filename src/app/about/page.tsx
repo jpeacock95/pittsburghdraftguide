@@ -40,7 +40,7 @@ export default function About() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* Jordan's story */}
         <div className="flex flex-col sm:flex-row gap-6 mb-8">

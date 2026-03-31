@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* The two venues */}
         <Image

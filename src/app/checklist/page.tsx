@@ -39,7 +39,7 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 30, 2026" />
+        <LastUpdated date="March 31, 2026" />
 
         {/* Weather note */}
         <div className="card-minimal p-4 mb-8">
