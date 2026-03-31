@@ -49,7 +49,7 @@ export default function WatchPartiesPage() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-acrisure-night.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-skyline-night.jpg')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
@@ -292,7 +292,7 @@ export default function WatchPartiesPage() {
               Sources:{" "}
               <a href="https://www.tickettailor.com/events/draftnation/2090560" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ticket Tailor</a>
               {" | "}
-              <a href="https://www.waterfrontpgh.com/sale/the-biggest-draft-party-in-pittsburgh-is-coming/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Waterfront</a>
+              <a href="https://www.visitpittsburgh.com/events/draft-nation-event/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">VisitPittsburgh</a>
             </p>
           </div>
 
