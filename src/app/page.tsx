@@ -198,7 +198,7 @@ export default function HomePage() {
       {/* Schedule overview - dark cinematic section */}
       <section
         className="photo-section text-white py-20"
-        style={{ backgroundImage: "url('/pgh-bridge-night.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-schedule-football.jpg')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="label mb-4">Schedule</p>

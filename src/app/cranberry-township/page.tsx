@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
@@ -94,15 +93,6 @@ export default function CranberryTownship() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <Image
-          src="/pgh-incline-view.jpg"
-          alt="View of Pittsburgh skyline from the Duquesne Incline, the city Cranberry Township visitors will see"
-          width={800}
-          height={450}
-          sizes="(max-width: 768px) 100vw, 800px"
-          className="rounded-lg w-full h-auto mb-8"
-        />
-
         <LastUpdated date="March 31, 2026" />
 
         {/* Section 1: Why Stay in Cranberry */}
