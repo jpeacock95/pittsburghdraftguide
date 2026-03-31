@@ -52,7 +52,7 @@ export default function GettingAroundPage() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-bridge-night.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-transit-train.jpg')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
