@@ -91,9 +91,7 @@ export default function ParkingPage() {
             Should You Drive? Officials Say No. Here's Why.
           </h2>
           <p className="text-muted mb-3">
-            Pittsburgh city officials, PRT (the transit authority), and the NFL
-            are all saying the same thing: don't drive downtown for the draft.
-            They're not being dramatic. Here's what you're up against:
+            Pittsburgh city officials, PRT (Pittsburgh Regional Transit), and the NFL Host Committee are all saying the same thing: don't drive downtown for the 2026 NFL Draft. With 500,000-700,000 visitors expected over three days and most North Shore parking lots closed for stage construction, driving downtown is the worst way to get to the event. The city's 6-phase road closure plan runs from March 28 through May 10, affecting major bridges and highway exits. Here's what you're up against:
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5">
             <li>
@@ -128,10 +126,7 @@ export default function ParkingPage() {
             ALL T Rides Are FREE April 23-25 (Sheetz + PRT)
           </h2>
           <p className="text-muted mb-3">
-            Sheetz just partnered with PRT to cover all fares on the T light
-            rail (red, blue, and silver lines) and the Monongahela Incline
-            during draft weekend. Every station. Every line. $0. (The Duquesne
-            Incline is separately operated and not included.)
+            Sheetz partnered with Pittsburgh Regional Transit (PRT) to cover all fares on the T light rail during the 2026 NFL Draft weekend, April 23-25. All three T lines (Red, Blue, and Silver) and the Monongahela Incline are completely free. Every station, every line, $0. PRT also offers a $25 Draft Pass in the Ready2Ride app for 7 days of unlimited rides including buses. The Duquesne Incline is separately operated and not included in the Sheetz sponsorship.
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
             <li>
@@ -348,16 +343,10 @@ export default function ParkingPage() {
             The T Light Rail: Free Rides Between Both Venues
           </h2>
           <p className="text-muted mb-3">
-            Here's something most visitors don't know: Pittsburgh has a light
-            rail system called "the T," and it runs through a{" "}
-            <strong>free fare zone</strong> downtown. That means you can ride
-            between the two draft venues - North Side Station (North Shore, near
-            Acrisure Stadium) and downtown (near Point State Park) - for free.
+            Pittsburgh's light rail system, called "the T," connects both NFL Draft venues and is completely free during draft weekend (April 23-25, 2026). The T runs between North Side Station on the North Shore (near Acrisure Stadium's main draft stage) and several downtown stops near Point State Park (the NFL Draft Experience fan zone). Normally, the T has a free fare zone downtown, but during the draft, Sheetz is sponsoring all fares on every line. The ride between the two venues takes about 5 minutes.
           </p>
           <p className="text-muted">
-            The T is also the easiest way to get to the draft from the south
-            suburbs. Park at South Hills Village, Dormont, or any station along
-            the Red or Blue line, and ride straight to the action.
+            The T is also the best way to reach the draft from Pittsburgh's south suburbs. Park at South Hills Village, Dormont, Castle Shannon, or any station along the Red or Blue line, and ride directly to either draft venue. The full ride from South Hills Village to North Side Station takes about 35 minutes.
           </p>
         </section>
 

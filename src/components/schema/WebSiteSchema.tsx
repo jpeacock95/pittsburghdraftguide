@@ -17,6 +17,12 @@ export function WebSiteSchema() {
         addressCountry: "US",
       },
     },
+    author: {
+      "@type": "Person",
+      name: "Jordan Peacock",
+      url: "https://www.pittsburghdraftguide.com/about",
+    },
+    dateModified: "2026-03-31",
   };
 
   return (

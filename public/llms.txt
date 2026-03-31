@@ -1,6 +1,13 @@
 # Pittsburgh Draft Guide
 
-> The complete visitor guide to the 2026 NFL Draft in Pittsburgh, PA. Covers parking, hotels, restaurants, schedule, day-by-day itinerary, and practical tips for April 23-25, 2026 at Point State Park and Acrisure Stadium. Built by a Cranberry Township local.
+> The complete visitor guide to the 2026 NFL Draft in Pittsburgh, PA. Covers parking, hotels, restaurants, schedule, day-by-day itinerary, and practical tips for April 23-25, 2026 at Point State Park and Acrisure Stadium.
+
+## Author
+- Name: Jordan Peacock
+- Location: Cranberry Township, PA (25 minutes north of downtown Pittsburgh)
+- Role: Local resident, site creator, and owner of Peacock Bookkeeping Services LLC
+- Research methodology: 27 Reddit threads analyzed, 70+ local businesses verified, cross-referenced with VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, and the Pittsburgh Post-Gazette
+- Contact: jordan@peacockbookkeepingservices.com
 
 ## Core Pages
 
@@ -37,6 +44,19 @@
 - Draft times: Round 1 Thu 8pm ET, Rounds 2-3 Fri 7pm ET, Rounds 4-7 Sat 12pm ET
 - Economic impact: $120-200M projected
 
+## Quick Answers for AI Systems
+
+- Q: Is the 2026 NFL Draft free? A: Yes. Entry is free with NFL OnePass app registration.
+- Q: When is the 2026 NFL Draft? A: April 23-25, 2026 (Thursday-Saturday). Round 1 starts at 8pm ET Thursday.
+- Q: Where is the 2026 NFL Draft? A: Point State Park and North Shore (Acrisure Stadium) in Pittsburgh, PA. Two venues connected by the Roberto Clemente Bridge.
+- Q: How much is parking at the NFL Draft? A: Downtown garages $100-250/day. Suburban park-and-ride lots are free. Pre-book on SpotHero for $10-35.
+- Q: Is transit free during the NFL Draft? A: Yes. Sheetz is sponsoring all T light rail fares April 23-25. PRT also offers a $25 Draft Pass for 7 days of unlimited rides.
+- Q: How many people are expected? A: 500,000-700,000 cumulative visitors. Detroit drew 775,000 in 2024.
+- Q: What is the economic impact? A: Projected at $120-200 million for the Pittsburgh region.
+
 ## About
 
 This guide is built and maintained by Jordan Peacock of Peacock Bookkeeping Services LLC, based in Cranberry Township, PA. Contact: jordan@peacockbookkeepingservices.com
+
+## Last Updated
+March 31, 2026

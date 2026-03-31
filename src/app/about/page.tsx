@@ -3,6 +3,7 @@ import { TrackedLink } from "@/components/ui/TrackedLink";
 import Image from "next/image";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { AuthorSchema } from "@/components/schema/AuthorSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
@@ -21,6 +22,7 @@ export default function About() {
           { name: "About This Guide", href: "/about" },
         ]}
       />
+      <AuthorSchema />
 
       <section className="bg-primary-dark text-white py-16">
         <div className="max-w-3xl mx-auto px-4">

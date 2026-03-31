@@ -35,6 +35,18 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "Applebot-Extended",
         allow: "/",
       },
+      {
+        userAgent: "Amazonbot",
+        allow: "/",
+      },
+      {
+        userAgent: "FacebookBot",
+        allow: "/",
+      },
+      {
+        userAgent: "Bytespider",
+        disallow: "/",
+      },
     ],
     sitemap: "https://www.pittsburghdraftguide.com/sitemap.xml",
   };

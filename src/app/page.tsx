@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { EventSchema } from "@/components/schema/EventSchema";
 import { WebSiteSchema } from "@/components/schema/WebSiteSchema";
+import { AuthorSchema } from "@/components/schema/AuthorSchema";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 import { CountdownTimer } from "@/components/ui/CountdownTimer";
 import { RelatedPages } from "@/components/ui/RelatedPages";
@@ -56,6 +57,7 @@ export default function HomePage() {
     <>
       <EventSchema />
       <WebSiteSchema />
+      <AuthorSchema />
 
       {/* Hero - cinematic full-bleed */}
       <section
@@ -132,7 +134,7 @@ export default function HomePage() {
       {/* Trust line */}
       <section className="max-w-4xl mx-auto px-4 py-8">
         <p className="text-center text-xs text-muted tracking-wide">
-          Built by a Cranberry Township local &middot; Data from 27 Reddit threads &middot; 70+ businesses researched &middot; Updated March 2026
+          Written by Jordan Peacock, Cranberry Township resident &middot; 27 Reddit threads analyzed &middot; 70+ local businesses verified &middot; Sources: VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, Post-Gazette &middot; Last updated March 31, 2026
         </p>
       </section>
 
@@ -169,28 +171,10 @@ export default function HomePage() {
           </h2>
           <div className="text-muted space-y-5 leading-relaxed">
             <p>
-              If you're wondering why half a million people would show up to watch
-              names get read off a list, you're not alone. Reddit is full of that
-              question. Here's the short version: the NFL Draft isn't just a
-              draft. It's a three-day football festival.
+              The 2026 NFL Draft in Pittsburgh is a three-day football festival running April 23-25 at Point State Park and Acrisure Stadium on the North Shore. Entry is free with NFL OnePass registration. The main draft stage sits at Acrisure Stadium, where teams make their picks on national TV. Across the Allegheny River at Point State Park, the NFL Draft Experience is a free fan zone with a 40-yard dash, field goal challenge, autograph sessions, Lombardi Trophy photo ops, free concerts, drone shows, and the PicksBURGH 5K race. Nine NFL team markets sit within a 6-hour drive of Pittsburgh, making this one of the most accessible draft locations in recent history.
             </p>
             <p>
-              The main stage at Acrisure Stadium on the North Shore is where teams
-              make their picks. But across the river at Point State Park, there's
-              the NFL Draft Experience, a free fan zone with a 40-yard dash,
-              field goal challenge, autograph stage, Lombardi Trophy photo ops,
-              and a whole lot more.
-            </p>
-            <p>
-              Add free concerts, a 5K race, drone shows, a charity food event
-              called Taste of the Draft, and the fact that 9 NFL team markets are
-              within a 6-hour drive of Pittsburgh, and you've got the biggest
-              event this city has ever hosted.
-            </p>
-            <p>
-              Detroit drew 775,000 visitors in 2024. Nashville drew 600,000 in
-              2019. Pittsburgh is aiming to top both. The economic impact is
-              projected at $120&ndash;200 million.
+              The NFL Draft has grown into one of the largest free public events in the country. According to the NFL, the 2024 Draft in Detroit drew 775,000 visitors over three days. Nashville drew 600,000 in 2019. Kansas City drew 330,000 in 2023. Pittsburgh is projecting 500,000-700,000 cumulative visitors, which would make it the largest event the city has ever hosted. The Pittsburgh Sports & Exhibition Authority estimates the economic impact at $120-200 million for the region, based on hotel bookings, restaurant spending, and transit usage during the three-day event.
             </p>
           </div>
 
@@ -277,10 +261,8 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 text-center">
           <p className="label mb-4">Save Money</p>
           <h2 className="text-3xl mb-4">Draft Weekend on a Budget</h2>
-          <p className="text-muted mb-6 max-w-md mx-auto leading-relaxed">
-            Hotels downtown are $500&ndash;2,000 a night. Parking garages are charging
-            $100+. But the draft itself is free, and there are ways to do this
-            weekend without emptying your bank account.
+          <p className="text-muted mb-6 max-w-lg mx-auto leading-relaxed">
+            Downtown Pittsburgh hotels are charging $500-2,000 per night during draft weekend. Parking garages near Point State Park are expected to hit $100-250 per day. But the draft itself is completely free with NFL OnePass registration, all T light rail rides are free April 23-25 thanks to a Sheetz and PRT partnership, and hotels in Cranberry Township (25 minutes north) start at $120 per night. With park-and-ride lots and free transit, you can do the entire weekend for under $500.
           </p>
           <Link
             href="/budget-guide"
