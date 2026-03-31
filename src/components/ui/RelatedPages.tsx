@@ -18,6 +18,7 @@ const allPages: Record<string, RelatedPage> = {
   itinerary: { href: "/itinerary", title: "Day-by-Day Itinerary", desc: "A 4-day plan from Wednesday to Saturday." },
   faq: { href: "/faq", title: "FAQ", desc: "21 answers from Reddit threads and local knowledge." },
   cranberry: { href: "/cranberry-township", title: "From Cranberry", desc: "Park-and-ride options from the northern suburbs." },
+  watch_parties: { href: "/watch-parties", title: "Watch Parties", desc: "17 verified watch parties across Pittsburgh for draft weekend." },
 };
 
 interface RelatedPagesProps {

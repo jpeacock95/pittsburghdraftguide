@@ -52,6 +52,11 @@ export function Footer() {
             <h4 className="font-heading font-semibold mb-3 text-sm uppercase tracking-wider text-gray-300">More Guides</h4>
             <ul className="space-y-2.5 text-sm text-gray-400">
               <li>
+                <Link href="/watch-parties" className="hover:text-accent transition-colors">
+                  Watch Parties
+                </Link>
+              </li>
+              <li>
                 <Link href="/itinerary" className="hover:text-accent transition-colors">
                   Day-by-Day Itinerary
                 </Link>

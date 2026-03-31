@@ -9,6 +9,7 @@ const navLinks = [
   { href: "/parking-transportation", label: "Parking" },
   { href: "/where-to-stay", label: "Hotels" },
   { href: "/bars-restaurants", label: "Food & Drink" },
+  { href: "/watch-parties", label: "Watch Parties" },
   { href: "/schedule", label: "Schedule" },
   { href: "/faq", label: "FAQ" },
 ];
