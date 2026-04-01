@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { submitEmail } from "@/lib/submitEmail";
 
 export function EmailBanner() {
   const [dismissed, setDismissed] = useState(false);
@@ -68,16 +69,7 @@ export function EmailBanner() {
     setLoading(true);
 
     try {
-      await fetch("https://formsubmit.co/ajax/jordan@peacockbookkeepingservices.com", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          email,
-          _honey: "",
-          _subject: "New Draft Guide subscriber!",
-          source: "banner",
-        }),
-      });
+      await submitEmail(email, "banner");
     } catch {
       // Email capture failed silently, still redirect
     }

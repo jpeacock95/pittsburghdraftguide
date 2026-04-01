@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { submitEmail } from "@/lib/submitEmail";
 
 export function EmailCapture() {
   const [email, setEmail] = useState("");
@@ -14,16 +15,7 @@ export function EmailCapture() {
     setLoading(true);
 
     try {
-      await fetch("https://formsubmit.co/ajax/jordan@peacockbookkeepingservices.com", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          email,
-          _honey: "",
-          _subject: "New Draft Guide subscriber!",
-          source: "inline",
-        }),
-      });
+      await submitEmail(email, "inline");
     } catch {
       // Email capture failed silently, still redirect
     }
