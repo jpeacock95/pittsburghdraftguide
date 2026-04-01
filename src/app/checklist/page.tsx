@@ -162,7 +162,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Friday, April 24</p>
-                  <p className="text-sm text-muted">Gates: 12:00 PM | Rounds 2-3: 7:00 PM ET</p>
+                  <p className="text-sm text-muted">Gates: 12:00 PM | Rounds 2-3: 7:00 PM ET | Drone show after picks</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 2
@@ -231,6 +231,20 @@ export default function ChecklistPage() {
             >
               <p className="font-bold">Where to Eat</p>
               <p className="text-sm text-muted">Restaurants and bars by neighborhood</p>
+            </Link>
+            <Link
+              href="/watch-parties"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
+            >
+              <p className="font-bold">Watch Parties</p>
+              <p className="text-sm text-muted">17 verified events across Pittsburgh</p>
+            </Link>
+            <Link
+              href="/where-to-stay"
+              className="card-minimal p-4 hover:shadow-md transition-all block"
+            >
+              <p className="font-bold">Where to Stay</p>
+              <p className="text-sm text-muted">Hotels from $120/night, plus alternatives</p>
             </Link>
           </div>
         </section>
