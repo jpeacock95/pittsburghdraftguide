@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 
+const FORMSUBMIT_URL = "https://formsubmit.co/ajax/jordan@peacockbookkeepingservices.com";
+const GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbwnkTgIwyaU7aHXJN1YIVO2B0hg3zLS2yzJDyUnw7VWZHo_je_zZ1IoV68BSf0lGjzd7g/exec";
+
 export function FeedbackWidget() {
   const [voted, setVoted] = useState(false);
   const [vote, setVote] = useState<"yes" | "no" | null>(null);
@@ -10,24 +13,30 @@ export function FeedbackWidget() {
     setVote(value);
     setVoted(true);
 
+    const page = typeof window !== "undefined" ? window.location.pathname : "";
+
     try {
-      await fetch(
-        "https://formsubmit.co/ajax/jordan@peacockbookkeepingservices.com",
-        {
+      await Promise.allSettled([
+        // FormSubmit: email notification
+        fetch(FORMSUBMIT_URL, {
           method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Accept: "application/json",
-          },
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify({
             feedback: value,
-            page: typeof window !== "undefined" ? window.location.pathname : "",
+            page,
             _subject: `Draft Guide feedback: ${value}`,
           }),
-        }
-      );
+        }),
+        // Google Sheets: permanent tracking
+        fetch(GOOGLE_SHEETS_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ type: "feedback", vote: value, page }),
+          mode: "no-cors",
+        }),
+      ]);
     } catch {
-      // Silent fail — don't disrupt the user
+      // Silent fail
     }
   }
 
