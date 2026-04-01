@@ -6,7 +6,7 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft from Cranberry Township: Transit Guide",
+  title: "NFL Draft from Cranberry Township",
   description:
     "Getting to the 2026 NFL Draft from Cranberry Township PA. Park-and-ride options, bus routes, hotels under $180/night, and restaurants nearby.",
 };
@@ -205,19 +205,24 @@ export default function CranberryTownship() {
           {/* Option 2: Butler Transit Authority */}
           <div className="card-minimal p-5 mb-4">
             <h3 className="text-lg font-heading mb-2">
-              Butler Transit Authority (528 Lot)
+              Butler Transit Authority (Route 528 Park and Ride)
             </h3>
             <p className="text-muted mb-3">
-              If you're coming from further north (Butler, Slippery Rock, even
-              closer to I-80), the Butler Transit Authority runs a commuter bus
-              from the 528 lot. It takes longer (40-70 minutes depending on the
-              route), but it picks you up further north so you don't have to
-              drive as far south.
+              <strong>New for draft weekend:</strong> Butler Transit Authority is
+              running direct buses from the Route 528 Park and Ride (150 Lindsay
+              Rd, Jackson Township/Zelienople) to Ross Park and Ride. From Ross
+              Park, you connect to PRT's Football Flyer buses that go straight
+              to the draft venues.
+            </p>
+            <p className="text-muted mb-3">
+              Service runs every 30 minutes. $10 round trip, exact cash only. 350
+              parking spaces available at the 528 lot. This is a great option
+              if you're coming from Butler County or further north and don't
+              want to fight I-279 traffic.
             </p>
             <p className="text-sm text-muted">
-              <strong>Cost:</strong> $2-6 depending on the route.{" "}
               <strong>Best for:</strong> People coming from north of Cranberry
-              who don't want to deal with I-279 at all.
+              who want a direct transit connection to the draft.
             </p>
           </div>
 

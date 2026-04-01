@@ -6,9 +6,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh FAQ: Top 20 Questions",
+  title: "NFL Draft Pittsburgh FAQ (20+ Answers)",
   description:
-    "Answers to the 20 most-asked questions about the 2026 NFL Draft in Pittsburgh. Parking, hotels, food, schedule, bag policy, and more.",
+    "20+ answers to the most-asked questions about the 2026 NFL Draft in Pittsburgh. Parking, free entry, bag policy, hotels, transit, and what to expect.",
 };
 
 const faqItems = [

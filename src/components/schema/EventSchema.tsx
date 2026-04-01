@@ -32,8 +32,14 @@ export function EventSchema() {
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
       description: "Free entry with NFL OnePass app registration",
+      validFrom: "2026-01-15T00:00:00-05:00",
     },
     image: "https://pittsburghdraftguide.com/og-image.jpg",
+    performer: {
+      "@type": "Organization",
+      name: "National Football League (NFL)",
+    },
+    url: "https://www.pittsburghdraftguide.com/schedule",
   };
 
   return (

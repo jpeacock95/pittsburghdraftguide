@@ -7,7 +7,7 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Getting Around Pittsburgh During the NFL Draft",
+  title: "Getting Around: NFL Draft Pittsburgh",
   description:
     "How to get around Pittsburgh during the 2026 NFL Draft. The T light rail, Football Flyer buses, rideshare tips, and walking routes between venues.",
 };
@@ -74,6 +74,59 @@ export default function GettingAroundPage() {
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         <LastUpdated date="March 31, 2026" />
+
+        {/* FREE Transit - Major Announcement */}
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">
+            FREE Transit All Draft Weekend (Sheetz + PRT)
+          </h2>
+          <p className="text-muted mb-3">
+            Sheetz is sponsoring <strong>free rides on the T (light rail) and the
+            Monongahela Incline</strong> for the entire draft weekend, April
+            23-25. That covers every station on the red, blue, and silver lines.
+            This is a partnership between Sheetz and Pittsburgh Regional Transit
+            (PRT). The Duquesne Incline is separately operated and not included.
+          </p>
+          <p className="text-muted mb-3">
+            Park at South Hills Village, Castle Shannon, or Dormont and ride the T
+            straight to the draft venues for $0. This is the single best
+            transportation hack for the weekend.
+          </p>
+        </section>
+
+        {/* Road Closures - Already Started */}
+        <section className="border-l-2 border-red-500/60 pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">
+            Road Closures (Already in Effect)
+          </h2>
+          <p className="text-muted mb-3">
+            Phase 1 road closures began March 28. This is not a future event. The
+            roads are already closed. Six phases of closures escalate through
+            April 25, with cleanup running through May 10.
+          </p>
+          <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
+            <li><strong>Phase 1 (active now):</strong> Art Rooney Ave, West General Robinson St, Scotland Ave</li>
+            <li><strong>Roberto Clemente Bridge:</strong> Pedestrian-only during draft weekend (no vehicles)</li>
+            <li><strong>Andy Warhol Bridge:</strong> Closed to vehicles. Pedestrians routed to Roberto Clemente Bridge.</li>
+            <li><strong>Multiple I-279 exit ramps</strong> are shut down</li>
+            <li><strong>Fort Pitt Bridge on-ramp</strong> closed from 10th Street Bypass</li>
+          </ul>
+          <p className="text-muted mb-3">
+            <strong>Pittsburgh Public Schools are going remote April 22-24</strong> because of the closures. Companies are telling workers to stay home. That should tell you everything about how serious this is.
+          </p>
+          <p className="text-muted text-sm">
+            <strong>Expected attendance:</strong> 500,000 to 700,000 visitors over the 3-day event.
+          </p>
+        </section>
+
+        {/* River Security + Cell Tower */}
+        <section className="card-minimal p-5 mb-14">
+          <h3 className="font-bold mb-2">Other Things to Know</h3>
+          <ul className="text-sm text-muted space-y-2 list-disc pl-5">
+            <li><strong>Coast Guard river security zone:</strong> No recreational boats allowed in the river near the draft venues during the event.</li>
+            <li><strong>Cell phone tower built in Point State Park:</strong> The NFL and local authorities installed a temporary cell tower to handle the massive crowd capacity. Your phone will still be slow, but it helps.</li>
+          </ul>
+        </section>
 
         {/* The two venues */}
         <Image

@@ -7,9 +7,9 @@ import { TrackedLink } from "@/components/ui/TrackedLink";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Pittsburgh Neighborhoods Guide for Draft Visitors",
+  title: "Pittsburgh Neighborhoods for the Draft",
   description:
-    "Where to eat, drink, and explore in Pittsburgh during the NFL Draft. North Shore, Strip District, South Side, Lawrenceville, and more.",
+    "6 Pittsburgh neighborhoods to explore during the 2026 NFL Draft. North Shore, Strip District, South Side, Lawrenceville, Mt. Washington, and Downtown with top spots in each.",
 };
 
 const neighborhoods = [

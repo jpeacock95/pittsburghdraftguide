@@ -7,7 +7,7 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Things to Do During NFL Draft Weekend Pittsburgh",
+  title: "Things to Do: NFL Draft Pittsburgh",
   description:
     "What to do during the 2026 NFL Draft in Pittsburgh beyond watching picks. Draft Experience, concerts, 5K race, food events, and attractions.",
 };

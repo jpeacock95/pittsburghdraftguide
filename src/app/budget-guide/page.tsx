@@ -8,7 +8,7 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh on a Budget 2026",
   description:
-    "How to do the 2026 NFL Draft in Pittsburgh without going broke. Free entry, cheap hotels, budget restaurants, and money-saving transit tips.",
+    "Do the entire 2026 NFL Draft weekend for under $500. Free entry, free T rides, $120/night hotels, and $12 meals. Here's the full budget breakdown.",
 };
 
 const budgetFAQs = [

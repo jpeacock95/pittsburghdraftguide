@@ -62,7 +62,7 @@ export default function WatchPartiesPage() {
             NFL Draft Pittsburgh Watch Parties 2026
           </h1>
           <p className="text-gray-300">
-            17 verified watch parties happening across Pittsburgh during the 2026
+            18 verified watch parties happening across Pittsburgh during the 2026
             NFL Draft (April 23-25). From free outdoor screenings to VIP events
             with Steelers legends. Every event below has a public source link so
             you can verify the details yourself.
@@ -155,21 +155,21 @@ export default function WatchPartiesPage() {
           <div className="card-minimal p-5 mb-4">
             <div className="flex items-start justify-between gap-3 mb-2">
               <h3 className="font-bold text-lg">Cam Heyward's Draft Party</h3>
-              <span className="text-xs bg-accent/20 text-accent-dark px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">From ~$22</span>
+              <span className="text-xs bg-accent/20 text-accent-dark px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">$32 - $65</span>
             </div>
             <p className="text-sm text-muted mb-3">
               <strong>Tequila Cowboy</strong>, 380 North Shore Dr, Pittsburgh (North Shore)
             </p>
             <p className="text-sm text-muted mb-3">
-              Hosted by Steelers defensive lineman Cam Heyward. Live recordings
-              of his "Not Just Football" podcast with special player guests and
+              Hosted by Steelers defensive lineman Cam Heyward. Live taping of
+              his "Not Just Football" podcast with special player guests and
               influencers. Food, drinks, merch, and raffle with $2,000+ in
               prizes. All ages. Valid ID required for 18+.
             </p>
             <div className="border-l-2 border-accent pl-4 mb-3">
               <ul className="text-sm text-muted space-y-1">
                 <li><strong>Time:</strong> 3:00 PM to Midnight</li>
-                <li><strong>Cost:</strong> ~$22 advance | ~$37 with food buffet</li>
+                <li><strong>Cost:</strong> $32 - $65</li>
               </ul>
             </div>
             <p className="text-xs text-muted">
@@ -592,6 +592,29 @@ export default function WatchPartiesPage() {
               {" | "}
               <a href="https://www.post-gazette.com/sports/2026-nfl-draft/2026/03/20/nfl-draft-watch-parties-pittsburgh/stories/202603160078" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Post-Gazette</a>
             </p>
+          </div>
+
+          {/* The Waterfront Courtyard - FREE */}
+          <div className="card-minimal p-5 mb-4 border-l-4 border-green-500/60">
+            <div className="flex items-start justify-between gap-3 mb-2">
+              <h3 className="font-bold text-lg">The Waterfront Courtyard Draft Parties</h3>
+              <span className="text-xs bg-green-950/20 text-green-400 px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">FREE</span>
+            </div>
+            <p className="text-sm text-muted mb-3">
+              <strong>The Waterfront</strong>, Homestead
+            </p>
+            <p className="text-sm text-muted mb-3">
+              Free outdoor watch parties in The Waterfront courtyard all three
+              draft days. Big screens, food, and a lively atmosphere without
+              paying a dime.
+            </p>
+            <div className="border-l-2 border-accent pl-4 mb-3">
+              <ul className="text-sm text-muted space-y-1">
+                <li><strong>Thursday:</strong> 8:00 PM</li>
+                <li><strong>Friday:</strong> 7:00 PM</li>
+                <li><strong>Saturday:</strong> Noon</li>
+              </ul>
+            </div>
           </div>
 
           {/* Sports & Social */}

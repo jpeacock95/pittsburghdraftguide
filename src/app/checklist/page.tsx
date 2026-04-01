@@ -5,9 +5,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Draft Weekend Checklist: What to Pack & Know",
+  title: "NFL Draft Packing & Prep Checklist",
   description:
-    "The complete packing list and preparation checklist for the 2026 NFL Draft in Pittsburgh. What to bring, download, and plan before you go.",
+    "Your printable checklist for the 2026 NFL Draft in Pittsburgh. What to pack, apps to download, transit plans, day-of essentials, and items to leave home.",
 };
 
 export default function ChecklistPage() {
@@ -113,6 +113,55 @@ export default function ChecklistPage() {
             <CheckItem text="Drones" isNo />
             <CheckItem text="Weapons of any kind" isNo />
           </div>
+        </section>
+
+        {/* Bag Policy */}
+        <section className="mb-14">
+          <h2 id="bag-policy" className="text-2xl font-heading mb-4">Bag Policy</h2>
+          <p className="text-muted mb-4">
+            The two draft venues have <strong>different bag rules</strong>. Read
+            this so you don't get turned away at the gate.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 mb-4">
+            <div className="card-minimal p-5">
+              <p className="font-bold mb-2">Draft Theater (North Shore)</p>
+              <ul className="text-sm text-muted space-y-1 list-disc pl-5">
+                <li>Clear bags only, max <strong>12" x 12" x 6"</strong></li>
+                <li>Small clutch purses (4.5" x 6.5") are OK</li>
+                <li>No professional cameras</li>
+                <li>No backpacks or non-clear bags</li>
+              </ul>
+            </div>
+            <div className="card-minimal p-5">
+              <p className="font-bold mb-2">Draft Experience (Point State Park)</p>
+              <ul className="text-sm text-muted space-y-1 list-disc pl-5">
+                <li>Clear bags only, max <strong>16" x 16" x 6"</strong></li>
+                <li>Small clutch purses (4.5" x 6.5") are OK</li>
+                <li>No professional cameras</li>
+                <li>No backpacks or non-clear bags</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-muted">
+            <strong>Pro tip:</strong> If you're going to both venues (and you
+            probably are), size your bag for the stricter Stadium policy. A
+            12x12x6 clear bag works at both locations.
+          </p>
+        </section>
+
+        {/* OnePass Registration */}
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">Register for OnePass Now</h2>
+          <p className="text-muted mb-3">
+            OnePass registration is required for free entry. Don't wait until
+            you're in line. Register now at{" "}
+            <a href="https://www.nfl.com/draft/access" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL.com/DraftAccess</a>{" "}
+            or download the NFL OnePass app from the App Store or Google Play.
+            Create your account, register for the event, and you're set.
+          </p>
+          <p className="text-sm text-muted">
+            <strong>Why this matters:</strong> The app drains your battery fast with 500,000 people on the same cell towers. Get it set up at home on Wi-Fi, not standing in a crowd with 3% battery.
+          </p>
         </section>
 
         {/* Day-of checklist */}

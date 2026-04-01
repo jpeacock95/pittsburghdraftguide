@@ -8,7 +8,7 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh Parking Guide 2026",
+  title: "NFL Draft Parking & Transit Guide",
   description:
     "Where to park for the 2026 NFL Draft in Pittsburgh. North Shore lots, downtown garages, park-and-ride options, pricing, and why officials say don't drive.",
 };
@@ -137,6 +137,9 @@ export default function ParkingPage() {
             </li>
             <li>
               <strong>Butler Transit</strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to Ross Park lot, $10 round trip, exact cash only
+            </li>
+            <li>
+              <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day, every 10-15 minutes. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
             </li>
           </ul>
           <p className="text-muted text-sm">
@@ -357,7 +360,9 @@ export default function ParkingPage() {
           </h2>
           <p className="text-muted mb-4">
             The city has a 6-phase closure plan that runs from March 28 through
-            May 10. Here's what matters for draft weekend (Phase 3, April
+            May 10. <strong>Phase 1 closures are already in effect</strong> (Art
+            Rooney Ave, West General Robinson St, Scotland Ave closed since
+            March 28). Here's what matters for draft weekend (Phase 3, April
             22-25):
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5">

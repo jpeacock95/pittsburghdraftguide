@@ -30,10 +30,10 @@ export const metadata: Metadata = {
   },
   title: {
     default: "NFL Draft Pittsburgh 2026: Your Complete Guide",
-    template: "%s | Pittsburgh Draft Guide",
+    template: "%s | PGH Draft Guide",
   },
   description:
-    "The ultimate guide to the 2026 NFL Draft in Pittsburgh. Parking, hotels, restaurants, schedule, and everything you need for April 23-25 at Point State Park and Acrisure Stadium.",
+    "Your complete guide to the 2026 NFL Draft in Pittsburgh. Parking, hotels, restaurants, schedule, and everything you need for April 23-25 at Point State Park.",
   openGraph: {
     type: "website",
     locale: "en_US",

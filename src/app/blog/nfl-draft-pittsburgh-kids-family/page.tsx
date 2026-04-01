@@ -4,7 +4,7 @@ import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
 
 export const metadata: Metadata = {
-  title: "Bringing Kids to the NFL Draft in Pittsburgh",
+  title: "NFL Draft Pittsburgh: Kids & Family",
   description:
     "Is the 2026 NFL Draft in Pittsburgh family-friendly? Yes. Here's what kids can do at the Draft Experience, nearby attractions, and tips for families.",
 };

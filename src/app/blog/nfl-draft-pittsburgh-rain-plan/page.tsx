@@ -4,7 +4,7 @@ import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh Rain Plan: What Happens If It Rains?",
+  title: "NFL Draft Pittsburgh Rain Plan",
   description:
     "What happens if it rains during the 2026 NFL Draft in Pittsburgh? The event is mostly outdoors. Here's the rain plan and how to prepare.",
 };

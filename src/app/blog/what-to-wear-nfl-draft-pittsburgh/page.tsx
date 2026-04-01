@@ -4,7 +4,7 @@ import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
 
 export const metadata: Metadata = {
-  title: "What to Wear to the NFL Draft in Pittsburgh",
+  title: "What to Wear to the NFL Draft",
   description:
     "What to wear to the 2026 NFL Draft in Pittsburgh. April weather is unpredictable - here's what to pack for 45-75 degree temperatures, rain, and a full day outside.",
 };

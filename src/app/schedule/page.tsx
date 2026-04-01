@@ -10,7 +10,7 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "2026 NFL Draft Schedule & What to Expect",
+  title: "2026 NFL Draft Schedule & Events",
   description:
     "NFL Draft Pittsburgh 2026 schedule: Round 1 Thu 8pm, Rounds 2-3 Fri 7pm, Rounds 4-7 Sat noon. Free entry with OnePass. Bag policy, hours, and registration info.",
 };
@@ -130,7 +130,7 @@ export default function Schedule() {
                     so this goes late.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert:</strong> DJ Steve Aoki at the Plaza at North Shore.
+                    <strong>Concert after picks:</strong> Nelly at the Plaza at North Shore (free).
                   </p>
                   <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
                 </div>
@@ -177,9 +177,10 @@ export default function Schedule() {
                     to go. Smaller crowds, more space.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore
-                    after the final pick. Plus the PicksBURGH Draft Day 5K near
-                    PNC Park in the morning.
+                    <strong>Concert after picks:</strong> 2 Chainz at the Plaza at North Shore (free).
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>PicksBURGH Draft Day 5K:</strong> 8:00 AM near PNC Park. One-time event. Register on <a href="https://raceroster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Race Roster</a>.
                   </p>
                   <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
                 </div>
@@ -199,8 +200,8 @@ export default function Schedule() {
                     <p className="text-xs text-muted font-medium">Pre-Draft</p>
                   </div>
                   <p className="text-sm text-muted">
-                    The party starts before the picks do. <strong>Nelly</strong> is
-                    performing at the Plaza at North Shore for opening night. The
+                    The party starts before the picks do. <strong>Steve Aoki</strong> is
+                    performing at the Plaza at North Shore for opening night (free). The
                     Draft Experience at Point State Park opens Wednesday as well.
                     Get here a day early if you can.
                   </p>
@@ -267,6 +268,11 @@ export default function Schedule() {
                 same cell towers. Your phone will be working overtime.
               </li>
             </ul>
+            <p className="text-muted text-sm mt-3">
+              Register free at{" "}
+              <a href="https://www.nfl.com/draft/access" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL.com/DraftAccess</a>{" "}
+              or download the NFL OnePass app from the App Store or Google Play.
+            </p>
           </div>
         </section>
 
@@ -463,11 +469,11 @@ export default function Schedule() {
             <div className="card-minimal p-4">
               <p className="font-bold">Jason Aldean "The Night Before" Concert</p>
               <p className="text-xs text-muted">
-                Tuesday, April 22 &middot; Rivers Casino
+                Tuesday, April 22 &middot; Rivers Casino Event Center
               </p>
               <p className="text-sm text-muted mt-2">
-                Country star Jason Aldean kicks off draft week at Rivers Casino
-                the night before Round 1. Presented by Audacy and S&amp;T Bank.
+                Country star Jason Aldean kicks off draft week at the Rivers Casino
+                Event Center the night before Round 1. Ticketed event. Presented by Audacy and S&amp;T Bank.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -476,20 +482,21 @@ export default function Schedule() {
                 Wed-Sat &middot; <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a>, North Shore
               </p>
               <p className="text-sm text-muted mt-2">
-                The official draft after-party spot. Steve Aoki (draft eve
-                opening party), Nelly (after Day 1), 2 Chainz (after Day 2).
+                The official draft after-party spot. Steve Aoki (opening night Wed),
+                Nelly (after Day 1 Thu), 2 Chainz (after Day 2 Fri).
                 This is where the party moves after picks end.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-bold">PicksBURGH 5K</p>
+              <p className="font-bold">PicksBURGH Draft Day 5K</p>
               <p className="text-xs text-muted">
-                Saturday, April 25 &middot; Morning (before Day 3)
+                Saturday, April 25 &middot; 8:00 AM &middot; Near PNC Park
               </p>
               <p className="text-sm text-muted mt-2">
-                Run by P3R (the Pittsburgh marathon organization). Expected to
-                close the 16th Street Bridge Saturday morning. A fun way to
-                start the final day of the draft.
+                One-time event run by P3R (the Pittsburgh marathon organization).
+                Expected to close the 16th Street Bridge Saturday morning. A
+                fun way to start the final day of the draft. Registration on{" "}
+                <a href="https://raceroster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Race Roster</a>.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -504,15 +511,26 @@ export default function Schedule() {
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-bold">Free Concerts at the Draft</p>
+              <p className="font-bold">Free Concerts at the Plaza at North Shore</p>
               <p className="text-xs text-muted">
-                All 3 days &middot; Draft Experience stage
+                Wed-Sat &middot; After draft picks each night
               </p>
               <p className="text-sm text-muted mt-2">
-                The NFL hosts free concerts as part of the Draft Experience.
-                Past drafts had Fall Out Boy, Weezer, Brad Paisley, and Big
-                Sean. The 2026 lineup hasn't been announced yet, but the Day 3
-                headliner is typically the biggest act.
+                Three free concerts confirmed at the Plaza at North Shore:
+              </p>
+              <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
+                <li><strong>Wednesday, April 22 (Opening Night):</strong> Steve Aoki</li>
+                <li><strong>Thursday, April 23 (After Day 1 picks):</strong> Nelly</li>
+                <li><strong>Friday, April 24 (After Day 2 picks):</strong> 2 Chainz</li>
+              </ul>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-bold">Steel City Draft Weekend Urban Block Party</p>
+              <p className="text-xs text-muted">
+                Saturday, April 25 &middot; 8:00 PM &middot; Petersen Events Center
+              </p>
+              <p className="text-sm text-muted mt-2">
+                Ticketed event featuring Jeezy, Boosie Badazz, Mya, and DJ Envy. Tickets available on <a href="https://www.ticketmaster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ticketmaster</a>.
               </p>
             </div>
           </div>
