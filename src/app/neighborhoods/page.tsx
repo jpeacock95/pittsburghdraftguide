@@ -27,7 +27,7 @@ const neighborhoods = [
       },
       {
         name: "Shorty's Goodtimes Bar",
-        desc: "Hosting Steve Aoki (draft eve), Nelly (day 1), and 2 Chainz (day 2). THE after-party spot.",
+        desc: "Right next to The Plaza at North Shore, which hosts ticketed concerts: Nelly (Wed), Steve Aoki (Thu), and 2 Chainz (Sat). Tickets at gofevo.com. THE party spot on the North Shore.",
       },
       {
         name: "Federal Galley",
@@ -257,7 +257,7 @@ export default function NeighborhoodsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* Quick nav */}
         <section className="mb-14">

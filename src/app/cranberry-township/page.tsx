@@ -93,7 +93,7 @@ export default function CranberryTownship() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* Section 1: Why Stay in Cranberry */}
         <section className="mb-14">
@@ -608,8 +608,9 @@ export default function CranberryTownship() {
           <p className="text-muted mb-3">
             This strategy works perfectly for Day 1 (Thursday, picks start at
             8pm ET) or Day 3 (Saturday, starts at noon). Saturday is the best
-            day for casual fans and day-trippers. Smaller crowds, free concerts,
-            and the 5K run in the morning.
+            day for casual fans and day-trippers. Smaller crowds, free
+            entertainment on the main stage, and the 5K run in the morning. The
+            Plaza at North Shore also has 2 Chainz at 6 PM (ticketed).
           </p>
           <p className="text-muted text-sm italic">
             For a full breakdown of which day is best for you, see our{" "}

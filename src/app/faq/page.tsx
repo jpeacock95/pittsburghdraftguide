@@ -86,7 +86,7 @@ const faqItems = [
     question:
       "What is there to do at the NFL Draft besides watching picks?",
     answer:
-      "Way more than you'd think. The NFL Draft Experience is a massive football-themed festival with interactive games, autograph sessions, photo ops with the Lombardi Trophy, and team exhibits. There are free concerts every night (previous years featured Fall Out Boy, Weezer, and Brad Paisley). There's a drone show after Day 2. A 5K race on Saturday morning. The Taste of the NFL charity food event on April 22 with 20+ local restaurants. Plus Pittsburgh itself: the Warhol Museum, Strip District food shopping, Mt. Washington inclines, and some of the best bar neighborhoods in the country.",
+      "Way more than you'd think. The NFL Draft Experience is a massive football-themed festival with interactive games, autograph sessions, photo ops with the Lombardi Trophy, and team exhibits. The NFL typically has free entertainment on the main stage (previous years featured Fall Out Boy, Weezer, and Brad Paisley). The Plaza at North Shore has ticketed concerts with Nelly, Steve Aoki, and 2 Chainz. There's a drone show after Day 2. A 5K race on Saturday morning. The Taste of the NFL charity food event on April 22 with 20+ local restaurants. Plus Pittsburgh itself: the Warhol Museum, Strip District food shopping, Mt. Washington inclines, and some of the best bar neighborhoods in the country.",
   },
   {
     question:
@@ -97,7 +97,7 @@ const faqItems = [
   {
     question: "Are there free concerts at the NFL Draft?",
     answer:
-      "Yes. Free concerts are a standard part of every NFL Draft. Previous years featured Fall Out Boy and Motley Crue (Kansas City 2023), Big Sean (Detroit 2024), and Brad Paisley (Green Bay 2025). The 2026 lineup hasn't been officially announced yet, but there are rumors circulating. Concerts happen in the evening near the main stage. The biggest concert is typically on Saturday (Day 3). Jeezy is playing an unofficial show at Pitt, and McFadden's is hosting a DJ Pauly D event on draft Wednesday.",
+      "The NFL typically has free entertainment on the main draft stage. Previous years featured Fall Out Boy and Motley Crue (Kansas City 2023), Big Sean (Detroit 2024), and Brad Paisley (Green Bay 2025). The 2026 main stage lineup hasn't been officially announced yet. Separately, The Plaza at North Shore is hosting ticketed concerts: Nelly on Wednesday (6 PM), Steve Aoki on Thursday (12 PM), and 2 Chainz on Saturday (6 PM). Those are paid events at a private venue, not free. Tickets at gofevo.com. Jeezy is playing an unofficial show at Pitt, and McFadden's is hosting a DJ Pauly D event on draft Wednesday.",
   },
   {
     question: "Is the NFL Draft family-friendly?",
@@ -178,7 +178,7 @@ export default function FAQ() {
           are actually asking.
         </p>
 
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">
@@ -474,8 +474,10 @@ export default function FAQ() {
                 <strong>NFL Draft Experience</strong> is a massive
                 football-themed festival with interactive games, autograph
                 sessions, photo ops with the Lombardi Trophy, and team exhibits.
-                There are <strong>free concerts</strong> every night (previous
-                years featured Fall Out Boy, Weezer, and Brad Paisley).
+                The NFL typically has <strong>free entertainment on the main
+                stage</strong> (previous years featured Fall Out Boy, Weezer,
+                and Brad Paisley). The Plaza at North Shore has ticketed concerts
+                with Nelly, Steve Aoki, and 2 Chainz.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
                 There's a drone show after Day 2, a 5K race on Saturday morning,
@@ -525,16 +527,20 @@ export default function FAQ() {
                 Are there free concerts at the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
-                Yes. <strong>Free concerts</strong> are a standard part of every
-                NFL Draft. Previous years: Fall Out Boy and Motley Crue (Kansas
-                City 2023), Big Sean (Detroit 2024), Brad Paisley (Green Bay
-                2025). The 2026 lineup hasn't been officially announced yet.
+                The NFL typically has <strong>free entertainment on the main
+                draft stage</strong>. Previous years: Fall Out Boy and Motley
+                Crue (Kansas City 2023), Big Sean (Detroit 2024), Brad Paisley
+                (Green Bay 2025). The 2026 main stage lineup hasn't been
+                officially announced yet.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
-                Concerts happen in the evening near the main stage. The biggest
-                concert is typically on Saturday (Day 3). Jeezy is playing an
-                unofficial show at Pitt, and McFadden's is hosting a DJ Pauly D
-                event on draft Wednesday.
+                Separately, <strong>The Plaza at North Shore</strong> is hosting
+                ticketed concerts: Nelly on Wednesday (6 PM), Steve Aoki on
+                Thursday (12 PM), and 2 Chainz on Saturday (6 PM). Those are
+                paid events at a private venue. Tickets at{" "}
+                <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
+                Jeezy is playing an unofficial show at Pitt, and McFadden's is
+                hosting a DJ Pauly D event on draft Wednesday.
               </p>
             </div>
 

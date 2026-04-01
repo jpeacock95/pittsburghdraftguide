@@ -134,7 +134,7 @@ export default function HomePage() {
       {/* Trust line */}
       <section className="max-w-4xl mx-auto px-4 py-8">
         <p className="text-center text-xs text-muted tracking-wide">
-          Written by Jordan Peacock, Cranberry Township resident &middot; 27 Reddit threads analyzed &middot; 70+ local businesses verified &middot; Sources: VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, Post-Gazette &middot; Last updated March 31, 2026
+          Written by Jordan Peacock, Cranberry Township resident &middot; 27 Reddit threads analyzed &middot; 70+ local businesses verified &middot; Sources: VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, Post-Gazette &middot; Last updated April 1, 2026
         </p>
       </section>
 
@@ -171,7 +171,7 @@ export default function HomePage() {
           </h2>
           <div className="text-muted space-y-5 leading-relaxed">
             <p>
-              The 2026 NFL Draft in Pittsburgh is a three-day football festival running April 23-25 at Point State Park and Acrisure Stadium on the North Shore. Entry is free with NFL OnePass registration. The main draft stage sits at Acrisure Stadium, where teams make their picks on national TV. Across the Allegheny River at Point State Park, the NFL Draft Experience is a free fan zone with a 40-yard dash, field goal challenge, autograph sessions, Lombardi Trophy photo ops, free concerts, drone shows, and the PicksBURGH 5K race. Nine NFL team markets sit within a 6-hour drive of Pittsburgh, making this one of the most accessible draft locations in recent history.
+              The 2026 NFL Draft in Pittsburgh is a three-day football festival running April 23-25 at Point State Park and Acrisure Stadium on the North Shore. Entry is free with NFL OnePass registration. The main draft stage sits at Acrisure Stadium, where teams make their picks on national TV. Across the Allegheny River at Point State Park, the NFL Draft Experience is a free fan zone with a 40-yard dash, field goal challenge, autograph sessions, Lombardi Trophy photo ops, live entertainment, drone shows, and the PicksBURGH 5K race. The Plaza at North Shore also hosts ticketed concerts with Nelly, Steve Aoki, and 2 Chainz. Nine NFL team markets sit within a 6-hour drive of Pittsburgh, making this one of the most accessible draft locations in recent history.
             </p>
             <p>
               The NFL Draft has grown into one of the largest free public events in the country. According to the NFL, the 2024 Draft in Detroit drew 775,000 visitors over three days. Nashville drew 600,000 in 2019. Kansas City drew 330,000 in 2023. Pittsburgh is projecting 500,000-700,000 cumulative visitors, which would make it the largest event the city has ever hosted. The Pittsburgh Sports & Exhibition Authority estimates the economic impact at $120-200 million for the region, based on hotel bookings, restaurant spending, and transit usage during the three-day event.

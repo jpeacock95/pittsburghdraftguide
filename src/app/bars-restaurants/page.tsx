@@ -122,7 +122,7 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         <div className="border-l-2 border-accent pl-5 mb-6">
           <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>
@@ -202,7 +202,7 @@ export default function BarsRestaurants() {
               name="Shorty's Goodtimes Bar"
               type="Bar & Entertainment"
               url="https://www.shortysx.com/"
-              description="Retro-gaming bar that somehow landed all three official after-parties: Steve Aoki on draft eve, Nelly after Day 1, 2 Chainz after Day 2. Expect lines. Get there early or don't bother."
+              description="Retro-gaming bar on the North Shore. Right next to The Plaza at North Shore, which is hosting ticketed concerts: Nelly on Wednesday (Opening Party), Steve Aoki on Thursday (midday tailgate), and 2 Chainz on Saturday (Closing Party). Tickets at gofevo.com. Expect lines. Get there early or don't bother."
             />
             <SpotCard
               name="SugarBird"

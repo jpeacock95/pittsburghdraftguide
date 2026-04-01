@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -130,7 +130,7 @@ export default function Schedule() {
                     so this goes late.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert after picks:</strong> Nelly at the Plaza at North Shore (free).
+                    <strong>Concert:</strong> Steve Aoki at the Plaza at North Shore (12 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                   </p>
                   <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
                 </div>
@@ -177,7 +177,7 @@ export default function Schedule() {
                     to go. Smaller crowds, more space.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert after picks:</strong> 2 Chainz at the Plaza at North Shore (free).
+                    <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore (6 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                   </p>
                   <p className="text-sm text-muted mt-2">
                     <strong>PicksBURGH Draft Day 5K:</strong> 8:00 AM near PNC Park. One-time event. Register on <a href="https://raceroster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Race Roster</a>.
@@ -200,9 +200,8 @@ export default function Schedule() {
                     <p className="text-xs text-muted font-medium">Pre-Draft</p>
                   </div>
                   <p className="text-sm text-muted">
-                    The party starts before the picks do. <strong>Steve Aoki</strong> is
-                    performing at the Plaza at North Shore for opening night (free). The
-                    Draft Experience at Point State Park opens Wednesday as well.
+                    The party starts before the picks do. <strong>Nelly</strong> performs
+                    at the Plaza at North Shore for the Official Draft Opening Party (6 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                     Get here a day early if you can.
                   </p>
                 </div>
@@ -482,9 +481,9 @@ export default function Schedule() {
                 Wed-Sat &middot; <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a>, North Shore
               </p>
               <p className="text-sm text-muted mt-2">
-                The official draft after-party spot. Steve Aoki (opening night Wed),
-                Nelly (after Day 1 Thu), 2 Chainz (after Day 2 Fri).
-                This is where the party moves after picks end.
+                The official draft after-party spot. Nelly (opening night Wed),
+                Steve Aoki (Day 1 Thu), 2 Chainz (closing party Sat).
+                Tickets available via GoFevo.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -511,17 +510,17 @@ export default function Schedule() {
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-bold">Free Concerts at the Plaza at North Shore</p>
+              <p className="font-bold">Concerts at the Plaza at North Shore</p>
               <p className="text-xs text-muted">
-                Wed-Sat &middot; After draft picks each night
+                Wed, Thu &amp; Sat &middot; <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Tickets on GoFevo</a>
               </p>
               <p className="text-sm text-muted mt-2">
-                Three free concerts confirmed at the Plaza at North Shore:
+                Three concerts at the Plaza at North Shore (ticketed, not part of the free NFL Draft Experience):
               </p>
               <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
-                <li><strong>Wednesday, April 22 (Opening Night):</strong> Steve Aoki</li>
-                <li><strong>Thursday, April 23 (After Day 1 picks):</strong> Nelly</li>
-                <li><strong>Friday, April 24 (After Day 2 picks):</strong> 2 Chainz</li>
+                <li><strong>Wednesday, April 22 (Opening Party, 6 PM):</strong> Nelly</li>
+                <li><strong>Thursday, April 23 (Tailgate Party, 12 PM):</strong> Steve Aoki</li>
+                <li><strong>Saturday, April 25 (Closing Party, 6 PM):</strong> 2 Chainz</li>
               </ul>
             </div>
             <div className="card-minimal p-4">

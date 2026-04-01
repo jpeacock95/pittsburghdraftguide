@@ -16,7 +16,7 @@ const thingsToDoFAQs = [
   {
     question: "What is there to do at the NFL Draft besides watch picks?",
     answer:
-      "The NFL Draft is a 3-day festival, not just a broadcast. The free Draft Experience at Point State Park has a 40-yard dash, field goal challenge, autograph stage, and the Lombardi Trophy. There are free concerts on the draft stage, a drone show, the PicksBURGH 5K race, and the Taste of the Draft food event. Pittsburgh itself has world-class museums, inclines, breweries, and restaurants within walking distance of the venues.",
+      "The NFL Draft is a 3-day festival, not just a broadcast. The free Draft Experience at Point State Park has a 40-yard dash, field goal challenge, autograph stage, and the Lombardi Trophy. The NFL typically has free entertainment on the main draft stage, plus a drone show, the PicksBURGH 5K race, and the Taste of the Draft food event. The Plaza at North Shore also has ticketed concerts (Nelly, Steve Aoki, 2 Chainz). Pittsburgh itself has world-class museums, inclines, breweries, and restaurants within walking distance of the venues.",
   },
   {
     question: "Is the NFL Draft Experience really free?",
@@ -26,7 +26,7 @@ const thingsToDoFAQs = [
   {
     question: "What concerts are at the 2026 NFL Draft in Pittsburgh?",
     answer:
-      "Free concerts happen on the main draft stage each night. The 2026 lineup hasn't been announced yet, but past drafts featured Fall Out Boy, Weezer, and Brad Paisley. There's also a drone show after Day 2. Paid concerts include Jason Aldean at Rivers Casino (April 22) and Shorty's after-parties featuring Steve Aoki, Nelly, and 2 Chainz.",
+      "The NFL typically has free entertainment on the main draft stage. The 2026 main stage lineup hasn't been announced yet, but past drafts featured Fall Out Boy, Weezer, and Brad Paisley. There's also a drone show after Day 2. Separately, The Plaza at North Shore is hosting ticketed concerts: Nelly on Wednesday April 22 (Opening Party, 6 PM), Steve Aoki on Thursday April 23 (Tailgate Party, 12 PM), and 2 Chainz on Saturday April 25 (Closing Party, 6 PM). Tickets at gofevo.com. Jason Aldean is also playing Rivers Casino on April 22.",
   },
   {
     question: "Is the NFL Draft good for families with kids?",
@@ -63,7 +63,7 @@ export default function ThingsToDoPage() {
           </h1>
           <p className="text-gray-300">
             The draft isn't just names being read off a card. It's a 3-day
-            festival with free concerts, interactive experiences, a 5K race,
+            festival with live entertainment, interactive experiences, a 5K race,
             food events, and one of the best cities in America as your backdrop.
             Here's everything worth doing.
           </p>
@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -87,7 +87,8 @@ export default function ThingsToDoPage() {
             Because the modern NFL Draft isn't a broadcast event. It's a
             full-blown festival that takes over the entire city. Think of it
             like a Super Bowl block party that lasts 3 days. There's a massive
-            free fan zone with games and attractions. Free concerts every night.
+            free fan zone with games and attractions. Live entertainment on the
+            main stage. Ticketed concerts at The Plaza at North Shore.
             A drone show. A 5K race. A $845-per-plate food event. Watch parties
             at every bar within 2 miles. And Pittsburgh itself brings world-class
             museums, 90+ craft breweries, the best views in America, and a food
@@ -178,20 +179,22 @@ export default function ThingsToDoPage() {
             Concerts &amp; Entertainment
           </h2>
           <p className="text-muted mb-3">
-            Every NFL Draft has free concerts on the main stage, and they're not
-            small acts. Previous drafts featured Fall Out Boy, Brad Paisley, and
-            Weezer. The 2026 lineup hasn't been announced yet, but expect
-            similar caliber. These concerts happen in the evening after draft
-            picks wrap up for the day.
+            Every NFL Draft has entertainment on the main stage. Previous drafts
+            featured Fall Out Boy, Brad Paisley, and Weezer as free acts. The
+            2026 main stage lineup hasn't been announced yet. Separately, The
+            Plaza at North Shore is hosting three ticketed concerts with major
+            artists. These are paid events at a private venue, not part of the
+            free draft experience. Tickets at{" "}
+            <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
           </p>
 
           <div className="space-y-3 mb-4">
             <div className="card-minimal p-4">
-              <p className="font-bold">Free Draft Stage Concerts</p>
+              <p className="font-bold">NFL Main Stage Entertainment</p>
               <p className="text-sm text-muted">
-                Lineup TBA. Concerts happen each evening on the main stage at
-                the North Shore (Acrisure Stadium area). Past years had
-                major headliners. Check back as the lineup drops.
+                Lineup TBA. The NFL typically has entertainment on the main stage
+                at the North Shore (Acrisure Stadium area). Past years had
+                major free headliners. Check back as the lineup drops.
               </p>
             </div>
 
@@ -218,13 +221,16 @@ export default function ThingsToDoPage() {
 
             <div className="card-minimal p-4">
               <p className="font-bold">
-                Shorty's After-Parties (Draft Eve through Day 2)
+                The Plaza at North Shore Concerts (Ticketed)
               </p>
               <p className="text-sm text-muted">
-                <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> on the North Shore is hosting the
-                official draft after-parties. Steve Aoki on draft eve, Nelly
-                after Day 1, and 2 Chainz after Day 2. These are ticketed
-                events. Prices TBA.
+                The Plaza at North Shore is hosting three ticketed concerts
+                during draft week. Nelly on Wednesday April 22 at 6 PM
+                (Official Draft Opening Party), Steve Aoki on Thursday April 23
+                at 12 PM (The Ultimate Tailgate Party), and 2 Chainz on Saturday
+                April 25 at 6 PM (Official Draft Closing Party). These are
+                separate paid events, not part of the free draft. Tickets at{" "}
+                <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
               </p>
             </div>
           </div>

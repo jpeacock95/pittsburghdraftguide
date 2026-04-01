@@ -15,7 +15,7 @@ const budgetFAQs = [
   {
     question: "Can I do the NFL Draft for free?",
     answer:
-      "Yes. Entry to the Draft Experience at Point State Park is completely free. The concerts are free. The drone show is free. You just need a OnePass (also free) to get in. The only costs are getting there, eating, and sleeping somewhere.",
+      "Yes. Entry to the Draft Experience at Point State Park is completely free. The main stage entertainment is free. The drone show is free. You just need a OnePass (also free) to get in. The only costs are getting there, eating, and sleeping somewhere. Note: The Plaza at North Shore concerts (Nelly, Steve Aoki, 2 Chainz) are separate ticketed events.",
   },
   {
     question: "What's the cheapest hotel option for the NFL Draft in Pittsburgh?",
@@ -65,7 +65,7 @@ export default function BudgetGuide() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* The Good News */}
         <section className="mb-14">
@@ -75,9 +75,10 @@ export default function BudgetGuide() {
           <p className="text-muted mb-3">
             Let's start with the best part. Entry to the NFL Draft is
             completely free. The Draft Experience at Point State Park? Free.
-            The concerts? Free. The drone show over the rivers? Free. The
-            main stage at Acrisure Stadium where they announce the picks?
-            Free.
+            The main stage entertainment? Free. The drone show over the rivers?
+            Free. The main stage at Acrisure Stadium where they announce the
+            picks? Free. (Note: The Plaza at North Shore concerts with Nelly,
+            Steve Aoki, and 2 Chainz are separate ticketed events.)
           </p>
           <p className="text-muted mb-3">
             All you need is a{" "}
@@ -87,8 +88,8 @@ export default function BudgetGuide() {
           </p>
           <p className="text-muted">
             You can literally walk in, watch the picks on a massive screen,
-            catch a free concert, see the drone show, and walk out without
-            spending a dime on the event itself. The NFL wants butts in
+            catch the main stage entertainment, see the drone show, and walk
+            out without spending a dime on the draft itself. The NFL wants butts in
             seats. They're not charging for them.
           </p>
         </section>
@@ -356,11 +357,13 @@ export default function BudgetGuide() {
                   </td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-2 sm:p-3 font-semibold">Concerts</td>
+                  <td className="p-2 sm:p-3 font-semibold">Main Stage Entertainment</td>
                   <td className="p-2 sm:p-3 text-accent font-semibold">Free</td>
                   <td className="p-2 sm:p-3 text-muted">
-                    Live music on the main stage all three days. Past drafts
-                    have had major artists.
+                    The NFL typically has free entertainment on the main stage.
+                    Past drafts had major headliners. The Plaza at North Shore
+                    concerts (Nelly, Steve Aoki, 2 Chainz) are separate ticketed
+                    events.
                   </td>
                 </tr>
                 <tr className="border-t border-border">

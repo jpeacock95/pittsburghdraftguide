@@ -93,7 +93,7 @@ export default function ItineraryPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 1, 2026" />
 
         {/* Quick nav */}
         <nav className="card-minimal p-4 mb-14">
@@ -198,9 +198,9 @@ export default function ItineraryPage() {
               <p>
                 Rivers Casino on the North Shore is hosting the big pre-draft
                 concert. Jason Aldean literally has a restaurant on the North
-                Shore too. If country isn't your thing, <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a>
-                on the North Shore is hosting Steve Aoki for an official draft
-                eve after-party.
+                Shore too. If country isn't your thing, The Plaza at North Shore
+                is hosting Nelly at 6 PM for the Official Draft Opening Party.
+                Tickets at <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
               </p>
             </TimeSlot>
 
@@ -335,8 +335,7 @@ export default function ItineraryPage() {
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  <strong>Stay North Shore:</strong> <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> is
-                  hosting Nelly as the official Day 1 after-party. <a href="https://mikesbeerbar.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mike's Beer
+                  <strong>Stay North Shore:</strong> The Plaza at North Shore hosted Steve Aoki at noon (The Ultimate Tailgate Party). <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> and the surrounding North Shore bars will be packed. <a href="https://mikesbeerbar.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mike's Beer
                   Bar</a> has 500+ beers and 80 rotating taps. SoHo Pittsburgh is
                   the OG North Shore restaurant.
                 </li>
@@ -498,8 +497,7 @@ export default function ItineraryPage() {
                   hidden gem off the main strip.
                 </li>
                 <li>
-                  <strong>Stay North Shore:</strong> Shorty's is hosting 2
-                  Chainz tonight for the official Day 2 after-party.
+                  <strong>Stay North Shore:</strong> No Plaza concert tonight (Friday). Hit <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> or the North Shore bar scene instead.
                 </li>
               </ul>
             </TimeSlot>
@@ -638,11 +636,16 @@ export default function ItineraryPage() {
               </p>
             </TimeSlot>
 
-            <TimeSlot time="6:00 PM" title="Draft Experience closes. Last call.">
+            <TimeSlot time="6:00 PM" title="Draft Experience closes + 2 Chainz at The Plaza" highlight>
               <p>
                 The Draft Experience shuts down at 6 PM. Take your last
-                photos, grab any free swag you missed, and head to dinner.
-                The final picks will still be going on the main stage.
+                photos, grab any free swag you missed. The final picks will
+                still be going on the main stage.
+              </p>
+              <p className="mt-2">
+                At 6 PM, The Plaza at North Shore hosts 2 Chainz for the
+                Official Draft Closing Party. This is a ticketed event.
+                Tickets at <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
               </p>
             </TimeSlot>
 
