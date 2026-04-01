@@ -110,19 +110,6 @@ export function Footer() {
               </TrackedLink>
             </p>
           </div>
-          <div className="text-center mt-6 mb-2">
-            <p className="text-xs text-gray-500 italic">
-              Can people find your business on Google? They should.{" "}
-              <a
-                href="https://jordanpeacock.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white underline underline-offset-2 transition-colors"
-              >
-                Learn more
-              </a>
-            </p>
-          </div>
           <div className="text-center text-sm text-gray-500 mt-4">
             <p>&copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
               affiliated with the NFL.
