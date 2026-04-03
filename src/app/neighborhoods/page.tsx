@@ -287,7 +287,7 @@ export default function NeighborhoodsPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* Quick nav */}
         <section className="mb-14">

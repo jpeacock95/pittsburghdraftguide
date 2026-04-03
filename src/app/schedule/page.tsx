@@ -29,7 +29,7 @@ const scheduleFAQs = [
   {
     question: "What is the NFL Draft bag policy?",
     answer:
-      "The Draft Experience at Point State Park allows clear bags up to 16x16x6 inches. The Draft Theater at Acrisure Stadium has a stricter policy: clear bags up to 12x6x12 inches only. No backpacks, large purses, or non-clear bags at either venue.",
+      "Clear bags up to 12x6x12 inches or small clutch purses up to 4.5x6.5 inches. No backpacks, no non-clear bags. Umbrellas are banned. No footballs, inflatable balls, chairs, or coolers. Bring a rain poncho instead of an umbrella. You can bring an empty reusable water bottle and fill it at free refill stations inside the event. The entire event is cashless, credit cards only.",
   },
   {
     question: "Do I need the NFL OnePass app for the draft?",
@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 2, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">

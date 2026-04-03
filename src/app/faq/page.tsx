@@ -109,7 +109,7 @@ const faqItems = [
     question:
       "What should I wear and bring to the NFL Draft in Pittsburgh?",
     answer:
-      "Layers. Seriously. Late April in Pittsburgh can be 40 degrees or 85 degrees. Average highs are 58-62F, but rain is likely. Bring a clear bag (required by NFL policy), a portable phone charger (this is non-negotiable with 500,000+ people draining cell towers), comfortable walking shoes, a rain jacket, and sunscreen. Wear your team jersey if you've got one. Cash is smart to have on hand for vendors. Download the NFL OnePass app before you leave the hotel.",
+      "Layers. Seriously. Late April in Pittsburgh can be 40 degrees or 85 degrees. Average highs are 58-62F, but rain is likely. Bring a clear bag (required by NFL policy), a portable phone charger (this is non-negotiable with 500,000+ people draining cell towers), comfortable walking shoes, a rain jacket or poncho (umbrellas are banned), and sunscreen. Wear your team jersey if you've got one. Leave your cash at the hotel. The entire Draft Experience is cashless, credit cards only. You can bring an empty reusable water bottle and fill it at free water stations inside the event. Download the NFL OnePass app before you leave the hotel.",
   },
   {
     question:
@@ -178,7 +178,7 @@ export default function FAQ() {
           are actually asking.
         </p>
 
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">

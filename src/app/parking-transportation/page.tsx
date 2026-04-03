@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 2, 2026" />
+        <LastUpdated date="April 3, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -429,6 +429,19 @@ export default function ParkingPage() {
               Pre-schedule your return ride if the app allows it.
             </li>
           </ul>
+        </section>
+
+        {/* Bike share */}
+        <section className="mb-14">
+          <h2 className="text-lg font-heading mb-2">
+            <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">POGOH Bike Share</a>
+          </h2>
+          <p className="text-sm text-muted">
+            Pittsburgh's public bike-share program has stations across Downtown,
+            the North Shore, and surrounding neighborhoods. Pedal and electric-assist
+            bikes available via the <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">POGOH app</a>.
+            Good option for short trips when transit doesn't cover your route.
+          </p>
         </section>
 
         {/* FAQ section */}

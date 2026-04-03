@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -121,32 +121,77 @@ export default function ThingsToDoPage() {
           </p>
 
           <div className="card-minimal p-5 mb-4">
-            <p className="font-bold mb-3">What you'll find inside:</p>
+            <p className="font-bold mb-3">Point State Park attractions:</p>
             <ul className="space-y-2 text-muted list-disc pl-5">
               <li>
-                <strong>40-yard dash</strong> with an official NFL timer so you
-                can see how slow you really are
+                <strong>40-yard dash</strong> with an official NFL timer and a giant LED wall showing you racing against digital NFL players
+              </li>
+              <li>
+                <strong>Hail Mary</strong> throw over defenders into a drop-in net. Test your deep ball.
               </li>
               <li>
                 <strong>Field goal challenge</strong> on a real setup
               </li>
               <li>
-                <strong>Vertical jump station</strong> to test your combine
-                numbers
+                <strong>Long snap station</strong> to try your hand at punt and field goal snaps
               </li>
               <li>
                 <strong>Autograph stage</strong> with current and former NFL
-                players (schedule released closer to the event)
+                players. Schedule drops April 14 in the <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">OnePass app</a> with updates throughout the weekend.
               </li>
               <li>
-                <strong>Lombardi Trophy</strong> photo op. Yes, you can hold it.
+                <strong>Steelers' Lombardi Trophies</strong> photo op. All six of them.
               </li>
               <li>
-                <strong>Team displays</strong> for all 32 NFL teams
+                <strong>First Overall Pick podium</strong> replica. Stand behind the podium like you just went #1.
               </li>
               <li>
-                Interactive exhibits, sponsor activations, and merch vendors
+                <strong>Taste of Pittsburgh</strong> food vendors from local restaurants on site. (Different from the $845 Taste of the Draft charity event.)
               </li>
+              <li>
+                <strong>NFL Shop</strong> with the largest assortment of draft and team merchandise
+              </li>
+            </ul>
+          </div>
+
+          <div className="card-minimal p-5 mb-4">
+            <p className="font-bold mb-3">North Shore attractions (near Acrisure Stadium):</p>
+            <ul className="space-y-2 text-muted list-disc pl-5">
+              <li>
+                <strong>Vertical jump</strong> to find out your combine differential, just like at the NFL Scouting Combine
+              </li>
+              <li>
+                <strong>NFL Museum</strong> with a replica NFL locker room, Pro Football Hall of Fame busts, all 59 Super Bowl rings, and the Heisman Trophy
+              </li>
+              <li>
+                <strong>Look Like A Pro</strong> photo station. Step inside a body-cast mold with your favorite team's uniform.
+              </li>
+              <li>
+                <strong>Pepsi Team Helmets</strong> oversized replicas of all 32 NFL team helmets
+              </li>
+              <li>
+                <strong>Bud Light Beer Hall</strong> with photo ops (21+ for drinks)
+              </li>
+              <li>
+                <strong>Gear Up and Go</strong> (kids can try on NFL equipment)
+              </li>
+              <li>
+                <strong>Fan viewing on Acrisure Stadium field</strong> for Rounds 1-3. Blankets are allowed on the field but must be in use at all times.
+              </li>
+              <li>
+                <strong>Play Football Field</strong> with USA Football clinics for kids ages 6-14. First-come, first-served.
+              </li>
+            </ul>
+          </div>
+
+          <div className="border-l-2 border-accent pl-5 mb-4">
+            <p className="font-bold text-foreground mb-1">NFL Films' "The Football Town"</p>
+            <p className="text-sm text-muted mb-2">
+              A special NFL Films presentation narrated by Pittsburgh-area native Pat McAfee about the region's football heritage. Shown in a first-of-its-kind immersive large-screen format at the Rangos Giant Cinema inside the <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kamins Science Center</a> on the North Shore. Free with draft entry.
+            </p>
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>Thu &amp; Fri:</strong> 1:00, 2:30, 4:00, 5:30 PM</li>
+              <li><strong>Saturday:</strong> 10:00, 11:30 AM, 1:00, 2:30 PM</li>
             </ul>
           </div>
 
@@ -160,8 +205,14 @@ export default function ThingsToDoPage() {
                 <strong>Saturday:</strong> 9:00 AM to 6:00 PM
               </li>
               <li>
-                <strong>Cost:</strong> Free. Register for a free NFL OnePass
+                <strong>Cost:</strong> Free. Register for a free <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass</a>
                 (download the app ahead of time).
+              </li>
+              <li>
+                <strong>Cash-free event.</strong> No cash accepted anywhere. Credit cards only. American Express is the NFL's official payments partner.
+              </li>
+              <li>
+                <strong>Water bottles:</strong> You can bring an empty, reusable water bottle and fill it at free water refill stations inside the event.
               </li>
             </ul>
           </div>
@@ -179,9 +230,8 @@ export default function ThingsToDoPage() {
             Concerts &amp; Entertainment
           </h2>
           <p className="text-muted mb-3">
-            Every NFL Draft has entertainment on the main stage. Previous drafts
-            featured Fall Out Boy, Brad Paisley, and Weezer as free acts. The
-            2026 main stage lineup hasn't been announced yet. Separately, The
+            The NFL Draft Entertainment Series is FREE at the Draft Theater
+            (next to Acrisure Stadium). Just announced: <strong>Wiz Khalifa</strong> and <strong>Bret Michaels</strong> perform Friday, and <strong>Kane Brown</strong> headlines Saturday after the final picks. Register through <a href="https://www.nfl.com/apps/one-pass/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL OnePass</a> for free entry. First-come, first-served standing room. Separately, The
             Plaza at North Shore is hosting three ticketed concerts with major
             artists. These are paid events at a private venue, not part of the
             free draft experience. Tickets at{" "}
@@ -189,13 +239,16 @@ export default function ThingsToDoPage() {
           </p>
 
           <div className="space-y-3 mb-4">
-            <div className="card-minimal p-4">
-              <p className="font-bold">NFL Main Stage Entertainment</p>
-              <p className="text-sm text-muted">
-                Lineup TBA. The NFL typically has entertainment on the main stage
-                at the North Shore (Acrisure Stadium area). Past years had
-                major free headliners. Check back as the lineup drops.
+            <div className="border-l-2 border-accent pl-5">
+              <p className="font-bold">NFL Draft Entertainment Series (FREE)</p>
+              <p className="text-sm text-muted mb-2">
+                Presented by Bud Light. All free with OnePass registration.
               </p>
+              <ul className="text-sm text-muted space-y-1 list-disc pl-5">
+                <li><strong>Thursday, April 23:</strong> KELS sings the national anthem. Heritage Gospel Chorale of Pittsburgh performs.</li>
+                <li><strong>Friday, April 24:</strong> Wiz Khalifa and Bret Michaels at the Draft Theater after the picks.</li>
+                <li><strong>Saturday, April 25:</strong> Kane Brown headlines after the final picks wrap up.</li>
+              </ul>
             </div>
 
             <div className="card-minimal p-4">

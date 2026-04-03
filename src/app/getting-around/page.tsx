@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 2, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -543,8 +543,10 @@ export default function GettingAroundPage() {
                 cruise on Thursday, April 23 (sold out).
               </li>
               <li>
-                Boarding locations at North Shore and Station Square. Check
-                Gateway Clipper's site for draft weekend schedules and pricing.
+                The NFL confirmed the Gateway Clipper will offer <strong>free fan
+                transportation</strong> between Point State Park and the North
+                Shore during the draft. Boarding locations at North Shore and
+                Station Square.
               </li>
             </ul>
           </div>
@@ -612,6 +614,30 @@ export default function GettingAroundPage() {
               </p>
             </div>
           </div>
+        </section>
+
+        {/* POGOH Bike Share */}
+        <section className="mb-14">
+          <h2 id="bike-share" className="text-2xl font-heading mb-4">
+            <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">POGOH Bike Share</a>
+          </h2>
+          <p className="text-muted mb-3">
+            Pittsburgh's public bike-share program has stations across Downtown,
+            the North Shore, and surrounding neighborhoods. Pedal bikes and
+            electric-assist bikes available. Unlock with the <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">POGOH app</a>.
+            Good for short trips between neighborhoods when the T doesn't go
+            where you need or the Uber surge is insane.
+          </p>
+        </section>
+
+        {/* On-site help */}
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <p className="font-bold text-foreground text-sm mb-1">Need help on site?</p>
+          <p className="text-sm text-muted">
+            Text <strong>NFLDRAFT</strong> with a brief description of your
+            issue to <strong>69050</strong>. Or visit a Fan Services booth
+            anywhere in the draft footprint.
+          </p>
         </section>
 
         {/* FAQ section */}
