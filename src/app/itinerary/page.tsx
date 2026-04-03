@@ -497,7 +497,7 @@ export default function ItineraryPage() {
                   hidden gem off the main strip.
                 </li>
                 <li>
-                  <strong>Stay North Shore:</strong> No Plaza concert tonight (Friday). Hit <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> or the North Shore bar scene instead.
+                  <strong>Stay North Shore:</strong> Wiz Khalifa and Bret Michaels play a FREE show at the Draft Theater at 5:15 PM (before Rounds 2-3). After the picks, hit <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> or the North Shore bar scene.
                 </li>
               </ul>
             </TimeSlot>
@@ -616,15 +616,12 @@ export default function ItineraryPage() {
             </TimeSlot>
 
             <TimeSlot
-              time="3:00 PM"
-              title="Featured concert on the draft stage"
+              time="After Final Picks"
+              title="Kane Brown FREE concert at Draft Theater"
               highlight
             >
               <p>
-                The NFL brings in a big musical act for Saturday afternoon.
-                Previous years have featured Fall Out Boy, Weezer, and Brad
-                Paisley. The 2026 lineup hasn't been announced yet, but it's
-                always a major name. Free with draft attendance.
+                Multi-platinum country star <strong>Kane Brown</strong> closes out the 2026 NFL Draft Entertainment Series with a free performance at the Draft Theater. First-come, first-served standing room. Free with OnePass.
               </p>
               <p className="mt-2">
                 <Link

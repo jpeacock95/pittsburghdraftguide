@@ -22,7 +22,7 @@ const parkingFAQs = [
   {
     question: "How much does parking cost for the NFL Draft?",
     answer:
-      "Downtown garages are expected to charge $50-100+ during draft weekend. North Shore lots that are open could reach $100+. SpotHero pre-booking ranges from $10.99 for suburban lots to $220+ for North Shore. Rivers Casino is offering a $500 four-day parking package.",
+      "Downtown garages are expected to charge $125-250+ per day during draft weekend. North Shore lots that are open could reach $100+. SpotHero pre-booking ranges from $10.99 for suburban lots to $220+ for North Shore. Rivers Casino is selling advance passes for $250-$500. Use the ParkPGH app for real-time garage availability.",
   },
   {
     question: "Is there free parking near the NFL Draft?",
@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 2, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -304,6 +304,13 @@ export default function ParkingPage() {
             </p>
           </div>
 
+          <div className="card-minimal p-4 mb-4">
+            <p className="font-semibold text-sm">ParkPGH App (Real-Time Availability)</p>
+            <p className="text-sm text-muted mt-1">
+              Download the ParkPGH app to check real-time garage availability during draft weekend. You can also reserve spots through ParkWhiz. Between these two apps and SpotHero, you'll have the best shot at finding something.
+            </p>
+          </div>
+
           <h3 className="text-lg font-heading mt-6 mb-3">Downtown Garages</h3>
           <div className="overflow-x-auto">
             <table className="w-full min-w-[480px] text-sm border border-border rounded-lg">
@@ -327,8 +334,8 @@ export default function ParkingPage() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3">Rivers Casino Parking</td>
-                  <td className="p-2 sm:p-3">$500 (4-day pass)</td>
-                  <td className="p-2 sm:p-3 text-muted">Package deal with hotel. Walking distance to North Shore.</td>
+                  <td className="p-2 sm:p-3">$250-$500</td>
+                  <td className="p-2 sm:p-3 text-muted">Advance purchase draft parking passes. Walking distance to North Shore.</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3">South Side street parking</td>
@@ -390,7 +397,7 @@ export default function ParkingPage() {
           </ul>
           <p className="text-muted mt-3">
             Companies are telling workers to stay home. Pittsburgh Public Schools
-            are going remote for 3 days. If that doesn't tell you how serious
+            are going remote for 3 days. The city issued a <strong>construction moratorium</strong> for draft week to keep construction traffic off the roads. If that doesn't tell you how serious
             the closures are, nothing will.
           </p>
         </section>

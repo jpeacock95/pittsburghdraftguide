@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 2, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -130,7 +130,10 @@ export default function Schedule() {
                     so this goes late.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert:</strong> Steve Aoki at the Plaza at North Shore (12 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
+                    <strong>FREE at Draft Theater:</strong> Pittsburgh-native KELS sings the national anthem. Before that, the Heritage Gospel Chorale of Pittsburgh performs "Lift Every Voice and Sing" under Grammy-winning conductor Dr. Jeffery Redding.
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>Ticketed Concert:</strong> Steve Aoki at the Plaza at North Shore (12 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                   </p>
                   <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
                 </div>
@@ -153,6 +156,9 @@ export default function Schedule() {
                     64 picks total. The pace picks up. Picks move faster (7
                     minutes each in Round 2, 5 minutes in Round 3). Still
                     prime-time energy. Drone show expected after the last pick.
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>FREE Concert at Draft Theater (5:15 PM):</strong> Pittsburgh's own <strong>Wiz Khalifa</strong> and Butler-native <strong>Bret Michaels</strong> (Poison) perform ahead of Rounds 2-3. Free with OnePass. First-come, first-served standing room.
                   </p>
                   <p className="text-xs text-muted mt-2">TV: ABC, ESPN, NFL Network</p>
                 </div>
@@ -177,7 +183,10 @@ export default function Schedule() {
                     to go. Smaller crowds, more space.
                   </p>
                   <p className="text-sm text-muted mt-2">
-                    <strong>Concert:</strong> 2 Chainz at the Plaza at North Shore (6 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
+                    <strong>FREE Concert at Draft Theater:</strong> Country star <strong>Kane Brown</strong> closes the NFL Draft Entertainment Series after the final selections. Free with OnePass. First-come, first-served.
+                  </p>
+                  <p className="text-sm text-muted mt-2">
+                    <strong>Ticketed Concert:</strong> 2 Chainz at the Plaza at North Shore (6 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                   </p>
                   <p className="text-sm text-muted mt-2">
                     <strong>PicksBURGH Draft Day 5K:</strong> 8:00 AM near PNC Park. One-time event. Register on <a href="https://raceroster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Race Roster</a>.
@@ -344,13 +353,18 @@ export default function Schedule() {
             This is the main stage where picks get announced. It's on the North
             Shore near Acrisure Stadium (where the Steelers play). The big stage,
             the commissioner, the boos, the hugs, the phone calls. This is
-            where it all happens.
+            where it all happens. <strong>Entry is completely free</strong> with your OnePass registration.
           </p>
           <p className="text-muted mb-3">
             For Rounds 1-3 (Thursday and Friday), fans can watch from inside
             Acrisure Stadium on the field. It's a massive screen and the
-            atmosphere is electric. Saturday's Rounds 4-7 are typically outdoor
+            atmosphere is electric. The NFL is also running on-field activities,
+            autograph opportunities, and Lombardi Trophy photo ops inside the
+            stadium itself. Saturday's Rounds 4-7 are typically outdoor
             viewing only.
+          </p>
+          <p className="text-muted mb-3">
+            The free NFL Draft Entertainment Series concerts (Wiz Khalifa, Bret Michaels, Kane Brown) also happen at the Draft Theater. <a href="#free-concerts" className="text-primary hover:underline font-semibold">See the full concert schedule above.</a>
           </p>
           <p className="text-muted">
             Getting between the Draft Theater (North Shore) and the Draft
@@ -446,12 +460,42 @@ export default function Schedule() {
         {/* Email capture - after packing checklist */}
         <EmailCapture />
 
+        {/* Free Entertainment Series */}
+        <section className="mb-14">
+          <h2 id="free-concerts" className="text-2xl font-heading mb-4">FREE NFL Draft Entertainment Series</h2>
+          <p className="text-muted mb-4">
+            The NFL just announced the headline acts for draft weekend. All performances are at the Draft Theater next to Acrisure Stadium. <strong>100% free with OnePass registration.</strong> Standing room is first-come, first-served, so get there early.
+          </p>
+          <div className="grid gap-3 mb-4">
+            <div className="card-minimal p-4 border-l-2 border-accent">
+              <p className="font-bold">Thursday, April 23: Draft Kickoff</p>
+              <p className="text-sm text-muted mt-2">
+                The Heritage Gospel Chorale of Pittsburgh performs "Lift Every Voice and Sing" under Grammy-winning conductor Dr. Jeffery Redding. Then Pittsburgh-native KELS sings the national anthem to open the draft.
+              </p>
+            </div>
+            <div className="card-minimal p-4 border-l-2 border-accent">
+              <p className="font-bold">Friday, April 24: Wiz Khalifa + Bret Michaels (5:15 PM)</p>
+              <p className="text-sm text-muted mt-2">
+                Two Pittsburgh icons on one stage. Wiz Khalifa ("Black and Yellow") and Bret Michaels (Poison, Butler native) perform ahead of Rounds 2-3. Wiz said: "Coming home to Pittsburgh for the Draft is pretty special. This city raised me."
+              </p>
+            </div>
+            <div className="card-minimal p-4 border-l-2 border-accent">
+              <p className="font-bold">Saturday, April 25: Kane Brown (after final picks)</p>
+              <p className="text-sm text-muted mt-2">
+                Multi-platinum country star Kane Brown closes out the 2026 NFL Draft with the finale performance. He's touring behind his 2025 album "The High Road."
+              </p>
+            </div>
+          </div>
+          <p className="text-sm text-muted">
+            Source: <a href="https://www.post-gazette.com/sports/2026-nfl-draft/2026/04/02/nfl-draft-concerts-wiz-khalifa/stories/202604020053" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Pittsburgh Post-Gazette (April 2, 2026)</a>
+          </p>
+        </section>
+
         {/* Events Beyond the Draft */}
         <section className="mb-14">
-          <h2 id="events" className="text-2xl font-heading mb-4">Events Beyond the Draft</h2>
+          <h2 id="events" className="text-2xl font-heading mb-4">More Events Beyond the Draft</h2>
           <p className="text-muted mb-4">
-            The draft isn't just about picks. There's a full week of events
-            surrounding it. Here's what's happening.
+            Beyond the free concerts, there's a full week of ticketed and free events. Here's what's happening.
           </p>
           <div className="grid gap-3">
             <div className="card-minimal p-4">

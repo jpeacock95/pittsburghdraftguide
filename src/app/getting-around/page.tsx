@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 2, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -312,12 +312,12 @@ export default function GettingAroundPage() {
               <p className="font-semibold text-sm">From the West / Airport (Route 99W + 28X)</p>
               <p className="text-sm text-muted">
                 University Blvd Park &amp; Ride (9000 University Blvd) via West
-                Busway. PRT Route 28X also has extra airport service. 45-60 min
-                from the airport.
+                Busway. Also serves the lower stations of both the Duquesne Incline and Monongahela Incline.
+                PRT Route 28X has extra airport service. 45-60 min from the airport.
               </p>
             </div>
             <p className="text-xs text-muted mt-2">
-              Note: Football Flyer buses (99N/99E/99S/99W) run every 15 min Thu/Fri, every 30 min Saturday, 10 AM to 1 AM. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
+              All four Football Flyers drop off and pick up at two locations: near Point State Park in Downtown and near PNC Park on the North Shore. They run every 15 min Thu/Fri, every 30 min Saturday, 10 AM to 1 AM. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free). PRT is also increasing service systemwide on Saturday.
             </p>
           </div>
           <p className="text-sm text-muted">
@@ -327,6 +327,57 @@ export default function GettingAroundPage() {
             >
               Full park-and-ride details and pricing on our Parking Guide &rarr;
             </Link>
+          </p>
+        </section>
+
+        {/* Regional Transit */}
+        <section className="mb-14">
+          <h2 id="regional-transit" className="text-2xl font-heading mb-4">
+            Regional Transit (Outside Allegheny County)
+          </h2>
+          <p className="text-muted mb-4">
+            Coming from outside Pittsburgh? Six regional transit agencies are running expanded service specifically for draft weekend. You don't have to figure out city parking if you're staying in the suburbs or surrounding counties.
+          </p>
+          <div className="space-y-3">
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Beaver County Transit Authority</p>
+              <p className="text-sm text-muted">
+                Express trips between Beaver County and Downtown, timed for draft activities.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Butler Transit Authority</p>
+              <p className="text-sm text-muted">
+                Direct service from Route 528 Park &amp; Ride (Zelienople) to Ross Park &amp; Ride. $10 round trip, exact cash. Connect to PRT from there.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Newcastle Area Transit Authority</p>
+              <p className="text-sm text-muted">
+                Regular commuter service to Downtown on Thursday and Friday, with adjusted routes for traffic changes.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Freedom Transit (Washington County)</p>
+              <p className="text-sm text-muted">
+                Extended service hours and late-night return trips from Downtown. Good option if you're coming from the south and want to stay for the evening picks.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Fayette Area Coordinated Transit</p>
+              <p className="text-sm text-muted">
+                Draft-specific service connecting Uniontown and surrounding communities to regional park-and-ride locations. Extra midday and evening service.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm">Mid-Mon Valley Transit Authority</p>
+              <p className="text-sm text-muted">
+                Regular commuter service plus a "Pittsburgh Express" route with late evening return trips from Downtown.
+              </p>
+            </div>
+          </div>
+          <p className="text-sm text-muted mt-3">
+            Source: VisitPittsburgh regional transportation plan (March 27, 2026)
           </p>
         </section>
 
@@ -472,9 +523,10 @@ export default function GettingAroundPage() {
           <p className="text-muted mb-3">
             This is the fun option. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
             riverboat service between North Shore and Station Square on{" "}
-            <strong>Friday and Saturday only (April 24-25)</strong>. Four vessels
-            will operate, with routes between Station Square and PNC Park, and
-            between Point State Park and Acrisure Stadium Quay.
+            <strong>Friday and Saturday (April 24-25)</strong>. Four vessels
+            will operate, moving visitors to the North Shore and Downtown with
+            routes between Station Square and PNC Park, and between Point State
+            Park and Acrisure Stadium Quay.
           </p>
           <div className="card-minimal p-4">
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">

@@ -97,7 +97,7 @@ const faqItems = [
   {
     question: "Are there free concerts at the NFL Draft?",
     answer:
-      "The NFL typically has free entertainment on the main draft stage. Previous years featured Fall Out Boy and Motley Crue (Kansas City 2023), Big Sean (Detroit 2024), and Brad Paisley (Green Bay 2025). The 2026 main stage lineup hasn't been officially announced yet. Separately, The Plaza at North Shore is hosting ticketed concerts: Nelly on Wednesday (6 PM), Steve Aoki on Thursday (12 PM), and 2 Chainz on Saturday (6 PM). Those are paid events at a private venue, not free. Tickets at gofevo.com. Jeezy is playing an unofficial show at Pitt, and McFadden's is hosting a DJ Pauly D event on draft Wednesday.",
+      "Yes. The NFL Draft Entertainment Series is free at the Draft Theater (next to Acrisure Stadium). Friday features Wiz Khalifa and Bret Michaels at 5:15 PM. Saturday features Kane Brown after the final picks. Thursday opens with KELS singing the national anthem and the Heritage Gospel Chorale of Pittsburgh. All free with OnePass registration, first-come first-served standing room. Separately, The Plaza at North Shore has ticketed concerts: Nelly on Wednesday (6 PM), Steve Aoki on Thursday (12 PM), and 2 Chainz on Saturday (6 PM). Those are paid events. Tickets at gofevo.com.",
   },
   {
     question: "Is the NFL Draft family-friendly?",
@@ -527,17 +527,13 @@ export default function FAQ() {
                 Are there free concerts at the NFL Draft?
               </h3>
               <p className="text-muted text-sm leading-relaxed">
-                The NFL typically has <strong>free entertainment on the main
-                draft stage</strong>. Previous years: Fall Out Boy and Motley
-                Crue (Kansas City 2023), Big Sean (Detroit 2024), Brad Paisley
-                (Green Bay 2025). The 2026 main stage lineup hasn't been
-                officially announced yet.
+                Yes. The <strong>NFL Draft Entertainment Series</strong> is free at the Draft Theater (next to Acrisure Stadium). <strong>Friday:</strong> Wiz Khalifa and Bret Michaels at 5:15 PM. <strong>Saturday:</strong> Kane Brown after the final picks. <strong>Thursday:</strong> KELS sings the national anthem, Heritage Gospel Chorale of Pittsburgh opens. All free with OnePass, first-come first-served.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
-                Separately, <strong>The Plaza at North Shore</strong> is hosting
+                Separately, <strong>The Plaza at North Shore</strong> has
                 ticketed concerts: Nelly on Wednesday (6 PM), Steve Aoki on
                 Thursday (12 PM), and 2 Chainz on Saturday (6 PM). Those are
-                paid events at a private venue. Tickets at{" "}
+                paid events. Tickets at{" "}
                 <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
                 Jeezy is playing an unofficial show at Pitt, and McFadden's is
                 hosting a DJ Pauly D event on draft Wednesday.

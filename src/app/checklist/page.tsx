@@ -39,7 +39,7 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 2, 2026" />
 
         {/* Weather note */}
         <div className="card-minimal p-4 mb-8">
@@ -200,7 +200,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Thursday, April 23</p>
-                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET | Steve Aoki at The Plaza at North Shore (12 PM, ticketed)</p>
+                  <p className="text-sm text-muted">Gates: 12:00 PM | Round 1: 8:00 PM ET | KELS sings anthem (FREE) | Steve Aoki at The Plaza (12 PM, ticketed)</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 1
@@ -211,7 +211,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Friday, April 24</p>
-                  <p className="text-sm text-muted">Gates: 12:00 PM | Rounds 2-3: 7:00 PM ET | Drone show after picks</p>
+                  <p className="text-sm text-muted">Gates: 12:00 PM | Rounds 2-3: 7:00 PM ET | Wiz Khalifa + Bret Michaels at 5:15 PM (FREE) | Drone show after picks</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 2
@@ -222,7 +222,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Saturday, April 25</p>
-                  <p className="text-sm text-muted">Gates: 9:00 AM | Rounds 4-7: 12:00 PM ET | PicksBURGH 5K | 2 Chainz at The Plaza at North Shore (6 PM, ticketed)</p>
+                  <p className="text-sm text-muted">Gates: 9:00 AM | Rounds 4-7: 12:00 PM ET | PicksBURGH 5K | Kane Brown (FREE) | 2 Chainz at The Plaza (6 PM, ticketed)</p>
                 </div>
                 <span className="text-xs bg-primary text-white px-2 py-1 rounded font-semibold">
                   Day 3
