@@ -78,6 +78,16 @@ export default function RootLayout({
             gtag('config', 'G-GJ0PDB2N27');
           `}
         </Script>
+        {/* Microsoft Clarity - heatmaps & session recordings */}
+        <Script id="clarity-init" strategy="lazyOnload">
+          {`
+            (function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "w5sbligkt7");
+          `}
+        </Script>
         {/* Umami Analytics - lazyOnload to avoid blocking paint */}
         <Script
           src="https://cloud.umami.is/script.js"
