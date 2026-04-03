@@ -58,7 +58,7 @@ export default function Schedule() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-schedule-football.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-schedule-football.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
@@ -286,7 +286,7 @@ export default function Schedule() {
 
         {/* Draft Experience */}
         <Image
-          src="/pgh-point-state-park.jpg"
+          src="/pgh-point-state-park.webp"
           alt="Point State Park fountain at golden hour, home of the NFL Draft Experience fan zone"
           width={800}
           height={450}

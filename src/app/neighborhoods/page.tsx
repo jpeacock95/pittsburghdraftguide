@@ -266,7 +266,7 @@ export default function NeighborhoodsPage() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-incline-view.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-incline-view.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
@@ -336,7 +336,7 @@ export default function NeighborhoodsPage() {
         </div>
 
         <Image
-          src="/pgh-clemente-bridge.jpg"
+          src="/pgh-clemente-bridge.webp"
           alt="Roberto Clemente Bridge and Pittsburgh skyline from the North Shore"
           width={800}
           height={450}
@@ -401,7 +401,7 @@ export default function NeighborhoodsPage() {
         ))}
 
         <Image
-          src="/pgh-incline-view.jpg"
+          src="/pgh-incline-view.webp"
           alt="View of Pittsburgh skyline from the top of the Duquesne Incline"
           width={800}
           height={450}

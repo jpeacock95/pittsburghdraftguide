@@ -48,7 +48,7 @@ export default function About() {
         <div className="flex flex-col sm:flex-row gap-6 mb-8">
           <div className="flex-shrink-0 sm:mt-1">
             <Image
-              src="/jordan-headshot.jpg"
+              src="/jordan-headshot.webp"
               alt="Jordan Peacock"
               width={120}
               height={120}
@@ -130,7 +130,7 @@ export default function About() {
             <div className="flex flex-col sm:flex-row gap-6 mb-4">
               <div className="flex-shrink-0">
                 <Image
-                  src="/remax-logo.png"
+                  src="/remax-logo.webp"
                   alt="RE/MAX Select Realty logo"
                   width={140}
                   height={44}
@@ -138,7 +138,7 @@ export default function About() {
                   className="w-36 h-auto object-contain mb-2"
                 />
                 <Image
-                  src="/dante-headshot.jpg"
+                  src="/dante-headshot.webp"
                   alt="Dante Egizio, Pittsburgh realtor with RE/MAX Select Realty"
                   width={120}
                   height={120}

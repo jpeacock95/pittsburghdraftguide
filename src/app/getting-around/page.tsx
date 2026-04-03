@@ -52,7 +52,7 @@ export default function GettingAroundPage() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-transit-train.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-transit-train.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">
@@ -130,7 +130,7 @@ export default function GettingAroundPage() {
 
         {/* The two venues */}
         <Image
-          src="/pgh-clemente-bridge.jpg"
+          src="/pgh-clemente-bridge.webp"
           alt="Roberto Clemente Bridge connecting downtown Pittsburgh to the North Shore draft venues"
           width={800}
           height={450}

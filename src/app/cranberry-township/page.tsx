@@ -72,7 +72,7 @@ export default function CranberryTownship() {
       {/* Hero */}
       <section
         className="photo-section text-white py-16 md:py-20"
-        style={{ backgroundImage: "url('/pgh-cranberry-highway.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-cranberry-highway.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="text-xs text-gray-400 mb-2">

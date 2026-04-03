@@ -62,7 +62,7 @@ export default function HomePage() {
       {/* Hero - cinematic full-bleed */}
       <section
         className="photo-section text-white py-32 md:py-44"
-        style={{ backgroundImage: "url('/pgh-skyline-night.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-skyline-night.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4 text-center">
           <p className="label text-accent/90 mb-5">
@@ -198,7 +198,7 @@ export default function HomePage() {
       {/* Schedule overview - dark cinematic section */}
       <section
         className="photo-section text-white py-20"
-        style={{ backgroundImage: "url('/pgh-schedule-football.jpg')" }}
+        style={{ backgroundImage: "url('/pgh-schedule-football.webp')" }}
       >
         <div className="max-w-3xl mx-auto px-4">
           <p className="label mb-4">Schedule</p>
