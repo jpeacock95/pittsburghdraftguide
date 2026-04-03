@@ -967,6 +967,362 @@ const searchIndex: SearchEntry[] = [
     snippet: "Who built this guide and why. Local perspective.",
     category: "Info",
   },
+  // ==========================================
+  // ENTERTAINMENT SERIES (April 2026 update)
+  // ==========================================
+  {
+    title: "Wiz Khalifa (Friday Concert - FREE)",
+    href: "/things-to-do#concerts",
+    keywords: "wiz khalifa concert friday free entertainment series music rapper",
+    snippet: "Wiz Khalifa performs Friday at the Draft Theater after the picks. Free with OnePass.",
+    category: "Event",
+  },
+  {
+    title: "Bret Michaels (Friday Concert - FREE)",
+    href: "/things-to-do#concerts",
+    keywords: "bret michaels concert friday free entertainment series music rock poison",
+    snippet: "Bret Michaels performs Friday at the Draft Theater after the picks. Free with OnePass.",
+    category: "Event",
+  },
+  {
+    title: "Kane Brown (Saturday Concert - FREE)",
+    href: "/things-to-do#concerts",
+    keywords: "kane brown concert saturday free entertainment series music country headline",
+    snippet: "Kane Brown headlines Saturday after the final picks. Free with OnePass.",
+    category: "Event",
+  },
+  // ==========================================
+  // NFL FILMS & NEW ATTRACTIONS
+  // ==========================================
+  {
+    title: "The Football Town (NFL Films)",
+    href: "/things-to-do#draft-experience",
+    keywords: "football town nfl films pat mcafee kamins science center movie immersive rangos cinema",
+    snippet: "NFL Films presentation narrated by Pat McAfee at Kamins Science Center. Free. Multiple showtimes daily.",
+    category: "Attraction",
+  },
+  {
+    title: "Hail Mary Throw",
+    href: "/things-to-do#draft-experience",
+    keywords: "hail mary throw pass deep ball point state park game",
+    snippet: "Test your deep ball accuracy by throwing over defenders into a net at Point State Park.",
+    category: "Attraction",
+  },
+  {
+    title: "Long Snap Station",
+    href: "/things-to-do#draft-experience",
+    keywords: "long snap punt field goal snap combine",
+    snippet: "Try your hand at punt and field goal snaps at Point State Park.",
+    category: "Attraction",
+  },
+  {
+    title: "NFL Museum & Super Bowl Rings",
+    href: "/things-to-do#draft-experience",
+    keywords: "nfl museum super bowl rings locker room hall fame busts heisman trophy",
+    snippet: "Replica NFL locker room, all 59 Super Bowl rings, Hall of Fame busts, and the Heisman Trophy on the North Shore.",
+    category: "Attraction",
+  },
+  {
+    title: "Look Like A Pro Photo Station",
+    href: "/things-to-do#draft-experience",
+    keywords: "look like a pro photo station uniform body cast team jersey",
+    snippet: "Step inside a body-cast mold with your favorite team's uniform for a photo.",
+    category: "Attraction",
+  },
+  {
+    title: "Pepsi Team Helmets",
+    href: "/things-to-do#draft-experience",
+    keywords: "pepsi team helmets oversized 32 teams photo op",
+    snippet: "Oversized replicas of all 32 NFL team helmets. Great photo op.",
+    category: "Attraction",
+  },
+  {
+    title: "Bud Light Beer Hall",
+    href: "/things-to-do#draft-experience",
+    keywords: "bud light beer hall drinks bar 21 north shore",
+    snippet: "Beer hall on the North Shore with photo ops. 21+ for drinks.",
+    category: "Attraction",
+  },
+  {
+    title: "Fan Viewing on Acrisure Stadium Field",
+    href: "/things-to-do#draft-experience",
+    keywords: "fan viewing acrisure stadium field rounds 1 2 3 watch blankets",
+    snippet: "Watch Rounds 1-3 from the actual Acrisure Stadium field. Blankets allowed but must be in use.",
+    category: "Attraction",
+  },
+  {
+    title: "Play Football Field (Kids 6-14)",
+    href: "/things-to-do#draft-experience",
+    keywords: "play football field kids children clinics usa football flag 6 14 ages",
+    snippet: "USA Football clinics for kids ages 6-14 on the field at Acrisure Stadium. First-come, first-served.",
+    category: "Attraction",
+  },
+  // ==========================================
+  // PRACTICAL INFO (April 2026 update)
+  // ==========================================
+  {
+    title: "Cashless Event (Credit Cards Only)",
+    href: "/things-to-do#draft-experience",
+    keywords: "cashless cash free credit card only no cash american express payment",
+    snippet: "The entire Draft Experience is cashless. No cash accepted. Credit cards only. American Express is the official partner.",
+    category: "Info",
+  },
+  {
+    title: "Water Bottles & Refill Stations",
+    href: "/things-to-do#draft-experience",
+    keywords: "water bottle refill station reusable empty free hydration",
+    snippet: "Bring an empty reusable water bottle. Free refill stations are available inside the event.",
+    category: "Info",
+  },
+  {
+    title: "Umbrellas Are Banned",
+    href: "/schedule",
+    keywords: "umbrella banned prohibited items rain poncho jacket weather",
+    snippet: "Umbrellas are on the NFL's prohibited items list. Bring a rain poncho or jacket instead.",
+    category: "Info",
+  },
+  {
+    title: "POGOH Bike Share",
+    href: "/getting-around#bike-share",
+    keywords: "pogoh bike share bicycle rental electric pedal station downtown north shore",
+    snippet: "Pittsburgh's public bike-share with stations across Downtown and North Shore. Pedal and e-bikes via the POGOH app.",
+    category: "Transportation",
+  },
+  {
+    title: "Text NFLDRAFT for Help",
+    href: "/getting-around",
+    keywords: "help text nfldraft 69050 assistance fan services support",
+    snippet: "Text NFLDRAFT to 69050 for on-site assistance. Or visit a Fan Services booth.",
+    category: "Info",
+  },
+  // ==========================================
+  // RESTAURANTS - North Shore (from "More..." paragraphs)
+  // ==========================================
+  {
+    title: "SoHo Pittsburgh",
+    href: "/bars-restaurants#north-shore",
+    keywords: "soho pittsburgh restaurant bar north shore original",
+    snippet: "The original North Shore restaurant. Been around since 2006.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Burgatory",
+    href: "/bars-restaurants#north-shore",
+    keywords: "burgatory burgers gourmet milkshakes north shore",
+    snippet: "Gourmet burgers and milkshakes on the North Shore. Always a wait.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "The Foundry Table & Tap",
+    href: "/bars-restaurants#north-shore",
+    keywords: "foundry table tap gastropub north shore dining",
+    snippet: "Gastropub on the North Shore with multiple dining concepts.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Hyde Park Prime Steakhouse",
+    href: "/bars-restaurants#north-shore",
+    keywords: "hyde park prime steakhouse upscale north shore fine dining",
+    snippet: "Upscale steakhouse on the North Shore. Make a reservation or forget it.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Bar Louie",
+    href: "/bars-restaurants#north-shore",
+    keywords: "bar louie gastrobar north shore casual",
+    snippet: "Casual gastrobar on the North Shore.",
+    category: "Restaurant / Bar",
+  },
+  // ==========================================
+  // RESTAURANTS - Downtown (from "More..." paragraphs)
+  // ==========================================
+  {
+    title: "The Warren Bar and Burrow",
+    href: "/bars-restaurants#downtown",
+    keywords: "warren bar burrow cocktails downtown sushi intimate",
+    snippet: "Craft cocktails and sushi downtown. Intimate vibe.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Alta Via",
+    href: "/bars-restaurants#downtown",
+    keywords: "alta via italian market square downtown pasta",
+    snippet: "Italian restaurant at Market Square. Handmade pasta, seasonal menu.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Gi-Jin",
+    href: "/bars-restaurants#downtown",
+    keywords: "gi jin asian fusion sushi hand rolls gin downtown",
+    snippet: "Sushi, hand rolls, and gin bar downtown.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Vallozzi's",
+    href: "/bars-restaurants#downtown",
+    keywords: "vallozzis italian downtown family pizza pasta",
+    snippet: "Family-owned Italian restaurant downtown. Solid pasta and pizza.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Puttery",
+    href: "/bars-restaurants#downtown",
+    keywords: "puttery mini golf bar entertainment downtown groups fun",
+    snippet: "Indoor mini-golf bar downtown. Fun for groups.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Ritual House",
+    href: "/bars-restaurants#downtown",
+    keywords: "ritual house restaurant downtown omni william penn union trust",
+    snippet: "Restaurant near the Omni William Penn in the Union Trust Building.",
+    category: "Restaurant / Bar",
+  },
+  // ==========================================
+  // RESTAURANTS - Strip District (from "More..." paragraphs)
+  // ==========================================
+  {
+    title: "DeLuca's Diner",
+    href: "/bars-restaurants#strip-district",
+    keywords: "delucas diner breakfast strip district pancakes lunch",
+    snippet: "Another breakfast legend in the Strip District. Since 1950.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Pennsylvania Macaroni Co.",
+    href: "/bars-restaurants#strip-district",
+    keywords: "pennsylvania macaroni co penn mac cheese pasta italian imports strip district",
+    snippet: "Pittsburgh's #1 Italian imports store. Cheese and pasta since 1902.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Enrico Biscotti",
+    href: "/bars-restaurants#strip-district",
+    keywords: "enrico biscotti bakery artisan strip district pastries",
+    snippet: "Artisan bakery in the Strip District. Traditional Italian pastries.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Kaya",
+    href: "/bars-restaurants#strip-district",
+    keywords: "kaya caribbean restaurant strip district tropical cocktails",
+    snippet: "Caribbean-inspired restaurant in the Strip District.",
+    category: "Restaurant / Bar",
+  },
+  // ==========================================
+  // RESTAURANTS - South Side (from "More..." paragraphs)
+  // ==========================================
+  {
+    title: "Tiki Lounge",
+    href: "/bars-restaurants#south-side",
+    keywords: "tiki lounge bar south side themed drinks cocktails carson street",
+    snippet: "Themed tiki bar on the South Side. Open since 2002.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Dish Osteria",
+    href: "/bars-restaurants#south-side",
+    keywords: "dish osteria italian upscale dining south side",
+    snippet: "Upscale Italian dining on the South Side.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "La Palapa",
+    href: "/bars-restaurants#south-side",
+    keywords: "la palapa mexican margaritas south side carson street",
+    snippet: "Mexican restaurant on the South Side. Solid margaritas.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Club Cafe",
+    href: "/bars-restaurants#south-side",
+    keywords: "club cafe live music venue south side concerts",
+    snippet: "Live music venue on the South Side. Reopened summer 2025.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Smiling Moose",
+    href: "/bars-restaurants#south-side",
+    keywords: "smiling moose dive bar live music south side",
+    snippet: "Dive bar with live music on the South Side.",
+    category: "Restaurant / Bar",
+  },
+  // ==========================================
+  // BREWERIES - Lawrenceville (from "More..." paragraphs)
+  // ==========================================
+  {
+    title: "Hop Farm Brewing",
+    href: "/bars-restaurants#breweries",
+    keywords: "hop farm brewing lawrenceville craft beer yelp",
+    snippet: "#1 brewery on Yelp in Lawrenceville.",
+    category: "Brewery",
+  },
+  {
+    title: "Eleventh Hour Brewing",
+    href: "/bars-restaurants#breweries",
+    keywords: "eleventh hour 11th hour brewing lawrenceville craft beer",
+    snippet: "Craft brewery in Lawrenceville with a great taproom.",
+    category: "Brewery",
+  },
+  {
+    title: "Coven Brewing",
+    href: "/bars-restaurants#breweries",
+    keywords: "coven brewing lawrenceville craft beer butler street",
+    snippet: "Brewery on Butler Street in Lawrenceville.",
+    category: "Brewery",
+  },
+  {
+    title: "Cinderlands Foederhouse",
+    href: "/bars-restaurants#breweries",
+    keywords: "cinderlands foederhouse belgian brewery lawrenceville",
+    snippet: "Belgian-style foederbier in Lawrenceville.",
+    category: "Brewery",
+  },
+  {
+    title: "Lolev Beer",
+    href: "/bars-restaurants#breweries",
+    keywords: "lolev beer brewery lawrenceville huge space car dealership",
+    snippet: "Huge brewery space in a former car dealership in Lawrenceville.",
+    category: "Brewery",
+  },
+  // ==========================================
+  // NEIGHBORHOODS PAGE SPOTS (not already indexed)
+  // ==========================================
+  {
+    title: "Monterey Bay Fish Grotto",
+    href: "/neighborhoods#mt-washington",
+    keywords: "monterey bay fish grotto seafood mt washington view skyline",
+    snippet: "Seafood atop Mt. Washington with skyline views. 1,077 TripAdvisor reviews.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Grand Concourse",
+    href: "/neighborhoods#station-square",
+    keywords: "grand concourse restaurant station square fine dining historic train station",
+    snippet: "Fine dining inside a stunning historic train station at Station Square.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Texas de Brazil",
+    href: "/neighborhoods#station-square",
+    keywords: "texas de brazil brazilian steakhouse all you can eat station square",
+    snippet: "All-you-can-eat Brazilian steakhouse at Station Square.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "The Porch at Schenley",
+    href: "/neighborhoods#oakland",
+    keywords: "porch schenley restaurant oakland patio outdoor dining",
+    snippet: "Restaurant at the edge of Schenley Park in Oakland. Good patio.",
+    category: "Restaurant / Bar",
+  },
+  {
+    title: "Carnegie Museum of Art + Natural History",
+    href: "/neighborhoods#oakland",
+    keywords: "carnegie museum art natural history dinosaurs gems oakland pittsburgh",
+    snippet: "Two world-class museums in one building. Dinosaurs, gems, and fine art in Oakland.",
+    category: "Attraction",
+  },
 ];
 
 export function SiteSearch() {
