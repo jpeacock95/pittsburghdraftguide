@@ -42,7 +42,7 @@ export default function About() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 3, 2026" />
 
         {/* Jordan's story */}
         <div className="flex flex-col sm:flex-row gap-6 mb-8">
@@ -93,7 +93,7 @@ export default function About() {
             >
               Peacock Bookkeeping Services
             </TrackedLink>{" "}
-            out of Cranberry Township. I help small business owners figure out
+            out of Cranberry Township. I help business owners figure out
             where their money is going, clean up their QuickBooks, and stop
             losing money they don't know they're losing. I've got three
             QuickBooks ProAdvisor certifications and a 5.0 Google rating. That's
@@ -273,16 +273,16 @@ export default function About() {
             <p>
               If you're a business owner and your books are a mess, or you're not
               sure if your bookkeeper is doing it right, or you just want someone
-              to look at things with fresh eyes, that's what I do. I've found an
-              average of $18,000 per client in their first year. Duplicate
-              charges, forgotten deductions, vendors overcharging. Stuff that
-              adds up.
+              to look at things with fresh eyes, that's what I do. I cleaned up a
+              contractor's books that were 14 months behind and recovered $6,200
+              in missed deductions. Duplicate charges, forgotten deductions,
+              vendors overcharging. Stuff that adds up.
             </p>
 
             <p>
               I work with businesses in Pittsburgh and across PA, plus remote
               clients anywhere in the US. If you want to talk, here's my
-              Calendly. 30 minutes, free, no pressure.
+              Calendly. 15 minutes, free, no pressure.
             </p>
 
             <div className="mt-4 flex flex-col sm:flex-row gap-3">
