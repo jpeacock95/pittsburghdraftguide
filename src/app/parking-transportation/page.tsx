@@ -91,7 +91,7 @@ export default function ParkingPage() {
             Should You Drive? Officials Say No. Here's Why.
           </h2>
           <p className="text-muted mb-3">
-            Pittsburgh city officials, PRT (Pittsburgh Regional Transit), and the NFL Host Committee are all saying the same thing: don't drive downtown for the 2026 NFL Draft. With 500,000-700,000 visitors expected over three days and most North Shore parking lots closed for stage construction, driving downtown is the worst way to get to the event. The city's 6-phase road closure plan runs from March 28 through May 10, affecting major bridges and highway exits. Here's what you're up against:
+            Pittsburgh city officials, <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PRT (Pittsburgh Regional Transit)</a>, and the NFL Host Committee are all saying the same thing: don't drive downtown for the 2026 NFL Draft. With 500,000-700,000 visitors expected over three days and most North Shore parking lots closed for stage construction, driving downtown is the worst way to get to the event. The city's 6-phase road closure plan runs from March 28 through May 10, affecting major bridges and highway exits. Here's what you're up against:
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5">
             <li>
@@ -136,7 +136,7 @@ export default function ParkingPage() {
               <strong>$25 Draft Pass</strong> in the Ready2Ride app gives you 7 days of unlimited PRT rides (buses too)
             </li>
             <li>
-              <strong>Butler Transit</strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to Ross Park lot, $10 round trip, exact cash only
+              <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit</a></strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to <a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ross Park</a> lot, $10 round trip, exact cash only
             </li>
             <li>
               <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day, every 10-15 minutes. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
@@ -210,7 +210,7 @@ export default function ParkingPage() {
 
           <h3 className="text-lg font-heading mt-6 mb-2">From the North (Cranberry, Ross, McCandless)</h3>
           <div className="card-minimal p-4 mb-4">
-            <p className="font-semibold">Ross Park &amp; Ride (I-279 Exit 5)</p>
+            <p className="font-semibold"><a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ross Park &amp; Ride</a> (I-279 Exit 5)</p>
             <p className="text-sm text-muted">
               The #1 recommendation on Reddit for anyone coming from the north.
               Take the #8 bus or O1 express to downtown. About 25 minutes to the
@@ -218,7 +218,7 @@ export default function ParkingPage() {
             </p>
           </div>
           <div className="card-minimal p-4 mb-4">
-            <p className="font-semibold">Butler Transit Authority (Route 528 Lot)</p>
+            <p className="font-semibold"><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit Authority</a> (Route 528 Lot)</p>
             <p className="text-sm text-muted">
               Commuter bus from Butler County. Good option if you're coming from
               further north. Check Butler Transit for draft weekend schedules.
@@ -305,9 +305,9 @@ export default function ParkingPage() {
           </div>
 
           <div className="card-minimal p-4 mb-4">
-            <p className="font-semibold text-sm">ParkPGH App (Real-Time Availability)</p>
+            <p className="font-semibold text-sm"><a href="https://www.parkpgh.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ParkPGH App</a> (Real-Time Availability)</p>
             <p className="text-sm text-muted mt-1">
-              Download the ParkPGH app to check real-time garage availability during draft weekend. You can also reserve spots through ParkWhiz. Between these two apps and SpotHero, you'll have the best shot at finding something.
+              Download the <a href="https://www.parkpgh.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">ParkPGH app</a> to check real-time garage availability during draft weekend. You can also reserve spots through ParkWhiz. Between these two apps and SpotHero, you'll have the best shot at finding something.
             </p>
           </div>
 
@@ -333,7 +333,7 @@ export default function ParkingPage() {
                   <td className="p-2 sm:p-3 text-muted">North Shore lots were $50 for Taylor Swift. Draft will be much more.</td>
                 </tr>
                 <tr className="border-t border-border">
-                  <td className="p-2 sm:p-3">Rivers Casino Parking</td>
+                  <td className="p-2 sm:p-3"><a href="https://www.riverscasino.com/pittsburgh/visit/advancedpurchasedraftparkingpass" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Rivers Casino Parking</a></td>
                   <td className="p-2 sm:p-3">$250-$500</td>
                   <td className="p-2 sm:p-3 text-muted">Advance purchase draft parking passes. Walking distance to North Shore.</td>
                 </tr>
@@ -353,7 +353,7 @@ export default function ParkingPage() {
             The T Light Rail: Free Rides Between Both Venues
           </h2>
           <p className="text-muted mb-3">
-            Pittsburgh's light rail system, called "the T," connects both NFL Draft venues and is completely free during draft weekend (April 23-25, 2026). The T runs between North Side Station on the North Shore (near Acrisure Stadium's main draft stage) and several downtown stops near Point State Park (the NFL Draft Experience fan zone). Normally, the T has a free fare zone downtown, but during the draft, Sheetz is sponsoring all fares on every line. The ride between the two venues takes about 5 minutes.
+            Pittsburgh's light rail system, called "the T," connects both NFL Draft venues and is <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">completely free during draft weekend</a> (April 23-25, 2026). The T runs between North Side Station on the North Shore (near Acrisure Stadium's main draft stage) and several downtown stops near Point State Park (the NFL Draft Experience fan zone). Normally, the T has a free fare zone downtown, but during the draft, Sheetz is sponsoring all fares on every line. The ride between the two venues takes about 5 minutes.
           </p>
           <p className="text-muted">
             The T is also the best way to reach the draft from Pittsburgh's south suburbs. Park at South Hills Village, Dormont, Castle Shannon, or any station along the Red or Blue line, and ride directly to either draft venue. The full ride from South Hills Village to North Side Station takes about 35 minutes.
@@ -366,7 +366,7 @@ export default function ParkingPage() {
             Road Closures You Need to Know
           </h2>
           <p className="text-muted mb-4">
-            The city has a 6-phase closure plan that runs from March 28 through
+            The city has a <a href="https://www.visitpittsburgh.com/nfl-draft-pittsburgh/nfl-draft-central/nfl-draft-pittsburgh-transportation-guide/nfl-draft-road-closures-traffic-changes/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">6-phase closure plan</a> that runs from March 28 through
             May 10. <strong>Phase 1 closures are already in effect</strong> (Art
             Rooney Ave, West General Robinson St, Scotland Ave closed since
             March 28). Here's what matters for draft weekend (Phase 3, April

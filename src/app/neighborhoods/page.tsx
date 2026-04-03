@@ -23,18 +23,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Tom's Watch Bar",
+        url: "https://tomswatchbar.com/pittsburgh/",
         desc: "Steps from Acrisure Stadium. Massive video walls. Built for events like this.",
       },
       {
         name: "Shorty's Goodtimes Bar",
+        url: "https://www.shortysx.com/",
         desc: "Right next to The Plaza at North Shore, which hosts ticketed concerts: Nelly (Wed), Steve Aoki (Thu), and 2 Chainz (Sat). Tickets at gofevo.com. THE party spot on the North Shore.",
       },
       {
         name: "Federal Galley",
+        url: "https://www.federalgalley.org/",
         desc: "Food hall with 4 restaurant concepts and a full bar. Half-off drafts during happy hour. Great when your group can't agree on a restaurant.",
       },
       {
         name: "Mike's Beer Bar",
+        url: "https://mikesbeerbar.com/",
         desc: "500+ beers and 80 rotating taps. Right next to PNC Park. If you like craft beer, you'll lose an hour here.",
       },
     ],
@@ -49,18 +53,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Bridges & Bourbon",
+        url: "https://www.bridgesandbourbonpgh.com/",
         desc: "High-end cocktail bar downtown. Whiskey list is serious. Good date night spot.",
       },
       {
         name: "Butcher and the Rye",
+        url: "https://butcherandtherye.com/",
         desc: "Craft cocktails and New American food. One of the best whiskey bars in the city.",
       },
       {
         name: "The Original Oyster House",
+        url: "http://www.originaloysterhousepittsburgh.com/",
         desc: "Oldest restaurant in Pittsburgh. It's a landmark. Tourists love it for a reason.",
       },
       {
         name: "Condado Tacos",
+        url: "https://condadotacos.com/",
         desc: "Build-your-own tacos near Market Square. Affordable, casual, and perfect for groups.",
       },
     ],
@@ -75,18 +83,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Pamela's Diner",
+        url: "https://pamelasdiner.com/",
         desc: "Pittsburgh's most famous breakfast. Thin, crispy pancakes. Over 1,000 TripAdvisor reviews. Expect a line draft weekend.",
       },
       {
         name: "DiAnoia's Eatery",
+        url: "https://dianoiaseatery.com/",
         desc: "Italian market and restaurant with 1,200+ Yelp reviews. Fresh pasta that'll ruin every other Italian restaurant for you.",
       },
       {
         name: "The PA Market",
+        url: "https://www.thepamarket.com/",
         desc: "European-inspired food hall. Two floors: cocktail bars, food vendors, wine garden. 14,000 square feet of good decisions.",
       },
       {
         name: "Wigle Whiskey Distillery",
+        url: "https://wiglewhiskey.com/",
         desc: "Local craft whiskey with a tasting room. Unique Pittsburgh experience you won't find anywhere else.",
       },
     ],
@@ -101,10 +113,12 @@ const neighborhoods = [
     spots: [
       {
         name: "Hofbrauhaus Pittsburgh",
+        url: "https://www.hofbrauhauspittsburgh.com/",
         desc: "Authentic German beer hall with live music. Massive steins, pretzels, and a crowd that gets louder every hour.",
       },
       {
         name: "Pins Mechanical",
+        url: "https://www.pinsbar.com/locations/pittsburgh/",
         desc: "Pinball, duckpin bowling, and craft drinks. Fun group activity that doesn't require shouting over music.",
       },
       {
@@ -127,18 +141,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Church Brew Works",
+        url: "https://churchbrew.com/",
         desc: "A brewery inside a converted Catholic church. The altar is the brew kettle. One of the most unique dining spots in the country.",
       },
       {
         name: "Grist House Craft Brewery",
+        url: "https://gristhouse.com/",
         desc: "Huge outdoor patio. Dog-friendly. Great beer. If the weather cooperates, this is the move.",
       },
       {
         name: "Dancing Gnome Brewery",
+        url: "https://dancinggnomebeer.com/",
         desc: "Made Hop Culture's best breweries list. IPAs that hop heads travel for.",
       },
       {
         name: "Cinderlands Foederhouse",
+        url: "https://www.cinderlands.com/",
         desc: "Belgian-style foederbier in a cozy Lawrenceville space. For the beer nerd who's done with IPAs.",
       },
     ],
@@ -153,18 +171,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Altius",
+        url: "https://altiuspgh.com/",
         desc: "4.6 stars on TripAdvisor (845 reviews). Contemporary American with the best view in the city. Chef Jessica Bauer. Reservations required draft weekend.",
       },
       {
         name: "Monterey Bay Fish Grotto",
+        url: "https://www.montereybayfishgrotto.com/",
         desc: "Seafood atop Mt. Washington with 1,077 TripAdvisor reviews. Skyline views while you eat.",
       },
       {
         name: "Duquesne Incline",
+        url: "https://www.duquesneincline.org/",
         desc: "Historic cable car to the top. THE must-do Pittsburgh tourist experience. The observation deck at the top is free.",
       },
       {
         name: "Shiloh Gastro",
+        url: "https://www.shilohgastro.com/",
         desc: "Not fancy, no view, but great food on a side street near the Mon Incline. Hidden gem for foodies who skip the tourist spots.",
       },
     ],
@@ -179,18 +201,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Grand Concourse",
+        url: "https://www.grandconcourserestaurant.com/",
         desc: "Fine dining inside a stunning historic train station. Beautiful woodwork. Worth it for the building alone.",
       },
       {
         name: "Gateway Clipper Fleet",
+        url: "https://www.gatewayclipper.com/",
         desc: "Riverboat service running between North Shore and downtown all draft weekend. It's transportation AND entertainment.",
       },
       {
         name: "Hofbrauhaus (yes, another one)",
+        url: "https://www.hofbrauhauspittsburgh.com/",
         desc: "German beer hall in a riverfront setting. If you missed the South Side location.",
       },
       {
         name: "Texas de Brazil",
+        url: "https://texasdebrazil.com/locations/pittsburgh/",
         desc: "All-you-can-eat Brazilian steakhouse. Bring an empty stomach and a willingness to overeat.",
       },
     ],
@@ -205,18 +231,22 @@ const neighborhoods = [
     spots: [
       {
         name: "Carnegie Museum of Art + Natural History",
+        url: "https://carnegiemuseums.org/",
         desc: "Two world-class museums in one building. Dinosaur skeletons, gems, fine art. One ticket covers both.",
       },
       {
         name: "Phipps Conservatory",
+        url: "https://www.phipps.conservatory.org/",
         desc: "Gorgeous botanical garden and greenhouse. Peaceful escape from 500,000 football fans.",
       },
       {
         name: "Cathedral of Learning",
+        url: "https://www.tour.pitt.edu/tour/cathedral-learning",
         desc: "42-story Gothic tower at Pitt. 30 Nationality Rooms inside. Free to walk in and look around. Incredible architecture.",
       },
       {
         name: "The Porch at Schenley",
+        url: "https://www.dineattheporch.com/schenley",
         desc: "Solid restaurant right at the edge of Schenley Park. Good food, nice patio, chill vibe.",
       },
     ],
@@ -356,7 +386,11 @@ export default function NeighborhoodsPage() {
                       key={spot.name}
                       className="border-l-2 border-accent pl-4"
                     >
-                      <p className="font-semibold text-sm">{spot.name}</p>
+                      {spot.url ? (
+                        <a href={spot.url} target="_blank" rel="noopener noreferrer" className="font-semibold text-sm text-primary hover:underline">{spot.name}</a>
+                      ) : (
+                        <p className="font-semibold text-sm">{spot.name}</p>
+                      )}
                       <p className="text-sm text-muted">{spot.desc}</p>
                     </div>
                   ))}

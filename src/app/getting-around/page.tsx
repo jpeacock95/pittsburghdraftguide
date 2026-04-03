@@ -82,10 +82,10 @@ export default function GettingAroundPage() {
           </h2>
           <p className="text-muted mb-3">
             Sheetz is sponsoring <strong>free rides on the T (light rail) and the
-            Monongahela Incline</strong> for the entire draft weekend, April
+            <a href="https://monongahelaincline.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Monongahela Incline</a></strong> for the entire draft weekend, April
             23-25. That covers every station on the red, blue, and silver lines.
-            This is a partnership between Sheetz and Pittsburgh Regional Transit
-            (PRT). The Duquesne Incline is separately operated and not included.
+            This is a partnership between Sheetz and <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Pittsburgh Regional Transit
+            (PRT)</a>. The <a href="https://www.duquesneincline.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Duquesne Incline</a> is separately operated and not included.
           </p>
           <p className="text-muted mb-3">
             Park at South Hills Village, Castle Shannon, or Dormont and ride the T
@@ -246,15 +246,15 @@ export default function GettingAroundPage() {
                 Village), Blue (Library), and Silver.
               </li>
               <li>
-                <strong>$25 Draft Pass</strong> available through the Ready2Ride
-                app starting April 1. Seven days of unlimited PRT rides
+                <strong>$25 Draft Pass</strong> available through the <a href="https://www.rideprt.org/fares-and-passes/connectcard/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ready2Ride
+                app</a> starting April 1. Seven days of unlimited PRT rides
                 including buses. Good option if you're in town the whole week.
               </li>
               <li>
-                <strong>Butler Transit Authority</strong> is running service
+                <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butler Transit Authority</a></strong> is running service
                 every 30 minutes between the Route 528 park-and-ride in
-                Zelienople (150 Lindsay Rd, Jackson Township) and PRT's Ross
-                Park lot. $10 round trip, exact cash only. 350 parking spaces
+                Zelienople (150 Lindsay Rd, Jackson Township) and PRT's <a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ross
+                Park</a> lot. $10 round trip, exact cash only. 350 parking spaces
                 available. Great if you're coming from Butler County.
               </li>
             </ul>
@@ -278,7 +278,7 @@ export default function GettingAroundPage() {
             Football Flyer Bus Routes
           </h2>
           <p className="text-muted mb-3">
-            Pittsburgh Regional Transit (PRT) is running special "Football
+            <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Pittsburgh Regional Transit (PRT)</a> is running special "Football
             Flyer" buses from park-and-ride lots in every direction. These are
             dedicated draft shuttle routes that skip regular stops and go
             straight to the venues.
@@ -340,25 +340,25 @@ export default function GettingAroundPage() {
           </p>
           <div className="space-y-3">
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">Beaver County Transit Authority</p>
+              <p className="font-semibold text-sm"><a href="https://www.bcta.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Beaver County Transit Authority</a></p>
               <p className="text-sm text-muted">
                 Express trips between Beaver County and Downtown, timed for draft activities.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">Butler Transit Authority</p>
+              <p className="font-semibold text-sm"><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit Authority</a></p>
               <p className="text-sm text-muted">
                 Direct service from Route 528 Park &amp; Ride (Zelienople) to Ross Park &amp; Ride. $10 round trip, exact cash. Connect to PRT from there.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">Newcastle Area Transit Authority</p>
+              <p className="font-semibold text-sm"><a href="https://www.ncata.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Newcastle Area Transit Authority</a></p>
               <p className="text-sm text-muted">
                 Regular commuter service to Downtown on Thursday and Friday, with adjusted routes for traffic changes.
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">Freedom Transit (Washington County)</p>
+              <p className="font-semibold text-sm"><a href="https://www.freedom-transit.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Freedom Transit</a> (Washington County)</p>
               <p className="text-sm text-muted">
                 Extended service hours and late-night return trips from Downtown. Good option if you're coming from the south and want to stay for the evening picks.
               </p>
@@ -370,7 +370,7 @@ export default function GettingAroundPage() {
               </p>
             </div>
             <div className="card-minimal p-4">
-              <p className="font-semibold text-sm">Mid-Mon Valley Transit Authority</p>
+              <p className="font-semibold text-sm"><a href="https://mmvta.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Mid-Mon Valley Transit Authority</a></p>
               <p className="text-sm text-muted">
                 Regular commuter service plus a "Pittsburgh Express" route with late evening return trips from Downtown.
               </p>

@@ -207,6 +207,7 @@ export default function BarsRestaurants() {
             <SpotCard
               name="SugarBird"
               type="Restaurant (NEW)"
+              url="https://sugarbirdchickenanddonuts.com/"
               description="Brand new restaurant opening at the Plaza at North Shore right before the draft. We haven't been yet (nobody has), but the Plaza itself is a new outdoor dining and entertainment area between the stadiums. Worth checking out just because it's new."
             />
             <SpotCard
@@ -235,10 +236,10 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>Also on the North Shore:</strong> SoHo Pittsburgh (the
-            original North Shore restaurant, been around forever), Burgatory (gourmet burgers, always a wait),
-            The Foundry Table &amp; Tap (multiple dining concepts), Hyde Park Prime
-            Steakhouse (upscale, make a reservation now or forget it), Bar Louie
+            <strong>Also on the North Shore:</strong> <a href="https://sohopittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">SoHo Pittsburgh</a> (the
+            original North Shore restaurant, been around forever), <a href="https://burgatorybar.com/north-shore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Burgatory</a> (gourmet burgers, always a wait),
+            <a href="https://www.thefoundrypgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Foundry Table &amp; Tap</a> (multiple dining concepts), <a href="https://www.hydeparkrestaurants.com/location/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hyde Park Prime
+            Steakhouse</a> (upscale, make a reservation now or forget it), <a href="https://barlouie.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Bar Louie</a>
             (casual gastrobar, staffing up for draft week), and Shorty's
             Pins x Pints (bowling + drinks, 0.25 mi from Acrisure).
           </p>
@@ -319,10 +320,10 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>More downtown options:</strong> The Warren Bar and Burrow
-            (craft cocktails, intimate), Alta Via at Market Square (Italian, good),
-            Gi-Jin (Asian fusion), Vallozzi's (Italian, solid), Puttery (mini-golf
-            bar, fun for groups), Ritual House (near Omni William Penn), The Yard
+            <strong>More downtown options:</strong> <a href="https://thewarrenpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Warren Bar and Burrow</a>
+            (craft cocktails, intimate), <a href="https://www.altaviapgh.com/market-square" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Alta Via</a> at Market Square (Italian, good),
+            <a href="https://gi-jin.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Gi-Jin</a> (Asian fusion), <a href="http://vallozzis.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Vallozzi's</a> (Italian, solid), <a href="https://www.puttery.com/locations/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Puttery</a> (mini-golf
+            bar, fun for groups), <a href="https://www.ritualhousepgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ritual House</a> (near Omni William Penn), The Yard
             (monster grilled cheese, cheap and filling), and Pizzaiolo Primo (quick
             slices).
           </p>
@@ -388,10 +389,10 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>More in the Strip:</strong> DeLuca's Diner (another
-            breakfast legend), Pennsylvania Macaroni Co. (cheese and pasta since
-            1902), Sunseri's (bread and pepperoni rolls), Enrico Biscotti
-            (artisan bakery), Kaya (Caribbean-inspired), Peace Love &amp; Little
+            <strong>More in the Strip:</strong> <a href="https://www.delucasinthestrip.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">DeLuca's Diner</a> (another
+            breakfast legend), <a href="https://www.pennmac.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Pennsylvania Macaroni Co.</a> (cheese and pasta since
+            1902), Sunseri's (bread and pepperoni rolls), <a href="https://www.enricobiscotti.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Enrico Biscotti</a>
+            (artisan bakery), <a href="https://www.kaya.menu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Kaya</a> (Caribbean-inspired), Peace Love &amp; Little
             Donuts (mini donuts), and Reyna Foods (authentic Latin).
           </p>
         </section>
@@ -446,10 +447,10 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>More on the South Side:</strong> Tiki Lounge (themed tiki
-            bar since 2002, still going), Dish (upscale dining), La Palapa
-            (Mexican, solid margaritas), Club Cafe (live music, reopened summer
-            2025 under new owners), and Smiling Moose (dive bar with live music).
+            <strong>More on the South Side:</strong> <a href="https://www.tikilounge412.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tiki Lounge</a> (themed tiki
+            bar since 2002, still going), <a href="https://dishosteria.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dish</a> (upscale dining), <a href="https://lapalapapgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">La Palapa</a>
+            (Mexican, solid margaritas), <a href="https://www.clubcafelive.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Club Cafe</a> (live music, reopened summer
+            2025 under new owners), and <a href="https://smiling-moose.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Smiling Moose</a> (dive bar with live music).
           </p>
           <div className="grid gap-3 mt-3">
             <SpotCard
@@ -500,9 +501,9 @@ export default function BarsRestaurants() {
             />
           </div>
           <p className="text-sm text-muted mt-4">
-            <strong>More Lawrenceville breweries:</strong> Hop Farm Brewing
-            (#1 on Yelp), Eleventh Hour Brewing, Coven Brewing, Cinderlands
-            Foederhouse (Belgian-style), and Lolev (huge space in a former car
+            <strong>More Lawrenceville breweries:</strong> <a href="https://hopfarmbrewingco.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hop Farm Brewing</a>
+            (#1 on Yelp), <a href="https://www.11thhourbrews.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Eleventh Hour Brewing</a>, <a href="https://www.covenbrewingpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Coven Brewing</a>, <a href="https://www.cinderlands.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cinderlands
+            Foederhouse</a> (Belgian-style), and <a href="https://lolev.beer/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Lolev</a> (huge space in a former car
             dealership).
           </p>
         </section>

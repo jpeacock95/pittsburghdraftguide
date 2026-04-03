@@ -159,8 +159,8 @@ export default function ItineraryPage() {
               <p>
                 Get to your hotel early. If you're staying downtown or North
                 Shore, walk the area while it's still quiet. Grab coffee at
-                Reyna Foods in the Strip District or Peace, Love &amp; Little
-                Donuts for something quick.
+                <a href="https://www.facebook.com/ReynaFoods/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Reyna Foods</a> in the Strip District or <a href="https://www.peaceloveandlittledonuts.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Peace, Love &amp; Little
+                Donuts</a> for something quick.
               </p>
             </TimeSlot>
 
@@ -170,9 +170,9 @@ export default function ItineraryPage() {
             >
               <p>
                 Pittsburgh's foodie neighborhood is a 10-minute walk from Point
-                State Park. Hit Pennsylvania Macaroni Co. for imported cheese
-                and Italian goods, <a href="https://wiglewhiskey.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Wigle Whiskey</a> for a tasting, or DeLuca's
-                Diner for a late lunch. It's way less crowded today than it
+                State Park. Hit <a href="https://www.pennmac.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Pennsylvania Macaroni Co.</a> for imported cheese
+                and Italian goods, <a href="https://wiglewhiskey.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Wigle Whiskey</a> for a tasting, or <a href="https://www.delucasinthestrip.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">DeLuca's
+                Diner</a> for a late lunch. It's way less crowded today than it
                 will be Saturday.
               </p>
             </TimeSlot>
@@ -301,7 +301,7 @@ export default function ItineraryPage() {
                   solid beer, dogs allowed. 4-minute walk to PNC Park.
                 </li>
                 <li>
-                  <strong>Burgatory</strong>. Gourmet burgers. Reliable, popular,
+                  <strong><a href="https://burgatorybar.com/north-shore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Burgatory</a></strong>. Gourmet burgers. Reliable, popular,
                   won't disappoint.
                 </li>
               </ul>
@@ -336,7 +336,7 @@ export default function ItineraryPage() {
               <ul className="mt-2 space-y-1">
                 <li>
                   <strong>Stay North Shore:</strong> The Plaza at North Shore hosted Steve Aoki at noon (The Ultimate Tailgate Party). <a href="https://www.shortysx.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Shorty's Goodtimes Bar</a> and the surrounding North Shore bars will be packed. <a href="https://mikesbeerbar.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Mike's Beer
-                  Bar</a> has 500+ beers and 80 rotating taps. SoHo Pittsburgh is
+                  Bar</a> has 500+ beers and 80 rotating taps. <a href="https://sohopittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SoHo Pittsburgh</a> is
                   the OG North Shore restaurant.
                 </li>
                 <li>
@@ -458,7 +458,7 @@ export default function ItineraryPage() {
                   725 TripAdvisor reviews. Great pizza and craft beer.
                 </li>
                 <li>
-                  <strong>Alta Via</strong>. Italian at Market Square. Perfect
+                  <strong><a href="https://www.altaviapgh.com/market-square" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Alta Via</a></strong>. Italian at Market Square. Perfect
                   central location.
                 </li>
               </ul>

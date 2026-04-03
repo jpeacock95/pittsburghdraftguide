@@ -165,7 +165,7 @@ export default function CranberryTownship() {
               </span>
             </div>
             <h3 className="text-xl font-heading mb-2">
-              Ross Park &amp; Ride (I-279 Exit 5)
+              <a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ross Park &amp; Ride</a> (I-279 Exit 5)
             </h3>
             <p className="text-muted mb-3">
               This is it. The option Reddit recommends unanimously. Every single
@@ -205,13 +205,13 @@ export default function CranberryTownship() {
           {/* Option 2: Butler Transit Authority */}
           <div className="card-minimal p-5 mb-4">
             <h3 className="text-lg font-heading mb-2">
-              Butler Transit Authority (Route 528 Park and Ride)
+              <a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit Authority</a> (Route 528 Park and Ride)
             </h3>
             <p className="text-muted mb-3">
-              <strong>New for draft weekend:</strong> Butler Transit Authority is
+              <strong>New for draft weekend:</strong> <a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butler Transit Authority</a> is
               running direct buses from the Route 528 Park and Ride (150 Lindsay
               Rd, Jackson Township/Zelienople) to Ross Park and Ride. From Ross
-              Park, you connect to PRT's Football Flyer buses that go straight
+              Park, you connect to <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PRT's Football Flyer</a> buses that go straight
               to the draft venues.
             </p>
             <p className="text-muted mb-3">
