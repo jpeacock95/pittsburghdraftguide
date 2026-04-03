@@ -97,9 +97,9 @@ export default function ChecklistPage() {
               <a href="https://www.amazon.com/s?k=collapsible+water+bottle" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Water bottle</a> (refill stations will be available)
             </CheckItem>
             <CheckItem text="Snacks. Food lines will be long and $15 beers add up" />
-            <CheckItem text="Cash. Some vendors and parking lots are cash-only" />
+            <CheckItem text="Credit card. The entire Draft Experience is cashless. No cash accepted anywhere inside the event." />
             <CheckItem text="Your team's jersey or gear (this is a football event, rep your team)" />
-            <CheckItem text="Small umbrella that fits in your clear bag" />
+            <CheckItem text="Rain poncho or light rain jacket. Umbrellas are banned by the NFL." />
           </div>
 
           <h3 className="text-lg font-heading mt-6 mb-3">Leave at Home</h3>

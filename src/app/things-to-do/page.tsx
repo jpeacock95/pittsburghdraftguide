@@ -26,7 +26,7 @@ const thingsToDoFAQs = [
   {
     question: "What concerts are at the 2026 NFL Draft in Pittsburgh?",
     answer:
-      "The NFL typically has free entertainment on the main draft stage. The 2026 main stage lineup hasn't been announced yet, but past drafts featured Fall Out Boy, Weezer, and Brad Paisley. There's also a drone show after Day 2. Separately, The Plaza at North Shore is hosting ticketed concerts: Nelly on Wednesday April 22 (Opening Party, 6 PM), Steve Aoki on Thursday April 23 (Tailgate Party, 12 PM), and 2 Chainz on Saturday April 25 (Closing Party, 6 PM). Tickets at gofevo.com. Jason Aldean is also playing Rivers Casino on April 22.",
+      "The NFL Draft Entertainment Series is free at the Draft Theater. Wiz Khalifa and Bret Michaels perform Friday after the picks. Kane Brown headlines Saturday after the final picks. Thursday opens with KELS singing the national anthem and Heritage Gospel Chorale of Pittsburgh. All free with OnePass registration, first-come first-served. There's also a drone show after Day 2. Separately, The Plaza at North Shore has ticketed concerts: Nelly on Wednesday April 22 (6 PM), Steve Aoki on Thursday April 23 (12 PM), and 2 Chainz on Saturday April 25 (6 PM). Tickets at gofevo.com. Jason Aldean is also playing Rivers Casino on April 22.",
   },
   {
     question: "Is the NFL Draft good for families with kids?",

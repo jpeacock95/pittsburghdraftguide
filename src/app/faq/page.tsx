@@ -582,9 +582,10 @@ export default function FAQ() {
                   draining cell towers)
                 </li>
                 <li>Comfortable walking shoes</li>
-                <li>Rain jacket</li>
+                <li>Rain poncho or jacket (umbrellas are banned)</li>
                 <li>Sunscreen</li>
-                <li>Cash for vendors</li>
+                <li>Credit card (entire event is cashless, no cash accepted)</li>
+                <li>Empty reusable water bottle (free refill stations inside)</li>
                 <li>NFL OnePass app downloaded before you leave</li>
               </ul>
             </div>
