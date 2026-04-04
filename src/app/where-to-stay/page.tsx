@@ -248,7 +248,7 @@ export default function WhereToStay() {
                 <a href="https://thelandinghotelpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Landing Hotel at Rivers Casino</a>
                 <span className="text-sm text-muted font-semibold">$400+</span>
               </div>
-              <p className="text-sm text-muted mb-1">777 Casino Dr, North Shore  <a href="https://www.google.com/maps/dir/?api=1&destination=777+Casino+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+              <p className="text-sm text-muted mb-1">757 Casino Dr, North Shore  <a href="https://www.google.com/maps/dir/?api=1&destination=757+Casino+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Rivers Casino is going all-in on draft weekend. Hotel
                 packages include parking (free with hotel stay), draft watch

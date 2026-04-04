@@ -219,9 +219,9 @@ export default function WatchPartiesPage() {
               <span className="text-xs bg-accent/20 text-accent-dark px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">$75 - $250</span>
             </div>
             <p className="text-sm text-muted mb-2">
-              <strong>Grand Hall at The Priory Hotel</strong>, 617 Lockhart St, Deutschtown/North Side
+              <strong>Grand Hall at The Priory Hotel</strong>, 614 Pressley St, Deutschtown/North Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=617+Lockhart+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=614+Pressley+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Live Q&A panel with Steelers legends Larry Brown, Jon Kolb, Rocky
               Bleier, John Banaszak, and Marianne Noll (Coach Chuck Noll's wife).
@@ -278,9 +278,9 @@ export default function WatchPartiesPage() {
               <span className="text-xs bg-accent/20 text-accent-dark px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">$99 - $199</span>
             </div>
             <p className="text-sm text-muted mb-2">
-              <strong>Sunny Days Arena</strong>, The Waterfront area (Homestead)
+              <strong>Sunny Days Arena</strong>, 1701 Lincoln Hwy, North Versailles, PA 15137
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=The+Waterfront+Homestead+PA+15120" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1701+Lincoln+Hwy+North+Versailles+PA+15137" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Tented outdoor party with big screens, live music, cocktail
               reception, food from 20+ restaurant partners (Primanti Brothers,
@@ -641,9 +641,9 @@ export default function WatchPartiesPage() {
               <span className="text-xs bg-accent/20 text-accent-dark px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">Check venue</span>
             </div>
             <p className="text-sm text-muted mb-2">
-              <strong>Live! Casino Hotel Pittsburgh</strong>, 900 Sheraton Dr, Hempfield Township, PA 15601
+              <strong>Live! Casino Hotel Pittsburgh</strong>, 5260 US-30, Greensburg, PA 15601 (35 min east of downtown)
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=Live+Casino+Pittsburgh+900+Sheraton+Dr+Hempfield+Township+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=5260+US-30+Greensburg+PA+15601" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Watch parties all 3 days on massive screens. Doors at 11 AM daily.
               Cold drinks, big crowd atmosphere.
