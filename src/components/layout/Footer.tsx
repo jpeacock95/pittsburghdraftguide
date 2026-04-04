@@ -100,7 +100,17 @@ export function Footer() {
               {" "}in Cranberry Township, PA.
             </p>
             <p className="text-sm text-gray-500 mt-1.5">
-              Questions about the guide or anything else?{" "}
+              Want a site like this for your business or event?{" "}
+              <TrackedLink
+                href="https://jordanpeacock.com?utm_source=draftguide&utm_medium=footer&utm_campaign=launch"
+                eventName="jordanpeacock_footer_click"
+                className="text-accent hover:text-white font-semibold underline underline-offset-2 transition-colors"
+              >
+                jordanpeacock.com
+              </TrackedLink>
+            </p>
+            <p className="text-sm text-gray-500 mt-1.5">
+              Questions about the guide?{" "}
               <TrackedLink
                 href="mailto:jordan@peacockbookkeepingservices.com"
                 eventName="peacock_getintouch_footer_click"
