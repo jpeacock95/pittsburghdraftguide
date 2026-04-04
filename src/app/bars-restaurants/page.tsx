@@ -67,7 +67,7 @@ function SpotCard({
       </div>
       <p className={`text-sm mt-2 ${isClosed ? "text-gray-400" : "text-muted"}`}>{description}</p>
       {directionsUrl && !isClosed && (
-        <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-2 inline-block">
+        <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-2 inline-block py-2 px-3 -ml-3 rounded-md active:bg-primary/10 transition-colors">
           Get Directions
         </a>
       )}

@@ -128,7 +128,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Pittsburgh Brewing Company</strong>, 150 Ferry St, Creighton, PA 15030
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=150+Ferry+St+Creighton+PA+15030" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=150+Ferry+St+Creighton+PA+15030" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               The official city-endorsed watch party. Live WTAE broadcast on
               massive outdoor screens. Iron City beer (obviously). Food trucks.
@@ -161,7 +161,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Tequila Cowboy</strong>, 380 North Shore Dr, Pittsburgh (North Shore)
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=380+North+Shore+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=380+North+Shore+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Hosted by Steelers defensive lineman Cam Heyward. Live taping of
               his "Not Just Football" podcast with special player guests and
@@ -191,7 +191,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Gateway Clipper Fleet</strong>, 350 W Station Square Dr, South Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=350+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=350+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               WDVE-FM hosted party aboard the Gateway Clipper Princess.
               Unlimited food, open bar. Live music from Joe Grushecky, Bill
@@ -221,7 +221,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Grand Hall at The Priory Hotel</strong>, 614 Pressley St, Deutschtown/North Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=614+Pressley+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=614+Pressley+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Live Q&A panel with Steelers legends Larry Brown, Jon Kolb, Rocky
               Bleier, John Banaszak, and Marianne Noll (Coach Chuck Noll's wife).
@@ -251,7 +251,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Sheraton Pittsburgh Hotel at Station Square</strong>, 300 W Station Square Dr, South Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=300+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=300+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Features Rocky Bleier, JT Thomas, Rod Woodson, Levon Kirkland,
               Trai Essex, Pat Freiermuth, and former GM Kevin Colbert for Q&A
@@ -280,7 +280,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Sunny Days Arena</strong>, 1701 Lincoln Hwy, North Versailles, PA 15137
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1701+Lincoln+Hwy+North+Versailles+PA+15137" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1701+Lincoln+Hwy+North+Versailles+PA+15137" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Tented outdoor party with big screens, live music, cocktail
               reception, food from 20+ restaurant partners (Primanti Brothers,
@@ -311,7 +311,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Federal Street Canal lot</strong>, 334 Federal St, North Shore
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=334+Federal+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=334+Federal+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               All-you-can-eat food. All-you-can-drink alcohol for adults. Live
               DJ. One autograph and one photo with former Steelers (TBA). Ages
@@ -340,7 +340,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Preeti's Pitt</strong>, 2701 Penn Ave, Strip District
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=2701+Penn+Ave+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=2701+Penn+Ave+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               All-you-can-eat food and drink included. Photo booth. Hat
               customization bar. Pre-party available from noon to 3 PM ($75).
@@ -366,7 +366,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>The Finch at The Distillery Complex</strong>, 59 S. 2nd St, South Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=59+S+2nd+St+Pittsburgh+PA+15203" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=59+S+2nd+St+Pittsburgh+PA+15203" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Rooftop venue with themed menu and draft tracking sheets for every
               pick. Individual tickets from $35. Tables for 8 at $520.
@@ -391,7 +391,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Steel City Sports Bar &amp; Grub</strong>, 1216 Woods Run Ave, Brighton Heights
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1216+Woods+Run+Ave+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1216+Woods+Run+Ave+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Thursday is the big tent party: bucket of beer, all-you-can-eat
               buffet, meet Terrance Johnson ($162). Friday is free indoors for
@@ -419,7 +419,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>1103 Western Ave</strong>, Allegheny West, North Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1103+Western+Ave+Pittsburgh+PA+15233" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=1103+Western+Ave+Pittsburgh+PA+15233" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               All 32 NFL fanbases represent in full gear and costumes. Tailgate
               atmosphere. Some proceeds benefit Light of Life Rescue Mission.
@@ -448,7 +448,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Sheraton Pittsburgh Hotel at Station Square</strong>, 300 W Station Square Dr, South Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=300+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=300+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Features Steelers Alex Highsmith, Jack Sawyer, Will Howard, and
               Casey Hampton. Food, drinks, entertainment. Benefits Pennsylvania
@@ -475,7 +475,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>BetRivers Sportsbook at Rivers Casino</strong>, 777 Casino Dr, North Shore
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=777+Casino+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=777+Casino+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               All-you-can-eat buffet (7 PM to 9:30 PM): wings, sliders, nachos,
               hot dogs, and more. Happening Friday (Day 2) and Saturday (Day 3).
@@ -506,7 +506,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Villagio Boutique Hotel</strong>, 939 Western Ave, Allegheny West/North Side
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=939+Western+Ave+Pittsburgh+PA+15233" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=939+Western+Ave+Pittsburgh+PA+15233" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Courtyard and cigar lounge. Draft viewing on screens. One appetizer
               and one drink included. More available for purchase. Cigars
@@ -564,7 +564,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Arts Landing</strong>, Eighth Street between Penn Ave and Fort Duquesne Blvd, Downtown
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=Arts+Landing+8th+St+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=Arts+Landing+8th+St+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Hosted by Pitt Athletics and the Pittsburgh Cultural Trust. Football
               experiences, live music and entertainment, food trucks. Family-friendly.
@@ -587,7 +587,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Bakery Square courtyard</strong>, 6425 Penn Ave, Larimer
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=6425+Penn+Ave+Pittsburgh+PA+15206" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=6425+Penn+Ave+Pittsburgh+PA+15206" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Big outdoor screens in the courtyard. Free parking (up to 3 hours)
               in Bakery Square garages. Screenings Thursday at 8 PM, Friday at
@@ -619,7 +619,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>The Waterfront</strong>, Homestead
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=The+Waterfront+149+W+Bridge+St+Homestead+PA+15120" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=The+Waterfront+149+W+Bridge+St+Homestead+PA+15120" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Free outdoor watch parties in The Waterfront courtyard all three
               draft days. Big screens, food, and a lively atmosphere without
@@ -643,7 +643,7 @@ export default function WatchPartiesPage() {
             <p className="text-sm text-muted mb-2">
               <strong>Live! Casino Hotel Pittsburgh</strong>, 5260 US-30, Greensburg, PA 15601 (35 min east of downtown)
             </p>
-            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=5260+US-30+Greensburg+PA+15601" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=5260+US-30+Greensburg+PA+15601" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
             <p className="text-sm text-muted mb-3">
               Watch parties all 3 days on massive screens. Doors at 11 AM daily.
               Cold drinks, big crowd atmosphere.
