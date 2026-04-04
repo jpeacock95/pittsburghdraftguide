@@ -254,14 +254,50 @@ export default function BarsRestaurants() {
               description="90 craft beers on tap with an actual full menu (not just bar food). Good for a sit-down meal without making a reservation weeks in advance."
             />
           </div>
-          <p className="text-sm text-muted mt-4">
-            <strong>Also on the North Shore:</strong> <a href="https://sohopittsburgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">SoHo Pittsburgh</a> (the
-            original North Shore restaurant, been around forever), <a href="https://burgatorybar.com/north-shore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Burgatory</a> (gourmet burgers, always a wait),
-            <a href="https://www.thefoundrypgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Foundry Table &amp; Tap</a> (multiple dining concepts), <a href="https://www.hydeparkrestaurants.com/location/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hyde Park Prime
-            Steakhouse</a> (upscale, make a reservation now or forget it), <a href="https://barlouie.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Bar Louie</a>
-            (casual gastrobar, staffing up for draft week), and Shorty's
-            Pins x Pints (bowling + drinks, 0.25 mi from Acrisure).
-          </p>
+          <p className="text-sm font-bold text-muted mt-6 mb-2">Also on the North Shore:</p>
+          <div className="grid gap-3">
+            <SpotCard
+              name="SoHo Pittsburgh"
+              type="Bar & Restaurant"
+              url="https://sohopittsburgh.com/"
+              address="203 Federal St, Pittsburgh, PA 15212"
+              description="The original North Shore restaurant. Been around forever. Reliable spot across from PNC Park."
+            />
+            <SpotCard
+              name="Burgatory"
+              type="Gourmet Burgers"
+              url="https://burgatorybar.com/north-shore"
+              address="342 North Shore Dr, Pittsburgh, PA 15212"
+              description="Gourmet burgers with creative toppings. Always a wait, especially game days. Draft weekend will be no different."
+            />
+            <SpotCard
+              name="The Foundry Table & Tap"
+              type="Gastropub"
+              url="https://www.thefoundrypgh.com/"
+              address="381 North Shore Dr, Pittsburgh, PA 15212"
+              description="Multiple dining concepts under one roof. Good for groups who want options."
+            />
+            <SpotCard
+              name="Hyde Park Prime Steakhouse"
+              type="Steakhouse"
+              url="https://www.hydeparkrestaurants.com/location/pittsburgh/"
+              address="247 North Shore Dr, Pittsburgh, PA 15212"
+              description="Upscale steakhouse on the North Shore. Make a reservation now or forget it during draft weekend."
+            />
+            <SpotCard
+              name="Bar Louie"
+              type="Gastrobar"
+              url="https://barlouie.com/"
+              address="330 North Shore Dr, Pittsburgh, PA 15212"
+              description="Casual gastrobar with a big menu. Staffing up for draft week."
+            />
+            <SpotCard
+              name="Shorty's Pins x Pints"
+              type="Bowling & Bar"
+              address="353 North Shore Dr, Pittsburgh, PA 15212"
+              description="Bowling lanes, craft drinks, 0.25 miles from Acrisure Stadium. Good for killing time before picks start."
+            />
+          </div>
           <div className="grid gap-3 mt-3">
             <SpotCard
               name="Voodoo Brewing Co."
@@ -346,14 +382,51 @@ export default function BarsRestaurants() {
               description="Steakhouse. Expensive. They're actively marketing draft-weekend dining on their website, so they clearly want your business. If someone else is paying, go for it."
             />
           </div>
-          <p className="text-sm text-muted mt-4">
-            <strong>More downtown options:</strong> <a href="https://thewarrenpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">The Warren Bar and Burrow</a>
-            (craft cocktails, intimate), <a href="https://www.altaviapgh.com/market-square" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Alta Via</a> at Market Square (Italian, good),
-            <a href="https://gi-jin.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Gi-Jin</a> (Asian fusion), <a href="http://vallozzis.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Vallozzi's</a> (Italian, solid), <a href="https://www.puttery.com/locations/pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Puttery</a> (mini-golf
-            bar, fun for groups), <a href="https://www.ritualhousepgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ritual House</a> (near Omni William Penn), The Yard
-            (monster grilled cheese, cheap and filling), and Pizzaiolo Primo (quick
-            slices).
-          </p>
+          <p className="text-sm font-bold text-muted mt-6 mb-2">More downtown options:</p>
+          <div className="grid gap-3">
+            <SpotCard
+              name="The Warren Bar and Burrow"
+              type="Cocktail Bar"
+              url="https://thewarrenpgh.com/"
+              address="245 7th St, Pittsburgh, PA 15222"
+              description="Craft cocktails in an intimate setting. Cultural District location."
+            />
+            <SpotCard
+              name="Alta Via"
+              type="Italian"
+              url="https://www.altaviapgh.com/market-square"
+              address="2 PPG Pl, Pittsburgh, PA 15222"
+              description="Italian at PPG Place. Good pasta, nice atmosphere. Market Square location."
+            />
+            <SpotCard
+              name="Gi-Jin"
+              type="Asian Fusion"
+              url="https://gi-jin.com/"
+              address="208 6th St, Pittsburgh, PA 15222"
+              description="Asian fusion between Liberty and Penn. Creative menu, solid cocktails."
+            />
+            <SpotCard
+              name="Vallozzi's"
+              type="Italian"
+              url="http://vallozzis.com/"
+              address="220 5th Ave, Pittsburgh, PA 15222"
+              description="Italian restaurant downtown. Reliable, good portions."
+            />
+            <SpotCard
+              name="Puttery"
+              type="Mini-Golf Bar"
+              url="https://www.puttery.com/locations/pittsburgh/"
+              address="1415 Smallman St, Pittsburgh, PA 15222"
+              description="Mini-golf bar in the Strip District. Fun for groups who want to do something besides sit at a bar."
+            />
+            <SpotCard
+              name="Ritual House"
+              type="Coffee & Cocktails"
+              url="https://www.ritualhousepgh.com/"
+              address="524 William Penn Pl, Pittsburgh, PA 15219"
+              description="Coffee by day, cocktails by night. Inside the Union Trust Building near the Omni William Penn."
+            />
+          </div>
           <div className="grid gap-3 mt-3">
             <SpotCard
               name="Space Bar"
@@ -422,13 +495,44 @@ export default function BarsRestaurants() {
               description="Sushi, pho, spring rolls from multiple vendors at 1931 Smallman Street. Good variety if your group wants different things. Nothing mindblowing but solid and quick."
             />
           </div>
-          <p className="text-sm text-muted mt-4">
-            <strong>More in the Strip:</strong> <a href="https://www.delucasinthestrip.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">DeLuca's Diner</a> (another
-            breakfast legend), <a href="https://www.pennmac.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Pennsylvania Macaroni Co.</a> (cheese and pasta since
-            1902), Sunseri's (bread and pepperoni rolls), <a href="https://www.enricobiscotti.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Enrico Biscotti</a>
-            (artisan bakery), <a href="https://www.kaya.menu/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Kaya</a> (Caribbean-inspired), Peace Love &amp; Little
-            Donuts (mini donuts), and Reyna Foods (authentic Latin).
-          </p>
+          <p className="text-sm font-bold text-muted mt-6 mb-2">More in the Strip:</p>
+          <div className="grid gap-3">
+            <SpotCard
+              name="DeLuca's Diner"
+              type="Diner / Breakfast"
+              url="https://www.delucasinthestrip.com/"
+              address="2015 Penn Ave, Pittsburgh, PA 15222"
+              description="Another breakfast legend in the Strip. Competes with Pamela's for best pancakes in Pittsburgh."
+            />
+            <SpotCard
+              name="Pennsylvania Macaroni Co."
+              type="Specialty Market"
+              url="https://www.pennmac.com/"
+              address="2010 Penn Ave, Pittsburgh, PA 15222"
+              description="Cheese and pasta since 1902. Imported Italian goods. A Strip District institution."
+            />
+            <SpotCard
+              name="Enrico Biscotti"
+              type="Bakery"
+              url="https://www.enricobiscotti.com/"
+              address="2022 Penn Ave, Pittsburgh, PA 15222"
+              description="Artisan bakery with European-style breads and pastries. Worth a stop."
+            />
+            <SpotCard
+              name="Kaya"
+              type="Caribbean-Inspired"
+              url="https://www.kaya.menu/"
+              address="2000 Smallman St, Pittsburgh, PA 15222"
+              description="Caribbean-inspired food and cocktails. Creative menu, fun vibe."
+            />
+            <SpotCard
+              name="Reyna Foods"
+              type="Latin American"
+              url="https://www.facebook.com/ReynaFoods/"
+              address="2031 Penn Ave, Pittsburgh, PA 15222"
+              description="Authentic Latin food in the Strip District. Local favorite for real-deal cuisine."
+            />
+          </div>
         </section>
 
         {/* South Side */}
@@ -486,12 +590,44 @@ export default function BarsRestaurants() {
               description="Slightly off Carson Street on Bradish. Easy to miss, which is part of the appeal. Locals like it because it's not overrun with the Carson Street crowd."
             />
           </div>
-          <p className="text-sm text-muted mt-4">
-            <strong>More on the South Side:</strong> <a href="https://www.tikilounge412.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Tiki Lounge</a> (themed tiki
-            bar since 2002, still going), <a href="https://dishosteria.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Dish</a> (upscale dining), <a href="https://lapalapapgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">La Palapa</a>
-            (Mexican, solid margaritas), <a href="https://www.clubcafelive.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Club Cafe</a> (live music, reopened summer
-            2025 under new owners), and <a href="https://smiling-moose.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Smiling Moose</a> (dive bar with live music).
-          </p>
+          <p className="text-sm font-bold text-muted mt-6 mb-2">More on the South Side:</p>
+          <div className="grid gap-3">
+            <SpotCard
+              name="Tiki Lounge"
+              type="Themed Bar"
+              url="https://www.tikilounge412.com/"
+              address="2003 E Carson St, Pittsburgh, PA 15203"
+              description="Themed tiki bar on Carson Street since 2002. Still going strong. Tropical drinks, kitschy decor."
+            />
+            <SpotCard
+              name="Dish Osteria"
+              type="Upscale Italian"
+              url="https://dishosteria.com/"
+              address="128 S 17th St, Pittsburgh, PA 15203"
+              description="Upscale Sicilian-Italian just off Carson Street. Nice date spot if you want something fancier."
+            />
+            <SpotCard
+              name="La Palapa"
+              type="Mexican"
+              url="https://lapalapapgh.com/"
+              address="2224 E Carson St, Pittsburgh, PA 15203"
+              description="Mexican restaurant with solid margaritas. Good for groups."
+            />
+            <SpotCard
+              name="Club Cafe"
+              type="Live Music Venue"
+              url="https://www.clubcafelive.com/"
+              address="56 S 12th St, Pittsburgh, PA 15203"
+              description="Live music venue reopened summer 2025 under new owners. Bar open Mon-Sat from 6 PM. 21+."
+            />
+            <SpotCard
+              name="Smiling Moose"
+              type="Dive Bar & Live Music"
+              url="https://smiling-moose.com/"
+              address="1306 E Carson St, Pittsburgh, PA 15203"
+              description="Dive bar with live music and a scratch kitchen. The kind of place where you end up at 2 AM."
+            />
+          </div>
           <div className="grid gap-3 mt-3">
             <SpotCard
               name="Carson City Saloon"
@@ -544,12 +680,49 @@ export default function BarsRestaurants() {
               description="Made Hop Culture's best breweries list. Known for outstanding IPAs. If you're a hop head, don't skip this one."
             />
           </div>
-          <p className="text-sm text-muted mt-4">
-            <strong>More Lawrenceville breweries:</strong> <a href="https://hopfarmbrewingco.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hop Farm Brewing</a>
-            (#1 on Yelp), <a href="https://www.11thhourbrews.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Eleventh Hour Brewing</a>, <a href="https://www.covenbrewingpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Coven Brewing</a>, <a href="https://www.cinderlands.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Cinderlands
-            Foederhouse</a> (Belgian-style), and <a href="https://lolev.beer/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Lolev</a> (huge space in a former car
-            dealership).
-          </p>
+          <p className="text-sm font-bold text-muted mt-6 mb-2">More Lawrenceville breweries:</p>
+          <div className="grid gap-3">
+            <SpotCard
+              name="Hop Farm Brewing"
+              type="Brewery"
+              neighborhood="Lawrenceville"
+              url="https://hopfarmbrewingco.com/"
+              address="5601 Butler St, Pittsburgh, PA 15201"
+              description="#1 brewery on Yelp. Great beer, great patio."
+            />
+            <SpotCard
+              name="Eleventh Hour Brewing"
+              type="Brewery"
+              neighborhood="Lawrenceville"
+              url="https://www.11thhourbrews.com/"
+              address="3711 Charlotte St, Pittsburgh, PA 15201"
+              description="Small-batch brewery in Lawrenceville. Rotating taps, chill atmosphere."
+            />
+            <SpotCard
+              name="Coven Brewing"
+              type="Brewery"
+              neighborhood="Lawrenceville"
+              url="https://www.covenbrewingpgh.com/"
+              address="4901 Butler St, Pittsburgh, PA 15201"
+              description="Craft brewery with rotating food trucks. Good outdoor space."
+            />
+            <SpotCard
+              name="Cinderlands Foederhouse"
+              type="Brewery"
+              neighborhood="Lawrenceville"
+              url="https://www.cinderlands.com/"
+              address="3705 Butler St, Pittsburgh, PA 15201"
+              description="Belgian-style ales and mixed-fermentation beers. Not your typical brewery."
+            />
+            <SpotCard
+              name="Lolev"
+              type="Brewery"
+              neighborhood="Lawrenceville"
+              url="https://lolev.beer/"
+              address="5247 Butler St, Pittsburgh, PA 15201"
+              description="Huge space in a former 1912 Ford dealership. One of the best new brewery spaces in the city."
+            />
+          </div>
         </section>
 
         {/* Budget Eats */}
