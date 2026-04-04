@@ -8,9 +8,9 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Parking & Transit Guide",
+  title: "NFL Draft Pittsburgh Parking (Don't Drive)",
   description:
-    "Where to park for the 2026 NFL Draft in Pittsburgh. North Shore lots, downtown garages, park-and-ride options, pricing, and why officials say don't drive.",
+    "Officials say don't drive to the 2026 NFL Draft. Here's every park-and-ride, garage, and North Shore lot with prices. Free T rides included.",
 };
 
 const parkingFAQs = [

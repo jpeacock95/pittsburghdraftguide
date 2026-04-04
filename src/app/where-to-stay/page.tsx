@@ -7,9 +7,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Hotels & Where to Stay",
+  title: "NFL Draft Pittsburgh Hotels (From $120)",
   description:
-    "Downtown hotels are $500-2,000/night for the 2026 NFL Draft. Cranberry Township starts at $120. Book now before they sell out. Neighborhoods, prices, and alternatives.",
+    "Downtown hotels are $500+/night for draft weekend. Cranberry Township starts at $120 with a 25-min drive. Prices, neighborhoods, and what's still available.",
 };
 
 const hotelFAQs = [

@@ -8,9 +8,9 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Bars & Restaurants",
+  title: "Where to Eat: NFL Draft Pittsburgh 2026",
   description:
-    "44 restaurants and bars near the 2026 NFL Draft in Pittsburgh. North Shore, Strip District, Downtown, South Side, and Lawrenceville picks organized by neighborhood.",
+    "44 bars and restaurants near the draft, sorted by neighborhood. North Shore, Strip District, South Side, and more. A local's picks, not a tourist list.",
 };
 
 function SpotCard({

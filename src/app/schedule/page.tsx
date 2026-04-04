@@ -10,9 +10,9 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "2026 NFL Draft Schedule & Events",
+  title: "NFL Draft Pittsburgh Schedule: All 3 Days",
   description:
-    "NFL Draft Pittsburgh 2026 schedule: Round 1 Thu 8pm, Rounds 2-3 Fri 7pm, Rounds 4-7 Sat noon. Free entry with OnePass. Bag policy, hours, and registration info.",
+    "Round 1 starts Thu Apr 23 at 8pm. Rounds 2-3 Fri 7pm. Rounds 4-7 Sat noon. Free entry with NFL OnePass. Full schedule, times, and what to know before you go.",
 };
 
 const scheduleFAQs = [

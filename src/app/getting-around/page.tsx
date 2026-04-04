@@ -7,9 +7,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "Getting Around: NFL Draft Pittsburgh",
+  title: "NFL Draft Pittsburgh Transit (Free Rides)",
   description:
-    "How to get around Pittsburgh during the 2026 NFL Draft. The T light rail, Football Flyer buses, rideshare tips, and walking routes between venues.",
+    "The T light rail is free downtown. Football Flyer buses run all weekend. Rideshare, walking routes, and how to get between venues without a car.",
 };
 
 const gettingAroundFAQs = [

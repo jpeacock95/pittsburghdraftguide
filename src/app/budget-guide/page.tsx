@@ -6,9 +6,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh on a Budget 2026",
+  title: "NFL Draft Pittsburgh for Under $500",
   description:
-    "Do the entire 2026 NFL Draft weekend for under $500. Free entry, free T rides, $120/night hotels, and $12 meals. Here's the full budget breakdown.",
+    "The draft is free to attend. Hotels from $120/night. Free T rides downtown. $12 meals. Here's how to do the whole weekend without blowing your budget.",
 };
 
 const budgetFAQs = [

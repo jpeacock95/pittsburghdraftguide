@@ -5,9 +5,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Day-by-Day Itinerary",
+  title: "NFL Draft Pittsburgh: 3-Day Itinerary",
   description:
-    "Hour-by-hour plan for all 3 days of the 2026 NFL Draft in Pittsburgh. Thursday Round 1, Friday Rounds 2-3, Saturday Rounds 4-7 with food stops, routes, and tips.",
+    "Hour-by-hour plan for all 3 days. Where to be, when to eat, and how to avoid the crowds. Built by a local who's walked every route.",
 };
 
 function TimeSlot({
