@@ -160,7 +160,7 @@ export default function WhereToStay() {
                 <a href="https://www.omnihotels.com/hotels/pittsburgh-william-penn" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Omni William Penn Hotel</a>
                 <span className="text-sm text-muted font-semibold">$600-1,200+</span>
               </div>
-              <p className="text-sm text-muted mb-1">530 William Penn Pl, Downtown</p>
+              <p className="text-sm text-muted mb-1">530 William Penn Pl, Downtown  <a href="https://www.google.com/maps/dir/?api=1&destination=530+William+Penn+Pl+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Pittsburgh's grand historic hotel. Walking distance to Point
                 State Park. They're running a "William Penn Draft Den"
@@ -174,7 +174,7 @@ export default function WhereToStay() {
                 <a href="https://www.fairmont.com/en/hotels/pittsburgh/fairmont-pittsburgh.html" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Fairmont Pittsburgh</a>
                 <span className="text-sm text-muted font-semibold">$700-1,500+</span>
               </div>
-              <p className="text-sm text-muted mb-1">510 Market St, Downtown</p>
+              <p className="text-sm text-muted mb-1">510 Market St, Downtown  <a href="https://www.google.com/maps/dir/?api=1&destination=510+Market+St+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Luxury hotel right at Market Square. 10 minute walk to Point
                 State Park. NFL teams and front offices tend to book here.
@@ -187,7 +187,7 @@ export default function WhereToStay() {
                 <a href="https://www.druryhotels.com/locations/pittsburgh-pa/drury-plaza-hotel-pittsburgh-downtown" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Drury Plaza Hotel</a>
                 <span className="text-sm text-muted font-semibold">$500+</span>
               </div>
-              <p className="text-sm text-muted mb-1">745 Grant St, Downtown</p>
+              <p className="text-sm text-muted mb-1">745 Grant St, Downtown  <a href="https://www.google.com/maps/dir/?api=1&destination=745+Grant+St+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Solid chain hotel in the heart of downtown. Free hot breakfast
                 and evening kickback (free drinks and snacks). Normally $180.
@@ -221,7 +221,7 @@ export default function WhereToStay() {
                 <a href="https://www.marriott.com/en-us/hotels/pitns-springhill-suites-pittsburgh-north-shore/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">SpringHill Suites North Shore</a>
                 <span className="text-sm text-muted font-semibold">$2,173/night</span>
               </div>
-              <p className="text-sm text-muted mb-1">223 Federal St, North Shore</p>
+              <p className="text-sm text-muted mb-1">223 Federal St, North Shore  <a href="https://www.google.com/maps/dir/?api=1&destination=223+Federal+St+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 The hotel that broke Reddit. $2,173/night for a standard
                 Marriott-branded suite that normally runs $180. It's steps
@@ -235,7 +235,7 @@ export default function WhereToStay() {
                 <a href="https://www.hyatt.com/hyatt-place/en-US/pitzn-hyatt-place-pittsburgh-north-shore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hyatt Place North Shore</a>
                 <span className="text-sm text-muted font-semibold">$800-1,500+</span>
               </div>
-              <p className="text-sm text-muted mb-1">260 North Shore Dr</p>
+              <p className="text-sm text-muted mb-1">260 North Shore Dr  <a href="https://www.google.com/maps/dir/?api=1&destination=260+North+Shore+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Another hotel within walking distance of the draft stage.
                 Expect $800-1,500+/night during draft weekend. Free breakfast
@@ -248,7 +248,7 @@ export default function WhereToStay() {
                 <a href="https://thelandinghotelpgh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">The Landing Hotel at Rivers Casino</a>
                 <span className="text-sm text-muted font-semibold">$400+</span>
               </div>
-              <p className="text-sm text-muted mb-1">777 Casino Dr, North Shore</p>
+              <p className="text-sm text-muted mb-1">777 Casino Dr, North Shore  <a href="https://www.google.com/maps/dir/?api=1&destination=777+Casino+Dr+Pittsburgh+PA+15212" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Rivers Casino is going all-in on draft weekend. Hotel
                 packages include parking (free with hotel stay), draft watch
@@ -332,7 +332,7 @@ export default function WhereToStay() {
                 <a href="https://www.marriott.com/en-us/hotels/pitps-sheraton-pittsburgh-hotel-at-station-square/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Sheraton at Station Square</a>
                 <span className="text-sm text-muted font-semibold">$300-500+</span>
               </div>
-              <p className="text-sm text-muted mb-1">Station Square, South Shore</p>
+              <p className="text-sm text-muted mb-1">Station Square, South Shore  <a href="https://www.google.com/maps/dir/?api=1&destination=300+W+Station+Square+Dr+Pittsburgh+PA+15219" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Right on the T line, one stop from downtown. They're hosting
                 "The Pick Is In: Legends Draft Party" (GA $162 / Seated
@@ -450,7 +450,7 @@ export default function WhereToStay() {
                 <a href="https://www.hilton.com/en/hotels/pitcmhx-hampton-suites-cranberry-pittsburgh/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Hampton Inn &amp; Suites Cranberry Pittsburgh</a>
                 <span className="text-sm text-muted font-semibold">$120-160</span>
               </div>
-              <p className="text-sm text-muted mb-1">10015 Pendleton Way, Cranberry Woods Business Park</p>
+              <p className="text-sm text-muted mb-1">10015 Pendleton Way, Cranberry Township  <a href="https://www.google.com/maps/dir/?api=1&destination=10015+Pendleton+Way+Cranberry+Township+PA+16066" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 Free hot breakfast, indoor pool, 24-hour gym. Easy access to
                 I-79 and the Turnpike. About 30 minutes to downtown per
@@ -463,7 +463,7 @@ export default function WhereToStay() {
                 <a href="https://www.marriott.com/en-us/hotels/pitct-courtyard-pittsburgh-north-cranberry-woods/overview/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Courtyard by Marriott Cranberry Woods</a>
                 <span className="text-sm text-muted font-semibold">$92-180</span>
               </div>
-              <p className="text-sm text-muted mb-1">Cranberry Township</p>
+              <p className="text-sm text-muted mb-1">Cranberry Township  <a href="https://www.google.com/maps/dir/?api=1&destination=Courtyard+by+Marriott+Cranberry+Woods+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline">Get Directions</a></p>
               <p className="text-sm text-muted">
                 From $92/night normally. Draft weekend will be higher, but
                 still well under $200. Fitness center. Marriott loyalty

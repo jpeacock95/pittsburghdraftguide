@@ -19,6 +19,7 @@ function SpotCard({
   neighborhood,
   description,
   url,
+  address,
   status,
 }: {
   name: string;
@@ -26,10 +27,14 @@ function SpotCard({
   neighborhood?: string;
   description: string;
   url?: string;
+  address?: string;
   status?: "closed" | "private" | "unverified";
 }) {
   const isClosed = status === "closed";
   const isPrivate = status === "private";
+  const directionsUrl = address
+    ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(address)}`
+    : undefined;
 
   return (
     <div className={`p-4 ${isClosed ? "border-l-2 border-red-500/60 bg-red-950/20 pl-5" : isPrivate ? "border-l-2 border-accent pl-5" : "card-minimal"}`}>
@@ -61,6 +66,11 @@ function SpotCard({
         </p>
       </div>
       <p className={`text-sm mt-2 ${isClosed ? "text-gray-400" : "text-muted"}`}>{description}</p>
+      {directionsUrl && !isClosed && (
+        <a href={directionsUrl} target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-2 inline-block">
+          Get Directions
+        </a>
+      )}
     </div>
   );
 }
@@ -184,54 +194,63 @@ export default function BarsRestaurants() {
               name="Tom's Watch Bar"
               type="Sports Bar"
               url="https://tomswatchbar.com/pittsburgh/"
+              address="104 Federal St, Pittsburgh, PA 15212"
               description="It's a chain, not going to pretend otherwise. But the location is hard to beat - right between Acrisure and PNC Park with TVs on every wall. You'll see every pick without fighting for a spot."
             />
             <SpotCard
               name="North Shore Tavern"
               type="Bar & Restaurant"
               url="https://northshoretavern.com/"
+              address="211 Federal St, Pittsburgh, PA 15212"
               description="On Federal Street across from PNC Park. Nothing fancy, just a solid neighborhood bar with decent food. It's going to be wall-to-wall people draft weekend because of the location."
             />
             <SpotCard
               name="Jason Aldean's Kitchen + Bar"
               type="Country Bar & Restaurant"
               url="https://jasonaldeansbar.com/pittsburgh/"
+              address="399 N Shore Dr, Pittsburgh, PA 15212"
               description="Country-themed with big video walls and outdoor seating. Food is fine, not the reason to go. The vibe is. Aldean is performing at Rivers Casino draft eve, so expect this place to ride that energy all weekend."
             />
             <SpotCard
               name="Shorty's Goodtimes Bar"
               type="Bar & Entertainment"
               url="https://www.shortysx.com/"
+              address="100 Federal St, Pittsburgh, PA 15212"
               description="Retro-gaming bar on the North Shore. Right next to The Plaza at North Shore, which is hosting ticketed concerts: Nelly on Wednesday (Opening Party), Steve Aoki on Thursday (midday tailgate), and 2 Chainz on Saturday (Closing Party). Tickets at gofevo.com. Expect lines. Get there early or don't bother."
             />
             <SpotCard
               name="SugarBird"
               type="Restaurant (NEW)"
               url="https://sugarbirdchickenanddonuts.com/"
+              address="The Plaza at North Shore, Pittsburgh, PA 15212"
               description="Brand new restaurant opening at the Plaza at North Shore right before the draft. We haven't been yet (nobody has), but the Plaza itself is a new outdoor dining and entertainment area between the stadiums. Worth checking out just because it's new."
             />
             <SpotCard
               name="Southern Tier Brewery Pittsburgh"
               type="Brewery & Restaurant"
               url="https://pittsburgh.stbcbeer.com/"
+              address="316 N Shore Dr, Pittsburgh, PA 15212"
               description="4-minute walk to PNC Park. Good beer, decent food, dogs allowed on the patio. Not the most exciting spot on this list, but reliable and less chaotic than anything on Federal Street."
             />
             <SpotCard
               name="Federal Galley"
               type="Food Hall"
               url="https://www.federalgalley.org/"
+              address="200 Children's Way, Pittsburgh, PA 15212"
               description="Four different restaurants under one roof. This is where you go when your group can't agree on anything. Happy hour Tue-Fri 4:30-6:30pm, half-off drafts and cocktails. Underrated."
             />
             <SpotCard
               name="Mike's Beer Bar"
               type="Beer Bar"
               url="https://mikesbeerbar.com/"
+              address="112 Federal St, Pittsburgh, PA 15212"
               description="80 rotating taps and 500+ beers. I've lost count of how many times I've been here before Pirates games. It's a beer nerd's paradise next to PNC Park. Open 11am-midnight daily."
             />
             <SpotCard
               name="City Works Restaurant & Bar"
               type="Restaurant & Bar"
               url="https://www.cityworksrestaurant.com/locations/pittsburgh/"
+              address="230 Federal St, Pittsburgh, PA 15212"
               description="90 craft beers on tap with an actual full menu (not just bar food). Good for a sit-down meal without making a reservation weeks in advance."
             />
           </div>
@@ -274,48 +293,56 @@ export default function BarsRestaurants() {
               name="Gaucho Parrilla Argentina"
               type="Argentine Steakhouse"
               url="https://www.eatgaucho.com/"
+              address="1601 Penn Ave, Pittsburgh, PA 15222"
               description="Ask anyone in Pittsburgh for their top 3 restaurants and Gaucho comes up every time. Argentine grill in the Strip District, technically a 10-min walk from Point State Park. There will be a wait. Go anyway."
             />
             <SpotCard
               name="Proper Brick Oven and Tap Room"
               type="Pizza & Craft Beer"
               url="https://properpgh.com/"
+              address="139 7th St, Pittsburgh, PA 15222"
               description="Good brick oven pizza and a solid beer list. Not trying to be fancy, just trying to be good. Close to Point State Park. You can do a lot worse for $15-20."
             />
             <SpotCard
               name="Butcher and the Rye"
               type="Cocktails & New American"
               url="https://butcherandtherye.com/"
+              address="212 6th St, Pittsburgh, PA 15222"
               description="The whiskey menu is overwhelming (in a good way). New American food, cocktails that actually taste like someone cared. Pricier side. Good date spot if you're dragging a partner to the draft. Note: Reopening April 1 after renovation. Confirm before visiting."
             />
             <SpotCard
               name="Bridges & Bourbon"
               type="Cocktail Bar & Restaurant"
               url="https://www.bridgesandbourbonpgh.com/"
+              address="930 Penn Ave, Pittsburgh, PA 15222"
               description="Upscale cocktail bar downtown. Feels more grown-up than most of Carson Street. Full menu, not just drinks. If you want a nice night out without the frat energy, this is it."
             />
             <SpotCard
               name="Olive or Twist"
               type="Cocktail Bar & Restaurant"
               url="https://www.olive-twist.com/"
+              address="140 6th St, Pittsburgh, PA 15222"
               description="On 6th Street. Strong cocktails, nice atmosphere. They're hosting the YinzerMOB Draft Party on Saturday ($100, 2nd floor). Call ahead because some draft nights may be event-only."
             />
             <SpotCard
               name="The Original Oyster House"
               type="Seafood & Bar"
               url="http://www.originaloysterhousepittsburgh.com/"
+              address="20 Market Sq, Pittsburgh, PA 15222"
               description="Oldest restaurant in Pittsburgh, right on Market Square. Tourists love it. Locals have opinions about it. The fish sandwiches are good though, no argument there. Cash only last I checked."
             />
             <SpotCard
               name="Condado Tacos"
               type="Build-Your-Own Tacos"
               url="https://condadotacos.com/"
+              address="100 Market St, Pittsburgh, PA 15222"
               description="Build-your-own tacos on Market Square. It's a chain, but the tacos are $5 each and the margaritas do their job. Quick, cheap, and good for groups who don't want to wait 45 minutes for a table."
             />
             <SpotCard
               name="Eddie Merlot's"
               type="Fine Dining"
               url="https://www.eddiemerlots.com/pittsburgh/"
+              address="600 Grant St, Pittsburgh, PA 15219"
               description="Steakhouse. Expensive. They're actively marketing draft-weekend dining on their website, so they clearly want your business. If someone else is paying, go for it."
             />
           </div>
@@ -334,6 +361,7 @@ export default function BarsRestaurants() {
               neighborhood="Market Square"
               status="private"
               url="https://www.spacebarpittsburgh.com/nfl-draft-private-event-inquiry"
+              address="416 Market St, Pittsburgh, PA 15222"
               description="Normally a cool cocktail spot on Market Square. During draft weekend, the entire venue is booked for private NFL/corporate events ($18K-$60K buyouts). Not open to the public April 23-25."
             />
           </div>
@@ -355,36 +383,42 @@ export default function BarsRestaurants() {
               name="The PA Market"
               type="Food Hall"
               url="https://www.thepamarket.com/"
+              address="1501 Penn Ave, Pittsburgh, PA 15222"
               description="Two floors of food vendors, cocktail bars, and a wine garden. 14,000 square feet. It feels more European market than American food court. Best food hall in the city, and it's not close."
             />
             <SpotCard
               name="Pamela's Diner"
               type="Diner / Breakfast"
               url="https://pamelasdiner.com/"
+              address="60 21st St, Pittsburgh, PA 15222"
               description="The thin, crispy pancakes are famous for a reason. Get here early Saturday before Day 3 of the draft. The line will be insane but it moves fast. Cash is helpful."
             />
             <SpotCard
               name="DiAnoia's Eatery"
               type="Italian"
               url="https://dianoiaseatery.com/"
+              address="2549 Penn Ave, Pittsburgh, PA 15222"
               description="Handmade pasta and sandwiches on Penn Ave. This is where Pittsburghers take out-of-town guests when they want to show off. 1,200+ Yelp reviews and they're almost all 5 stars. Go for lunch - dinner waits are brutal."
             />
             <SpotCard
               name="Wigle Whiskey Distillery"
               type="Distillery & Tasting Room"
               url="https://wiglewhiskey.com/"
+              address="2401 Smallman St, Pittsburgh, PA 15222"
               description="Local craft whiskey with a tasting room in the Strip. Do the tasting flight, buy a bottle to bring home. It's the kind of thing you can't do in most cities."
             />
             <SpotCard
               name="Bar Marco"
               type="Craft Cocktails & Small Plates"
               url="https://www.barmarcopgh.com/"
+              address="2216 Penn Ave, Pittsburgh, PA 15222"
               description="Small, intimate, bartenders who actually know what they're doing. Not cheap, not a sports bar, not a tourist trap. If you want a quiet cocktail away from draft chaos, this is your spot."
             />
             <SpotCard
               name="Novo Asian Food Hall"
               type="Asian Food Hall"
               url="https://novoasianfoodhall.com/"
+              address="1931 Smallman St, Pittsburgh, PA 15222"
               description="Sushi, pho, spring rolls from multiple vendors at 1931 Smallman Street. Good variety if your group wants different things. Nothing mindblowing but solid and quick."
             />
           </div>
@@ -413,36 +447,42 @@ export default function BarsRestaurants() {
               name="Hofbrauhaus Pittsburgh"
               type="German Beer Hall"
               url="https://www.hofbrauhauspittsburgh.com/"
+              address="2705 S Water St, Pittsburgh, PA 15203"
               description="German beer hall on the waterfront. Big space, live music, liter steins. Touristy? Yeah. Fun? Also yeah. If you've never been to one, go. If you have, you know what you're getting."
             />
             <SpotCard
               name="Pins Mechanical"
               type="Entertainment Bar"
               url="https://www.pinsbar.com/locations/pittsburgh/"
+              address="1500 Smallman St, Pittsburgh, PA 15222"
               description="Pinball, duckpin bowling, craft drinks. Good for groups who want to actually do something instead of just sit at a bar. Gets loud and crowded late night."
             />
             <SpotCard
               name="Jack's Bar"
               type="Bar"
               url="https://maps.google.com/?q=Jack%27s+Bar+1117+Carson+St+Pittsburgh+PA"
+              address="1117 E Carson St, Pittsburgh, PA 15203"
               description="Local favorite on Carson Street. Good food, good drinks, good atmosphere. Not trying to be anything it's not. The kind of bar where you end up staying longer than you planned."
             />
             <SpotCard
               name="Acacia"
               type="Cocktail Bar"
               url="https://maps.google.com/?q=Acacia+Pittsburgh+South+Side"
+              address="2108 E Carson St, Pittsburgh, PA 15203"
               description="If you want actual cocktails and not a $5 vodka soda in a plastic cup, Acacia is the move on the South Side. More chill than most of Carson Street."
             />
             <SpotCard
               name="Jekyl & Hyde"
               type="Bar"
               url="https://www.jekylandhydepgh.com/"
+              address="1712 E Carson St, Pittsburgh, PA 15203"
               description="Fun spot with character. Late-night option after draft sessions. Made Yelp's best bars list recently. Not the place for a quiet conversation."
             />
             <SpotCard
               name="Bar 11"
               type="Bar"
               url="https://maps.google.com/?q=Bar+11+1101+Bradish+St+Pittsburgh+PA"
+              address="1101 Bradish St, Pittsburgh, PA 15203"
               description="Slightly off Carson Street on Bradish. Easy to miss, which is part of the appeal. Locals like it because it's not overrun with the Carson Street crowd."
             />
           </div>
@@ -476,6 +516,7 @@ export default function BarsRestaurants() {
               type="Brewery & Restaurant"
               neighborhood="Lawrenceville"
               url="https://churchbrew.com/"
+              address="3525 Liberty Ave, Pittsburgh, PA 15201"
               description="A brewery inside a historic church. Brewing tanks where the altar used to be. One of the most unique dining spots in the entire country."
             />
             <SpotCard
@@ -483,6 +524,7 @@ export default function BarsRestaurants() {
               type="Brewery"
               neighborhood="Lawrenceville"
               url="https://gristhouse.com/"
+              address="10 E Sherman St, Pittsburgh, PA 15209"
               description="Popular outdoor space with a great patio. If the weather cooperates (and in late April, it might), this is a perfect afternoon spot."
             />
             <SpotCard
@@ -490,6 +532,7 @@ export default function BarsRestaurants() {
               type="Brewery"
               neighborhood="Creighton (25 min from downtown)"
               url="https://pittsburghbrewing.com/"
+              address="150 Ferry St, Creighton, PA 15030"
               description="Hosting the 'Official Pittsburgh Draft Watch Party' on April 23. GA $15, VIP $65, Premium VIP $250. Worth the drive if you want to watch picks without the downtown chaos."
             />
             <SpotCard
@@ -497,6 +540,7 @@ export default function BarsRestaurants() {
               type="Brewery"
               neighborhood="Lawrenceville"
               url="https://dancinggnomebeer.com/"
+              address="925 Main St, Pittsburgh, PA 15215"
               description="Made Hop Culture's best breweries list. Known for outstanding IPAs. If you're a hop head, don't skip this one."
             />
           </div>
@@ -521,6 +565,7 @@ export default function BarsRestaurants() {
               type="Tacos"
               neighborhood="Market Square"
               url="https://condadotacos.com/"
+              address="100 Market St, Pittsburgh, PA 15222"
               description="Build-your-own tacos starting around $5 each. Fill up for $12-15 easy."
             />
             <SpotCard
@@ -528,6 +573,7 @@ export default function BarsRestaurants() {
               type="Diner"
               neighborhood="Strip District"
               url="https://pamelasdiner.com/"
+              address="60 21st St, Pittsburgh, PA 15222"
               description="Breakfast and lunch under $12. Those famous pancakes are $9. Cash is king here."
             />
             <SpotCard
@@ -535,6 +581,7 @@ export default function BarsRestaurants() {
               type="Casual"
               neighborhood="Market Square"
               url="https://www.theyardpgh.com/"
+              address="404 Market St, Pittsburgh, PA 15222"
               description="Monster grilled cheese sandwiches and decent draft beer. Filling and affordable."
             />
             <SpotCard
@@ -542,6 +589,7 @@ export default function BarsRestaurants() {
               type="Pizza"
               neighborhood="Downtown"
               url="https://marketsquare.pizzaioloprimo.com/"
+              address="3 Market Sq, Pittsburgh, PA 15222"
               description="Quick pizza near Point State Park. Slices and pies at regular Pittsburgh prices."
             />
             <SpotCard
@@ -549,6 +597,7 @@ export default function BarsRestaurants() {
               type="Donuts"
               neighborhood="Strip District"
               url="https://www.peaceloveandlittledonuts.com/"
+              address="2101 Penn Ave, Pittsburgh, PA 15222"
               description="Mini donuts with creative flavors. $5-8 for a box. Instagram-friendly and delicious."
             />
             <SpotCard
@@ -556,6 +605,7 @@ export default function BarsRestaurants() {
               type="Italian Deli"
               neighborhood="Strip District"
               url="https://www.sunserisinthestrip.com/"
+              address="1906 Penn Ave, Pittsburgh, PA 15222"
               description="Known for bread and pepperoni rolls. Grab-and-go Pittsburgh classic. Under $10."
             />
           </div>
@@ -605,6 +655,7 @@ export default function BarsRestaurants() {
               type="Italian"
               neighborhood="Strip District"
               url="https://dianoiaseatery.com/"
+              address="2549 Penn Ave, Pittsburgh, PA 15222"
               description="This is where Pittsburghers take out-of-town guests when they want to impress them. The pasta is handmade. The sandwiches are perfect."
             />
             <SpotCard
@@ -612,6 +663,7 @@ export default function BarsRestaurants() {
               type="Argentine Steakhouse"
               neighborhood="Strip District"
               url="https://www.eatgaucho.com/"
+              address="1601 Penn Ave, Pittsburgh, PA 15222"
               description="Ask any local for their top 5 restaurants. Gaucho is on the list. Every time."
             />
             <SpotCard
@@ -619,6 +671,7 @@ export default function BarsRestaurants() {
               type="Brewery & Restaurant"
               neighborhood="Lawrenceville"
               url="https://churchbrew.com/"
+              address="3525 Liberty Ave, Pittsburgh, PA 15201"
               description="Brewing beer inside a converted church. It's the kind of place you tell everyone about when you get home."
             />
             <SpotCard
@@ -626,6 +679,7 @@ export default function BarsRestaurants() {
               type="Cocktails & Small Plates"
               neighborhood="Strip District"
               url="https://www.barmarcopgh.com/"
+              address="2216 Penn Ave, Pittsburgh, PA 15222"
               description="Small, intimate, outstanding cocktails. Not a tourist trap. The kind of bar where the bartender actually knows what they're doing."
             />
             <SpotCard
@@ -633,6 +687,7 @@ export default function BarsRestaurants() {
               type="Fine Dining"
               neighborhood="Mt. Washington"
               url="https://altiuspgh.com/"
+              address="1230 Grandview Ave, Pittsburgh, PA 15211"
               description="4.6 stars on TripAdvisor (845 reviews). Contemporary American with the best view in the city. This is where you go for a special night out."
             />
             <SpotCard
@@ -640,6 +695,7 @@ export default function BarsRestaurants() {
               type="Restaurant"
               neighborhood="Mt. Washington"
               url="https://www.shilohgastro.com/"
+              address="123 Shiloh St, Pittsburgh, PA 15211"
               description="Near the Mon Incline. Not fancy, no view, but great food on a side street. Hidden gem that most visitors never find."
             />
           </div>

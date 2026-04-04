@@ -216,6 +216,7 @@ export default function ParkingPage() {
               Take the #8 bus or O1 express to downtown. About 25 minutes to the
               draft venues.
             </p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Ross+Park+and+Ride+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-1 inline-block">Get Directions</a>
           </div>
           <div className="card-minimal p-4 mb-4">
             <p className="font-semibold"><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit Authority</a> (Route 528 Lot)</p>
@@ -223,6 +224,7 @@ export default function ParkingPage() {
               Commuter bus from Butler County. Good option if you're coming from
               further north. Check Butler Transit for draft weekend schedules.
             </p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=150+Lindsay+Rd+Zelienople+PA+16063" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-1 inline-block">Get Directions</a>
           </div>
           <p className="text-sm text-muted mb-4">
             <Link
@@ -241,6 +243,7 @@ export default function ParkingPage() {
               (North Shore) or downtown. The T runs through a free fare zone
               downtown. About 35 minutes.
             </p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=South+Hills+Village+T+Station+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-1 inline-block">Get Directions</a>
           </div>
           <div className="card-minimal p-4 mb-4">
             <p className="font-semibold">Dormont T Stations (Beechview, Dormont, Castle Shannon)</p>
@@ -248,6 +251,7 @@ export default function ParkingPage() {
               Multiple stations along the T line with paid parking lots and free
               street parking nearby. Closer to downtown than South Hills Village.
             </p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Dormont+T+Station+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-1 inline-block">Get Directions</a>
           </div>
 
           <h3 className="text-lg font-heading mt-6 mb-2">From the East</h3>
@@ -258,6 +262,7 @@ export default function ParkingPage() {
               Pittsburgh's best transit routes - fast, reliable, and frequent
               service.
             </p>
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Wilkinsburg+Station+Park+and+Ride+Pittsburgh+PA" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline mt-1 inline-block">Get Directions</a>
           </div>
 
           <h3 className="text-lg font-heading mt-6 mb-2">From the West / Airport</h3>
