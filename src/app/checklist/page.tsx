@@ -3,6 +3,7 @@ import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { ChecklistGate } from "@/components/ui/ChecklistGate";
 
 export const metadata: Metadata = {
   title: "NFL Draft Packing & Prep Checklist",
@@ -65,6 +66,9 @@ export default function ChecklistPage() {
             <CheckItem text="Make dinner reservations if you want a sit-down meal (everywhere will be packed)" />
           </div>
         </section>
+
+        {/* === GATED CONTENT: Everything below requires email === */}
+        <ChecklistGate>
 
         {/* Packing list */}
         <section className="mb-14">
@@ -307,6 +311,9 @@ export default function ChecklistPage() {
             Have an amazing draft weekend.
           </p>
         </section>
+
+        </ChecklistGate>
+        {/* === END GATED CONTENT === */}
       </article>
 
       <RelatedPages current="checklist" slugs={["parking", "schedule", "food", "getting_around"]} />

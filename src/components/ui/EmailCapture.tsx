@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { submitEmail } from "@/lib/submitEmail";
+import { unlockChecklist } from "@/components/ui/ChecklistGate";
 
 export function EmailCapture() {
   const [email, setEmail] = useState("");
@@ -19,6 +20,7 @@ export function EmailCapture() {
     } catch {
       // Email capture failed silently, still redirect
     }
+    unlockChecklist();
     setLoading(false);
     router.push("/checklist");
   }
