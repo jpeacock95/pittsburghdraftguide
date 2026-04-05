@@ -3,23 +3,18 @@
 import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { submitEmail } from "@/lib/submitEmail";
-import { unlockChecklist, isChecklistUnlocked } from "@/components/ui/ChecklistGate";
 
 export function EmailBanner() {
   const [dismissed, setDismissed] = useState(false);
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
-  const [checklistUnlocked, setChecklistUnlocked] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
 
   // Check sessionStorage on mount for previous dismissal
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      if (sessionStorage.getItem("banner_dismissed")) {
-        setDismissed(true);
-      }
-      setChecklistUnlocked(isChecklistUnlocked());
+    if (typeof window !== "undefined" && sessionStorage.getItem("banner_dismissed")) {
+      setDismissed(true);
     }
   }, []);
 
@@ -37,9 +32,8 @@ export function EmailBanner() {
 
   if (dismissed) return null;
 
-  // On /checklist page: show green PDF banner only if email was submitted
+  // On /checklist page: show green PDF download banner
   if (pathname === "/checklist") {
-    if (!checklistUnlocked) return null; // Don't show PDF banner if not unlocked
     return (
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-green-800 text-white border-t border-green-600 shadow-lg">
         <div className="max-w-4xl mx-auto px-3 py-2 sm:px-4 sm:py-2.5 flex items-center justify-between gap-2">
@@ -79,7 +73,6 @@ export function EmailBanner() {
     } catch {
       // Email capture failed silently, still redirect
     }
-    unlockChecklist();
     setLoading(false);
     router.push("/checklist");
   }
