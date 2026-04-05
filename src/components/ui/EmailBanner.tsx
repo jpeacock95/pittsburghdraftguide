@@ -47,7 +47,7 @@ export function EmailBanner() {
             Want to print this? Grab the PDF.
           </p>
           <a
-            href="/pdg-checklist-9f3a7e2d.pdf"
+            href="/draft-weekend-checklist.pdf"
             download
             className="bg-white text-green-800 hover:bg-green-50 font-bold px-4 py-2.5 rounded-lg text-xs sm:text-sm transition-colors whitespace-nowrap min-h-[44px] flex items-center flex-shrink-0"
           >
