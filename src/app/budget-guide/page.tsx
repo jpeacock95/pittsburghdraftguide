@@ -65,7 +65,7 @@ export default function BudgetGuide() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 1, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* The Good News */}
         <section className="mb-14">
@@ -219,7 +219,8 @@ export default function BudgetGuide() {
           </h2>
           <p className="text-muted mb-3">
             This is the single biggest money saver. Don't drive downtown.
-            Don't do it. Parking will cost $50-100+ per day, and half the
+            Don't do it. Parking will cost $100-250+ per day (Rivers Casino
+            is charging $250/day or $500 for a 4-day pass), and half the
             lots are closed anyway. Here's what to do instead:
           </p>
           <ul className="space-y-3 text-muted list-disc pl-5 mb-4">
@@ -235,10 +236,12 @@ export default function BudgetGuide() {
               direction. Cheap, direct, no navigation headaches.
             </li>
             <li>
-              <strong>The T light rail has a free fare zone.</strong> Rides
-              between downtown and the North Shore (the two draft venues) are
-              free. You can bounce between Acrisure Stadium and Point State
-              Park all day without paying a cent.
+              <strong>ALL T rides are free April 23-25.</strong> Thanks to
+              Sheetz sponsoring PRT fares, every T ride on every line is free
+              all draft weekend. Not just downtown to North Shore. Every
+              station. If you need buses too, a 3-hour PRT pass is just $2.75
+              or a full day pass is $7. Way cheaper than the $25 Draft Pass
+              unless you're here all week.
             </li>
             <li>
               <strong>If someone in your group drives anyway,</strong> drop

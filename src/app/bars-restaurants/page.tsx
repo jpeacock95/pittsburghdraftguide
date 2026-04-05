@@ -132,7 +132,7 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         <div className="border-l-2 border-accent pl-5 mb-6">
           <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>
@@ -223,7 +223,7 @@ export default function BarsRestaurants() {
               type="Restaurant (NEW)"
               url="https://sugarbirdchickenanddonuts.com/"
               address="151 Mazeroski Way, Pittsburgh, PA 15212"
-              description="Brand new restaurant opening at the Plaza at North Shore right before the draft. We haven't been yet (nobody has), but the Plaza itself is a new outdoor dining and entertainment area between the stadiums. Worth checking out just because it's new."
+              description="Now open at the Plaza at North Shore (grand opening April 2). Chicken fingers, soft-serve ice cream, donuts, and a full bar. The Plaza is a brand new 30,000 sq ft outdoor venue right next to PNC Park with live music and food. It's going to be packed during the draft, but it's worth the visit."
             />
             <SpotCard
               name="Southern Tier Brewery Pittsburgh"

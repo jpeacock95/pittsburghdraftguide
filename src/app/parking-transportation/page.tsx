@@ -22,7 +22,7 @@ const parkingFAQs = [
   {
     question: "How much does parking cost for the NFL Draft?",
     answer:
-      "Downtown garages are expected to charge $125-250+ per day during draft weekend. North Shore lots that are open could reach $100+. SpotHero pre-booking ranges from $10.99 for suburban lots to $220+ for North Shore. Rivers Casino is selling advance passes for $250-$500. Use the ParkPGH app for real-time garage availability.",
+      "Downtown garages are expected to charge $125-250+ per day during draft weekend. North Shore lots that are open could reach $100+. SpotHero pre-booking ranges from $10.99 for suburban lots to $220+ for North Shore. Rivers Casino offers a 4-day advance pass for $500 (April 22-25, 24/7 in/out) or $250/day day-of with no re-entry. All parking is cashless. Use the ParkPGH app for real-time garage availability.",
   },
   {
     question: "Is there free parking near the NFL Draft?",
@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -339,8 +339,8 @@ export default function ParkingPage() {
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3"><a href="https://www.riverscasino.com/pittsburgh/visit/advancedpurchasedraftparkingpass" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Rivers Casino Parking</a></td>
-                  <td className="p-2 sm:p-3">$250-$500</td>
-                  <td className="p-2 sm:p-3 text-muted">Advance purchase draft parking passes. Walking distance to North Shore.</td>
+                  <td className="p-2 sm:p-3">$500 / $250</td>
+                  <td className="p-2 sm:p-3 text-muted">4-day advance pass: $500 + fees (April 22-25, 24/7 in/out). Day-of: $250/day, no re-entry. All cashless. Must be 21+ to enter garage unless accompanied. Walking distance to North Shore.</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3">South Side street parking</td>
@@ -374,7 +374,7 @@ export default function ParkingPage() {
             The city has a <a href="https://www.visitpittsburgh.com/nfl-draft-pittsburgh/nfl-draft-central/nfl-draft-pittsburgh-transportation-guide/nfl-draft-road-closures-traffic-changes/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">6-phase closure plan</a> that runs from March 28 through
             May 10. <strong>Phase 1 closures are already in effect</strong> (Art
             Rooney Ave, West General Robinson St, Scotland Ave closed since
-            March 28). Here's what matters for draft weekend (Phase 3, April
+            March 28). <strong>Phase 2 starts April 13</strong> with Casino Drive, North Shore Drive, Reedsdale Street, Chuck Noll Way, and Tony Dorsett Drive closing. Here's the full list for draft weekend (Phase 3, April
             22-25):
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5">
@@ -392,12 +392,17 @@ export default function ParkingPage() {
               closure map closer to the event.
             </li>
             <li>
-              <strong>I-279 Exit Ramps</strong> - Several exits near downtown
-              are closed. Check PennDOT for specifics.
+              <strong>I-279 Southbound Exit 1B ramp</strong> - Closed, along with Rt. 65 ramps to and from Fort Duquesne Bridge.
             </li>
             <li>
               <strong>Fort Pitt Bridge on-ramp</strong> - Closed from the
               10th Street Bypass.
+            </li>
+            <li>
+              <strong>Penn Avenue</strong> - Closed from Stanwix Street to Ninth Street.
+            </li>
+            <li>
+              <strong>Liberty Ave Extension &amp; Commonwealth Place</strong> - Both closed during draft weekend.
             </li>
           </ul>
           <p className="text-muted mt-3">

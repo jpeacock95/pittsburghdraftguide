@@ -71,7 +71,7 @@ export default function WatchPartiesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* Quick Jump Nav */}
         <section className="mb-14">
@@ -537,7 +537,8 @@ export default function WatchPartiesPage() {
             all afternoon. Many of the Thursday events don't repeat, but
             BetRivers (Rivers Casino), The Villagio, and Steel City Sports Bar
             all run Saturday events. The free options at Bakery Square and Pitt
-            Block Party also continue Saturday.
+            Block Party also continue Saturday. If you want to escape the
+            North Shore crowds entirely, country star <strong>Gabby Barrett</strong> is headlining an alternative draft concert at <strong>Pittsburgh Mills mall</strong> (about 20 miles northeast of downtown).
           </p>
           <p className="text-muted">
             Don't forget the{" "}

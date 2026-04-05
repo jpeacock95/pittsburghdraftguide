@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -277,11 +277,11 @@ export default function ThingsToDoPage() {
                 The Plaza at North Shore Concerts (Ticketed)
               </p>
               <p className="text-sm text-muted">
-                The Plaza at North Shore is hosting three ticketed concerts
-                during draft week. Nelly on Wednesday April 22 at 6 PM
+                The Plaza at North Shore is a brand new 30,000 sq ft outdoor venue that opened April 2, right next to PNC Park. It's hosting three ticketed concerts
+                during draft week: Nelly on Wednesday April 22 at 6 PM
                 (Official Draft Opening Party), Steve Aoki on Thursday April 23
                 at 12 PM (The Ultimate Tailgate Party), and 2 Chainz on Saturday
-                April 25 at 6 PM (Official Draft Closing Party). These are
+                April 25 at 6 PM (Official Draft Closing Party). It also features SugarBird restaurant (chicken, donuts, ice cream, full bar). These are
                 separate paid events, not part of the free draft. Tickets at{" "}
                 <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
               </p>

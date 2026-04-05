@@ -55,7 +55,7 @@ const faqItems = [
   {
     question: "What is the NFL Draft bag policy?",
     answer:
-      "The NFL uses a clear bag policy. You can bring one clear plastic bag (12\" x 6\" x 12\" or smaller) or a small clutch purse (4.5\" x 6.5\"). No backpacks, no large purses, no tinted bags. This is the same policy as NFL games. Don't learn this the hard way at the gate. There likely won't be anywhere convenient to drop off a banned bag.",
+      "The NFL uses a clear bag policy. You can bring one clear plastic bag (12\" x 6\" x 12\" or smaller) or a small clutch purse (4.5\" x 6.5\"). No backpacks, no large purses, no tinted bags. Strollers are allowed but bags and blankets must be removed for separate screening. The entire campus is smoke-free, including e-cigarettes. Professional recording equipment requires a credential. Don't learn this the hard way at the gate. There likely won't be anywhere convenient to drop off a banned bag.",
   },
   {
     question: "What time should I arrive at the NFL Draft?",
@@ -129,6 +129,21 @@ const faqItems = [
     answer:
       "This is the question nobody else is answering. With 500,000+ people using their phones for NFL OnePass, photos, rideshare apps, and social media, cell service will be strained and batteries will die fast. Bring a portable charger. Bring two if you can. There may be charging stations inside the NFL Draft Experience, but don't count on them being available when your phone hits 5%. A dead phone means no OnePass, no Uber, and no way to find your group.",
   },
+  {
+    question: "What's the security like at the NFL Draft?",
+    answer:
+      "Expect airport-level security screening at every entrance. Plan for long lines, especially Thursday evening. Pittsburgh Bureau of Police, Allegheny County Sheriff, and Pennsylvania State Police will all be present. Senator Fetterman has also requested heightened federal security from the Department of Homeland Security. If you feel unsafe, find the nearest security personnel or head to a Fan Services booth.",
+  },
+  {
+    question: "Are strollers allowed at the NFL Draft?",
+    answer:
+      "Yes, strollers are allowed. But all bags and blankets must be removed from the stroller for separate security screening. The campus is fully accessible, and wheelchair loans are available at Fan Services booths.",
+  },
+  {
+    question: "Is the NFL Draft accessible for people with disabilities?",
+    answer:
+      "Yes. All entrances are accessible. Wheelchair loans are available at Fan Services booths. Accessible viewing platforms are set up at multiple locations for fans using mobility devices and their companions. The Draft Theater has a dedicated section with an ASL interpreter, and caption-enabled screens are available across the campus. Medications with prescription labels are allowed. For questions in advance, email nfldraftmobility@gmail.com. A full ADA accessibility guide will be published by April 10.",
+  },
   // For Locals
   {
     question:
@@ -173,12 +188,12 @@ export default function FAQ() {
         {/* Intro */}
         <p className="text-muted mb-8">
           We scraped 27 Reddit threads, hundreds of comments, and every NFL
-          Draft FAQ we could find. These are the 20 questions that kept coming
+          Draft FAQ we could find. These are the 24 questions that kept coming
           up. Not the questions the NFL wants you to ask. The ones real people
           are actually asking.
         </p>
 
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">
@@ -352,8 +367,10 @@ export default function FAQ() {
                 no large purses, no tinted bags. Same rules as NFL games.
               </p>
               <p className="text-muted text-sm leading-relaxed mt-2">
-                Don't learn this the hard way at the gate. There likely won't be
-                anywhere convenient to drop off a banned bag.
+                Strollers are allowed but bags and blankets must be removed for
+                separate screening. The entire campus is smoke-free, including
+                e-cigarettes. Don't learn this the hard way at the gate. There
+                likely won't be anywhere convenient to drop off a banned bag.
               </p>
             </div>
 
@@ -646,6 +663,64 @@ export default function FAQ() {
                 There may be charging stations inside the NFL Draft Experience,
                 but don't count on them. A dead phone means no OnePass, no Uber,
                 and no way to find your group.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ========== SECTION 5B: Safety & Accessibility ========== */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-heading mb-6">Safety &amp; Accessibility</h2>
+
+          <div className="space-y-5">
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
+                What's the security like at the NFL Draft?
+              </h3>
+              <p className="text-muted text-sm leading-relaxed">
+                Expect <strong>airport-level security screening</strong> at
+                every entrance. Plan for long lines, especially Thursday evening.
+                Pittsburgh Bureau of Police, Allegheny County Sheriff, and
+                Pennsylvania State Police will all be present. Senator Fetterman
+                has also requested heightened federal security from the
+                Department of Homeland Security.
+              </p>
+              <p className="text-muted text-sm leading-relaxed mt-2">
+                If you feel unsafe or need help, find the nearest security
+                personnel or head to a Fan Services booth. Customer service is
+                reachable at{" "}
+                <a href="mailto:Experience.Support@nfl.com" className="text-primary hover:underline">Experience.Support@nfl.com</a>.
+              </p>
+            </div>
+
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
+                Are strollers allowed at the NFL Draft?
+              </h3>
+              <p className="text-muted text-sm leading-relaxed">
+                Yes. Strollers are allowed but all bags and blankets must be
+                removed for separate security screening. The entire campus is
+                smoke-free, including e-cigarettes.
+              </p>
+            </div>
+
+            <div className="card-minimal p-5">
+              <h3 className="font-heading text-lg mb-2">
+                Is the NFL Draft accessible for people with disabilities?
+              </h3>
+              <p className="text-muted text-sm leading-relaxed">
+                Yes. All entrances are accessible. <strong>Wheelchair loans</strong> are
+                available at Fan Services booths. Accessible viewing platforms
+                are set up at multiple locations for fans using mobility devices
+                and their companions.
+              </p>
+              <p className="text-muted text-sm leading-relaxed mt-2">
+                The Draft Theater has a dedicated section with an{" "}
+                <strong>ASL interpreter</strong>, and caption-enabled screens are
+                available across the campus. Medications with prescription labels
+                are allowed. For advance questions, email{" "}
+                <a href="mailto:nfldraftmobility@gmail.com" className="text-primary hover:underline">nfldraftmobility@gmail.com</a>.
+                A full ADA accessibility guide will be published by April 10.
               </p>
             </div>
           </div>

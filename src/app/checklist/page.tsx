@@ -39,7 +39,7 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 2, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* Weather note */}
         <div className="card-minimal p-4 mb-8">
@@ -110,6 +110,7 @@ export default function ChecklistPage() {
             />
             <CheckItem text="Coolers, outside food/drinks into the event areas" isNo />
             <CheckItem text="Chairs, blankets, tents" isNo />
+            <CheckItem text="Cigarettes/e-cigarettes (entire campus is smoke-free)" isNo />
             <CheckItem text="Drones" isNo />
             <CheckItem text="Weapons of any kind" isNo />
           </div>

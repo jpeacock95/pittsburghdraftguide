@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -559,7 +559,7 @@ export default function Schedule() {
                 Wed, Thu &amp; Sat &middot; <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Tickets on GoFevo</a>
               </p>
               <p className="text-sm text-muted mt-2">
-                Three concerts at the Plaza at North Shore (ticketed, not part of the free NFL Draft Experience):
+                Three concerts at the brand new Plaza at North Shore, a 30,000 sq ft outdoor venue that opened April 2 right next to PNC Park (ticketed, not part of the free NFL Draft Experience):
               </p>
               <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
                 <li><strong>Wednesday, April 22 (Opening Party, 6 PM):</strong> Nelly</li>
@@ -574,6 +574,24 @@ export default function Schedule() {
               </p>
               <p className="text-sm text-muted mt-2">
                 Ticketed event featuring Jeezy, Boosie Badazz, Mya, and DJ Envy. Tickets available on <a href="https://www.ticketmaster.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ticketmaster</a>.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-bold">NFL Draft Block Party at The Villagio</p>
+              <p className="text-xs text-muted">
+                Friday &amp; Saturday, April 24-25 &middot; Noon-9 PM &middot; 939 Western Ave, North Shore
+              </p>
+              <p className="text-sm text-muted mt-2">
+                Block party on the North Shore both days. Tickets on <a href="https://www.eventbrite.com/e/nfl-draft-block-party-at-the-villagio-424-noon-9-pm-tickets-1984702068313" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Eventbrite</a>.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-bold">Gabby Barrett at Pittsburgh Mills</p>
+              <p className="text-xs text-muted">
+                Draft Weekend &middot; Pittsburgh Mills Mall
+              </p>
+              <p className="text-sm text-muted mt-2">
+                Country star Gabby Barrett is headlining an alternative draft concert at Pittsburgh Mills mall, about 20 miles northeast of downtown. Good option if you want live music without the North Shore crowds.
               </p>
             </div>
           </div>

@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 3, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -106,10 +106,13 @@ export default function GettingAroundPage() {
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
             <li><strong>Phase 1 (active now):</strong> Art Rooney Ave, West General Robinson St, Scotland Ave</li>
+            <li><strong>Phase 2 (April 13):</strong> Casino Drive, North Shore Drive (to Chuck Noll Way), Reedsdale Street, Chuck Noll Way, Tony Dorsett Drive</li>
             <li><strong>Roberto Clemente Bridge:</strong> Pedestrian-only during draft weekend (no vehicles)</li>
             <li><strong>Andy Warhol Bridge:</strong> Closed to vehicles. Pedestrians routed to Roberto Clemente Bridge.</li>
-            <li><strong>Multiple I-279 exit ramps</strong> are shut down</li>
+            <li><strong>I-279 Southbound Exit 1B ramp</strong> closed, plus Rt. 65 ramps to/from Fort Duquesne Bridge</li>
             <li><strong>Fort Pitt Bridge on-ramp</strong> closed from 10th Street Bypass</li>
+            <li><strong>Penn Avenue</strong> closed from Stanwix Street to Ninth Street</li>
+            <li><strong>Liberty Ave Extension &amp; Commonwealth Place</strong> both closed during draft weekend</li>
           </ul>
           <p className="text-muted mb-3">
             <strong>Pittsburgh Public Schools are going remote April 22-24</strong> because of the closures. Companies are telling workers to stay home. That should tell you everything about how serious this is.
@@ -246,9 +249,8 @@ export default function GettingAroundPage() {
                 Village), Blue (Library), and Silver.
               </li>
               <li>
-                <strong>$25 Draft Pass</strong> available through the <a href="https://www.rideprt.org/fares-and-passes/connectcard/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ready2Ride
-                app</a> starting April 1. Seven days of unlimited PRT rides
-                including buses. Good option if you're in town the whole week.
+                <strong>PRT fare options:</strong> A 3-hour pass is just $2.75 (unlimited buses/T for 3 hours). A day pass is $7. The <strong>$25 Draft Pass</strong> in the <a href="https://www.rideprt.org/fares-and-passes/connectcard/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ready2Ride
+                app</a> covers 7 days of unlimited rides including buses. If you're only making one round trip, the $2.75 pass is the move.
               </li>
               <li>
                 <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butler Transit Authority</a></strong> is running service
@@ -623,10 +625,12 @@ export default function GettingAroundPage() {
           </h2>
           <p className="text-muted mb-3">
             Pittsburgh's public bike-share program has stations across Downtown,
-            the North Shore, and surrounding neighborhoods. Pedal bikes and
-            electric-assist bikes available. Unlock with the <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">POGOH app</a>.
+            the North Shore, and surrounding neighborhoods. Pedal bikes start at <strong>$4.50 per 30 minutes</strong>. Electric-assist bikes are <strong>$6 per 30 minutes</strong>. Card only. Unlock with the <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">POGOH app</a>.
             Good for short trips between neighborhoods when the T doesn't go
             where you need or the Uber surge is insane.
+          </p>
+          <p className="text-muted text-sm">
+            <strong>Heads up:</strong> The Three Rivers Heritage Trail goes through Point State Park but will be completely blocked by draft restrictions. Park on the South Side and use First Avenue as an alternate route if you're cycling.
           </p>
         </section>
 

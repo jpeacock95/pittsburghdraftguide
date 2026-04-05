@@ -91,7 +91,7 @@ export default function WhereToStay() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="March 31, 2026" />
+        <LastUpdated date="April 4, 2026" />
 
         {/* Section 1: Price reality */}
         <section className="mb-14">
