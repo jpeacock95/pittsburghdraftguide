@@ -124,12 +124,6 @@ export function Footer() {
             <p>&copy; {new Date().getFullYear()} Pittsburgh Draft Guide. Not
               affiliated with the NFL.
             </p>
-            <p className="mt-2 text-xs text-gray-600">
-              Disclosure: Some links on this site are affiliate links. If you
-              book a hotel, buy gear, or reserve parking through our links, we
-              may earn a small commission at no extra cost to you. This helps
-              keep the guide free.
-            </p>
           </div>
         </div>
       </div>
