@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -208,11 +208,21 @@ export default function Schedule() {
                     <p className="font-heading text-lg font-bold">Opening Night</p>
                     <p className="text-xs text-muted font-medium">Pre-Draft</p>
                   </div>
-                  <p className="text-sm text-muted">
+                  <p className="text-sm text-muted mb-3">
                     The party starts before the picks do. <strong>Nelly</strong> performs
-                    at the Plaza at North Shore for the Official Draft Opening Party (6 PM, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
+                    at the Plaza at North Shore for the Official Draft Opening Party (6 PM, $43, 18+, ticketed via <a href="https://www.gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">GoFevo</a>).
                     Get here a day early if you can.
                   </p>
+                  <div className="space-y-2 mt-2">
+                    <div className="border-l-2 border-accent pl-4">
+                      <p className="text-sm font-semibold"><Link href="/blog/picksburgh-music-crawl" className="text-primary hover:underline">PicksBURGH Music Crawl</Link> (4:45 PM - Late)</p>
+                      <p className="text-xs text-muted">13 venues across Pittsburgh with live music from jazz to metal. Starts at Market Square with DJ Arie Cole, NASH-V.ILL, and Big Jus &amp; Steeltown Horns (4:45-7 PM). Commemorative guitar picks at every venue. Multiple free shows.</p>
+                    </div>
+                    <div className="border-l-2 border-accent pl-4">
+                      <p className="text-sm font-semibold">Market Square Grand Reopening</p>
+                      <p className="text-xs text-muted">The newly renovated Market Square reopens with a ribbon cutting. Activations run all 3 draft days too: Thu-Fri 10 AM-9 PM, Sat 9 AM-7 PM. Steelers-themed bar, mini golf, live blacksmithing, photo stations.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -504,9 +514,8 @@ export default function Schedule() {
                 Tuesday, April 22 &middot; Tower at PNC Plaza
               </p>
               <p className="text-sm text-muted mt-2">
-                Charity food event with 20+ restaurants. Benefits GENYOUth
-                (ending student hunger). Tickets are $845. Premium experience
-                with NFL player appearances.
+                Hosted by celebrity chef <strong>Andrew Zimmern</strong> with 20+ local chefs. Benefits GENYOUth
+                (ending student hunger in Pennsylvania). Tickets are $845. Mingle with past and present Steelers players and NFL Legends. Open bar, live entertainment.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -562,10 +571,19 @@ export default function Schedule() {
                 Three concerts at the brand new Plaza at North Shore, a 30,000 sq ft outdoor venue that opened April 2 right next to PNC Park (ticketed, not part of the free NFL Draft Experience):
               </p>
               <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
-                <li><strong>Wednesday, April 22 (Opening Party, 6 PM):</strong> Nelly</li>
-                <li><strong>Thursday, April 23 (Tailgate Party, 12 PM):</strong> Steve Aoki</li>
-                <li><strong>Saturday, April 25 (Closing Party, 6 PM):</strong> 2 Chainz</li>
+                <li><strong>Wednesday, April 22 (Opening Party, 6 PM):</strong> Nelly ($43, 18+)</li>
+                <li><strong>Thursday, April 23 (Tailgate Party, 12 PM):</strong> Steve Aoki ($43, 18+)</li>
+                <li><strong>Saturday, April 25 (Closing Party, 6 PM):</strong> 2 Chainz ($46, 18+)</li>
               </ul>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-bold">Pitt Block Party at Arts Landing (FREE)</p>
+              <p className="text-xs text-muted">
+                Thu-Sat, April 23-25 &middot; 9 AM-6 PM &middot; Arts Landing, Cultural District
+              </p>
+              <p className="text-sm text-muted mt-2">
+                Free three-day celebration hosted by Pitt Athletics and the Pittsburgh Cultural Trust. Experiential Pitt Football museum, interactive draft showcase, live music, food trucks, local vendors, and a dedicated children's activity zone. Walking distance to both draft venues.
+              </p>
             </div>
             <div className="card-minimal p-4">
               <p className="font-bold">Steel City Draft Weekend Urban Block Party</p>

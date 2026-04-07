@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -299,6 +299,54 @@ export default function ThingsToDoPage() {
           </p>
         </section>
 
+        {/* Market Square Activations */}
+        <section className="mb-14">
+          <h2 id="market-square" className="text-2xl font-heading mb-4">
+            Market Square Activations (Free, All 3 Days)
+          </h2>
+          <p className="text-muted mb-3">
+            Market Square just got a major renovation and it's reopening for draft week with the grand reopening on Wednesday, April 22. After that, activations run all three draft days. It's a 7-minute walk from Point State Park.
+          </p>
+          <div className="card-minimal p-4 mb-3">
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>Hours:</strong> Thu-Fri 10 AM-9 PM, Sat 9 AM-7 PM</li>
+              <li><strong>Steelers-themed bar</strong></li>
+              <li><strong>Pittsburgh miniature golf</strong></li>
+              <li><strong>Live blacksmithing demos</strong> by Rivers of Steel</li>
+              <li><strong>Photo stations, prizes, and games</strong></li>
+              <li><strong>Live entertainment</strong> throughout the day</li>
+            </ul>
+          </div>
+          <p className="text-sm text-muted">
+            Market Square is always a good hang. During draft week, it's going to be the downtown gathering spot between venue visits.
+          </p>
+        </section>
+
+        {/* Pitt Block Party at Arts Landing */}
+        <section className="mb-14">
+          <h2 id="pitt-block-party" className="text-2xl font-heading mb-4">
+            Pitt Block Party at Arts Landing (Free)
+          </h2>
+          <p className="text-muted mb-3">
+            Pitt Athletics and the Pittsburgh Cultural Trust are hosting a free three-day celebration at Arts Landing, a brand new four-acre civic space in the Cultural District. It's walking distance from both draft venues and Point State Park.
+          </p>
+          <div className="card-minimal p-4 mb-3">
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>When:</strong> April 23-25, 9 AM-6 PM daily</li>
+              <li><strong>Cost:</strong> Free admission</li>
+              <li><strong>Pitt Football museum</strong> with interactive exhibits</li>
+              <li><strong>Live draft showcase</strong> so you can follow the picks without the main stage crowds</li>
+              <li><strong>Live music and entertainment</strong></li>
+              <li><strong>Food trucks and beverages</strong></li>
+              <li><strong>Local vendors</strong></li>
+              <li><strong>Children's activity zone</strong> (great for families)</li>
+            </ul>
+          </div>
+          <p className="text-sm text-muted">
+            If you've got kids or just want a less intense draft experience, this is the spot. You get the draft atmosphere without the North Shore crush.
+          </p>
+        </section>
+
         {/* PicksBURGH 5K */}
         <section className="mb-14">
           <h2 id="5k-race" className="text-2xl font-heading mb-4"><a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">PicksBURGH 5K</a></h2>
@@ -311,19 +359,24 @@ export default function ThingsToDoPage() {
           <div className="card-minimal p-4 mb-3">
             <ul className="text-sm text-muted space-y-1">
               <li>
-                <strong>When:</strong> Saturday morning (Day 3 of the draft)
+                <strong>When:</strong> Saturday, April 25 at 8:00 AM
               </li>
               <li>
                 <strong>Organized by:</strong> P3R (Pittsburgh Three Rivers
                 Marathon Inc.)
               </li>
               <li>
-                <strong>Registration:</strong> Check P3R's website for signups
-                and pricing
+                <strong>Route:</strong> Starts on the North Shore, crosses 16th Street Bridge, winds through Downtown, finishes at Point State Park
               </li>
               <li>
-                <strong>Note:</strong> The 16th Street Bridge is expected to
-                close Saturday morning for the race route
+                <strong>Registration:</strong>{" "}
+                <a href="https://p3r.org/races/picksburgh-draft-day-5k" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">p3r.org/races/picksburgh-draft-day-5k</a>
+              </li>
+              <li>
+                <strong>Virtual option:</strong> Can't be in Pittsburgh? There's a virtual participation option for runners anywhere
+              </li>
+              <li>
+                <strong>Swag:</strong> Every runner gets a commemorative race shirt and finisher medal
               </li>
             </ul>
           </div>
@@ -346,10 +399,8 @@ export default function ThingsToDoPage() {
             Taste of the Draft (April 22)
           </h2>
           <p className="text-muted mb-3">
-            This is the premium food event of draft week. Held at Tower at PNC
-            Plaza the night before Round 1, Taste of the Draft features 20+
-            restaurants and is a charity event benefiting GENYOUth (which fights
-            student hunger).
+            This is the premium food event of draft week. Hosted by celebrity chef <strong>Andrew Zimmern</strong> at Tower at PNC
+            Plaza the night before Round 1. It's a charity event benefiting GENYOUth's mission to end student hunger in Pennsylvania.
           </p>
           <div className="card-minimal p-4 mb-3">
             <ul className="text-sm text-muted space-y-1">
@@ -364,8 +415,8 @@ export default function ThingsToDoPage() {
                 <strong>Tickets:</strong> $845 per person
               </li>
               <li>
-                <strong>What you get:</strong> 20+ restaurant tastings, open bar,
-                NFL player appearances, charity fundraiser
+                <strong>What you get:</strong> 20+ local chefs, open bar,
+                past and present Steelers players, NFL Legends, live entertainment, surprise-and-delight moments
               </li>
             </ul>
           </div>

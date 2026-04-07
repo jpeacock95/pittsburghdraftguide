@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/blog/what-to-wear-nfl-draft-pittsburgh", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/nfl-draft-pittsburgh-rain-plan", priority: 0.6, changeFrequency: "monthly" as const },
     { url: "/blog/nfl-draft-pittsburgh-kids-family", priority: 0.6, changeFrequency: "monthly" as const },
+    { url: "/blog/picksburgh-music-crawl", priority: 0.7, changeFrequency: "weekly" as const },
   ];
 
   return pages.map((page) => ({

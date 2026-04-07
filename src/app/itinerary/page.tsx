@@ -191,6 +191,17 @@ export default function ItineraryPage() {
             </TimeSlot>
 
             <TimeSlot
+              time="4:45 PM"
+              title="PicksBURGH Music Crawl starts at Market Square"
+              highlight
+            >
+              <p>
+                The city-wide <Link href="/blog/picksburgh-music-crawl" className="text-primary hover:underline font-semibold">PicksBURGH Music Crawl</Link> kicks off at Market Square with live performances, then spreads across 13 venues with genres from jazz to metal. Free guitar picks at every stop. Multiple free shows. Check the{" "}
+                <Link href="/blog/picksburgh-music-crawl" className="text-primary hover:underline font-semibold">full venue list</Link> and pick your route.
+              </p>
+            </TimeSlot>
+
+            <TimeSlot
               time="8:00 PM"
               title='Jason Aldean "The Night Before" concert at Rivers Casino'
               highlight
@@ -199,8 +210,8 @@ export default function ItineraryPage() {
                 Rivers Casino on the North Shore is hosting the big pre-draft
                 concert. Jason Aldean literally has a restaurant on the North
                 Shore too. If country isn't your thing, The Plaza at North Shore
-                is hosting Nelly at 6 PM for the Official Draft Opening Party.
-                Tickets at <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>.
+                is hosting Nelly at 6 PM ($43, 18+) for the Official Draft Opening Party.
+                Tickets at <a href="https://gofevo.com/group/ThePlazaAtNorthShore" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gofevo.com</a>. Or keep doing the Music Crawl. Several venues have shows until 11 PM.
               </p>
             </TimeSlot>
 

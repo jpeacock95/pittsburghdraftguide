@@ -6,9 +6,9 @@ import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh FAQ: 20+ Questions",
+  title: "NFL Draft Pittsburgh FAQ: 25+ Questions",
   description:
-    "Is the NFL Draft free? Where do I park? What can I bring? 20+ answers about the 2026 draft in Pittsburgh. No fluff, just what you actually need to know.",
+    "Is the NFL Draft free? Where do I park? What can I bring? 25+ answers about the 2026 draft in Pittsburgh. No fluff, just what you actually need to know.",
 };
 
 const faqItems = [
@@ -132,7 +132,17 @@ const faqItems = [
   {
     question: "What's the security like at the NFL Draft?",
     answer:
-      "Expect airport-level security screening at every entrance. Plan for long lines, especially Thursday evening. Pittsburgh Bureau of Police, Allegheny County Sheriff, and Pennsylvania State Police will all be present. Senator Fetterman has also requested heightened federal security from the Department of Homeland Security. If you feel unsafe, find the nearest security personnel or head to a Fan Services booth.",
+      "Expect airport-level security screening at every entrance. Plan for long lines, especially Thursday evening. 18 law enforcement agencies are coordinating security, including Pittsburgh Bureau of Police, Allegheny County Sheriff, Pennsylvania State Police, ATF, and the Department of Homeland Security. Senator Fetterman has requested heightened federal security. If you feel unsafe, find the nearest security personnel or head to a Fan Services booth.",
+  },
+  {
+    question: "Are there medical services at the NFL Draft?",
+    answer:
+      "Yes. AHN (Allegheny Health Network) and UPMC both have medical tents and pop-up care sites on location during all three days. If you need help, look for the medical tent signage or ask any security or staff member. For emergencies, call 911. The draft venues are close to multiple hospitals including UPMC Mercy and Allegheny General Hospital.",
+  },
+  {
+    question: "Is Allegheny T Station open during the draft?",
+    answer:
+      "No. Allegheny Station is closed April 22-25 for draft infrastructure. Use North Side Station instead. It's one stop south on the T line, about a 3-minute walk from where Allegheny Station would drop you off. Downtown stations (Gateway, Wood Street, Steel Plaza, First Avenue) are all open and connect to North Side Station.",
   },
   {
     question: "Are strollers allowed at the NFL Draft?",
@@ -193,7 +203,7 @@ export default function FAQ() {
           are actually asking.
         </p>
 
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* ========== SECTION 1: Getting There & Parking ========== */}
         <section className="mb-16">

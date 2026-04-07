@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -91,6 +91,19 @@ export default function GettingAroundPage() {
             Park at South Hills Village, Castle Shannon, or Dormont and ride the T
             straight to the draft venues for $0. This is the single best
             transportation hack for the weekend.
+          </p>
+        </section>
+
+        {/* Allegheny Station Closure Warning */}
+        <section className="border-l-2 border-red-500/60 pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">
+            Allegheny T Station is CLOSED April 22-25
+          </h2>
+          <p className="text-muted mb-2">
+            If you were planning to get off at Allegheny Station on the T, you can't. It's closed for draft infrastructure from April 22 through April 25. Use <strong>North Side Station</strong> instead. It's one stop south on the same line, about a 3-minute walk difference. You'll still end up in the same North Shore area near Acrisure Stadium.
+          </p>
+          <p className="text-sm text-muted">
+            Downtown stations (Gateway, Wood Street, Steel Plaza, First Avenue) are all open and connect to North Side Station.
           </p>
         </section>
 
@@ -344,7 +357,7 @@ export default function GettingAroundPage() {
             <div className="card-minimal p-4">
               <p className="font-semibold text-sm"><a href="https://www.bcta.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Beaver County Transit Authority</a></p>
               <p className="text-sm text-muted">
-                Express trips between Beaver County and Downtown, timed for draft activities.
+                Express trips between Beaver County Expressway Travel Center and Downtown. <strong>$5 each way or $10 unlimited day pass.</strong> Timed for draft activities.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -467,6 +480,19 @@ export default function GettingAroundPage() {
           </div>
         </section>
 
+        {/* Pedestrian Pathway */}
+        <section className="mb-14">
+          <h2 id="pedestrian-pathway" className="text-2xl font-heading mb-4">
+            The Pedestrian Pathway (It's Part of the Show)
+          </h2>
+          <p className="text-muted mb-3">
+            The walk between Downtown and the North Shore isn't just transportation. VisitPittsburgh is turning the pedestrian pathway into an experience. Nearly <strong>100 local buskers and street performers</strong> will line the route. Large-scale photo installations are set up along the way. Wayfinding elements connect you to nearby shops, restaurants, and small businesses.
+          </p>
+          <p className="text-muted">
+            Don't rush through it. The walk from Point State Park to the Draft Theater takes about 15 minutes, and there's going to be something worth stopping for every 30 seconds.
+          </p>
+        </section>
+
         {/* Uber/Lyft */}
         <section className="mb-14">
           <h2 id="rideshare" className="text-2xl font-heading mb-4">Uber &amp; Lyft Tips</h2>
@@ -520,11 +546,11 @@ export default function GettingAroundPage() {
         {/* Gateway Clipper */}
         <section className="mb-14">
           <h2 id="river-ferry" className="text-2xl font-heading mb-4">
-            <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (River Ferry)
+            <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (FREE River Ferry)
           </h2>
           <p className="text-muted mb-3">
-            This is the fun option. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
-            riverboat service between North Shore and Station Square on{" "}
+            This is the fun option, and it's <strong>free</strong>. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
+            free riverboat shuttles between North Shore and Station Square on{" "}
             <strong>Friday and Saturday (April 24-25)</strong>. Four vessels
             will operate, moving visitors to the North Shore and Downtown with
             routes between Station Square and PNC Park, and between Point State

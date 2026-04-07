@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -139,7 +139,13 @@ export default function ParkingPage() {
               <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit</a></strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to <a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ross Park</a> lot, $10 round trip, exact cash only
             </li>
             <li>
-              <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day, every 10-15 minutes. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
+              <strong>Beaver County Transit Authority:</strong> $5 each way or $10 unlimited day pass from Beaver County Expressway Travel Center to Downtown Pittsburgh
+            </li>
+            <li>
+              <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day. Every 15 minutes Thursday and Friday, every 30 minutes Saturday. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
+            </li>
+            <li>
+              <strong>Heads up:</strong> Allegheny Station on the T is <strong>closed April 22-25</strong> for draft infrastructure. Use North Side Station instead. It's one stop south, about a 3-minute walk difference. Same area.
             </li>
           </ul>
           <p className="text-muted text-sm">
@@ -350,6 +356,12 @@ export default function ParkingPage() {
               </tbody>
             </table>
           </div>
+          <div className="card-minimal p-4 mt-4">
+            <p className="font-semibold text-sm">Parking Meter Rate Increase</p>
+            <p className="text-sm text-muted mt-1">
+              The city is raising parking meter rates to <strong>$5/hour</strong> in Downtown and North Shore areas from April 22-27. Normal rates are $2-3/hour. If you're feeding a meter, budget accordingly.
+            </p>
+          </div>
         </section>
 
         {/* The T */}
@@ -410,6 +422,12 @@ export default function ParkingPage() {
             are going remote for 3 days. The city issued a <strong>construction moratorium</strong> for draft week to keep construction traffic off the roads. If that doesn't tell you how serious
             the closures are, nothing will.
           </p>
+          <div className="card-minimal p-4 mt-4">
+            <p className="font-semibold text-sm">PRT Bus Route Changes</p>
+            <p className="text-sm text-muted mt-1">
+              Multiple PRT bus routes are suspended or rerouted during draft weekend. Most regular routes will run on Saturday schedules Thursday and Friday. Check <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">rideprt.org/2026-draft</a> for the latest route status before you leave.
+            </p>
+          </div>
         </section>
 
         {/* Uber/Lyft */}

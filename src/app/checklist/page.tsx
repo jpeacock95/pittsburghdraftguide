@@ -190,7 +190,7 @@ export default function ChecklistPage() {
               <div className="flex justify-between items-start">
                 <div>
                   <p className="font-bold">Wednesday, April 22</p>
-                  <p className="text-sm text-muted">Opening Night | Draft Experience opens | Nelly at The Plaza at North Shore (6 PM, ticketed)</p>
+                  <p className="text-sm text-muted">Opening Night | <Link href="/blog/picksburgh-music-crawl" className="text-primary hover:underline">PicksBURGH Music Crawl</Link> (13 venues, 4:45 PM) | Nelly at The Plaza ($43, 6 PM) | Market Square Grand Reopening</p>
                 </div>
                 <span className="text-xs bg-accent text-foreground px-2 py-1 rounded font-semibold">
                   Pre-Draft
