@@ -4,6 +4,7 @@ import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
+import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Watch Parties 2026",
@@ -694,27 +695,27 @@ export default function WatchPartiesPage() {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="bg-primary-dark text-white rounded-lg p-6 text-center">
+        {/* Lead capture + CTA */}
+        <EmailCapture />
+        <section className="bg-primary-dark text-white rounded-lg p-6 text-center mt-8">
           <h2 className="text-lg font-heading mb-2">
-            Don't forget the basics
+            Now figure out how you're getting there
           </h2>
           <p className="text-gray-300 text-sm mb-4">
-            Download the checklist, register for OnePass, and figure out how
-            you're getting there before you pick a party.
+            Register for OnePass, plan your transit, and check what roads are closed before you pick a party.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link
-              href="/checklist"
+              href="/getting-around"
               className="bg-accent hover:bg-accent-dark text-foreground font-bold py-2 px-4 rounded-lg transition-colors text-sm"
             >
-              Draft Checklist
+              Getting Around
             </Link>
             <Link
-              href="/getting-around"
+              href="/schedule"
               className="bg-white/10 hover:bg-white/20 text-white font-bold py-2 px-4 rounded-lg border border-white/20 transition-colors text-sm"
             >
-              Getting Around
+              Draft Schedule
             </Link>
           </div>
         </section>
