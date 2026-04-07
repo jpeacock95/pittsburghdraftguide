@@ -597,7 +597,7 @@ export default function GettingAroundPage() {
               <p className="text-sm text-muted">
                 Pedestrian-only all draft weekend. This is THE bridge connecting
                 the two draft sites. You'll probably walk it 5 times. It's the
-                iconic yellow one in every Pittsburgh photo.
+                iconic yellow one in every Pittsburgh photo. <strong>Expect it to be a scene.</strong> Street performers, photo ops with the skyline behind you, and 100,000+ people crossing it daily. It's going to be one of the most photographed spots of the entire draft. Plan your walk across it, don't rush it.
               </p>
             </div>
             <div className="border-l-2 border-accent pl-5">
@@ -653,10 +653,49 @@ export default function GettingAroundPage() {
             Pittsburgh's public bike-share program has stations across Downtown,
             the North Shore, and surrounding neighborhoods. Pedal bikes start at <strong>$4.50 per 30 minutes</strong>. Electric-assist bikes are <strong>$6 per 30 minutes</strong>. Card only. Unlock with the <a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">POGOH app</a>.
             Good for short trips between neighborhoods when the T doesn't go
-            where you need or the Uber surge is insane.
+            where you need or the Uber surge is insane. Multiple Reddit users called POGOH a legit transit alternative for draft weekend, not just a tourist novelty.
           </p>
-          <p className="text-muted text-sm">
+          <p className="text-muted text-sm mb-3">
             <strong>Heads up:</strong> The Three Rivers Heritage Trail goes through Point State Park but will be completely blocked by draft restrictions. Park on the South Side and use First Avenue as an alternate route if you're cycling.
+          </p>
+        </section>
+
+        {/* Transit Apps */}
+        <section className="mb-14">
+          <h2 className="text-2xl font-heading mb-4">Transit Apps You Should Download</h2>
+          <div className="space-y-3">
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm"><a href="https://www.rideprt.org/fares-passes/ready2ride/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ready2Ride</a> (PRT's Official App)</p>
+              <p className="text-sm text-muted mt-1">
+                Buy the $25 Draft Pass for 7 days of unlimited PRT rides (buses + T). Also load single fares and day passes. This is the official PRT app.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm"><a href="https://transitapp.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Transit App</a> (Real-Time Bus/Train Tracking)</p>
+              <p className="text-sm text-muted mt-1">
+                Shows real-time arrival times for PRT buses and the T. Works better than Google Maps for Pittsburgh transit. Reddit's go-to recommendation for navigating the bus system. Free.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm"><a href="https://www.parkpgh.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">ParkPGH</a> (Garage Availability)</p>
+              <p className="text-sm text-muted mt-1">
+                Real-time parking garage availability for downtown Pittsburgh. If you're driving in, check this before you leave.
+              </p>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-semibold text-sm"><a href="https://pogoh.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">POGOH</a> (Bike Share)</p>
+              <p className="text-sm text-muted mt-1">
+                Unlock pedal or e-bikes at stations across Pittsburgh. $4.50-6 per 30 minutes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Regular bus routes */}
+        <section className="card-minimal p-4 mb-14">
+          <p className="font-semibold text-sm mb-1">Are Regular PRT Bus Routes Running?</p>
+          <p className="text-sm text-muted">
+            Yes, but with changes. PRT is running most regular routes on <strong>Saturday-level service</strong> Thursday and Friday. Some routes near the North Shore and Point State Park are suspended or rerouted. The Football Flyer express routes (99N, 99S, 99E, 99W) supplement regular service. Check <a href="https://www.rideprt.org/2026-draft/draft/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">rideprt.org/2026-draft</a> for the latest route-by-route status before you leave.
           </p>
         </section>
 

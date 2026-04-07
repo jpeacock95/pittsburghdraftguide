@@ -57,7 +57,7 @@ export default function WhereToStay() {
             description:
               "Hotels for the 2026 NFL Draft are $500-2,000/night downtown. Here are cheaper options in Cranberry Township, McKnight Rd, and along the T line.",
             datePublished: "2026-03-27",
-            dateModified: "2026-03-31",
+            dateModified: "2026-04-07",
             author: {
               "@type": "Organization",
               name: "Pittsburgh Draft Guide",
@@ -91,7 +91,7 @@ export default function WhereToStay() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* Section 1: Price reality */}
         <section className="mb-14">
@@ -324,6 +324,17 @@ export default function WhereToStay() {
                 lots at the stations, but free street parking on nearby
                 residential streets. Hotels in this area run $120-200/night.
                 About 20 minutes on the T to downtown.
+              </p>
+            </div>
+
+            <div className="card-minimal p-4">
+              <div className="flex justify-between items-start mb-1">
+                <a href="https://www.google.com/maps/place/Crowne+Plaza+Pittsburgh+South+-+IHG+Hotel/@40.3252,-80.0513,17z/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-bold">Crowne Plaza Pittsburgh South (Upper St. Clair)</a>
+                <span className="text-sm text-muted font-semibold">$150-200</span>
+              </div>
+              <p className="text-sm text-muted mb-1">164 Fort Couch Rd, Upper St. Clair  <a href="https://www.google.com/maps/dir/?api=1&destination=164+Fort+Couch+Rd+Pittsburgh+PA+15241" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
+              <p className="text-sm text-muted">
+                Reddit's under-the-radar pick. About $150/night, near a T station, and nowhere near the price insanity of downtown. Drive to South Hills Village T Station (10 min), park for free, and ride the T straight to the draft. Full-service hotel with on-site restaurant.
               </p>
             </div>
 
@@ -693,6 +704,16 @@ export default function WhereToStay() {
             <div className="card-minimal p-4 flex gap-3">
               <span className="text-lg font-bold text-primary shrink-0">6.</span>
               <div>
+                <p className="font-semibold text-sm">Washington PA / Tanger Outlets (Last Resort, But It Works)</p>
+                <p className="text-sm text-muted">
+                  If everything closer is booked or too expensive, check <a href="https://www.google.com/maps/dir/?api=1&destination=Washington+PA+15301" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Washington, PA</a> (about 35 miles south on I-79). Hotels near the Tanger Outlets run $100-150/night. It's a 40-50 minute drive, but <a href="https://www.freedomtransit.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Freedom Transit</a> (Washington County) is running extended service for draft weekend. Not ideal, but it beats paying $2,000/night.
+                </p>
+              </div>
+            </div>
+
+            <div className="card-minimal p-4 flex gap-3">
+              <span className="text-lg font-bold text-primary shrink-0">7.</span>
+              <div>
                 <p className="font-semibold text-sm">The Marriott near the airport</p>
                 <p className="text-sm text-muted">
                   Multiple Reddit users mentioned the airport-area Marriott as
@@ -781,6 +802,12 @@ export default function WhereToStay() {
                   <td className="p-2 sm:p-3">$120-200</td>
                   <td className="p-2 sm:p-3 text-muted">Bus/drive (30-40 min)</td>
                   <td className="p-2 sm:p-3 text-muted">Backup plan. Furthest out.</td>
+                </tr>
+                <tr className="border-t border-border">
+                  <td className="p-2 sm:p-3 font-semibold">Washington PA</td>
+                  <td className="p-2 sm:p-3">$100-150</td>
+                  <td className="p-2 sm:p-3 text-muted">Drive (40-50 min)</td>
+                  <td className="p-2 sm:p-3 text-muted">Last resort. Near Tanger Outlets.</td>
                 </tr>
                 <tr className="border-t border-border">
                   <td className="p-2 sm:p-3 font-semibold">Airbnb (downtown)</td>

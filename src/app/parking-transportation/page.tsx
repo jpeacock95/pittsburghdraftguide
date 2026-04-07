@@ -287,6 +287,16 @@ export default function ParkingPage() {
             If You Must Drive: Parking Options and Pricing
           </h2>
 
+          <h3 className="text-lg font-heading mt-6 mb-3">Rent a Private Driveway (Prked App)</h3>
+          <div className="card-minimal p-4 mb-6">
+            <p className="font-semibold text-sm mb-1">
+              <a href="https://www.prked.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Prked</a> - Reddit's #1 Insider Parking Tip
+            </p>
+            <p className="text-sm text-muted mt-1">
+              <a href="https://www.prked.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Prked</a> lets you rent private driveways and parking spaces from homeowners near the venues. This came up in 4+ Reddit threads as the best-kept secret for event parking in Pittsburgh. Residents near Acrisure Stadium and the North Shore list their driveways, and you book in advance. Prices vary, but they're typically way less than garage rates. Check availability as you get closer to draft weekend.
+            </p>
+          </div>
+
           <h3 className="text-lg font-heading mt-6 mb-3">Pre-Book on SpotHero</h3>
           <p className="text-muted mb-4">
             The smartest move if you're driving is to pre-book a guaranteed spot.{" "}
@@ -422,6 +432,9 @@ export default function ParkingPage() {
             are going remote for 3 days. The city issued a <strong>construction moratorium</strong> for draft week to keep construction traffic off the roads. If that doesn't tell you how serious
             the closures are, nothing will.
           </p>
+          <p className="text-muted mt-3">
+            <strong>Important:</strong> Road closures don't end when the draft does. The 6-phase plan runs through <strong>May 10</strong> for teardown and cleanup. If you're staying past the weekend or live in the area, expect continued disruptions for two weeks after the last pick.
+          </p>
           <div className="card-minimal p-4 mt-4">
             <p className="font-semibold text-sm">PRT Bus Route Changes</p>
             <p className="text-sm text-muted mt-1">
@@ -446,8 +459,8 @@ export default function ParkingPage() {
               event. They probably won't be convenient.
             </li>
             <li>
-              Walk a few blocks away from the main venues before requesting a
-              ride. Surge pricing is highest right at the event.
+              <strong>Walk a few blocks away from the main venues before requesting a
+              ride.</strong> This is the single most repeated tip on Reddit. Surge pricing is highest right at the event. Walk to Market Square, the Strip District, or even across Smithfield Street Bridge to Station Square. You could save $20-40 just by moving 5 blocks.
             </li>
             <li>
               Late night rides home will be the hardest to get. Consider staying

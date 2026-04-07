@@ -39,7 +39,7 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 7, 2026" />
 
         {/* Weather note */}
         <div className="card-minimal p-4 mb-8">
@@ -58,6 +58,7 @@ export default function ChecklistPage() {
             <CheckItem text="Book your hotel if you haven't already (prices are only going up)" />
             <CheckItem>Pre-book parking on <a href="https://spothero.com/city/pittsburgh-parking" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">SpotHero</a> if you're driving (or skip parking entirely. ALL T rides are free April 23-25 thanks to Sheetz)</CheckItem>
             <CheckItem text="Download the Ready2Ride app if you want the $25 Draft Pass (7 days unlimited PRT rides including buses)" />
+            <CheckItem>Download the <a href="https://transitapp.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Transit app</a> for real-time PRT bus and T arrival times (works better than Google Maps for Pittsburgh transit)</CheckItem>
             <CheckItem text="Check the road closure map. Several bridges and I-279 exits are closed" />
             <CheckItem text="Charge your portable battery pack (you'll need it)" />
             <CheckItem text="Check the weather forecast for Pittsburgh April 23-25" />
@@ -77,7 +78,7 @@ export default function ChecklistPage() {
               <a href="https://www.amazon.com/s?k=clear+stadium+bag+12x6x12" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Clear bag</a> (12x6x12 max for Acrisure Stadium, 16x16x6 for Point State Park). Buy one on Amazon for $8, don't pay $25 at the event
             </CheckItem>
             <CheckItem>
-              <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Portable phone charger</a>. OnePass drains your battery fast, and 500K other people will be competing for cell signal
+              <a href="https://www.amazon.com/s?k=portable+phone+charger+10000mah" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Portable phone charger</a> (10,000mAh minimum). This is Reddit's #1 tip. With 500K people on temporary cell towers, your phone works overtime searching for signal, draining 2-3x faster than normal. Add OnePass running constantly, photos, maps, and rideshare apps. You WILL hit 0% without a backup battery. Bring two if you can.
             </CheckItem>
             <CheckItem text="Comfortable walking shoes. You'll walk 5-10 miles per day between venues" />
             <CheckItem text="Layers. April in Pittsburgh can be 45 or 75 degrees. Seriously. Pack for both." />

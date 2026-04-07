@@ -132,7 +132,7 @@ const faqItems = [
   {
     question: "What's the security like at the NFL Draft?",
     answer:
-      "Expect airport-level security screening at every entrance. Plan for long lines, especially Thursday evening. 18 law enforcement agencies are coordinating security, including Pittsburgh Bureau of Police, Allegheny County Sheriff, Pennsylvania State Police, ATF, and the Department of Homeland Security. Senator Fetterman has requested heightened federal security. If you feel unsafe, find the nearest security personnel or head to a Fan Services booth.",
+      "Expect airport-level security screening at every entrance. Plan for long lines, especially Thursday evening. 18 law enforcement agencies are coordinating security, including Pittsburgh Bureau of Police, Allegheny County Sheriff, Pennsylvania State Police, ATF, and the Department of Homeland Security. Senator John Fetterman formally requested heightened federal security from DHS Secretary Noem in a public letter. The NFL is also using metal detectors, bag checks, and K-9 units. If you feel unsafe, find the nearest security personnel or head to a Fan Services booth.",
   },
   {
     question: "Are there medical services at the NFL Draft?",
@@ -153,6 +153,16 @@ const faqItems = [
     question: "Is the NFL Draft accessible for people with disabilities?",
     answer:
       "Yes. All entrances are accessible. Wheelchair loans are available at Fan Services booths. Accessible viewing platforms are set up at multiple locations for fans using mobility devices and their companions. The Draft Theater has a dedicated section with an ASL interpreter, and caption-enabled screens are available across the campus. Medications with prescription labels are allowed. For questions in advance, email nfldraftmobility@gmail.com. A full ADA accessibility guide will be published by April 10.",
+  },
+  {
+    question: "What's the difference between the Draft Experience and the Draft Theater?",
+    answer:
+      "They're two separate areas at two separate locations. The Draft Experience is the interactive fan zone at Point State Park (downtown side). It has the 40-yard dash, field goal challenge, autograph stage, Lombardi Trophy photos, and food vendors. Hours: Thu/Fri 12-10 PM, Sat 9 AM-6 PM. Clear bags up to 16x16x6. The Draft Theater is at Acrisure Stadium on the North Shore. That's where picks get announced on the main stage (the one you see on TV). Free concerts happen here too. Clear bags up to 12x6x12 (stricter). They're about a 15-minute walk apart across the Roberto Clemente Bridge, or a 5-minute T ride.",
+  },
+  {
+    question: "Are regular PRT bus routes running during draft weekend?",
+    answer:
+      "Yes, but with changes. PRT is running most regular routes on Saturday-level service Thursday and Friday. That means some weekday-only routes won't operate. Routes near the North Shore and Point State Park are suspended or rerouted. The Football Flyer express routes (99N, 99S, 99E, 99W) supplement regular service and run every 15 minutes Thursday/Friday, every 30 minutes Saturday, from 10 AM to 1 AM. Check rideprt.org/2026-draft for the latest route-by-route status before you leave.",
   },
   // For Locals
   {

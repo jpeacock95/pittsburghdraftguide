@@ -291,7 +291,43 @@ export default function Schedule() {
               <a href="https://www.nfl.com/draft/access" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">NFL.com/DraftAccess</a>{" "}
               or download the NFL OnePass app from the App Store or Google Play.
             </p>
+            <p className="text-muted text-sm mt-3">
+              <strong>Don't have a smartphone?</strong> The NFL will have free on-site registration kiosks at the entrance. You can walk up and register in person. But downloading the app in advance saves you time in line and gives you access to the interactive map, real-time updates, and autograph stage schedules.
+            </p>
           </div>
+        </section>
+
+        {/* Draft Experience vs Draft Theater Explainer */}
+        <section className="border-l-2 border-accent pl-5 mb-14">
+          <h2 className="text-xl font-heading mb-2">Draft Experience vs. Draft Theater: What's the Difference?</h2>
+          <p className="text-muted mb-3">
+            People confuse these two constantly. They're two separate areas at two separate locations. Here's the quick breakdown:
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <div className="card-minimal p-4">
+              <p className="font-bold mb-1">Draft Experience</p>
+              <p className="text-xs text-muted mb-2">Point State Park (Downtown)</p>
+              <ul className="text-xs text-muted space-y-1 list-disc pl-4">
+                <li>Interactive fan zone (40-yard dash, field goals, autographs)</li>
+                <li>Lombardi Trophy photos, NFL Shop, food vendors</li>
+                <li>Clear bags up to 16x16x6</li>
+                <li>Thu/Fri: 12-10 PM, Sat: 9 AM-6 PM</li>
+              </ul>
+            </div>
+            <div className="card-minimal p-4">
+              <p className="font-bold mb-1">Draft Theater</p>
+              <p className="text-xs text-muted mb-2">North Shore (Acrisure Stadium)</p>
+              <ul className="text-xs text-muted space-y-1 list-disc pl-4">
+                <li>Main stage where picks are announced (the one on TV)</li>
+                <li>Free concerts (Wiz Khalifa, Kane Brown)</li>
+                <li>On-field viewing inside Acrisure (Rounds 1-3)</li>
+                <li>Clear bags up to 12x6x12 (stricter than Experience)</li>
+              </ul>
+            </div>
+          </div>
+          <p className="text-sm text-muted mt-3">
+            They're about a <strong>15-minute walk apart</strong> across the Roberto Clemente Bridge (pedestrian-only during the draft). The T light rail also connects them for free. Plan to hit both.
+          </p>
         </section>
 
         {/* Draft Experience */}
