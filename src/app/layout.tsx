@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { DM_Sans, DM_Serif_Display } from "next/font/google";
+import AnalyticsScripts from "@/components/AnalyticsScripts";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -65,35 +65,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://cloud.umami.is" />
       </head>
       <body className="min-h-full flex flex-col font-body">
-        {/* Google Analytics (GA4) - lazyOnload to avoid blocking paint */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-GJ0PDB2N27"
-          strategy="lazyOnload"
-        />
-        <Script id="ga4-init" strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-GJ0PDB2N27');
-          `}
-        </Script>
-        {/* Microsoft Clarity - heatmaps & session recordings */}
-        <Script id="clarity-init" strategy="lazyOnload">
-          {`
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "w5sbligkt7");
-          `}
-        </Script>
-        {/* Umami Analytics - lazyOnload to avoid blocking paint */}
-        <Script
-          src="https://cloud.umami.is/script.js"
-          data-website-id="683b54f5-fcff-4ec7-94ed-1b992587765b"
-          strategy="lazyOnload"
-        />
+        <AnalyticsScripts />
         <Header />
         <AuthorByline />
         <main className="flex-1 pb-28 sm:pb-20">
