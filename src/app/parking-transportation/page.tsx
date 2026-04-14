@@ -82,7 +82,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 13, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -372,6 +372,12 @@ export default function ParkingPage() {
               The city is raising parking meter rates to <strong>$5/hour</strong> in Downtown and North Shore areas from April 22-27. Normal rates are $2-3/hour. If you're feeding a meter, budget accordingly.
             </p>
           </div>
+          <div className="card-minimal p-4 mt-3">
+            <p className="font-semibold text-sm">Heads up: Pirates home stand collides with Phase 2</p>
+            <p className="text-sm text-muted mt-1">
+              The Pirates are home April 13-19 while Phase 2 closures are active. Expect heavier traffic and tighter North Shore parking on weeknights leading into draft week. If you're scoping out the area early, plan for game-day crowds on top of the closures.
+            </p>
+          </div>
         </section>
 
         {/* The T */}
@@ -394,10 +400,7 @@ export default function ParkingPage() {
           </h2>
           <p className="text-muted mb-4">
             The city has a <a href="https://www.visitpittsburgh.com/nfl-draft-pittsburgh/nfl-draft-central/nfl-draft-pittsburgh-transportation-guide/nfl-draft-road-closures-traffic-changes/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">6-phase closure plan</a> that runs from March 28 through
-            May 10. <strong>Phase 1 closures are already in effect</strong> (Art
-            Rooney Ave, West General Robinson St, Scotland Ave closed since
-            March 28). <strong>Phase 2 starts April 13</strong> with Casino Drive, North Shore Drive, Reedsdale Street, Chuck Noll Way, and Tony Dorsett Drive closing. Here's the full list for draft weekend (Phase 3, April
-            22-25):
+            May 10. <strong>Phase 2 is active right now</strong> as of April 13: Casino Drive, North Shore Drive, Reedsdale Street, Chuck Noll Way, and Tony Dorsett Drive are closed to vehicles through April 21 (Phase 1 closures from March 28 stay in effect too: Art Rooney Ave, West General Robinson St, Scotland Ave). The <strong>I-279 Southbound Exit 1B ramp to the North Shore is also already shut down</strong> ahead of schedule. Here's the full list for draft weekend (Phase 3, April 22-25):
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5">
             <li>

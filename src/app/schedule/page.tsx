@@ -86,7 +86,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 13, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">

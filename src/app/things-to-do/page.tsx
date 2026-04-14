@@ -31,7 +31,7 @@ const thingsToDoFAQs = [
   {
     question: "Is the NFL Draft good for families with kids?",
     answer:
-      "Absolutely. The Draft Experience is built for all ages with interactive games and photo ops. Carnegie Science Center is on the North Shore right next to the action. Kennywood amusement park opens the same weekend. The Pittsburgh Zoo is about 7 miles away. Just note that the National Aviary is closed Thursday and Friday for draft setup.",
+      "Absolutely. The Draft Experience is built for all ages with interactive games and photo ops. Kennywood amusement park opens the same weekend. The Pittsburgh Zoo is about 7 miles away. Heads up: the National Aviary is closed Thursday and Friday for draft setup, and the Kamin Science Center on the North Shore is closed to walk-in visitors April 13 through May 1 (only ticketed Football Town showings and group visits during that window).",
   },
 ];
 
@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 13, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -151,6 +151,9 @@ export default function ThingsToDoPage() {
               <li>
                 <strong>NFL Shop</strong> with the largest assortment of draft and team merchandise
               </li>
+              <li>
+                <strong>Steelers Country fan zone</strong> — the Steelers' own fan-focused area inside the NFL Draft Experience, with team activations and Pittsburgh football history.
+              </li>
             </ul>
           </div>
 
@@ -181,18 +184,24 @@ export default function ThingsToDoPage() {
               <li>
                 <strong>Play Football Field</strong> with USA Football clinics for kids ages 6-14. First-come, first-served.
               </li>
+              <li>
+                <strong>Steelers Pro Shop (temporary location):</strong> Relocated to <strong>275 North Shore Drive</strong> for draft week, steps from Acrisure Stadium. Open 7 days a week, 10 AM-5 PM (extended hours during the draft). Limited Edition 2026 Draft Poster and new merch arriving regularly.
+              </li>
             </ul>
           </div>
 
           <div className="border-l-2 border-accent pl-5 mb-4">
             <p className="font-bold text-foreground mb-1">NFL Films' "The Football Town"</p>
             <p className="text-sm text-muted mb-2">
-              A special NFL Films presentation narrated by Pittsburgh-area native Pat McAfee about the region's football heritage. Shown in a first-of-its-kind immersive large-screen format at the Rangos Giant Cinema inside the <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kamins Science Center</a> on the North Shore. Free with draft entry.
+              A special NFL Films presentation narrated by Pittsburgh-area native Pat McAfee about the region's football heritage. Shown in a first-of-its-kind immersive large-screen format at the Rangos Giant Cinema inside the <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kamin Science Center</a> on the North Shore. Free with draft entry. Special evening showings have also been added in the weeks leading up to the draft. Tickets are selling out, so reserve ahead at <a href="https://kaminsciencecenter.org/rangos-giant-cinema/the-football-town/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">kaminsciencecenter.org</a>.
             </p>
             <ul className="text-sm text-muted space-y-1">
               <li><strong>Thu &amp; Fri:</strong> 1:00, 2:30, 4:00, 5:30 PM</li>
               <li><strong>Saturday:</strong> 10:00, 11:30 AM, 1:00, 2:30 PM</li>
             </ul>
+            <p className="text-xs text-muted mt-2">
+              <strong>Heads up:</strong> Kamin Science Center is closed to general walk-in visitors from April 13 through May 1 because of draft setup. Scheduled group visits and ticketed Football Town showings are still happening.
+            </p>
           </div>
 
           <div className="border-l-2 border-accent pl-5 mb-4">
@@ -471,12 +480,9 @@ export default function ThingsToDoPage() {
             </div>
 
             <div className="card-minimal p-4">
-              <p className="font-bold"><a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a></p>
+              <p className="font-bold"><a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kamin Science Center</a></p>
               <p className="text-sm text-muted">
-                Right on the North Shore, walking distance from the draft
-                venues. Great for families. Planetarium, interactive exhibits,
-                and a submarine you can tour. You can easily fit this in
-                between draft sessions.
+                Right on the North Shore, walking distance from the draft venues. Great for families normally, but it's <strong>closed to walk-in visitors April 13 through May 1</strong> for draft setup. The only way in during that window is a ticketed showing of NFL Films' "The Football Town" at the Rangos Giant Cinema or a pre-scheduled group visit.
               </p>
             </div>
 
@@ -599,9 +605,7 @@ export default function ThingsToDoPage() {
               break from football.
             </li>
             <li>
-              <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Carnegie Science Center</a> is right on the North
-              Shore, steps from the draft. Interactive science exhibits, a
-              planetarium, and a real submarine. Half-day easy.
+              <a href="https://kaminsciencecenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Kamin Science Center</a> is right on the North Shore, but it's <strong>closed to walk-in visitors April 13-May 1</strong> for draft prep. The only way in is a ticketed Football Town showing at the Rangos Giant Cinema.
             </li>
             <li>
               <a href="https://pittsburghkids.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Children's Museum of Pittsburgh</a> is on the North

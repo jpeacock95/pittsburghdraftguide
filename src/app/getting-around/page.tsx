@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 13, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -118,17 +118,15 @@ export default function GettingAroundPage() {
             April 25, with cleanup running through May 10.
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
-            <li><strong>Phase 1 (active now):</strong> Art Rooney Ave, West General Robinson St, Scotland Ave</li>
-            <li><strong>Phase 2 (April 13):</strong> Casino Drive, North Shore Drive (to Chuck Noll Way), Reedsdale Street, Chuck Noll Way, Tony Dorsett Drive</li>
+            <li><strong>Phase 1 (active since March 28):</strong> Art Rooney Ave, West General Robinson St, Scotland Ave</li>
+            <li><strong>Phase 2 (active now, April 13-21):</strong> Casino Drive, North Shore Drive (to Chuck Noll Way), Reedsdale Street, Chuck Noll Way, Tony Dorsett Drive. The <strong>I-279 Southbound Exit 1B ramp to the North Shore is also already shut down</strong> (closed earlier than originally scheduled). Kamin Science Center is closed to walk-ins April 13-May 1.</li>
+            <li><strong>Phase 3 (April 22-25, draft week):</strong> Adds Sproat Way, Mazeroski Way, Lacock Street, Federal Street, the 6th Street (Roberto Clemente) and 7th Street (Andy Warhol) bridges, Sixth Street, Commonwealth Place, Liberty Ave Extension, and Penn Ave from Stanwix to 9th Street.</li>
             <li><strong>Roberto Clemente Bridge:</strong> Pedestrian-only during draft weekend (no vehicles)</li>
             <li><strong>Andy Warhol Bridge:</strong> Closed to vehicles. Pedestrians routed to Roberto Clemente Bridge.</li>
-            <li><strong>I-279 Southbound Exit 1B ramp</strong> closed, plus Rt. 65 ramps to/from Fort Duquesne Bridge</li>
             <li><strong>Fort Pitt Bridge on-ramp</strong> closed from 10th Street Bypass</li>
-            <li><strong>Penn Avenue</strong> closed from Stanwix Street to Ninth Street</li>
-            <li><strong>Liberty Ave Extension &amp; Commonwealth Place</strong> both closed during draft weekend</li>
           </ul>
           <p className="text-muted mb-3">
-            <strong>Pittsburgh Public Schools are going remote April 22-24</strong> because of the closures. Companies are telling workers to stay home. That should tell you everything about how serious this is.
+            <strong>Pittsburgh Public Schools are going remote April 22-24</strong> because of the closures. Major downtown employers (PPG, Highmark, PNC, Koppers) are also telling employees to work from home April 20-24. That should tell you everything about how serious this is.
           </p>
           <p className="text-muted text-sm">
             <strong>Expected attendance:</strong> 500,000 to 700,000 visitors over the 3-day event.

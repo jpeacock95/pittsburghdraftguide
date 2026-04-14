@@ -72,7 +72,7 @@ export default function WatchPartiesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 13, 2026" />
 
         {/* Quick Jump Nav */}
         <section className="mb-14">
