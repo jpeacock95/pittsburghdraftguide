@@ -19,6 +19,7 @@ const allPages: Record<string, RelatedPage> = {
   faq: { href: "/faq", title: "FAQ", desc: "21 answers from Reddit threads and local knowledge." },
   cranberry: { href: "/cranberry-township", title: "From Cranberry", desc: "Park-and-ride options from the northern suburbs." },
   watch_parties: { href: "/watch-parties", title: "Watch Parties", desc: "17 verified watch parties across Pittsburgh for draft weekend." },
+  tickets: { href: "/tickets-and-venue", title: "Tickets & Venue", desc: "Where the draft is, how to get in free, and what to bring." },
   music_crawl: { href: "/blog/picksburgh-music-crawl", title: "PicksBURGH Music Crawl", desc: "13 venues, live music, and guitar picks the night before the draft." },
 };
 

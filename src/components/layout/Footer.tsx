@@ -20,6 +20,11 @@ export function Footer() {
             <h4 className="font-heading font-semibold mb-3 text-sm uppercase tracking-wider text-gray-300">Quick Links</h4>
             <ul className="space-y-2.5 text-sm text-gray-400">
               <li>
+                <Link href="/tickets-and-venue" className="hover:text-accent transition-colors">
+                  Tickets &amp; Venue
+                </Link>
+              </li>
+              <li>
                 <Link href="/parking-transportation" className="hover:text-accent transition-colors">
                   Parking &amp; Transportation
                 </Link>

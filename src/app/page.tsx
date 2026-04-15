@@ -15,6 +15,12 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    href: "/tickets-and-venue",
+    label: "Start Here",
+    title: "Tickets & Venue",
+    desc: "There are no tickets. Admission is free with NFL OnePass. Here's where the draft is and how to get in.",
+  },
+  {
     href: "/parking-transportation",
     label: "Essential",
     title: "Parking & Transportation",
@@ -77,16 +83,16 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
             <Link
-              href="/parking-transportation"
+              href="/tickets-and-venue"
               className="bg-accent hover:bg-accent-dark text-white font-semibold py-3 px-7 rounded transition-colors"
             >
-              Parking Guide
+              Tickets &amp; Venue
             </Link>
             <Link
-              href="/schedule"
+              href="/parking-transportation"
               className="bg-white/10 hover:bg-white/20 text-white font-semibold py-3 px-7 rounded border border-white/20 transition-colors backdrop-blur-sm"
             >
-              See the Schedule
+              Parking Guide
             </Link>
           </div>
           <div className="max-w-xs mx-auto">

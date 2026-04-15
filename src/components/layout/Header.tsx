@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { SiteSearch } from "@/components/ui/SiteSearch";
 
 const navLinks = [
+  { href: "/tickets-and-venue", label: "Tickets & Venue" },
   { href: "/parking-transportation", label: "Parking" },
   { href: "/where-to-stay", label: "Hotels" },
   { href: "/bars-restaurants", label: "Food & Drink" },
