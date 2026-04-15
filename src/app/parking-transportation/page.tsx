@@ -34,6 +34,42 @@ const parkingFAQs = [
     answer:
       "Roberto Clemente Bridge (6th Street) and Andy Warhol Bridge (7th Street) are closed to vehicles. Fort Pitt Bridge on-ramp, several I-279 exits, and Fort Duquesne Boulevard are also closed. The closures happen in 6 phases from March 28 through May 10.",
   },
+  {
+    question: "What is the best park-and-ride for the NFL Draft in Pittsburgh?",
+    answer:
+      "From the north (Cranberry, Wexford, Butler), Ross Park & Ride at I-279 Exit 5 is the top pick. About 25 minutes to downtown via the #8 bus or O1 express. From the south, South Hills Village T station is best because the T light rail runs free between South Hills and the North Shore April 23-25. From the east, Wilkinsburg Park & Ride takes the P1 East Busway and gets you downtown in about 15 minutes.",
+  },
+  {
+    question: "When does the Roberto Clemente Bridge close for the NFL Draft?",
+    answer:
+      "The Roberto Clemente Bridge (6th Street Bridge) is closed to vehicles for the entire draft window. It stays open as a pedestrian-only fan corridor connecting Point State Park downtown to Acrisure Stadium on the North Shore. The walk is about 0.3 miles. The Andy Warhol Bridge (7th Street) is also closed to vehicles, but officials are routing all foot traffic through Roberto Clemente Bridge instead.",
+  },
+];
+
+// Park-and-ride comparison matrix - structured for LLM citation
+const parkAndRideOptions = [
+  { lot: "Ross Park & Ride", direction: "North", coverage: "Cranberry, Wexford, Butler", route: "#8 bus / O1 express", time: "~25 min", cost: "Free park, free PRT during draft" },
+  { lot: "Butler Transit Lot (Zelienople)", direction: "Far North", coverage: "Butler County", route: "Butler Transit commuter bus", time: "~45 min", cost: "Check BTA schedule" },
+  { lot: "South Hills Village T Station", direction: "South", coverage: "Mt Lebanon, Bethel Park, USC", route: "T light rail (Red/Blue)", time: "~35 min", cost: "Free T April 23-25" },
+  { lot: "Dormont / Castle Shannon T", direction: "South", coverage: "Dormont, Brookline", route: "T light rail", time: "~25 min", cost: "Free T April 23-25" },
+  { lot: "Wilkinsburg Park & Ride", direction: "East", coverage: "Penn Hills, Monroeville, Wilkinsburg", route: "P1 East Busway", time: "~15 min", cost: "Free PRT during draft" },
+  { lot: "PRT Route 28X (Airport)", direction: "West", coverage: "Pittsburgh International Airport", route: "28X Airport Flyer", time: "~45-60 min", cost: "Free PRT during draft" },
+];
+
+// Phase 3 (draft week only) road closure table
+const draftWeekClosures = [
+  { road: "Roberto Clemente Bridge (6th St)", from: "Apr 22 5 AM", reopens: "Apr 26 5 AM", impact: "No vehicles, pedestrians OK", detour: "Use bus shuttle or walk via Smithfield" },
+  { road: "Andy Warhol Bridge (7th St)", from: "Apr 22 5 AM", reopens: "Apr 26 5 AM", impact: "No vehicles, no pedestrians", detour: "Pedestrians use Roberto Clemente Bridge" },
+  { road: "Casino Drive (from Sproat Way)", from: "Apr 22", reopens: "Apr 26", impact: "Closed to thru traffic", detour: "Sproat Way to North Shore Dr" },
+  { road: "North Shore Drive (to Chuck Noll Way)", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Reedsdale St" },
+  { road: "Reedsdale St (to Tony Dorsett Dr)", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "I-279 / Rt 28" },
+  { road: "Chuck Noll Way", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Pedestrian zone, no detour" },
+  { road: "Tony Dorsett Drive", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Use shuttle to North Shore" },
+  { road: "Sproat Way", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Casino Dr alternative" },
+  { road: "I-279 Southbound Exit 1B (North Shore)", from: "Active now", reopens: "Apr 26", impact: "Ramp closed", detour: "Continue to Exit 1A or Fort Duquesne Bridge" },
+  { road: "Fort Pitt Bridge on-ramp (10th St Bypass)", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Use Boulevard of the Allies" },
+  { road: "Penn Ave (Stanwix to 9th)", from: "Apr 22", reopens: "Apr 26", impact: "Closed downtown", detour: "Liberty Ave or Forbes Ave" },
+  { road: "Liberty Ave Extension / Commonwealth Pl", from: "Apr 22", reopens: "Apr 26", impact: "Closed", detour: "Use Forbes Ave" },
 ];
 
 export default function ParkingPage() {
@@ -82,7 +118,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 13, 2026" />
+        <LastUpdated date="April 15, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -212,6 +248,37 @@ export default function ParkingPage() {
             PRT is running special "Football Flyer" bus routes from
             park-and-ride lots in every direction. Here are the best options
             based on where you're coming from.
+          </p>
+
+          {/* P&R comparison table */}
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-primary-dark text-white">
+                  <th className="text-left p-3 font-heading font-normal">Lot</th>
+                  <th className="text-left p-3 font-heading font-normal">Direction</th>
+                  <th className="text-left p-3 font-heading font-normal">Coverage area</th>
+                  <th className="text-left p-3 font-heading font-normal">Route</th>
+                  <th className="text-left p-3 font-heading font-normal">Time</th>
+                  <th className="text-left p-3 font-heading font-normal">Cost</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                {parkAndRideOptions.map((p) => (
+                  <tr key={p.lot} className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">{p.lot}</td>
+                    <td className="p-3">{p.direction}</td>
+                    <td className="p-3">{p.coverage}</td>
+                    <td className="p-3">{p.route}</td>
+                    <td className="p-3">{p.time}</td>
+                    <td className="p-3">{p.cost}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted mb-4">
+            All PRT bus and T light rail rides are <strong>free April 23-25</strong> thanks to a Sheetz/PRT partnership. Detailed lot notes and addresses below.
           </p>
 
           <h3 className="text-lg font-heading mt-6 mb-2">From the North (Cranberry, Ross, McCandless)</h3>
@@ -400,7 +467,39 @@ export default function ParkingPage() {
           </h2>
           <p className="text-muted mb-4">
             The city has a <a href="https://www.visitpittsburgh.com/nfl-draft-pittsburgh/nfl-draft-central/nfl-draft-pittsburgh-transportation-guide/nfl-draft-road-closures-traffic-changes/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">6-phase closure plan</a> that runs from March 28 through
-            May 10. <strong>Phase 2 is active right now</strong> as of April 13: Casino Drive, North Shore Drive, Reedsdale Street, Chuck Noll Way, and Tony Dorsett Drive are closed to vehicles through April 21 (Phase 1 closures from March 28 stay in effect too: Art Rooney Ave, West General Robinson St, Scotland Ave). The <strong>I-279 Southbound Exit 1B ramp to the North Shore is also already shut down</strong> ahead of schedule. Here's the full list for draft weekend (Phase 3, April 22-25):
+            May 10. The 12 closures below are <strong>Phase 3 (April 22-26)</strong> only. That's what's actually closed during draft weekend itself. We stripped out the Phase 1, 2, 4, 5, 6 closures because they don't affect your visit.
+          </p>
+
+          {/* Draft week closures table */}
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-primary-dark text-white">
+                  <th className="text-left p-3 font-heading font-normal">Road</th>
+                  <th className="text-left p-3 font-heading font-normal">Closes</th>
+                  <th className="text-left p-3 font-heading font-normal">Reopens</th>
+                  <th className="text-left p-3 font-heading font-normal">Impact</th>
+                  <th className="text-left p-3 font-heading font-normal">Detour</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                {draftWeekClosures.map((c) => (
+                  <tr key={c.road} className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">{c.road}</td>
+                    <td className="p-3 whitespace-nowrap">{c.from}</td>
+                    <td className="p-3 whitespace-nowrap">{c.reopens}</td>
+                    <td className="p-3">{c.impact}</td>
+                    <td className="p-3">{c.detour}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted mb-4">
+            Source: <a href="https://www.visitpittsburgh.com/nfl-draft-pittsburgh/nfl-draft-central/nfl-draft-pittsburgh-transportation-guide/nfl-draft-road-closures-traffic-changes/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">VisitPittsburgh closure plan</a>. Verified April 15, 2026. Closures may be added or extended; check before you travel.
+          </p>
+          <p className="text-muted mb-3">
+            Highlights from the table above:
           </p>
           <ul className="space-y-2 text-muted list-disc pl-5">
             <li>

@@ -33,6 +33,26 @@ const hotelFAQs = [
     answer:
       "Book now with a free cancellation policy, then keep checking. Revenue managers are holding rooms and releasing them slowly at higher prices. In Green Bay (2025 Draft), some hotels had rooms available a week before the event and prices actually dropped. Lock in a rate now, but don't stop looking.",
   },
+  {
+    question: "What hotel is closest to the NFL Draft in Pittsburgh?",
+    answer:
+      "The SpringHill Suites Pittsburgh North Shore is the literal closest hotel to the Draft Theater at Acrisure Stadium. It's about a 5-minute walk. The Omni William Penn and Fairmont downtown are roughly a 10-15 minute walk to Point State Park (the Draft Experience venue). Both downtown options are also a short walk to the Roberto Clemente Bridge that connects you to the North Shore.",
+  },
+  {
+    question: "Which Pittsburgh hotel has the best transit to the NFL Draft?",
+    answer:
+      "Crowne Plaza Pittsburgh South in Upper St. Clair is the strongest transit play. It sits within walking distance of the South Hills Village T light rail station, and the T runs free between South Hills and the North Shore Station near Acrisure Stadium during draft weekend (April 23-25). Total trip is about 25 minutes door to door, no driving, no parking, no surge pricing.",
+  },
+];
+
+// Hotel comparison matrix - curated picks
+const hotelPicks = [
+  { category: "Closest to draft", name: "SpringHill Suites North Shore", neighborhood: "North Shore", price: "$2,173", transitMin: "5 min walk", note: "Literal closest to Draft Theater" },
+  { category: "Best for walking", name: "Omni William Penn", neighborhood: "Downtown", price: "$600-1,200+", transitMin: "10 min walk", note: "Historic, NFL/media tend to book here" },
+  { category: "Best transit option", name: "Crowne Plaza Pittsburgh South", neighborhood: "Upper St. Clair", price: "$150-200", transitMin: "25 min via T", note: "Free T light rail to Acrisure" },
+  { category: "Best budget", name: "Red Roof Inn McKnight", neighborhood: "McKnight Rd (North)", price: "$80-120", transitMin: "30 min by bus", note: "On PRT bus line to downtown" },
+  { category: "Best for Cranberry locals", name: "Hampton Inn & Suites Cranberry", neighborhood: "Cranberry Township", price: "$120-160", transitMin: "30 min drive + P&R", note: "Pair with Ross Park & Ride" },
+  { category: "Best for groups/families", name: "Home2 Suites Cranberry", neighborhood: "Cranberry Township", price: "$130-170", transitMin: "30 min drive + P&R", note: "Suites with kitchens, sleeps 4-6" },
 ];
 
 export default function WhereToStay() {
@@ -57,7 +77,7 @@ export default function WhereToStay() {
             description:
               "Hotels for the 2026 NFL Draft are $500-2,000/night downtown. Here are cheaper options in Cranberry Township, McKnight Rd, and along the T line.",
             datePublished: "2026-03-27",
-            dateModified: "2026-04-07",
+            dateModified: "2026-04-15",
             author: {
               "@type": "Organization",
               name: "Pittsburgh Draft Guide",
@@ -91,7 +111,57 @@ export default function WhereToStay() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 15, 2026" />
+
+        {/* Hotel comparison matrix - inserted near top for quick decisions */}
+        <section className="mb-12 mt-6">
+          <h2 className="text-2xl font-heading mb-3">
+            Hotel Picks: Quick Decision Matrix
+          </h2>
+          <p className="text-muted mb-5 text-sm">
+            16+ hotels reviewed below. Here's the shortlist by what matters
+            most. Full breakdown by neighborhood follows.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-primary-dark text-white">
+                  <th className="text-left p-3 font-heading font-normal">
+                    Best For
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Hotel
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Neighborhood
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Price/night
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    To venue
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                {hotelPicks.map((h) => (
+                  <tr key={h.category} className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">{h.category}</td>
+                    <td className="p-3">{h.name}</td>
+                    <td className="p-3">{h.neighborhood}</td>
+                    <td className="p-3">{h.price}</td>
+                    <td className="p-3">{h.transitMin}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted mt-3">
+            Note: prices verified as of April 15, 2026. Revenue managers may
+            release additional inventory as the event approaches. Book with
+            free cancellation and recheck weekly.
+          </p>
+        </section>
 
         {/* Section 1: Price reality */}
         <section className="mb-14">

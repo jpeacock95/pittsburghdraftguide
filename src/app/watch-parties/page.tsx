@@ -34,6 +34,26 @@ const watchPartyFAQs = [
     answer:
       "It depends on what you want. For Steelers legends and autographs, Steel City Draft Night at The Priory ($75-250) or The Pick Is In at the Sheraton ($162+). For atmosphere, the DVE Gateway Clipper party (sold out, waitlist available). For budget-friendly, Pittsburgh Brewing Company ($15 GA) or the free Bakery Square outdoor screenings.",
   },
+  {
+    question: "What time should I arrive at a NFL Draft watch party?",
+    answer:
+      "For Thursday (Round 1), arrive by 6:30 PM at the latest. Round 1 starts at 8 PM ET and most venues hit capacity by 7. For Friday (Rounds 2-3, starts 7 PM), arrive by 5:30 if you want a seat. Saturday is the most relaxed day. Walk-in friendly at most venues.",
+  },
+  {
+    question: "Are NFL Draft watch parties in Pittsburgh family friendly?",
+    answer:
+      "Some are, some aren't. The free Bakery Square outdoor screenings, Pitt Block Party at Arts Landing, and The Waterfront Courtyard parties are all family friendly. Most bar-based parties (Pittsburgh Brewing Company GA, Cam Heyward at Tequila Cowboy) are all-ages. The 21+ events are clearly marked as such, including the BetRivers Sportsbook party.",
+  },
+];
+
+// Curated picks for the comparison matrix
+const watchPartyPicks = [
+  { category: "Best for free entry", venue: "Bakery Square Outdoor", neighborhood: "East Liberty", price: "FREE", vibe: "Family, outdoor, big screens", legends: "No", days: "Thu-Sat" },
+  { category: "Best for Steelers legends", venue: "Steel City Draft Night", neighborhood: "Northside (The Priory)", price: "$75-250", vibe: "VIP, autographs, dinner", legends: "Bleier, Kolb, Brown", days: "Thu" },
+  { category: "Best for atmosphere", venue: "DVE Gateway Clipper", neighborhood: "Station Square", price: "Sold out (waitlist)", vibe: "Boat party, open bar, live music", legends: "Woodson, Freiermuth, Colbert", days: "Thu" },
+  { category: "Best for budget", venue: "Pittsburgh Brewing Co GA", neighborhood: "Creighton (~25 min N)", price: "$15", vibe: "Outdoor screens, food trucks", legends: "Madden, Light", days: "Thu" },
+  { category: "Best for families", venue: "Pitt Block Party", neighborhood: "Arts Landing", price: "FREE", vibe: "Outdoor, all ages, walkable", legends: "No", days: "Thu-Sat" },
+  { category: "Best for after-party", venue: "Here We Go After Hours", neighborhood: "Station Square (Sheraton)", price: "$150", vibe: "Late night, current Steelers", legends: "Highsmith, Sawyer, Howard", days: "Fri" },
 ];
 
 export default function WatchPartiesPage() {
@@ -72,7 +92,91 @@ export default function WatchPartiesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 13, 2026" />
+        <LastUpdated date="April 15, 2026" />
+
+        {/* Best For Picks - curated decision matrix */}
+        <section className="mb-12 mt-6">
+          <h2 className="text-2xl font-heading mb-3">
+            Best For Picks: Quick Decision Matrix
+          </h2>
+          <p className="text-muted mb-5 text-sm">
+            18 watch parties is a lot to sort through. Here's the shortlist by
+            what you actually care about. Full details on every event are
+            below.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-primary-dark text-white">
+                  <th className="text-left p-3 font-heading font-normal">
+                    Best For
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Venue
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Neighborhood
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Price
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Vibe
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Legends?
+                  </th>
+                  <th className="text-left p-3 font-heading font-normal">
+                    Days
+                  </th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                {watchPartyPicks.map((pick) => (
+                  <tr key={pick.category} className="border-b border-gray-200">
+                    <td className="p-3 font-semibold">{pick.category}</td>
+                    <td className="p-3">{pick.venue}</td>
+                    <td className="p-3">{pick.neighborhood}</td>
+                    <td className="p-3">{pick.price}</td>
+                    <td className="p-3">{pick.vibe}</td>
+                    <td className="p-3">{pick.legends}</td>
+                    <td className="p-3">{pick.days}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted mt-3">
+            All 18 events listed below with venue addresses, source links,
+            ticket prices, and Pittsburgh-local notes.
+          </p>
+        </section>
+
+        {/* Crowd timing tip */}
+        <section className="mb-12">
+          <div className="card-minimal p-5 border-l-4 border-accent">
+            <h3 className="font-heading text-lg mb-2">
+              When to Show Up: Crowd Timing
+            </h3>
+            <ul className="text-muted text-sm leading-relaxed space-y-2">
+              <li>
+                <strong>Thursday (Round 1, 8 PM ET):</strong> Arrive by 6:30 PM
+                latest. Most venues hit capacity by 7 PM. Doors open as early
+                as 4 PM at VIP events.
+              </li>
+              <li>
+                <strong>Friday (Rounds 2-3, 7 PM ET):</strong> Arrive by 5:30
+                if you want a seat. Friday is calmer than Thursday but still
+                packed at the bigger venues.
+              </li>
+              <li>
+                <strong>Saturday (Rounds 4-7, 12 PM ET):</strong> Most relaxed
+                day. Walk-in friendly at most venues. Best for casual fans and
+                families.
+              </li>
+            </ul>
+          </div>
+        </section>
 
         {/* Quick Jump Nav */}
         <section className="mb-14">
