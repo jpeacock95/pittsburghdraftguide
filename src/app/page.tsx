@@ -8,9 +8,12 @@ import { CountdownTimer } from "@/components/ui/CountdownTimer";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh 2026: Your Complete Guide",
+  title: "Pittsburgh NFL Draft 2026: Tickets, Parking, Hotels, Schedule",
   description:
-    "Your complete guide to the 2026 NFL Draft in Pittsburgh. Parking, hotels, restaurants, schedule, and everything you need for April 23-25 at Point State Park.",
+    "Everything you need for the Pittsburgh NFL Draft April 23-25, 2026. Free tickets via OnePass, parking, hotels, watch parties, and the full schedule. Written by a Cranberry Township local.",
+  alternates: {
+    canonical: "https://www.pittsburghdraftguide.com/",
+  },
 };
 
 const guides = [
@@ -75,11 +78,12 @@ export default function HomePage() {
             April 23&ndash;25, 2026
           </p>
           <h1 className="text-4xl md:text-6xl mb-6 leading-tight">
-            Your Complete Guide to the<br className="hidden md:block" /> 2026 NFL Draft in Pittsburgh
+            Pittsburgh NFL Draft 2026:<br className="hidden md:block" /> Your Complete Visitor Guide
           </h1>
           <p className="text-lg text-gray-300 max-w-xl mx-auto mb-10 leading-relaxed">
-            500,000+ visitors. Three days. Two venues connected by a river.
-            Everything you need to know.
+            Everything you need for the NFL Draft in Pittsburgh April 23-25.
+            Free entry with OnePass. 500,000+ visitors. Two venues connected by
+            a river. Written by a Cranberry Township local.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-12">
             <Link
@@ -173,11 +177,11 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4">
           <p className="label mb-4">Background</p>
           <h2 className="text-3xl md:text-4xl mb-8">
-            What Is the NFL Draft, and Why Are 500,000 People Coming?
+            What Is the Pittsburgh NFL Draft, and Why Are 500,000 People Coming?
           </h2>
           <div className="text-muted space-y-5 leading-relaxed">
             <p>
-              The 2026 NFL Draft in Pittsburgh is a three-day football festival running April 23-25 at Point State Park and Acrisure Stadium on the North Shore. Entry is free with NFL OnePass registration. The main draft stage sits at Acrisure Stadium, where teams make their picks on national TV. Across the Allegheny River at Point State Park, the NFL Draft Experience is a free fan zone with a 40-yard dash, field goal challenge, autograph sessions, Lombardi Trophy photo ops, live entertainment, drone shows, and the PicksBURGH 5K race. The Plaza at North Shore also hosts ticketed concerts with Nelly, Steve Aoki, and 2 Chainz. Nine NFL team markets sit within a 6-hour drive of Pittsburgh, making this one of the most accessible draft locations in recent history.
+              The 2026 Pittsburgh NFL Draft is a three-day football festival running April 23-25 at Point State Park and Acrisure Stadium on the North Shore. Entry is free with NFL OnePass registration. The main draft stage sits at Acrisure Stadium, where teams make their picks on national TV. Across the Allegheny River at Point State Park, the NFL Draft Experience is a free fan zone with a 40-yard dash, field goal challenge, autograph sessions, Lombardi Trophy photo ops, live entertainment, drone shows, and the PicksBURGH 5K race. The Plaza at North Shore also hosts ticketed concerts with Nelly, Steve Aoki, and 2 Chainz. Nine NFL team markets sit within a 6-hour drive of Pittsburgh, making this one of the most accessible draft locations in recent history.
             </p>
             <p>
               The NFL Draft has grown into one of the largest free public events in the country. According to the NFL, the 2024 Draft in Detroit drew 775,000 visitors over three days. Nashville drew 600,000 in 2019. Kansas City drew 330,000 in 2023. Pittsburgh is projecting 500,000-700,000 cumulative visitors, which would make it the largest event the city has ever hosted. The Pittsburgh Sports & Exhibition Authority estimates the economic impact at $120-200 million for the region, based on hotel bookings, restaurant spending, and transit usage during the three-day event.

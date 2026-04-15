@@ -10,9 +10,12 @@ import { LastUpdated } from "@/components/ui/LastUpdated";
 import { EmailCapture } from "@/components/ui/EmailCapture";
 
 export const metadata: Metadata = {
-  title: "NFL Draft Pittsburgh Schedule: All 3 Days",
+  title: "Pittsburgh NFL Draft Schedule 2026: Times & All 3 Days",
   description:
-    "Round 1 starts Thu Apr 23 at 8pm. Rounds 2-3 Fri 7pm. Rounds 4-7 Sat noon. Free entry with NFL OnePass. Full schedule, times, and what to know before you go.",
+    "Round 1 starts Thursday April 23 at 8 PM ET. Rounds 2-3 Friday 7 PM. Rounds 4-7 Saturday noon. Free entry with NFL OnePass. Full Pittsburgh NFL Draft schedule, gate times, and bag policy.",
+  alternates: {
+    canonical: "https://www.pittsburghdraftguide.com/schedule",
+  },
 };
 
 const scheduleFAQs = [
@@ -68,7 +71,7 @@ export default function Schedule() {
             / Schedule
           </p>
           <h1 className="text-3xl md:text-4xl font-heading mb-3">
-            2026 NFL Draft Schedule &amp; What to Expect
+            Pittsburgh NFL Draft Schedule 2026: Times &amp; What to Expect
           </h1>
           <p className="text-gray-300">
             Round-by-round times, gate hours, the bag policy, what to bring, and
@@ -86,7 +89,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 13, 2026" />
+        <LastUpdated date="April 15, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -104,11 +107,55 @@ export default function Schedule() {
         {/* Draft Schedule */}
         <section className="mb-14">
           <h2 id="schedule" className="text-2xl font-heading mb-4">
-            Draft Schedule (Round-by-Round)
+            Pittsburgh NFL Draft Schedule (Round-by-Round)
           </h2>
           <p className="text-muted mb-4">
-            The 2026 NFL Draft runs Thursday through Saturday, April 23-25.
-            Here's the full breakdown.
+            The 2026 Pittsburgh NFL Draft runs Thursday through Saturday, April 23-25. Here's the at-a-glance table first, then the full breakdown.
+          </p>
+
+          {/* At-a-glance schedule table */}
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-primary-dark text-white">
+                  <th className="text-left p-3 font-heading font-normal">Day</th>
+                  <th className="text-left p-3 font-heading font-normal">Date</th>
+                  <th className="text-left p-3 font-heading font-normal">Rounds</th>
+                  <th className="text-left p-3 font-heading font-normal">Picks start</th>
+                  <th className="text-left p-3 font-heading font-normal">Gates open</th>
+                  <th className="text-left p-3 font-heading font-normal">Crowd</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                <tr className="border-b border-gray-200">
+                  <td className="p-3 font-semibold">Thursday</td>
+                  <td className="p-3">April 23</td>
+                  <td className="p-3">Round 1 (32 picks)</td>
+                  <td className="p-3">8:00 PM ET</td>
+                  <td className="p-3">12:00 PM</td>
+                  <td className="p-3">Biggest, loudest</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="p-3 font-semibold">Friday</td>
+                  <td className="p-3">April 24</td>
+                  <td className="p-3">Rounds 2-3 (64 picks)</td>
+                  <td className="p-3">7:00 PM ET</td>
+                  <td className="p-3">12:00 PM</td>
+                  <td className="p-3">Slightly smaller</td>
+                </tr>
+                <tr>
+                  <td className="p-3 font-semibold">Saturday</td>
+                  <td className="p-3">April 25</td>
+                  <td className="p-3">Rounds 4-7 (161 picks)</td>
+                  <td className="p-3">12:00 PM ET</td>
+                  <td className="p-3">9:00 AM</td>
+                  <td className="p-3">Most relaxed, best for families</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted mb-4">
+            All times Eastern. Gates open earlier than picks start. Free entry with NFL OnePass at both venues (Acrisure Stadium + Point State Park).
           </p>
           <div className="divide-y divide-border">
             {/* Thursday */}
