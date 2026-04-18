@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ArticleSchema } from "@/components/schema/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh Rain Plan",
@@ -45,6 +46,13 @@ export default function RainPlanPage() {
         ]}
       />
       <FAQSchema items={faqs} />
+      <ArticleSchema
+        headline="NFL Draft Pittsburgh Rain Plan: What Happens If It Rains?"
+        description="What happens if it rains during the 2026 NFL Draft in Pittsburgh? The event is mostly outdoors. Here's the rain plan and how to prepare."
+        url="https://www.pittsburghdraftguide.com/blog/nfl-draft-pittsburgh-rain-plan"
+        datePublished="2026-04-01"
+        dateModified="2026-04-15"
+      />
 
       {/* Hero */}
       <section className="bg-primary-dark text-white py-16">

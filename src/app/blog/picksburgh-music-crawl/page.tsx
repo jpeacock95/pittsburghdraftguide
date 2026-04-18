@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ArticleSchema } from "@/components/schema/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "PicksBURGH Music Crawl: 13 Venues the Night Before the Draft",
@@ -45,6 +46,13 @@ export default function MusicCrawlPage() {
         ]}
       />
       <FAQSchema items={faqs} />
+      <ArticleSchema
+        headline="PicksBURGH Music Crawl: 13 Venues, One Night Before the Draft"
+        description="The PicksBURGH Music Crawl hits 13 venues across Pittsburgh on Wednesday, April 22. Free shows, jazz, metal, EDM, and commemorative guitar picks. Full venue list and times."
+        url="https://www.pittsburghdraftguide.com/blog/picksburgh-music-crawl"
+        datePublished="2026-04-01"
+        dateModified="2026-04-15"
+      />
 
       {/* Hero */}
       <section className="bg-primary-dark text-white py-16">

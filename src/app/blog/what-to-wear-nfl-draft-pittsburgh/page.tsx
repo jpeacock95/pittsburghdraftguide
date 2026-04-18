@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ArticleSchema } from "@/components/schema/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "What to Wear to the NFL Draft",
@@ -45,6 +46,13 @@ export default function WhatToWearPage() {
         ]}
       />
       <FAQSchema items={faqs} />
+      <ArticleSchema
+        headline="What to Wear to the NFL Draft in Pittsburgh"
+        description="What to wear to the 2026 NFL Draft in Pittsburgh. April weather is unpredictable - here's what to pack for 45-75 degree temperatures, rain, and a full day outside."
+        url="https://www.pittsburghdraftguide.com/blog/what-to-wear-nfl-draft-pittsburgh"
+        datePublished="2026-04-01"
+        dateModified="2026-04-15"
+      />
 
       {/* Hero */}
       <section className="bg-primary-dark text-white py-16">

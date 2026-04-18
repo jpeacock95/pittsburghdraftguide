@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ItemListSchema } from "@/components/schema/ItemListSchema";
 import { TrackedLink } from "@/components/ui/TrackedLink";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
@@ -65,6 +66,13 @@ export default function WhereToStay() {
         ]}
       />
       <FAQSchema items={hotelFAQs} />
+      <ItemListSchema
+        name="NFL Draft Pittsburgh Hotels 2026"
+        items={hotelPicks.map((h) => ({
+          name: h.name,
+          description: `${h.neighborhood} | ${h.price} per night | ${h.transitMin} to draft venues | ${h.note}`,
+        }))}
+      />
 
       {/* Article schema */}
       <script

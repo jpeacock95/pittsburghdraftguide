@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
+import { HowToSchema } from "@/components/schema/HowToSchema";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
 
@@ -69,6 +70,33 @@ export default function ItineraryPage() {
         items={[
           { name: "Home", href: "/" },
           { name: "Itinerary", href: "/itinerary" },
+        ]}
+      />
+      <HowToSchema
+        name="4-Day NFL Draft Pittsburgh 2026 Itinerary"
+        description="Hour-by-hour plan for Wednesday April 22 through Saturday April 25, 2026. Where to be, when to eat, and how to avoid the worst crowds at the NFL Draft in Pittsburgh."
+        totalTime="P4D"
+        steps={[
+          {
+            name: "Wednesday, April 22 (Pre-Draft): Arrive early and settle in",
+            text: "Check into your hotel. Walk the Strip District for coffee and Italian goods. Attend the Taste of the Draft charity food event at 5:30 PM and the PicksBURGH Music Crawl from 4:45 PM. Catch Jason Aldean at Rivers Casino or Nelly at The Plaza at North Shore. Download the NFL OnePass app before bed.",
+            url: "https://www.pittsburghdraftguide.com/itinerary#wednesday",
+          },
+          {
+            name: "Thursday, April 23 (Day 1): The Big Night with Round 1 picks",
+            text: "Breakfast at Pamela's Diner in the Strip District. Walk the riverwalk to Point State Park. Draft Experience opens at 12 PM. Cross the Roberto Clemente Bridge to the North Shore by 3 PM. Eat dinner at Federal Galley, Tom's Watch Bar, or Burgatory before 6 PM. Round 1 picks begin at 8 PM at Acrisure Stadium. After-parties on North Shore or South Side.",
+            url: "https://www.pittsburghdraftguide.com/itinerary#thursday",
+          },
+          {
+            name: "Friday, April 24 (Day 2): The Sweet Spot with fewer crowds",
+            text: "Coffee and the Duquesne Incline for the skyline view. Draft Experience reopens at 12 PM with shorter lines. Lunch in the Strip District at DiAnoia's, The PA Market, or Gaucho Parrilla Argentina. Rounds 2-3 begin at 7 PM. Drone show follows. Explore Lawrenceville breweries or South Side nightlife.",
+            url: "https://www.pittsburghdraftguide.com/itinerary#friday",
+          },
+          {
+            name: "Saturday, April 25 (Day 3): The Local's Pick",
+            text: "PicksBURGH 5K at 7 AM (registration required). Breakfast at Pamela's or the Strip District Saturday market. Draft Experience opens at 9 AM with shortest lines of the weekend. Rounds 4-7 at 12 PM. Kane Brown free concert at Draft Theater after final picks. Draft Experience closes at 6 PM. 2 Chainz closing party at The Plaza at North Shore (ticketed). Farewell dinner at Church Brew Works or Hofbrauhaus.",
+            url: "https://www.pittsburghdraftguide.com/itinerary#saturday",
+          },
         ]}
       />
 

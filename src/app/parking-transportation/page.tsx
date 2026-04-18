@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ItemListSchema } from "@/components/schema/ItemListSchema";
 import { QuickFacts } from "@/components/ui/QuickFacts";
 import { RelatedPages } from "@/components/ui/RelatedPages";
 import { LastUpdated } from "@/components/ui/LastUpdated";
@@ -82,6 +83,13 @@ export default function ParkingPage() {
         ]}
       />
       <FAQSchema items={parkingFAQs} />
+      <ItemListSchema
+        name="NFL Draft Pittsburgh Park-and-Ride Options 2026"
+        items={parkAndRideOptions.map((p) => ({
+          name: p.lot,
+          description: `${p.direction} | Serves ${p.coverage} | ${p.route} | ${p.time} to downtown | ${p.cost}`,
+        }))}
+      />
 
       {/* Hero */}
       <section

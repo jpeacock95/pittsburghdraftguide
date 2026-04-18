@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BreadcrumbSchema } from "@/components/schema/BreadcrumbSchema";
 import { FAQSchema } from "@/components/schema/FAQSchema";
+import { ArticleSchema } from "@/components/schema/ArticleSchema";
 
 export const metadata: Metadata = {
   title: "NFL Draft Pittsburgh: Kids & Family",
@@ -45,6 +46,13 @@ export default function KidsFamilyPage() {
         ]}
       />
       <FAQSchema items={faqs} />
+      <ArticleSchema
+        headline="Bringing Kids to the NFL Draft in Pittsburgh"
+        description="Is the 2026 NFL Draft in Pittsburgh family-friendly? Yes. Here's what kids can do at the Draft Experience, nearby attractions, and tips for families."
+        url="https://www.pittsburghdraftguide.com/blog/nfl-draft-pittsburgh-kids-family"
+        datePublished="2026-04-01"
+        dateModified="2026-04-15"
+      />
 
       {/* Hero */}
       <section className="bg-primary-dark text-white py-16">
