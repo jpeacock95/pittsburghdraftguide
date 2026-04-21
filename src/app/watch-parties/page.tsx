@@ -92,7 +92,7 @@ export default function WatchPartiesPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 15, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* Best For Picks - curated decision matrix */}
         <section className="mb-12 mt-6">
@@ -714,6 +714,52 @@ export default function WatchPartiesPage() {
               {" | "}
               <a href="https://www.post-gazette.com/sports/2026-nfl-draft/2026/03/20/nfl-draft-watch-parties-pittsburgh/stories/202603160078" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Post-Gazette</a>
             </p>
+          </div>
+
+          {/* Primanti Bros Strip District */}
+          <div className="card-minimal p-5 mb-4">
+            <div className="flex items-start justify-between gap-3 mb-2">
+              <h3 className="font-bold text-lg">Primanti Bros. Strip District (Watch Parties)</h3>
+              <span className="text-xs bg-accent/10 text-accent px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">Apr 23-25</span>
+            </div>
+            <p className="text-sm text-muted mb-2">
+              <strong>Primanti Bros. original location</strong>, 46 18th St, Strip District
+            </p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=Primanti+Bros+46+18th+St+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
+            <p className="text-sm text-muted mb-3">
+              The original Primanti's location is setting up an <strong>18-foot HD LED screen</strong>, food and drink specials, and DJs throughout the Draft weekend. It's also doubling as a Pittsburgh Penguins playoff watch party. Right in the Strip District, walking distance from the Pro Football Hall of Fame pop-up at the Heinz History Center.
+            </p>
+            <div className="border-l-2 border-accent pl-4 mb-3">
+              <ul className="text-sm text-muted space-y-1">
+                <li><strong>Thursday, April 23:</strong> Round 1 with DJ</li>
+                <li><strong>Friday, April 24:</strong> Rounds 2-3 with DJ</li>
+                <li><strong>Saturday, April 25:</strong> Final rounds, good rain-day option (indoor)</li>
+                <li><strong>Cost:</strong> No cover, order food/drinks</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Heinz Hall Endzone Beer Garden */}
+          <div className="card-minimal p-5 mb-4">
+            <div className="flex items-start justify-between gap-3 mb-2">
+              <h3 className="font-bold text-lg">Heinz Hall Endzone Beer Garden</h3>
+              <span className="text-xs bg-accent/10 text-accent px-2 py-0.5 rounded-full whitespace-nowrap font-semibold">Apr 22-24</span>
+            </div>
+            <p className="text-sm text-muted mb-2">
+              <strong>Heinz Hall Courtyard</strong>, 600 Penn Ave, Downtown
+            </p>
+            <p className="mb-3"><a href="https://www.google.com/maps/dir/?api=1&destination=Heinz+Hall+600+Penn+Ave+Pittsburgh+PA+15222" target="_blank" rel="noopener noreferrer" className="text-xs text-primary hover:underline py-2 px-3 rounded-md active:bg-primary/10 transition-colors inline-block">Get Directions</a></p>
+            <p className="text-sm text-muted mb-3">
+              Renaissance Pittsburgh Hotel is taking over the Heinz Hall courtyard for a three-day beer garden with draft programming, food, and drinks. Downtown location means you can walk over from Point State Park between sessions. Outdoor setup, so plan around Saturday's weather.
+            </p>
+            <div className="border-l-2 border-accent pl-4 mb-3">
+              <ul className="text-sm text-muted space-y-1">
+                <li><strong>Wednesday, April 22:</strong> Pre-draft kickoff</li>
+                <li><strong>Thursday, April 23:</strong> Round 1 watch party</li>
+                <li><strong>Friday, April 24:</strong> Rounds 2-3 watch party</li>
+                <li><strong>Presented by:</strong> Renaissance Pittsburgh Hotel</li>
+              </ul>
+            </div>
           </div>
 
           {/* The Waterfront Courtyard - FREE */}

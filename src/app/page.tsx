@@ -133,9 +133,21 @@ export default function HomePage() {
       <section className="bg-primary-dark text-white py-3">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <p className="text-sm">
-            All T light rail and most PRT buses are <strong>free</strong> April 23&ndash;25.{" "}
+            All T light rail, the Monongahela Incline, and all 4 Football Flyer buses are <strong>free</strong> April 23&ndash;25.{" "}
             <Link href="/getting-around" className="text-accent hover:underline">
               See all free transit options
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* Weather alert - draft week update */}
+      <section className="bg-amber-50 border-b border-amber-200 py-3">
+        <div className="max-w-4xl mx-auto px-4 text-center">
+          <p className="text-sm text-amber-900">
+            <strong>Weather update (Apr 21):</strong> Thursday looks clear and 70s. Friday chance of evening showers. <strong>Saturday rain is likely</strong>, possible thunder. Umbrellas banned, bring a rain poncho.{" "}
+            <Link href="/blog/nfl-draft-pittsburgh-rain-plan" className="text-primary underline font-semibold">
+              Rain plan &rarr;
             </Link>
           </p>
         </div>
@@ -144,7 +156,7 @@ export default function HomePage() {
       {/* Trust line */}
       <section className="max-w-4xl mx-auto px-4 py-8">
         <p className="text-center text-xs text-muted tracking-wide">
-          Written by Jordan Peacock, Cranberry Township resident &middot; 27 Reddit threads analyzed &middot; 70+ local businesses verified &middot; Sources: VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, Post-Gazette &middot; Last updated April 1, 2026
+          Written by Jordan Peacock, Cranberry Township resident &middot; 27 Reddit threads analyzed &middot; 70+ local businesses verified &middot; Sources: VisitPittsburgh, PRT, WPXI, CBS Pittsburgh, Post-Gazette &middot; Last updated April 21, 2026
         </p>
       </section>
 

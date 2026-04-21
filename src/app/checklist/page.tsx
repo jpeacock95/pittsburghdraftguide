@@ -39,14 +39,23 @@ export default function ChecklistPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 7, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* Weather note */}
-        <div className="card-minimal p-4 mb-8">
+        <div className="card-minimal p-4 mb-8 border-l-4 border-amber-400">
           <p className="text-sm text-muted">
-            <strong className="text-foreground">Pittsburgh weather in late April:</strong> Expect 45-65&#176;F (7-18&#176;C). Rain is common. Dress in layers and bring a light rain jacket. Check the{" "}
-            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-primary underline font-semibold">forecast</a>{" "}
-            the week of the draft.
+            <strong className="text-foreground">Weather update (Apr 21):</strong> Current forecast for draft weekend:
+          </p>
+          <ul className="text-sm text-muted mt-2 space-y-1 list-disc pl-5">
+            <li><strong className="text-foreground">Thursday (Apr 23):</strong> Clear, low 70s dropping to upper 60s, no rain expected.</li>
+            <li><strong className="text-foreground">Friday (Apr 24):</strong> Low 70s, slight chance of evening showers.</li>
+            <li><strong className="text-foreground">Saturday (Apr 25):</strong> Rain likely, possible thunder. Pack a poncho.</li>
+          </ul>
+          <p className="text-sm text-muted mt-2">
+            Umbrellas are banned at the draft. Bring a rain poncho or packable rain jacket instead. Check the{" "}
+            <a href="https://forecast.weather.gov/MapClick.php?CityName=Pittsburgh&state=PA" target="_blank" rel="noopener noreferrer" className="text-primary underline font-semibold">latest forecast</a>{" "}
+            before you head out each day. Read our{" "}
+            <Link href="/blog/nfl-draft-pittsburgh-rain-plan" className="text-primary underline font-semibold">full rain plan</Link> for Saturday strategy.
           </p>
         </div>
 
@@ -237,17 +246,27 @@ export default function ChecklistPage() {
         {/* Free transit callout */}
         <section className="border-l-2 border-accent pl-5 mb-10">
           <p className="font-bold text-foreground text-lg mb-2">
-            ALL T Rides FREE April 23-25 (Sheetz + PRT)
+            T, Football Flyer, and Mon Incline All FREE April 23-25
           </p>
           <div className="space-y-2 text-sm text-muted">
-            <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5), Football Flyer bus, 25 min</p>
-            <p><strong>From South:</strong> South Hills Village T Station, ride the T for free, 35 min</p>
-            <p><strong>From East:</strong> Wilkinsburg Park &amp; Ride, P1 bus, 15 min</p>
-            <p><strong>From West/Airport:</strong> PRT Route 28X, 45-60 min</p>
+            <p><strong>From North:</strong> Ross Park &amp; Ride (I-279 Exit 5), Football Flyer 99N, 25 min, FREE</p>
+            <p><strong>From South:</strong> South Hills Village T Station, ride the T for free, 35 min, FREE</p>
+            <p><strong>From East:</strong> Monroeville Mall, Football Flyer 99E on the East Busway, FREE</p>
+            <p><strong>From West/Airport:</strong> University Blvd P&amp;R, Football Flyer 99W, FREE (or 28X bus)</p>
             <p><strong>From Butler County:</strong> Zelienople Route 528 park-and-ride, Butler Transit every 30 min to Ross Park lot ($10 round trip, exact cash)</p>
           </div>
           <p className="text-sm text-muted mt-3">
-            Sheetz is covering all fares on the T (red, blue, silver lines) and the Monongahela Incline all 3 days. Park at any T station and ride downtown for $0.
+            Sheetz covers the T and Monongahela Incline. The Pittsburgh Organizing Committee and The Pittsburgh Foundation cover all four Football Flyer buses (99N, 99E, 99S, 99W). No ticket, no pass, just hop on.
+          </p>
+        </section>
+
+        {/* Airport arrival tip */}
+        <section className="card-minimal p-4 mb-10">
+          <p className="font-bold text-foreground text-sm mb-2">
+            Flying in? Look for the draft photo ops
+          </p>
+          <p className="text-sm text-muted">
+            Pittsburgh International Airport (PIT) has NFL Draft-themed photo opportunities set up for arriving visitors throughout draft week. Good for a quick social post on the way to your hotel. Easiest transit from PIT: 28X bus to downtown, then the T or Football Flyer from there (all free during the draft).
           </p>
         </section>
 

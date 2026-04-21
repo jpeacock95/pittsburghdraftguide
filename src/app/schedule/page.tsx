@@ -89,7 +89,7 @@ export default function Schedule() {
           "FREE entry with NFL OnePass app (download before you go)",
           "Bag policy: clear bags only, max 12x6x12 inches",
         ]} />
-        <LastUpdated date="April 15, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* Draft preview video */}
         <div className="rounded-lg overflow-hidden mb-8">
@@ -171,10 +171,10 @@ export default function Schedule() {
                     <p className="text-xs text-muted font-medium">8:00 PM ET</p>
                   </div>
                   <p className="text-sm text-muted">
-                    32 picks. The main event. This is when the top prospects
-                    hear their names called. Expect the biggest crowds, loudest
-                    reactions, and heaviest security. Each pick gets 10 minutes,
-                    so this goes late.
+                    32 picks. The main event. This is when the top prospects hear their names called. Expect the biggest crowds, loudest reactions, and heaviest security. Each pick gets 10 minutes (the NFL shortened it from 15 this year - first timing change since 2008), so this goes late.
+                  </p>
+                  <p className="text-xs text-muted mt-2">
+                    <strong>Weather (Apr 21 forecast):</strong> Clear, low 70s dropping to upper 60s, no rain. Ideal conditions.
                   </p>
                   <p className="text-sm text-muted mt-2">
                     <strong>FREE at Draft Theater:</strong> Pittsburgh-native KELS sings the national anthem. Before that, the Heritage Gospel Chorale of Pittsburgh performs "Lift Every Voice and Sing" under Grammy-winning conductor Dr. Jeffery Redding.
@@ -200,9 +200,10 @@ export default function Schedule() {
                     <p className="text-xs text-muted font-medium">7:00 PM ET</p>
                   </div>
                   <p className="text-sm text-muted">
-                    64 picks total. The pace picks up. Picks move faster (7
-                    minutes each in Round 2, 5 minutes in Round 3). Still
-                    prime-time energy. Drone show expected after the last pick.
+                    64 picks total. The pace picks up. Picks move faster (7 minutes each in Round 2, 5 minutes in Round 3). Still prime-time energy. Drone show expected after the last pick.
+                  </p>
+                  <p className="text-xs text-muted mt-2">
+                    <strong>Weather (Apr 21 forecast):</strong> Low 70s, slight chance of evening showers. Pack a poncho just in case.
                   </p>
                   <p className="text-sm text-muted mt-2">
                     <strong>FREE Concert at Draft Theater (5:15 PM):</strong> Pittsburgh's own <strong>Wiz Khalifa</strong> and Butler-native <strong>Bret Michaels</strong> (Poison) perform ahead of Rounds 2-3. Free with OnePass. First-come, first-served standing room.
@@ -225,9 +226,10 @@ export default function Schedule() {
                     <p className="text-xs text-muted font-medium">12:00 PM ET</p>
                   </div>
                   <p className="text-sm text-muted">
-                    163 picks. Starts at noon, wraps up by early evening. This
-                    is the most relaxed day. Locals say Saturday is the best day
-                    to go. Smaller crowds, more space.
+                    163 picks. Starts at noon, wraps up by early evening. This is the most relaxed day. Locals say Saturday is the best day to go. Smaller crowds, more space.
+                  </p>
+                  <p className="text-xs text-muted mt-2">
+                    <strong>Weather (Apr 21 forecast):</strong> Rain likely, possible thunder. Pack a poncho (umbrellas banned). Read our <Link href="/blog/nfl-draft-pittsburgh-rain-plan" className="text-primary underline font-semibold">rain-day game plan</Link>.
                   </p>
                   <p className="text-sm text-muted mt-2">
                     <strong>FREE Concert at Draft Theater:</strong> Country star <strong>Kane Brown</strong> closes the NFL Draft Entertainment Series after the final selections. Free with OnePass. First-come, first-served.

@@ -71,7 +71,7 @@ export default function ThingsToDoPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 13, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* What is there to do? */}
         <section className="mb-14">
@@ -414,8 +414,7 @@ export default function ThingsToDoPage() {
           <div className="card-minimal p-4 mb-3">
             <ul className="text-sm text-muted space-y-1">
               <li>
-                <strong>When:</strong> Tuesday, April 22 (the night before the
-                draft starts)
+                <strong>When:</strong> Wednesday, April 22 (the night before the draft starts)
               </li>
               <li>
                 <strong>Where:</strong> Tower at PNC Plaza, North Shore
@@ -440,6 +439,60 @@ export default function ThingsToDoPage() {
             </Link>{" "}
             has you covered.
           </p>
+        </section>
+
+        {/* Steelers Country */}
+        <section className="mb-14">
+          <h2 id="steelers-country" className="text-2xl font-heading mb-4">
+            Steelers Country at Point State Park (Free)
+          </h2>
+          <p className="text-muted mb-3">
+            Inside the Draft Experience at Point State Park, the Steelers are hosting "Steelers Country," a two-day fan zone dedicated to the hometown team. Six Lombardi Trophies, Steelers legends, autograph sessions, and interactive throwback experiences. This is the spot if you want Steelers-specific content instead of the all-32-teams vibe of the main Draft Experience.
+          </p>
+          <div className="card-minimal p-4 mb-3">
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>When:</strong> April 23-24 (Thursday and Friday only, not Saturday)</li>
+              <li><strong>Where:</strong> Point State Park (inside the Draft Experience footprint)</li>
+              <li><strong>Cost:</strong> Free with NFL OnePass registration</li>
+              <li><strong>What to expect:</strong> All six Lombardi Trophies on display, Steelers Hall of Honor inductees, autograph sessions, photo ops</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Women Who Rock Experience */}
+        <section className="mb-14">
+          <h2 id="women-who-rock" className="text-2xl font-heading mb-4">
+            Women Who Rock Experience (Ticketed)
+          </h2>
+          <p className="text-muted mb-3">
+            Pittsburgh-based Women Who Rock is hosting a three-day pop-up celebrating women in music, sports, and culture. It's a curated experience with live performances, panels, and merchandise.
+          </p>
+          <div className="card-minimal p-4 mb-3">
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>When:</strong> April 22-24</li>
+              <li><strong>Where:</strong> Piatt Place, 301 Fifth Ave, Suite 102, Downtown Pittsburgh</li>
+              <li><strong>Contact:</strong> (412) 576-7776</li>
+              <li><strong>Cost:</strong> Check with venue for ticket details</li>
+            </ul>
+          </div>
+        </section>
+
+        {/* Pro Football Hall of Fame Pop-Up */}
+        <section className="mb-14">
+          <h2 id="hall-of-fame-popup" className="text-2xl font-heading mb-4">
+            Pro Football Hall of Fame Pop-Up Exhibit
+          </h2>
+          <p className="text-muted mb-3">
+            The Pro Football Hall of Fame (Canton, OH) is bringing a pop-up exhibit to Pittsburgh's Heinz History Center for draft week. Artifacts and memorabilia from the Hall's collection on display in the Strip District. A good rainy-day or between-sessions stop.
+          </p>
+          <div className="card-minimal p-4 mb-3">
+            <ul className="text-sm text-muted space-y-1">
+              <li><strong>When:</strong> April 22-26</li>
+              <li><strong>Where:</strong> <a href="https://www.heinzhistorycenter.org/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Heinz History Center</a>, 1212 Smallman Street, Strip District</li>
+              <li><strong>Cost:</strong> Regular museum admission</li>
+              <li><strong>Bonus:</strong> Heinz History Center itself has the Western Pennsylvania Sports Museum (Steelers history, Mario Lemieux, Honus Wagner) on permanent display</li>
+            </ul>
+          </div>
         </section>
 
         {/* Pittsburgh Attractions */}

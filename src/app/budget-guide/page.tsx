@@ -65,7 +65,7 @@ export default function BudgetGuide() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* The Good News */}
         <section className="mb-14">
@@ -231,17 +231,10 @@ export default function BudgetGuide() {
               bus or T downtown.
             </li>
             <li>
-              <strong>Football Flyer buses.</strong> PRT is running special
-              draft weekend bus routes from park-and-ride locations in every
-              direction. Cheap, direct, no navigation headaches.
+              <strong>Football Flyer buses are FREE.</strong> PRT is running 4 special draft-weekend routes (99N, 99E, 99S, 99W) from park-and-ride locations in every direction. <strong>Zero fare, zero pass</strong>, courtesy of the Pittsburgh Organizing Committee and The Pittsburgh Foundation. Direct, no navigation headaches.
             </li>
             <li>
-              <strong>ALL T rides are free April 23-25.</strong> Thanks to
-              Sheetz sponsoring PRT fares, every T ride on every line is free
-              all draft weekend. Not just downtown to North Shore. Every
-              station. If you need buses too, a 3-hour PRT pass is just $2.75
-              or a full day pass is $7. Way cheaper than the $25 Draft Pass
-              unless you're here all week.
+              <strong>ALL T rides are free April 23-25.</strong> Thanks to Sheetz sponsoring PRT fares, every T ride on every line is free all draft weekend. Not just downtown to North Shore. Every station. Between the Football Flyer and the T, most visitors will pay $0 for transit. The $25 Draft Pass only applies to regular PRT routes you'd use for exploring the city outside the draft footprint.
             </li>
             <li>
               <strong>If someone in your group drives anyway,</strong> drop

@@ -17,12 +17,12 @@ const gettingAroundFAQs = [
     question:
       "How do I get between the two NFL Draft venues in Pittsburgh?",
     answer:
-      "The two venues (Acrisure Stadium on the North Shore and Point State Park downtown) are connected by the Roberto Clemente Bridge, which is pedestrian-only during draft weekend. It's about a 15-minute walk. You can also take the T light rail from North Side Station to any downtown station for free (Allegheny Station is closed during draft weekend). The Gateway Clipper ferry also runs between the two sites on Friday and Saturday.",
+      "The two venues (Acrisure Stadium on the North Shore and Point State Park downtown) are connected by the Roberto Clemente Bridge, which is pedestrian-only during draft weekend. It's about a 15-minute walk. You can also take the T light rail from North Side Station to any downtown station for free (Allegheny Station is closed during draft weekend). The Gateway Clipper runs a FREE shuttle between Point State Park and North Shore on Friday and Saturday only (inside the draft footprint). A separate paid Gateway Clipper route runs $10 each way between Station Square and PNC Park Thursday through Saturday.",
   },
   {
     question: "Is the T light rail free during the NFL Draft?",
     answer:
-      "Yes. ALL T rides are completely free April 23-25 thanks to a Sheetz and PRT partnership. That covers every station on the red, blue, and silver lines plus the Monongahela Incline. You can park at South Hills Village and ride the T all the way downtown for $0. There's also a $25 Draft Pass in the Ready2Ride app for 7 days of unlimited rides including buses.",
+      "Yes. ALL T rides are completely free April 23-25 thanks to a Sheetz and PRT partnership. That covers every station on the red, blue, and silver lines plus the Monongahela Incline. You can park at South Hills Village and ride the T all the way downtown for $0. The four Football Flyer buses (99N, 99E, 99S, 99W) are also free all three days, courtesy of the Pittsburgh Organizing Committee and The Pittsburgh Foundation. The $25 Draft Pass in the Ready2Ride app covers 7 days of unlimited rides on regular PRT routes if you want to explore the city beyond the free draft-weekend options.",
   },
   {
     question:
@@ -73,7 +73,7 @@ export default function GettingAroundPage() {
       </section>
 
       <article className="max-w-3xl mx-auto px-4 py-10">
-        <LastUpdated date="April 13, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* FREE Transit - Major Announcement */}
         <section className="border-l-2 border-accent pl-5 mb-14">
@@ -190,9 +190,7 @@ export default function GettingAroundPage() {
                 (North Shore) to any downtown station. Free. About 5 minutes. Note: Allegheny Station is closed during draft weekend.
               </li>
               <li>
-                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry:</strong> Boat service
-                between North Shore and downtown/Station Square. Unique way to
-                travel. Confirmed running all draft weekend.
+                <strong>Take the <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> ferry:</strong> Free shuttle between Point State Park and North Shore on Friday and Saturday (inside the draft footprint, no re-security). Separate PAID service runs $10 each way between Station Square and PNC Park Thursday through Saturday.
               </li>
             </ul>
           </div>
@@ -260,8 +258,8 @@ export default function GettingAroundPage() {
                 Village), Blue (Library), and Silver.
               </li>
               <li>
-                <strong>PRT fare options:</strong> A 3-hour pass is just $2.75 (unlimited buses/T for 3 hours). A day pass is $7. The <strong>$25 Draft Pass</strong> in the <a href="https://www.rideprt.org/fares-and-passes/connectcard/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ready2Ride
-                app</a> covers 7 days of unlimited rides including buses. If you're only making one round trip, the $2.75 pass is the move.
+                <strong>PRT fare options:</strong> The T, Monongahela Incline, and Football Flyer buses are all FREE during draft weekend. For regular PRT routes: a 3-hour pass is $2.75, a day pass is $7. The <strong>$25 Draft Pass</strong> in the <a href="https://www.rideprt.org/fares-and-passes/connectcard/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Ready2Ride
+                app</a> covers 7 days of unlimited rides on regular routes only. Most draft visitors won't need any fare at all.
               </li>
               <li>
                 <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Butler Transit Authority</a></strong> is running service
@@ -309,8 +307,8 @@ export default function GettingAroundPage() {
               <p className="font-semibold text-sm">From the South (Route 99S + T)</p>
               <p className="text-sm text-muted">
                 Large Park &amp; Ride (219 Peters Creek Rd) via South Busway.
-                Or take the T from South Hills Village or Dormont stations for
-                free (Sheetz sponsorship covers the T, not buses).
+                Or take the T from South Hills Village or Dormont stations.
+                Both the Football Flyer and the T are FREE all three days.
               </p>
             </div>
             <div className="card-minimal p-4">
@@ -330,7 +328,7 @@ export default function GettingAroundPage() {
               </p>
             </div>
             <p className="text-xs text-muted mt-2">
-              All four Football Flyers drop off and pick up at two locations: near Point State Park in Downtown and near PNC Park on the North Shore. They run every 15 min Thu/Fri, every 30 min Saturday, 10 AM to 1 AM. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free). PRT is also increasing service systemwide on Saturday.
+              All four Football Flyers drop off and pick up at two locations: near Point State Park in Downtown and near PNC Park on the North Shore. They run every 15 min Thu/Fri, every 30 min Saturday, 10 AM to 1 AM. <strong>FARE FREE</strong> during the Draft courtesy of the Pittsburgh Organizing Committee and The Pittsburgh Foundation. No ticket, no pass, just hop on. PRT is also increasing service systemwide on Saturday.
             </p>
           </div>
           <p className="text-sm text-muted">
@@ -544,35 +542,33 @@ export default function GettingAroundPage() {
         {/* Gateway Clipper */}
         <section className="mb-14">
           <h2 id="river-ferry" className="text-2xl font-heading mb-4">
-            <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> (FREE River Ferry)
+            <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper</a> River Shuttle
           </h2>
           <p className="text-muted mb-3">
-            This is the fun option, and it's <strong>free</strong>. The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running
-            free riverboat shuttles between North Shore and Station Square on{" "}
-            <strong>Friday and Saturday (April 24-25)</strong>. Four vessels
-            will operate, moving visitors to the North Shore and Downtown with
-            routes between Station Square and PNC Park, and between Point State
-            Park and Acrisure Stadium Quay.
+            The <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">Gateway Clipper Fleet</a> is running two separate services for draft weekend. Know the difference before you board.
           </p>
+          <div className="card-minimal p-4 mb-3 border-l-2 border-accent">
+            <p className="font-semibold text-sm mb-1">FREE: Point State Park &harr; North Shore</p>
+            <p className="text-sm text-muted">
+              Two boats, running Friday and Saturday (April 24-25) only, every 15 minutes. This route stays <strong>inside the draft security footprint</strong> so you won't have to re-clear security when you reach the other side. Great option for quickly crossing the river if the Roberto Clemente Bridge is packed. You still need OnePass registration to be inside the footprint.
+            </p>
+          </div>
+          <div className="card-minimal p-4 mb-3">
+            <p className="font-semibold text-sm mb-1">PAID: Station Square &harr; PNC Park ($10 each way)</p>
+            <p className="text-sm text-muted">
+              Three boats, running Thursday through Saturday (April 23-25), 25-minute loops. This is the commuter option if you're staying near Station Square or the South Side. <strong>You will need to clear security again</strong> when you arrive on the North Shore side. Buy tickets online in advance at <a href="https://www.gatewayclipper.com/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-semibold">gatewayclipper.com</a> and store in your phone wallet.
+            </p>
+          </div>
           <div className="card-minimal p-4">
             <ul className="text-sm text-muted space-y-2 list-disc pl-5">
               <li>
-                Connects North Shore, downtown, and Station Square by water.
+                It's not the fastest option (the T or walking is quicker), but it's the most fun. You're on a boat on the river looking at the Pittsburgh skyline.
               </li>
               <li>
-                It's not the fastest option (the T or walking is quicker), but
-                it's the most fun. You're on a boat on the river looking at the
-                Pittsburgh skyline.
+                They're also hosting "DVE Rocks the Draft" watch party cruise on Thursday, April 23 (sold out).
               </li>
               <li>
-                They're also hosting "DVE Rocks the Draft" watch party
-                cruise on Thursday, April 23 (sold out).
-              </li>
-              <li>
-                The NFL confirmed the Gateway Clipper will offer <strong>free fan
-                transportation</strong> between Point State Park and the North
-                Shore during the draft. Boarding locations at North Shore and
-                Station Square.
+                The Gateway Clipper president has said they'll have security aboard and expect tens of thousands of passengers. Arrive early if you plan to board.
               </li>
             </ul>
           </div>
@@ -665,7 +661,7 @@ export default function GettingAroundPage() {
             <div className="card-minimal p-4">
               <p className="font-semibold text-sm"><a href="https://www.rideprt.org/fares-passes/ready2ride/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ready2Ride</a> (PRT's Official App)</p>
               <p className="text-sm text-muted mt-1">
-                Buy the $25 Draft Pass for 7 days of unlimited PRT rides (buses + T). Also load single fares and day passes. This is the official PRT app.
+                Only needed if you're riding regular PRT routes beyond the free draft-weekend options (T, Football Flyer, Mon Incline are all free). The $25 Draft Pass covers 7 days of unlimited regular PRT rides. This is the official PRT app.
               </p>
             </div>
             <div className="card-minimal p-4">

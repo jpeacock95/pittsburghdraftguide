@@ -126,7 +126,7 @@ export default function ParkingPage() {
           Sources: PRT announcements, visitpittsburgh.com, 27 Reddit threads,
           SpotHero listings, local news coverage.
         </p>
-        <LastUpdated date="April 15, 2026" />
+        <LastUpdated date="April 21, 2026" />
         <div className="mb-6" />
 
         {/* Don't drive warning */}
@@ -170,14 +170,14 @@ export default function ParkingPage() {
             ALL T Rides Are FREE April 23-25 (Sheetz + PRT)
           </h2>
           <p className="text-muted mb-3">
-            Sheetz partnered with Pittsburgh Regional Transit (PRT) to cover all fares on the T light rail during the 2026 NFL Draft weekend, April 23-25. All three T lines (Red, Blue, and Silver) and the Monongahela Incline are completely free. Every station, every line, $0. PRT also offers a $25 Draft Pass in the Ready2Ride app for 7 days of unlimited rides including buses. The Duquesne Incline is separately operated and not included in the Sheetz sponsorship.
+            Sheetz partnered with Pittsburgh Regional Transit (PRT) to cover all fares on the T light rail during the 2026 NFL Draft weekend, April 23-25. All three T lines (Red, Blue, and Silver) and the Monongahela Incline are completely free. Every station, every line, $0. The Football Flyer buses (99N, 99E, 99S, 99W) are also completely free for all three days, courtesy of the Pittsburgh Organizing Committee and The Pittsburgh Foundation. PRT still offers a $25 Draft Pass in the Ready2Ride app for 7 days of unlimited rides on regular PRT routes if you want to explore the city beyond the free draft-weekend options. The Duquesne Incline is separately operated and not included in the Sheetz sponsorship.
           </p>
           <ul className="text-muted space-y-2 list-disc pl-5 mb-3">
             <li>
               Park at <strong>South Hills Village</strong>, <strong>Dormont</strong>, or <strong>Castle Shannon</strong> T stations and ride straight downtown for free
             </li>
             <li>
-              <strong>$25 Draft Pass</strong> in the Ready2Ride app gives you 7 days of unlimited PRT rides (buses too)
+              <strong>$25 Draft Pass</strong> in the Ready2Ride app gives you 7 days of unlimited rides on regular PRT routes (not needed for the T, Football Flyer, or Mon Incline - all of those are free)
             </li>
             <li>
               <strong><a href="https://www.butlertransitauthority.com/news-draft-in-pittsburgh" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Butler Transit</a></strong> is running service every 30 min from Zelienople (150 Lindsay Rd, Route 528 park-and-ride) to <a href="https://www.rideprt.org/park-and-ride-lots/park-and-rides/ross/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Ross Park</a> lot, $10 round trip, exact cash only
@@ -186,7 +186,7 @@ export default function ParkingPage() {
               <strong>Beaver County Transit Authority:</strong> $5 each way or $10 unlimited day pass from Beaver County Expressway Travel Center to Downtown Pittsburgh
             </li>
             <li>
-              <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day. Every 15 minutes Thursday and Friday, every 30 minutes Saturday. Regular PRT fare or $25 Draft Pass required (only the T and Mon Incline are free).
+              <strong>PRT Football Flyer buses:</strong> 4 special routes (99N, 99E, 99S, 99W) from park-and-ride lots in every direction. Running 10 AM to 1 AM each day. Every 15 minutes Thursday and Friday, every 30 minutes Saturday. <strong>FARE FREE</strong> during the Draft courtesy of the Pittsburgh Organizing Committee and The Pittsburgh Foundation. No ticket, no pass, just hop on.
             </li>
             <li>
               <strong>Heads up:</strong> Allegheny Station on the T is <strong>closed April 22-25</strong> for draft infrastructure. Use North Side Station instead. It's one stop south, about a 3-minute walk difference. Same area.

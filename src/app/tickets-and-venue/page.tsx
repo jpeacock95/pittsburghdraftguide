@@ -119,7 +119,7 @@ export default function TicketsAndVenue() {
           </p>
         </div>
 
-        <LastUpdated date="April 15, 2026" />
+        <LastUpdated date="April 21, 2026" />
 
         {/* ========== SECTION 1: Ticket Confusion ========== */}
         <section className="mb-16 mt-10">
@@ -611,9 +611,7 @@ export default function TicketsAndVenue() {
               mile of Point State Park.
             </li>
             <li>
-              <strong>Football Flyer shuttle:</strong> runs 10 AM to 1 AM all
-              three days. Drops at Point State Park and near PNC Park. Every 15
-              min Thu/Fri, every 30 min Sat.
+              <strong>Football Flyer shuttle (FREE):</strong> runs 10 AM to 1 AM all three days. Drops at Point State Park and near PNC Park. Every 15 min Thu/Fri, every 30 min Sat. No fare, no pass, just hop on.
             </li>
             <li>
               <strong>T light rail:</strong> free between downtown and the
