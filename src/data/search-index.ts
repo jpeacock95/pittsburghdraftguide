@@ -147,11 +147,11 @@ export const searchIndex: SearchEntry[] = [
     category: "Restaurant / Bar",
   },
   {
-    title: "Space Bar (Private Events Only)",
+    title: "Space Bar",
     href: "/bars-restaurants#downtown",
-    keywords: "space bar market square private events cocktail molecular",
-    snippet: "Booked for private NFL/corporate events during draft weekend. Not open to the public April 23-25.",
-    category: "Private Event",
+    keywords: "space bar market square cocktail molecular mixology lounge",
+    snippet: "Molecular mixology lounge on Market Square. Open to the public all three days of the draft.",
+    category: "Restaurant / Bar",
   },
   // ==========================================
   // BARS & RESTAURANTS - Strip District

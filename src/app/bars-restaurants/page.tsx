@@ -132,7 +132,7 @@ export default function BarsRestaurants() {
           neighborhood.
         </p>
 
-        <LastUpdated date="April 4, 2026" />
+        <LastUpdated date="April 20, 2026" />
 
         <div className="border-l-2 border-accent pl-5 mb-6">
           <p className="text-sm font-bold text-foreground mb-1">Draft Weekend Heads Up</p>
@@ -426,16 +426,13 @@ export default function BarsRestaurants() {
               address="524 William Penn Pl, Pittsburgh, PA 15219"
               description="Coffee by day, cocktails by night. Inside the Union Trust Building near the Omni William Penn."
             />
-          </div>
-          <div className="grid gap-3 mt-3">
             <SpotCard
               name="Space Bar"
               type="Molecular Mixology Lounge"
               neighborhood="Market Square"
-              status="private"
-              url="https://www.spacebarpittsburgh.com/nfl-draft-private-event-inquiry"
+              url="https://www.spacebarpittsburgh.com/"
               address="416 Market St, Pittsburgh, PA 15222"
-              description="Normally a cool cocktail spot on Market Square. During draft weekend, the entire venue is booked for private NFL/corporate events ($18K-$60K buyouts). Not open to the public April 23-25."
+              description="Cocktail spot on Market Square with a molecular mixology menu. Open to the public all three days of the draft. They'd been holding the space for private buyouts, but none booked, so the doors are open to everyone. Worth a stop if you want something more creative than a standard draft-weekend beer."
             />
           </div>
         </section>
