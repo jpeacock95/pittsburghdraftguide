@@ -432,7 +432,7 @@ export default function BarsRestaurants() {
               neighborhood="Market Square"
               url="https://www.spacebarpittsburgh.com/"
               address="416 Market St, Pittsburgh, PA 15222"
-              description="Cocktail spot on Market Square with a molecular mixology menu. Open to the public all three days of the draft. They'd been holding the space for private buyouts, but none booked, so the doors are open to everyone. Worth a stop if you want something more creative than a standard draft-weekend beer."
+              description="Cocktail spot on Market Square with a molecular mixology menu. Open to the public all three days of the draft. Worth a stop if you want something more creative than a standard draft-weekend beer."
             />
           </div>
         </section>
